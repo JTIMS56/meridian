@@ -11,6 +11,11 @@ API: /api/nlp?profile=chancay  /api/feed?profile=taiwan  etc.
 
 Run:    py -3.11 server.py
 Access: http://localhost:5000
+
+Cloud (Render): Automatically detected. Serves from output_demo/ folder.
+To update cloud data:
+  copy output\meridian_nlp_chancay.json output_demo\meridian_nlp_chancay.json
+  git add output_demo\ && git commit -m "Update demo data" && git push
 """
 
 from flask import Flask, jsonify, send_file, request
@@ -21,11 +26,21 @@ import json, os, subprocess, sys, threading, time, logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger("meridian.server")
 
-app    = Flask(__name__, static_folder=".")
+app = Flask(__name__, static_folder=".")
 CORS(app)
 
-OUTPUT_DIR = Path("output")
+# ── Environment detection ─────────────────────────────────────────────────────
+# Render sets RENDER=true automatically.
+# We use output_demo/ on cloud so real output/ files aren't needed in git.
+
+ON_RENDER  = os.environ.get("RENDER") == "true"
+OUTPUT_DIR = Path("output_demo") if ON_RENDER else Path("output")
 BASE_DIR   = Path(".")
+
+if ON_RENDER:
+    log.info("Running on Render — serving from output_demo/ (demo mode)")
+else:
+    log.info("Running locally — serving from output/")
 
 KNOWN_PROFILES  = ["chancay", "taiwan", "plan_pacific", "bri_africa"]
 DEFAULT_PROFILE = "chancay"
@@ -87,8 +102,15 @@ def api_nlp():
     profile = get_profile(request)
     data    = load_json(profile_files(profile)["nlp"])
     if data is None:
-        return jsonify({"error": f"No NLP data for '{profile}'. Run: py -3.11 run_meridian.py --profile {profile}"}), 404
+        msg = (
+            f"No demo data for '{profile}'. "
+            f"Copy output/meridian_nlp_{profile}.json to output_demo/ and push to GitHub."
+            if ON_RENDER else
+            f"No NLP data for '{profile}'. Run: py -3.11 run_meridian.py --profile {profile}"
+        )
+        return jsonify({"error": msg}), 404
     data["_profile"] = profile
+    data["_demo"]    = ON_RENDER
     return jsonify(data)
 
 @app.route("/api/social")
@@ -97,7 +119,7 @@ def api_social():
     path    = OUTPUT_DIR / f"meridian_social_{profile}.json"
     data    = load_json(path)
     if data is None:
-        return jsonify({"error": f"No social data for '{profile}'. Run: py -3.11 run_meridian.py --profile {profile}",
+        return jsonify({"error": f"No social data for '{profile}'.",
                         "posts": [], "summary": {"total_posts": 0}}), 200
     return jsonify(data)
 
@@ -145,7 +167,7 @@ def api_profiles():
 
 @app.route("/api/status")
 def api_status():
-    status = {"server": "online", "profiles": {}}
+    status = {"server": "online", "mode": "demo" if ON_RENDER else "live", "profiles": {}}
     for name in KNOWN_PROFILES:
         feed = load_json(profile_files(name)["feed"])
         status["profiles"][name] = {
@@ -157,6 +179,9 @@ def api_status():
 
 @app.route("/api/refresh", methods=["POST"])
 def api_refresh():
+    if ON_RENDER:
+        return jsonify({"status": "unavailable",
+                        "message": "Run server.py to enable live refresh."}), 503
     profile = get_profile(request)
     def run():
         log.info(f"Background refresh: {profile}")
@@ -166,7 +191,7 @@ def api_refresh():
     threading.Thread(target=run, daemon=True).start()
     return jsonify({"status": "started", "profile": profile})
 
-# ── Auto-refresh ──────────────────────────────────────────────────────────────
+# ── Auto-refresh (local only) ─────────────────────────────────────────────────
 
 def schedule_auto_refresh(interval_minutes=15):
     def loop():
@@ -186,7 +211,8 @@ def schedule_auto_refresh(interval_minutes=15):
 if __name__ == "__main__":
     import socket
     OUTPUT_DIR.mkdir(exist_ok=True)
-    migrate_legacy_files()
+    if not ON_RENDER:
+        migrate_legacy_files()
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         s.connect(("8.8.8.8", 80))
@@ -195,10 +221,13 @@ if __name__ == "__main__":
     except Exception:
         local_ip = "localhost"
 
+    mode = "DEMO (Render cloud)" if ON_RENDER else "LIVE (local)"
     print("""
 ╔═══════════════════════════════════════════════════════════════╗
 ║  MERIDIAN SERVER v2 // Profile-Aware                          ║
 ╚═══════════════════════════════════════════════════════════════╝""")
+    print(f"  Mode:       {mode}")
+    print(f"  Data dir:   {OUTPUT_DIR}/")
     print(f"  Dashboard:  http://localhost:5000")
     print(f"  Website:    http://localhost:5000/website")
     print(f"  Compare:    http://localhost:5000/compare")
@@ -210,5 +239,8 @@ if __name__ == "__main__":
     print(f"               /api/nlp?profile=bri_africa")
     print(f"\n  Press Ctrl+C to stop.\n")
 
-    schedule_auto_refresh(15)
-    app.run(host="0.0.0.0", port=5000, debug=False)
+    if not ON_RENDER:
+        schedule_auto_refresh(15)
+
+    port = int(os.environ.get("PORT", 5000))  # Render injects PORT automatically
+    app.run(host="0.0.0.0", port=port, debug=False)
