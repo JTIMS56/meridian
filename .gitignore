@@ -1,0 +1,22 @@
+# Credentials
+.env
+alert_state.json
+*.session
+*.session-journal
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+meridian_venv/
+
+# Models (too large for GitHub)
+bertopic_model/
+
+# Archives (not needed online)
+output/archive_*.json
+
+# OS
+.DS_Store
+Thumbs.db

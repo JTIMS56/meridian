@@ -1,0 +1,796 @@
+{
+  "generated": "2026-02-28T18:42:49.888237Z",
+  "article_count": 14,
+  "tfidf": {
+    "top_terms": [
+      {
+        "term": "china",
+        "score": 2.7687
+      },
+      {
+        "term": "ties",
+        "score": 1.4505
+      },
+      {
+        "term": "chinese",
+        "score": 1.3792
+      },
+      {
+        "term": "cultural",
+        "score": 1.3036
+      },
+      {
+        "term": "africa",
+        "score": 1.1893
+      },
+      {
+        "term": "deepen",
+        "score": 1.1153
+      },
+      {
+        "term": "china kenya",
+        "score": 0.9361
+      },
+      {
+        "term": "culture",
+        "score": 0.9328
+      },
+      {
+        "term": "season",
+        "score": 0.9328
+      },
+      {
+        "term": "year",
+        "score": 0.8909
+      },
+      {
+        "term": "new",
+        "score": 0.8909
+      },
+      {
+        "term": "chinese new",
+        "score": 0.8909
+      },
+      {
+        "term": "new year",
+        "score": 0.8909
+      },
+      {
+        "term": "chinese new year",
+        "score": 0.8909
+      },
+      {
+        "term": "nairobi",
+        "score": 0.8119
+      },
+      {
+        "term": "xinhua",
+        "score": 0.6947
+      },
+      {
+        "term": "year horse",
+        "score": 0.6104
+      },
+      {
+        "term": "year horse celebrations",
+        "score": 0.6104
+      },
+      {
+        "term": "deepen cultural",
+        "score": 0.6104
+      },
+      {
+        "term": "cultural bonds",
+        "score": 0.6104
+      },
+      {
+        "term": "deepen cultural bonds",
+        "score": 0.6104
+      },
+      {
+        "term": "celebrations deepen cultural",
+        "score": 0.6104
+      },
+      {
+        "term": "celebrations deepen",
+        "score": 0.6104
+      },
+      {
+        "term": "bonds",
+        "score": 0.6104
+      },
+      {
+        "term": "celebrations",
+        "score": 0.6104
+      },
+      {
+        "term": "horse celebrations deepen",
+        "score": 0.6104
+      },
+      {
+        "term": "holds chinese new",
+        "score": 0.6104
+      },
+      {
+        "term": "horse",
+        "score": 0.6104
+      },
+      {
+        "term": "holds chinese",
+        "score": 0.6104
+      },
+      {
+        "term": "holds",
+        "score": 0.6104
+      }
+    ],
+    "vocabulary_size": 82,
+    "corpus_size": 14,
+    "coverage": 1.0
+  },
+  "topics": {
+    "topics": [
+      {
+        "topic_id": 4,
+        "label": "Environmental / Protest",
+        "top_words": [
+          "china",
+          "cultural",
+          "friendship",
+          "friendship shine",
+          "festival",
+          "fusion friendship",
+          "gala",
+          "fusion",
+          "shine",
+          "cultural fusion"
+        ],
+        "prevalence": 0.3385,
+        "prevalence_pct": 33.9
+      },
+      {
+        "topic_id": 1,
+        "label": "Geopolitical / Sovereignty",
+        "top_words": [
+          "cultural",
+          "deepen cultural",
+          "horse celebrations",
+          "deepen",
+          "year horse",
+          "celebrations deepen",
+          "new",
+          "horse",
+          "bonds",
+          "kenya holds"
+        ],
+        "prevalence": 0.2239,
+        "prevalence_pct": 22.4
+      },
+      {
+        "topic_id": 5,
+        "label": "Diplomatic / Bilateral",
+        "top_words": [
+          "chinese built",
+          "built",
+          "standard gauge",
+          "xinhua",
+          "built mombasa",
+          "chinese",
+          "kenya xinhua",
+          "railway kenya",
+          "mombasa nairobi",
+          "nairobi standard"
+        ],
+        "prevalence": 0.1546,
+        "prevalence_pct": 15.5
+      },
+      {
+        "topic_id": 3,
+        "label": "Military / Security",
+        "top_words": [
+          "chinese",
+          "ties",
+          "culture",
+          "chinese new",
+          "year",
+          "new year",
+          "season",
+          "deepen",
+          "new",
+          "standard"
+        ],
+        "prevalence": 0.1417,
+        "prevalence_pct": 14.2
+      },
+      {
+        "topic_id": 2,
+        "label": "Economics / Trade",
+        "top_words": [
+          "china",
+          "culture",
+          "nairobi",
+          "china kenya",
+          "season",
+          "friendship",
+          "shine spring",
+          "xinhua",
+          "spring festival",
+          "new"
+        ],
+        "prevalence": 0.1248,
+        "prevalence_pct": 12.5
+      },
+      {
+        "topic_id": 0,
+        "label": "Infrastructure / Logistics",
+        "top_words": [
+          "new year",
+          "holds",
+          "cultural",
+          "year",
+          "kenya holds",
+          "celebrations",
+          "china",
+          "new",
+          "africa",
+          "chinese new"
+        ],
+        "prevalence": 0.0164,
+        "prevalence_pct": 1.6
+      }
+    ],
+    "n_topics": 6,
+    "corpus_size": 14,
+    "coherence_note": "Use gensim CoherenceModel for formal c_v score"
+  },
+  "sentiment": {
+    "overall": {
+      "positive": 5,
+      "neutral": 8,
+      "negative": 1
+    },
+    "overall_pct": {
+      "positive": 35.7,
+      "neutral": 57.1,
+      "negative": 7.1
+    },
+    "avg_compound_score": 0.2449,
+    "by_language": {
+      "en": {
+        "positive_pct": 35.7,
+        "neutral_pct": 57.1,
+        "negative_pct": 7.1,
+        "avg_compound": 0.2449,
+        "article_count": 14
+      }
+    },
+    "total_analyzed": 14,
+    "model": "VADER"
+  },
+  "ner": {
+    "top_persons": [],
+    "top_orgs": [
+      {
+        "name": "Mombasa - Nairobi Standard",
+        "count": 2
+      },
+      {
+        "name": "the China - Kenya Culture and Tourism Season 2026",
+        "count": 1
+      }
+    ],
+    "top_locations": [
+      {
+        "name": "Kenya",
+        "count": 13
+      },
+      {
+        "name": "China",
+        "count": 5
+      },
+      {
+        "name": "Hello Africa",
+        "count": 2
+      },
+      {
+        "name": "US",
+        "count": 1
+      },
+      {
+        "name": "Nairobi",
+        "count": 1
+      }
+    ],
+    "total_entities": 8
+  },
+  "cooccurrence": {
+    "labels": [
+      "CHINA",
+      "PERU",
+      "DEEPWATER",
+      "RAILWAY",
+      "CHANCAY",
+      "COSCO",
+      "BRI"
+    ],
+    "matrix": [
+      [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        100,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        100,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        100,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        100
+      ]
+    ],
+    "raw_matrix": [
+      [
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "forecast": {
+    "model": "LinearExtrapolation (ARIMA fallback)",
+    "horizons": {
+      "7": {
+        "days": 7,
+        "forecast_final": 0,
+        "pct_change_from_today": -2820.0,
+        "ci_upper": [
+          0
+        ],
+        "ci_lower": [
+          0
+        ]
+      },
+      "30": {
+        "days": 30,
+        "forecast_final": 0,
+        "pct_change_from_today": -12085.7,
+        "ci_upper": [
+          0
+        ],
+        "ci_lower": [
+          0
+        ]
+      },
+      "90": {
+        "days": 90,
+        "forecast_final": 0,
+        "pct_change_from_today": -36257.1,
+        "ci_upper": [
+          0
+        ],
+        "ci_lower": [
+          0
+        ]
+      },
+      "365": {
+        "days": 365,
+        "forecast_final": 0,
+        "pct_change_from_today": -147042.9,
+        "ci_upper": [
+          0
+        ],
+        "ci_lower": [
+          0
+        ]
+      }
+    },
+    "current_value": 0.0
+  },
+  "articles": [
+    {
+      "id": "709431",
+      "title": "Kenya : No Evidence for X Post Claim That US Ordered Kenya to End a Trade Deal With China",
+      "title_en": null,
+      "url": "https://allafrica.com/stories/202601300209.html",
+      "domain": "allafrica.com",
+      "language": "en",
+      "source_country": "Nigeria",
+      "timestamp_iso": "2026-01-30T11:00:00Z",
+      "timestamp_display": "Jan 30, 2026 11:00 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T18:36:15.960851Z",
+      "dominant_topic": 2,
+      "dominant_topic_label": "Economics / Trade",
+      "sentiment": "negative",
+      "sentiment_score": -0.296
+    },
+    {
+      "id": "643436",
+      "title": "China pledges deeper cultural and economic ties with Kenya",
+      "title_en": null,
+      "url": "https://www.standardmedia.co.ke/business/article/2001540441/china-pledges-deeper-cultural-and-economic-ties-with-kenya",
+      "domain": "standardmedia.co.ke",
+      "language": "en",
+      "source_country": "Kenya",
+      "timestamp_iso": "2026-02-09T04:30:00Z",
+      "timestamp_display": "Feb 09, 2026 04:30 UTC",
+      "keywords_found": [
+        "china",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T18:36:15.960851Z",
+      "dominant_topic": 4,
+      "dominant_topic_label": "Environmental / Protest",
+      "sentiment": "neutral",
+      "sentiment_score": 0.0
+    },
+    {
+      "id": "700160",
+      "title": "Feature : China - Kenya cultural fusion , friendship shine at Spring Festival Gala - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/africa/20260209/0065b653ec2c4cebb3389edeaee53251/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-09T16:15:00Z",
+      "timestamp_display": "Feb 09, 2026 16:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T18:36:15.961846Z",
+      "dominant_topic": 4,
+      "dominant_topic_label": "Environmental / Protest",
+      "sentiment": "positive",
+      "sentiment_score": 0.7269
+    },
+    {
+      "id": "109277",
+      "title": " ( Hello Africa ) China - Kenya cultural fusion , friendship shine at Spring Festival Gala",
+      "title_en": null,
+      "url": "http://www.bignewsnetwork.com/news/278859009/hello-africa-china-kenya-cultural-fusion-friendship-shine-at-spring-festival-gala",
+      "domain": "bignewsnetwork.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-10T10:15:00Z",
+      "timestamp_display": "Feb 10, 2026 10:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T18:36:15.961846Z",
+      "dominant_topic": 4,
+      "dominant_topic_label": "Environmental / Protest",
+      "sentiment": "positive",
+      "sentiment_score": 0.7269
+    },
+    {
+      "id": "940880",
+      "title": " ( Hello Africa ) China - Kenya cultural fusion , friendship shine at Spring Festival Gala",
+      "title_en": null,
+      "url": "http://www.africaleader.com/news/278859009/hello-africa-china-kenya-cultural-fusion-friendship-shine-at-spring-festival-gala",
+      "domain": "africaleader.com",
+      "language": "en",
+      "source_country": "South Africa",
+      "timestamp_iso": "2026-02-10T13:15:00Z",
+      "timestamp_display": "Feb 10, 2026 13:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T18:36:15.961846Z",
+      "dominant_topic": 4,
+      "dominant_topic_label": "Environmental / Protest",
+      "sentiment": "positive",
+      "sentiment_score": 0.7269
+    },
+    {
+      "id": "099123",
+      "title": "A Grand Finale in Nairobi : Celebrating the China - Kenya Culture and Tourism Season 2026",
+      "title_en": null,
+      "url": "https://www.ghanamma.com/2026/02/10/a-grand-finale-in-nairobi-celebrating-the-china-kenya-culture-and-tourism-season-2026/",
+      "domain": "ghanamma.com",
+      "language": "en",
+      "source_country": "Ghana",
+      "timestamp_iso": "2026-02-10T22:45:00Z",
+      "timestamp_display": "Feb 10, 2026 22:45 UTC",
+      "keywords_found": [
+        "china",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T18:36:15.960851Z",
+      "dominant_topic": 2,
+      "dominant_topic_label": "Economics / Trade",
+      "sentiment": "positive",
+      "sentiment_score": 0.7717
+    },
+    {
+      "id": "431383",
+      "title": "Kenya holds Chinese New Year of the Horse celebrations to deepen cultural bonds - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/africa/20260213/c7a9ce3120ed452fa05c91b6ea621b56/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-13T15:00:00Z",
+      "timestamp_display": "Feb 13, 2026 15:00 UTC",
+      "keywords_found": [
+        "africa",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T18:36:15.960851Z",
+      "dominant_topic": 1,
+      "dominant_topic_label": "Geopolitical / Sovereignty",
+      "sentiment": "neutral",
+      "sentiment_score": 0.0
+    },
+    {
+      "id": "809441",
+      "title": "Kenya and Africa Set to Benefit as China Expands Duty - Free Imports",
+      "title_en": null,
+      "url": "https://www.ghanamma.com/2026/02/15/kenya-and-africa-set-to-benefit-as-china-expands-duty-free-imports/",
+      "domain": "ghanamma.com",
+      "language": "en",
+      "source_country": "Ghana",
+      "timestamp_iso": "2026-02-15T08:15:00Z",
+      "timestamp_display": "Feb 15, 2026 08:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "port",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T18:36:15.960851Z",
+      "dominant_topic": 4,
+      "dominant_topic_label": "Environmental / Protest",
+      "sentiment": "positive",
+      "sentiment_score": 0.7717
+    },
+    {
+      "id": "780239",
+      "title": "View of Chinese - built Mombasa - Nairobi Standard Gauge Railway in Kenya - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/20260221/cc6172903e56471e87fb3bbeba423189/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-21T03:15:00Z",
+      "timestamp_display": "Feb 21, 2026 03:15 UTC",
+      "keywords_found": [
+        "railway",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T18:36:15.960851Z",
+      "dominant_topic": 5,
+      "dominant_topic_label": "Diplomatic / Bilateral",
+      "sentiment": "neutral",
+      "sentiment_score": 0.0
+    },
+    {
+      "id": "993040",
+      "title": "View of Chinese - built Mombasa - Nairobi Standard Gauge Railway in Kenya - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/africa/20260221/bc972d7830534c8d8f7007b18e2a39b5/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-21T03:15:00Z",
+      "timestamp_display": "Feb 21, 2026 03:15 UTC",
+      "keywords_found": [
+        "africa",
+        "railway",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T18:36:15.960851Z",
+      "dominant_topic": 5,
+      "dominant_topic_label": "Diplomatic / Bilateral",
+      "sentiment": "neutral",
+      "sentiment_score": 0.0
+    },
+    {
+      "id": "757030",
+      "title": "Kenya sets sights on one million Chinese tourists as bilateral ties deepen",
+      "title_en": null,
+      "url": "https://www.the-star.co.ke/news/2026-02-08-kenya-sets-sights-on-1m-chinese-tourists",
+      "domain": "the-star.co.ke",
+      "language": "en",
+      "source_country": "Kenya",
+      "timestamp_iso": "2026-02-08T13:15:00Z",
+      "timestamp_display": "Feb 08, 2026 13:15 UTC",
+      "keywords_found": [
+        "kenya"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T18:36:15.960851Z",
+      "dominant_topic": 3,
+      "dominant_topic_label": "Military / Security",
+      "sentiment": "neutral",
+      "sentiment_score": 0.0
+    },
+    {
+      "id": "426744",
+      "title": "Reception held in Kenya to mark Chinese New Year , wrap up 2025 culture season",
+      "title_en": null,
+      "url": "https://www.thestar.com.my/news/world/2026/02/11/reception-held-in-kenya-to-mark-chinese-new-year-wrap-up-2025-culture-season",
+      "domain": "thestar.com.my",
+      "language": "en",
+      "source_country": "Malaysia",
+      "timestamp_iso": "2026-02-10T18:45:00Z",
+      "timestamp_display": "Feb 10, 2026 18:45 UTC",
+      "keywords_found": [
+        "kenya"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T18:36:15.960851Z",
+      "dominant_topic": 3,
+      "dominant_topic_label": "Military / Security",
+      "sentiment": "neutral",
+      "sentiment_score": 0.0
+    },
+    {
+      "id": "018837",
+      "title": "Kenya holds Chinese New Year of the Horse celebrations to deepen cultural bonds",
+      "title_en": null,
+      "url": "https://www.capitalfm.co.ke/news/2026/02/kenya-holds-chinese-new-year-of-the-horse-celebrations-to-deepen-cultural-bonds/",
+      "domain": "capitalfm.co.ke",
+      "language": "en",
+      "source_country": "Kenya",
+      "timestamp_iso": "2026-02-14T06:30:00Z",
+      "timestamp_display": "Feb 14, 2026 06:30 UTC",
+      "keywords_found": [
+        "kenya"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T18:36:15.960851Z",
+      "dominant_topic": 1,
+      "dominant_topic_label": "Geopolitical / Sovereignty",
+      "sentiment": "neutral",
+      "sentiment_score": 0.0
+    },
+    {
+      "id": "191861",
+      "title": "Kenya holds Chinese New Year of the Horse celebrations to deepen cultural bonds",
+      "title_en": null,
+      "url": "http://www.kenyastar.com/news/278866382/kenya-holds-chinese-new-year-of-the-horse-celebrations-to-deepen-cultural-bonds",
+      "domain": "kenyastar.com",
+      "language": "en",
+      "source_country": "Kenya",
+      "timestamp_iso": "2026-02-16T08:00:00Z",
+      "timestamp_display": "Feb 16, 2026 08:00 UTC",
+      "keywords_found": [
+        "kenya"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T18:36:15.960851Z",
+      "dominant_topic": 1,
+      "dominant_topic_label": "Geopolitical / Sovereignty",
+      "sentiment": "neutral",
+      "sentiment_score": 0.0
+    }
+  ]
+}

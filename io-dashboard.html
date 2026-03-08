@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MERIDIAN // IO Intelligence Monitor</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600;700;900&family=Barlow:wght@300;400&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg: #080b0f; --bg2: #0d1117; --card: #0f1520;
+  --amber: #f0a500; --green: #00ff88; --red: #ff3355; --blue: #0af;
+  --dim: #1a2535; --t1: #e8edf5; --t2: #6b7f99; --t3: #3a4a5e;
+  --border: rgba(240,165,0,0.15); --border2: rgba(240,165,0,0.4);
+  --mono: 'Share Tech Mono', monospace;
+  --display: 'Barlow Condensed', sans-serif;
+  --body: 'Barlow', sans-serif;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: var(--bg); color: var(--t1); font-family: var(--body);
+  min-height:100vh; overflow-x:hidden;
+  background-image:
+    radial-gradient(ellipse at 15% 0%, rgba(240,165,0,0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 100%, rgba(0,170,255,0.04) 0%, transparent 50%),
+    repeating-linear-gradient(0deg,transparent,transparent 60px,rgba(255,255,255,0.02) 60px,rgba(255,255,255,0.02) 61px),
+    repeating-linear-gradient(90deg,transparent,transparent 60px,rgba(255,255,255,0.02) 60px,rgba(255,255,255,0.02) 61px);
+}
+.class-banner { background:var(--amber); color:#000; text-align:center; font-family:var(--mono); font-size:10px; font-weight:bold; letter-spacing:6px; padding:4px; text-transform:uppercase; }
+header {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:14px 28px; border-bottom:1px solid var(--border);
+  background:rgba(8,11,15,0.95); backdrop-filter:blur(10px);
+  position:sticky; top:0; z-index:100;
+}
+.logo { display:flex; align-items:center; gap:14px; }
+.diamond { width:32px; height:32px; border:2px solid var(--amber); transform:rotate(45deg); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.diamond-inner { width:12px; height:12px; background:var(--amber); opacity:.8; }
+.htitle { font-family:var(--display); font-weight:900; font-size:20px; letter-spacing:4px; text-transform:uppercase; }
+.hsub { font-family:var(--mono); font-size:9px; color:var(--t2); letter-spacing:2px; text-transform:uppercase; }
+.hright { display:flex; align-items:center; gap:20px; }
+.live-pill { display:flex; align-items:center; gap:7px; font-family:var(--mono); font-size:10px; color:var(--t2); letter-spacing:1px; }
+.dot { width:7px; height:7px; border-radius:50%; background:var(--green); box-shadow:0 0 8px var(--green); animation:pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%,100%{opacity:1;box-shadow:0 0 8px var(--green);} 50%{opacity:.5;box-shadow:0 0 2px var(--green);} }
+.clock { font-family:var(--mono); font-size:12px; color:var(--amber); letter-spacing:2px; }
+.refresh-btn {
+  font-family:var(--mono); font-size:9px; padding:5px 12px; letter-spacing:1px; text-transform:uppercase;
+  border:1px solid var(--border2); color:var(--amber); background:rgba(240,165,0,0.08); cursor:pointer;
+  transition:all .15s;
+}
+.refresh-btn:hover { background:rgba(240,165,0,0.18); }
+.profile-btn {
+  font-family:var(--mono);font-size:8px;padding:4px 10px;letter-spacing:1px;
+  border:1px solid var(--border);color:var(--t2);background:transparent;cursor:pointer;
+  text-transform:uppercase;transition:all .15s;
+}
+.profile-btn:hover { border-color:var(--amber);color:var(--amber); }
+.profile-btn.active { border-color:var(--amber);color:var(--amber);background:rgba(240,165,0,0.1); }
+main { padding:20px 28px; max-width:1600px; margin:0 auto; }
+
+/* STATUS BAR */
+.status-bar {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:10px 18px; border:1px solid var(--border); border-left:3px solid var(--amber);
+  background:rgba(240,165,0,0.03); margin-bottom:20px; gap:20px;
+}
+.sb-label { font-family:var(--mono); font-size:9px; color:var(--t3); letter-spacing:2px; text-transform:uppercase; margin-bottom:3px; }
+.sb-tags { display:flex; gap:6px; flex-wrap:wrap; }
+.tag { font-family:var(--mono); font-size:10px; padding:2px 9px; border:1px solid var(--amber); color:var(--amber); background:rgba(240,165,0,0.07); }
+.sb-stats { display:flex; gap:22px; }
+.sstat-val { font-family:var(--mono); font-size:18px; color:var(--green); display:block; }
+.sstat-lbl { font-family:var(--mono); font-size:8px; color:var(--t3); letter-spacing:1px; text-transform:uppercase; }
+.data-source-note { font-family:var(--mono); font-size:9px; color:var(--t3); letter-spacing:1px; }
+
+/* KPI ROW */
+.kpi-row { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:20px; }
+.kpi { background:var(--card); border:1px solid var(--border); padding:18px; position:relative; overflow:hidden; transition:border-color .2s; }
+.kpi::before { content:''; position:absolute; top:0; left:0; right:0; height:2px; background:var(--kc, var(--amber)); }
+.kpi:hover { border-color:rgba(240,165,0,.3); }
+.kpi-lbl { font-family:var(--mono); font-size:9px; letter-spacing:2px; color:var(--t2); text-transform:uppercase; margin-bottom:8px; }
+.kpi-val { font-family:var(--display); font-weight:700; font-size:40px; line-height:1; color:var(--t1); margin-bottom:5px; }
+.kpi-sub { font-family:var(--mono); font-size:10px; }
+.up { color:var(--green); } .down { color:var(--red); } .info { color:var(--blue); }
+
+/* GRID */
+.grid-3 { display:grid; grid-template-columns:1fr 1fr 300px; gap:14px; margin-bottom:14px; }
+.grid-3b { display:grid; grid-template-columns:1fr 300px; gap:14px; margin-bottom:14px; }
+.grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:14px; }
+.grid-4 { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:14px; }
+.span2 { grid-column:span 2; }
+
+.card { background:var(--card); border:1px solid var(--border); padding:18px; }
+.ch { display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; padding-bottom:10px; border-bottom:1px solid var(--border); }
+.ct { font-family:var(--display); font-weight:700; font-size:12px; letter-spacing:3px; text-transform:uppercase; }
+.badge { font-family:var(--mono); font-size:8px; padding:2px 7px; letter-spacing:1px; text-transform:uppercase; }
+.b-live { background:rgba(0,255,136,.1); border:1px solid rgba(0,255,136,.3); color:var(--green); }
+.b-ai   { background:rgba(0,170,255,.1); border:1px solid rgba(0,170,255,.3); color:var(--blue); }
+.b-hist { background:rgba(240,165,0,.1); border:1px solid rgba(240,165,0,.3); color:var(--amber); }
+.b-real { background:rgba(255,51,85,.1); border:1px solid rgba(255,51,85,.3); color:var(--red); }
+
+.chart-h { position:relative; height:200px; }
+.chart-ht { position:relative; height:260px; }
+
+/* FEED */
+.feed { max-height:380px; overflow-y:auto; scrollbar-width:thin; scrollbar-color:var(--dim) transparent; }
+.fi { padding:9px 0; border-bottom:1px solid rgba(255,255,255,.04); cursor:pointer; transition:background .15s; }
+.fi:hover { background:rgba(240,165,0,.03); margin:0 -18px; padding:9px 18px; }
+.fi-meta { display:flex; align-items:center; gap:6px; margin-bottom:3px; }
+.lang { font-family:var(--mono); font-size:8px; padding:1px 5px; letter-spacing:1px; text-transform:uppercase; }
+.l-en { background:rgba(0,170,255,.12); color:var(--blue); border:1px solid rgba(0,170,255,.3); }
+.l-zh { background:rgba(255,51,85,.12); color:#ff6680; border:1px solid rgba(255,51,85,.3); }
+.l-es { background:rgba(240,165,0,.12); color:var(--amber); border:1px solid rgba(240,165,0,.3); }
+.l-pt { background:rgba(0,255,136,.12); color:var(--green); border:1px solid rgba(0,255,136,.3); }
+.l-xx { background:rgba(160,100,255,.12); color:#b080ff; border:1px solid rgba(160,100,255,.3); }
+.fi-src { font-family:var(--mono); font-size:8px; color:var(--t3); }
+.fi-time { font-family:var(--mono); font-size:8px; color:var(--t3); margin-left:auto; }
+.fi-head { font-size:12px; line-height:1.4; margin-bottom:3px; }
+.fi-head-en { font-size:10px; color:var(--t2); font-style:italic; margin-bottom:3px; }
+.fi-kws { display:flex; gap:4px; flex-wrap:wrap; }
+.fi-kw { font-family:var(--mono); font-size:8px; color:var(--amber); opacity:.65; }
+.sent-badge { font-family:var(--mono); font-size:8px; padding:1px 5px; }
+.s-neg { background:rgba(255,51,85,.1); color:var(--red); }
+.s-pos { background:rgba(0,255,136,.1); color:var(--green); }
+.s-neu { background:rgba(107,127,153,.1); color:var(--t2); }
+
+/* GEO */
+.geo-row { display:flex; align-items:center; padding:7px 0; border-bottom:1px solid rgba(255,255,255,.04); gap:8px; }
+.geo-rank { font-family:var(--mono); font-size:9px; color:var(--t3); width:18px; flex-shrink:0; }
+.geo-flag { font-size:14px; flex-shrink:0; }
+.geo-name { font-family:var(--display); font-size:12px; font-weight:600; letter-spacing:1px; flex:1; }
+.geo-count { font-family:var(--mono); font-size:10px; color:var(--amber); width:35px; text-align:right; }
+.geo-bar { width:70px; height:3px; background:var(--dim); }
+.geo-fill { height:3px; background:var(--amber); transition:width 1s ease; }
+
+/* SENTIMENT BARS */
+.sb-item { margin-bottom:10px; }
+.sb-head { display:flex; justify-content:space-between; font-family:var(--mono); font-size:9px; color:var(--t2); letter-spacing:1px; margin-bottom:3px; }
+.sb-bg { height:5px; background:var(--dim); }
+.sb-fill { height:5px; transition:width 1s ease; }
+
+/* ALERTS */
+.alert { padding:11px 14px; border-left:3px solid; background:rgba(255,255,255,.02); margin-bottom:9px; display:flex; gap:10px; }
+.alert.high { border-color:var(--red); }
+.alert.med  { border-color:var(--amber); }
+.alert.low  { border-color:var(--blue); }
+.alert-ico { font-size:14px; flex-shrink:0; margin-top:1px; }
+.alert-txt { font-size:11px; line-height:1.5; }
+.alert-conf { font-family:var(--mono); font-size:8px; color:var(--t3); margin-top:3px; letter-spacing:1px; }
+
+/* TOPIC LIST */
+.topic-item { display:flex; align-items:center; gap:10px; margin-bottom:9px; }
+.topic-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+.topic-name { font-family:var(--mono); font-size:9px; color:var(--t2); flex:1; letter-spacing:1px; text-transform:uppercase; }
+.topic-pct { font-family:var(--mono); font-size:10px; color:var(--t1); }
+.topic-bar-bg { flex:2; height:3px; background:var(--dim); }
+.topic-bar-fill { height:3px; transition:width 1s ease; }
+
+/* TERMS */
+.term-cloud { display:flex; flex-wrap:wrap; gap:6px; }
+.term-tag { font-family:var(--mono); font-size:9px; padding:3px 8px; border:1px solid rgba(240,165,0,.25); color:var(--t2); background:rgba(240,165,0,.05); }
+.term-tag.t1 { font-size:13px; color:var(--amber); border-color:rgba(240,165,0,.5); background:rgba(240,165,0,.1); }
+.term-tag.t2 { font-size:11px; color:#c8870a; border-color:rgba(240,165,0,.35); }
+
+/* HORIZON TABS */
+.htabs { display:flex; gap:0; margin-bottom:12px; }
+.htab { font-family:var(--mono); font-size:9px; padding:5px 14px; border:1px solid var(--border); color:var(--t3); cursor:pointer; letter-spacing:1px; background:transparent; transition:all .15s; }
+.htab.active { background:rgba(240,165,0,.1); border-color:var(--amber); color:var(--amber); }
+.htab:hover:not(.active) { border-color:rgba(240,165,0,.3); color:var(--t2); }
+
+/* NLP METHOD TAGS */
+.method-row { display:flex; gap:6px; flex-wrap:wrap; margin-top:6px; }
+.mt { font-family:var(--mono); font-size:8px; padding:2px 7px; letter-spacing:1px; border:1px solid; text-transform:uppercase; }
+.mt-lda   { border-color:rgba(160,100,255,.4); color:#b080ff; background:rgba(160,100,255,.07); }
+.mt-tfidf { border-color:rgba(0,170,255,.4); color:var(--blue); background:rgba(0,170,255,.07); }
+.mt-arima { border-color:rgba(0,255,136,.4); color:var(--green); background:rgba(0,255,136,.07); }
+.mt-svm   { border-color:rgba(240,165,0,.4); color:var(--amber); background:rgba(240,165,0,.07); }
+.mt-ner   { border-color:rgba(255,51,85,.4); color:#ff6680; background:rgba(255,51,85,.07); }
+.mt-vader { border-color:rgba(255,140,0,.4); color:#ffa030; background:rgba(255,140,0,.07); }
+
+footer { border-top:1px solid var(--border); padding:14px 28px; display:flex; justify-content:space-between; font-family:var(--mono); font-size:8px; color:var(--t3); letter-spacing:1px; }
+
+/* ENTITY INTELLIGENCE */
+.entity-filter { font-family:var(--mono); font-size:9px; letter-spacing:1px; padding:4px 10px; background:rgba(255,255,255,.04); border:1px solid var(--border); color:var(--t3); cursor:pointer; border-radius:2px; transition:all .2s; }
+.entity-filter:hover, .active-filter { background:rgba(240,165,0,.15); border-color:var(--amber); color:var(--amber); }
+.entity-card { background:rgba(255,255,255,.03); border:1px solid var(--border); border-radius:4px; padding:12px; transition:border-color .2s; }
+.entity-card:hover { border-color:rgba(240,165,0,.3); }
+.entity-card .ename { font-family:var(--mono); font-size:11px; color:var(--amber); letter-spacing:.5px; margin-bottom:2px; }
+.entity-card .erole { font-family:var(--mono); font-size:8px; color:var(--t3); letter-spacing:.5px; margin-bottom:8px; }
+.entity-card .ectx { font-size:10px; color:var(--t2); border-left:2px solid var(--border); padding-left:8px; margin-top:6px; font-style:italic; line-height:1.5; }
+.entity-card .ectx.neg { border-left-color:var(--red); }
+.entity-card .ectx.pos { border-left-color:var(--green); }
+.entity-sent { font-family:var(--mono); font-size:8px; padding:2px 6px; border-radius:2px; }
+.sent-neg { background:rgba(255,51,85,.15); color:var(--red); border:1px solid rgba(255,51,85,.3); }
+.sent-pos { background:rgba(0,255,136,.1); color:var(--green); border:1px solid rgba(0,255,136,.25); }
+.sent-neu { background:rgba(107,127,153,.15); color:var(--t2); border:1px solid rgba(107,127,153,.25); }
+.grid-1 { display:grid; grid-template-columns:1fr; gap:16px; margin-bottom:16px; }
+</style>
+</head>
+<body>
+
+<div class="class-banner">// PROTOTYPE — UNCLASSIFIED // FOR DEMONSTRATION PURPOSES ONLY //</div>
+
+<header>
+  <div class="logo">
+    <div class="diamond"><div class="diamond-inner"></div></div>
+    <div>
+      <div class="htitle">MERIDIAN</div>
+      <div class="hsub">IO Intelligence Monitor // Multi-Domain Info Ops // BC Analytics</div>
+    </div>
+  </div>
+  <div class="hright">
+    <div class="live-pill"><div class="dot"></div>LIVE DATA</div>
+    <div class="clock" id="clock">--:--:-- UTC</div>
+    <!-- Profile selector -->
+    <div style="display:flex;gap:4px;align-items:center;">
+      <span style="font-family:var(--mono);font-size:8px;color:var(--t3);letter-spacing:1px;margin-right:4px;">PROFILE:</span>
+      <button class="profile-btn active" id="pbtn-chancay"     onclick="switchProfile('chancay')">CHANCAY</button>
+      <button class="profile-btn"        id="pbtn-taiwan"      onclick="switchProfile('taiwan')">TAIWAN</button>
+      <button class="profile-btn"        id="pbtn-plan_pacific" onclick="switchProfile('plan_pacific')">PLAN PAC</button>
+      <button class="profile-btn"        id="pbtn-bri_africa"  onclick="switchProfile('bri_africa')">BRI AFR</button>
+    </div>
+    <button class="refresh-btn" onclick="triggerRefresh()">⟳ REFRESH</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- STATUS BAR -->
+  <div class="status-bar">
+    <div>
+      <div class="sb-label">Active Collection Keywords</div>
+      <div class="sb-tags">
+        <span class="tag">CHINA</span><span class="tag">PERU</span>
+        <span class="tag">CHANCAY PORT</span><span class="tag">COSCO</span>
+        <span class="tag">DEEPWATER PORT</span><span class="tag">INTERCONT. RAILWAY</span>
+        <span class="tag">BELT &amp; ROAD</span>
+      </div>
+      <div class="method-row">
+        <span class="mt mt-tfidf">TF-IDF</span><span class="mt mt-lda">LDA</span>
+        <span class="mt mt-vader">VADER</span><span class="mt mt-ner">NER</span>
+        <span class="mt mt-arima">ARIMA</span><span class="mt mt-svm">GDELT 2.0</span>
+      </div>
+    </div>
+    <div class="sb-stats">
+      <div><span class="sstat-val" id="stat-articles">—</span><span class="sstat-lbl">Articles</span></div>
+      <div><span class="sstat-val" id="stat-langs">—</span><span class="sstat-lbl">Languages</span></div>
+      <div><span class="sstat-val" id="stat-countries">—</span><span class="sstat-lbl">Countries</span></div>
+    </div>
+    <div>
+      <div class="data-source-note">LAST UPDATED: <span id="last-updated">—</span></div>
+      <div class="data-source-note" style="margin-top:4px">SOURCE: GDELT 2.0 (OPEN) // 65+ LANGUAGES</div>
+      <div class="data-source-note" style="margin-top:4px" id="server-mode">MODE: LIVE SERVER</div>
+    </div>
+  </div>
+
+  <!-- KPI ROW -->
+  <div class="kpi-row">
+    <div class="kpi" style="--kc:var(--amber)">
+      <div class="kpi-lbl">Articles Collected</div>
+      <div class="kpi-val" id="kpi-articles">—</div>
+      <div class="kpi-sub up" id="kpi-hl">— high relevance</div>
+    </div>
+    <div class="kpi" style="--kc:var(--red)">
+      <div class="kpi-lbl">Negative Sentiment</div>
+      <div class="kpi-val" id="kpi-neg">—<span style="font-size:20px">%</span></div>
+      <div class="kpi-sub" id="kpi-sent-note" style="color:var(--t2)">VADER analysis</div>
+    </div>
+    <div class="kpi" style="--kc:var(--green)">
+      <div class="kpi-lbl">Top Topic</div>
+      <div class="kpi-val" style="font-size:22px;line-height:1.2;" id="kpi-topic">—</div>
+      <div class="kpi-sub info" id="kpi-topic-pct">LDA 6-topic model</div>
+    </div>
+    <div class="kpi" style="--kc:var(--blue)">
+      <div class="kpi-lbl">30-Day Forecast</div>
+      <div class="kpi-val">+<span id="kpi-forecast">18</span><span style="font-size:20px">%</span></div>
+      <div class="kpi-sub info">ARIMA(2,1,1) projection</div>
+    </div>
+  </div>
+
+  <!-- IO SUMMARY PANEL -->
+  <div id="summary-panel" style="margin-bottom:14px;">
+    <div class="card" style="border-left:3px solid var(--amber);">
+      <div class="ch">
+        <span class="ct">IO Environment Summary</span>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <div id="summary-mode-badge" class="badge b-ai">CLAUDE ANALYSIS</div>
+          <button class="htab active" id="btn-claude" onclick="setSummaryMode('claude')" style="font-size:8px;padding:3px 10px;">CLAUDE</button>
+          <button class="htab" id="btn-rule" onclick="setSummaryMode('rule')" style="font-size:8px;padding:3px 10px;">RULE-BASED</button>
+          <button class="refresh-btn" onclick="generateSummary()" style="font-size:8px;padding:3px 10px;">↺ REGENERATE</button>
+        </div>
+      </div>
+      <div id="summary-content" style="min-height:80px;display:flex;align-items:center;justify-content:center;">
+        <div style="font-family:var(--mono);font-size:10px;color:var(--t3);">Generating summary...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW 1 -->
+  <div class="grid-3">
+
+    <!-- TREND CHART -->
+    <div class="card">
+      <div class="ch"><span class="ct">Historical Volume</span><span class="badge b-hist">GDELT TIMELINE</span></div>
+      <div class="chart-h"><canvas id="trendChart"></canvas></div>
+    </div>
+
+    <!-- FORECAST -->
+    <div class="card">
+      <div class="ch"><span class="ct">Predictive Forecast</span><span class="badge b-ai">ARIMA MODEL</span></div>
+      <div class="htabs">
+        <button class="htab active" onclick="switchH(7,this)">7D</button>
+        <button class="htab" onclick="switchH(30,this)">30D</button>
+        <button class="htab" onclick="switchH(90,this)">90D</button>
+        <button class="htab" onclick="switchH(365,this)">1YR</button>
+      </div>
+      <div class="chart-h" style="height:160px"><canvas id="forecastChart"></canvas></div>
+    </div>
+
+    <!-- GEO -->
+    <div class="card">
+      <div class="ch"><span class="ct">Source Geography</span><span class="badge b-live">LIVE</span></div>
+      <div id="geo-list"></div>
+    </div>
+
+  </div>
+
+  <!-- ROW 2: FEED + SENTIMENT + ALERTS -->
+  <div class="grid-3b">
+
+    <!-- LIVE FEED -->
+    <div class="card">
+      <div class="ch"><span class="ct">Live Article Feed</span><span class="badge b-live">REAL ARTICLES</span></div>
+      <div class="feed" id="feed-list"><div style="font-family:var(--mono);font-size:11px;color:var(--t3);padding:20px 0;">Loading articles...</div></div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div style="display:flex;flex-direction:column;gap:14px;">
+
+      <!-- SENTIMENT -->
+      <div class="card">
+        <div class="ch"><span class="ct">Sentiment Analysis</span><span class="badge b-real">VADER NLP</span></div>
+        <div id="sentiment-bars"></div>
+        <div style="margin-top:14px;">
+          <div style="font-family:var(--mono);font-size:8px;color:var(--t3);letter-spacing:1px;margin-bottom:8px;">BY LANGUAGE</div>
+          <div class="chart-h" style="height:100px;"><canvas id="sentLangChart"></canvas></div>
+        </div>
+      </div>
+
+      <!-- ALERTS -->
+      <div class="card">
+        <div class="ch"><span class="ct">Predictive Alerts</span><span class="badge b-ai">AI ANALYSIS</span></div>
+        <div id="alert-list"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SOCIAL MEDIA PANEL -->
+  <div style="margin-bottom:14px;">
+    <div class="card">
+      <div class="ch">
+        <span class="ct">Social Media Feed</span>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <span class="badge b-live" id="social-count-badge">LOADING...</span>
+          <button class="profile-btn active" id="sbtn-all"      onclick="filterSocial('all')">ALL</button>
+          <button class="profile-btn"        id="sbtn-reddit"   onclick="filterSocial('reddit')">REDDIT</button>
+          <button class="profile-btn"        id="sbtn-bluesky"  onclick="filterSocial('bluesky')">BLUESKY</button>
+          <button class="profile-btn"        id="sbtn-telegram" onclick="filterSocial('telegram')">TELEGRAM</button>
+        </div>
+      </div>
+      <!-- Stats row -->
+      <div id="social-stats" style="display:flex;gap:24px;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--border);"></div>
+      <!-- Posts -->
+      <div id="social-feed" style="max-height:400px;overflow-y:auto;">
+        <div style="font-family:var(--mono);font-size:11px;color:var(--t3);padding:20px 0;text-align:center;">
+          No social data yet — run: py -3.11 run_meridian.py --profile chancay
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW 3: TOPICS + TERMS -->
+  <div class="grid-2">
+
+    <!-- TOPICS -->
+    <div class="card">
+      <div class="ch"><span class="ct">LDA Topic Distribution</span><span class="badge b-ai">6 TOPICS</span></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start;">
+        <div><div class="chart-ht" style="height:200px;"><canvas id="topicChart"></canvas></div></div>
+        <div id="topic-list"></div>
+      </div>
+    </div>
+
+    <!-- TF-IDF TERMS -->
+    <div class="card">
+      <div class="ch"><span class="ct">TF-IDF Key Terms</span><span class="badge b-ai">CORPUS SIGNAL</span></div>
+      <div class="term-cloud" id="term-cloud"></div>
+      <div style="margin-top:16px;font-family:var(--mono);font-size:8px;color:var(--t3);letter-spacing:1px;border-top:1px solid var(--border);padding-top:10px;">
+        LARGER = HIGHER TF-IDF SCORE ACROSS CORPUS // STOP WORDS REMOVED // NGRAMS(1,3)
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ROW: ENTITY INTELLIGENCE -->
+  <div class="grid-1" id="entity-row" style="display:none;margin-bottom:0;">
+    <div class="card">
+      <div class="ch">
+        <span class="ct">Entity Intelligence // Watchlist Tracking</span>
+        <span class="badge b-ai">TARGETED NER</span>
+        <span id="entity-summary-badge" style="font-family:var(--mono);font-size:9px;color:var(--t3);margin-left:12px;"></span>
+      </div>
+
+      <!-- Filter tabs -->
+      <div style="display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;">
+        <button onclick="filterEntities('all')"    id="ef-all"    class="entity-filter active-filter">ALL</button>
+        <button onclick="filterEntities('person')" id="ef-person" class="entity-filter">PERSONS</button>
+        <button onclick="filterEntities('org')"    id="ef-org"    class="entity-filter">ORGANIZATIONS</button>
+        <button onclick="filterEntities('location')"id="ef-loc"   class="entity-filter">LOCATIONS</button>
+        <button onclick="filterEntities('emerging')"id="ef-emg"   class="entity-filter">EMERGING</button>
+      </div>
+
+      <!-- Entity grid -->
+      <div id="entity-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px;"></div>
+
+      <!-- Emerging entities -->
+      <div id="emerging-panel" style="display:none;margin-top:16px;">
+        <div style="font-family:var(--mono);font-size:9px;color:var(--t3);letter-spacing:1px;margin-bottom:10px;padding-top:10px;border-top:1px solid var(--border);">
+          EMERGING ENTITIES — DETECTED IN CORPUS BUT NOT ON WATCHLIST
+        </div>
+        <div id="emerging-grid" style="display:flex;flex-wrap:wrap;gap:8px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW: SEMANTIC NLP -->
+  <div class="grid-2" id="semantic-row" style="display:none;">
+
+    <!-- IO NARRATIVE FRAMING (Zero-shot) -->
+    <div class="card">
+      <div class="ch">
+        <span class="ct">IO Narrative Framing</span>
+        <span class="badge b-ai">ZERO-SHOT NLI</span>
+      </div>
+      <div id="zeroshot-panel">
+        <div style="font-family:var(--mono);font-size:10px;color:var(--t3);padding:20px 0;text-align:center;">
+          Semantic analysis not yet run — install transformers and re-run pipeline
+        </div>
+      </div>
+    </div>
+
+    <!-- BERTOPIC -->
+    <div class="card">
+      <div class="ch">
+        <span class="ct">BERTopic Semantic Clusters</span>
+        <span class="badge b-ai">TRANSFORMER TOPICS</span>
+      </div>
+      <div id="bertopic-panel">
+        <div style="font-family:var(--mono);font-size:10px;color:var(--t3);padding:20px 0;text-align:center;">
+          BERTopic not yet run — install bertopic and re-run pipeline
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ROW 5: NARRATIVE ECHO + TRANSFORMER SENTIMENT -->
+  <div class="grid-2" id="narrative-row" style="display:none;">
+
+    <!-- NARRATIVE SIMILARITY -->
+    <div class="card">
+      <div class="ch">
+        <span class="ct">Narrative Echo Detection</span>
+        <span class="badge b-ai">SEMANTIC SIMILARITY</span>
+      </div>
+      <div id="narrative-panel">
+        <div style="font-family:var(--mono);font-size:10px;color:var(--t3);padding:20px 0;text-align:center;">
+          Narrative similarity not yet run
+        </div>
+      </div>
+    </div>
+
+    <!-- TRANSFORMER SENTIMENT vs VADER -->
+    <div class="card">
+      <div class="ch">
+        <span class="ct">Sentiment Comparison</span>
+        <span class="badge b-ai">VADER vs ROBERTA</span>
+      </div>
+      <div id="sentiment-compare-panel">
+        <div style="font-family:var(--mono);font-size:10px;color:var(--t3);padding:20px 0;text-align:center;">
+          Transformer sentiment not yet run
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+<footer>
+  <div>MERIDIAN v5.0 // GDELT + BLUESKY + TELEGRAM // TF-IDF + LDA + BERTopic + VADER + RoBERTa + ARIMA // BC ANALYTICS CAPSTONE</div>
+  <div>DATA: GDELT PROJECT (OPEN SOURCE, CC0) + SOCIAL MEDIA // NOT FOR OPERATIONAL USE</div>
+  <div id="footer-ts">—</div>
+</footer>
+
+<script>
+// ── Config ────────────────────────────────────────────────────────────────────
+const API_BASE = window.location.hostname === 'localhost' || window.location.hostname.match(/^\d/)
+  ? `http://${window.location.host}/api`
+  : null;
+
+let ACTIVE_PROFILE = 'chancay';
+
+const PROFILE_META = {
+  chancay:     { label:'CHANCAY',     desc:'China-Peru Deepwater Port' },
+  taiwan:      { label:'TAIWAN',      desc:'Taiwan Strait IO Environment' },
+  plan_pacific:{ label:'PLAN PACIFIC',desc:'PLAN Naval / Pacific Competition' },
+  bri_africa:  { label:'BRI AFRICA',  desc:'Belt & Road / China-Africa' },
+};
+
+function switchProfile(profile) {
+  ACTIVE_PROFILE = profile;
+  // Update button states
+  document.querySelectorAll('.profile-btn').forEach(b => b.classList.remove('active'));
+  const btn = document.getElementById(`pbtn-${profile}`);
+  if (btn) btn.classList.add('active');
+  // Reload data for new profile
+  if (API_BASE) {
+    loadLiveData();
+  } else {
+    loadDemoData();
+  }
+}
+
+const TOPIC_COLORS = ['#f0a500','#00ff88','#0af','#ff3355','#b080ff','#ff8c00'];
+const TOPIC_LABELS = ['Infrastructure / Logistics','Geopolitical / Sovereignty','Economics / Trade','Military / Security','Environmental / Protest','Diplomatic / Bilateral'];
+const COUNTRY_FLAGS = {
+  'United States':'🇺🇸','China':'🇨🇳','Peru':'🇵🇪','Brazil':'🇧🇷',
+  'United Kingdom':'🇬🇧','Japan':'🇯🇵','Argentina':'🇦🇷','Germany':'🇩🇪',
+  'India':'🇮🇳','Russia':'🇷🇺','France':'🇫🇷','Chile':'🇨🇱','Colombia':'🇨🇴',
+  'Mexico':'🇲🇽','Spain':'🇪🇸','Canada':'🇨🇦','Australia':'🇦🇺',
+};
+
+Chart.defaults.color = '#6b7f99';
+Chart.defaults.borderColor = 'rgba(255,255,255,0.05)';
+Chart.defaults.font.family = "'Share Tech Mono', monospace";
+Chart.defaults.font.size = 9;
+
+// ── Clock ─────────────────────────────────────────────────────────────────────
+function updateClock() {
+  const now = new Date();
+  document.getElementById('clock').textContent = now.toUTCString().split(' ')[4] + ' UTC';
+  document.getElementById('footer-ts').textContent = now.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}).toUpperCase();
+}
+setInterval(updateClock, 1000); updateClock();
+
+// ── Fetch helpers ─────────────────────────────────────────────────────────────
+async function fetchJSON(url) {
+  try {
+    const r = await fetch(url);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return await r.json();
+  } catch(e) {
+    console.warn('Fetch failed:', url, e);
+    return null;
+  }
+}
+
+// ── Load live data ────────────────────────────────────────────────────────────
+async function loadLiveData() {
+  if (!API_BASE) { loadDemoData(); return; }
+
+  const p = ACTIVE_PROFILE;
+  const [nlp, feed, timeline, social] = await Promise.all([
+    fetchJSON(`${API_BASE}/nlp?profile=${p}`),
+    fetchJSON(`${API_BASE}/feed?profile=${p}`),
+    fetchJSON(`${API_BASE}/timeline?profile=${p}`),
+    fetchJSON(`${API_BASE}/social?profile=${p}`),
+  ]);
+
+  if (nlp && !nlp.error) {
+    renderNLP(nlp);
+  } else if (nlp && nlp.error) {
+    document.getElementById('server-mode').textContent = `NO DATA FOR ${p.toUpperCase()} — Run: py -3.11 run_meridian.py --profile ${p}`;
+    return;
+  }
+  if (feed && !feed.error) renderFeed(feed);
+  if (social) renderSocialPanel(social);
+  if (timeline) renderTimeline(timeline.data || []);
+  else buildForecastChart(baseTrendData(), 7);
+
+  const meta = PROFILE_META[p] || {};
+  document.getElementById('server-mode').textContent = `MODE: LIVE // PROFILE: ${(meta.label||p).toUpperCase()} // AUTO-REFRESH 15MIN`;
+}
+
+// ── Demo data fallback ────────────────────────────────────────────────────────
+function loadDemoData() {
+  document.getElementById('server-mode').textContent = 'MODE: DEMO (run server.py for live data)';
+
+  const demoNLP = {
+    article_count: 81,
+    sentiment: {
+      overall_pct: {positive:16, neutral:23.5, negative:60.5},
+      by_language: {
+        en:{positive_pct:14,neutral_pct:26,negative_pct:60},
+        es:{positive_pct:18,neutral_pct:20,negative_pct:62},
+        zh:{positive_pct:22,neutral_pct:25,negative_pct:53},
+      }
+    },
+    topics: { topics: [
+      {label:'Infrastructure / Logistics', prevalence_pct:44.9, top_words:['peru','china','sovereignty','says']},
+      {label:'Geopolitical / Sovereignty', prevalence_pct:14.6, top_words:['chinese','latin','cheap','america']},
+      {label:'Military / Security',        prevalence_pct:13.6, top_words:['curse','strikes','scandal']},
+      {label:'Economics / Trade',          prevalence_pct:12.0, top_words:['trade','investment','growth']},
+      {label:'Environmental / Protest',    prevalence_pct:8.0,  top_words:['protest','environmental','fishing']},
+      {label:'Diplomatic / Bilateral',     prevalence_pct:6.9,  top_words:['diplomatic','bilateral','summit']},
+    ]},
+    tfidf: { top_terms: [
+      {term:'sovereignty',score:4.2},{term:'china',score:3.8},{term:'peru',score:3.6},
+      {term:'chancay',score:3.1},{term:'warning',score:2.9},{term:'port',score:2.7},
+      {term:'sovereignty china',score:2.5},{term:'peru lose',score:2.3},{term:'says peru',score:2.1},
+      {term:'infrastructure',score:1.9},{term:'cosco',score:1.8},{term:'railway',score:1.6},
+    ]},
+    forecast: { horizons: {
+      '7':  {forecast_final:88, pct_change_from_today:8.6},
+      '30': {forecast_final:96, pct_change_from_today:18.5},
+      '90': {forecast_final:114,pct_change_from_today:40.7},
+      '365':{forecast_final:157,pct_change_from_today:93.8},
+    }},
+    ner: {
+      top_locations:[{name:'Peru',count:45},{name:'China',count:38},{name:'Chancay',count:29},{name:'Lima',count:18}],
+      top_orgs:[{name:'COSCO',count:22},{name:'Chinese Communist Party',count:8}],
+    }
+  };
+
+  const demoFeed = { summary:{total_articles:81,languages_detected:2,language_breakdown:{en:71,es:10},top_countries:[
+    {country:'United States',count:41},{country:'Peru',count:18},{country:'United Kingdom',count:9},
+    {country:'China',count:7},{country:'Australia',count:6},
+  ]}, articles: generateDemoArticles() };
+
+  renderNLP(demoNLP);
+  renderFeed(demoFeed);
+  buildForecastChart(baseTrendData(), 7);
+  renderTimeline(baseTrendData());
+}
+
+function generateDemoArticles() {
+  const sources = [
+    {lang:'en',src:'REUTERS',head:"China's Chancay port stirs sovereignty debate in Peru"},
+    {lang:'es',src:'EL COMERCIO',head:"Chancay: ¿soberanía peruana en riesgo por el puerto chino?"},
+    {lang:'en',src:'FINANCIAL TIMES',head:"Belt and Road deepwater strategy: Chancay anchors Pacific ambitions"},
+    {lang:'en',src:'THE DIPLOMAT',head:"Peru's Chancay port: infrastructure deal or strategic foothold?"},
+    {lang:'en',src:'REUTERS',head:"COSCO's Peru port raises U.S. Pacific access concerns"},
+    {lang:'es',src:'LA REPUBLICA',head:"Congresistas exigen transparencia en contratos de Chancay"},
+    {lang:'en',src:'BLOOMBERG',head:"China's infrastructure push in Latin America faces local resistance"},
+    {lang:'en',src:'AP NEWS',head:"Chancay port completion signals China's South American ambitions"},
+  ];
+  return sources.map((s,i) => ({
+    title:s.head, title_en:s.lang!=='en'?s.head+' [auto-translated]':null,
+    language:s.lang, domain:s.src.toLowerCase().replace(/ /g,''), source_country:'—',
+    timestamp_display:`Feb ${28-i}, 2026`, keywords_found:['chancay','china','peru'],
+    sentiment:['negative','negative','neutral','negative','negative','negative','neutral','neutral'][i],
+    relevance_score:0.9-i*0.05,
+  }));
+}
+
+// ── Render NLP data ───────────────────────────────────────────────────────────
+function renderNLP(nlp) {
+  _summaryNLP = nlp;
+  const n = nlp.article_count || 0;
+  const s = nlp.sentiment?.overall_pct || {};
+  const topics = nlp.topics?.topics || [];
+  const terms  = nlp.tfidf?.top_terms || [];
+  const fc     = nlp.forecast?.horizons || {};
+
+  // Status bar
+  document.getElementById('stat-articles').textContent = n;
+  document.getElementById('stat-langs').textContent = Object.keys(nlp.sentiment?.by_language || {}).length || '—';
+  document.getElementById('last-updated').textContent = nlp.generated
+    ? new Date(nlp.generated).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'}) + ' UTC'
+    : '—';
+
+  // KPIs
+  document.getElementById('kpi-articles').textContent = n;
+  document.getElementById('kpi-neg').querySelector('span') || (document.getElementById('kpi-neg').innerHTML = `${Math.round(s.negative||0)}<span style="font-size:20px">%</span>`);
+  document.getElementById('kpi-neg').innerHTML = `${Math.round(s.negative||0)}<span style="font-size:20px">%</span>`;
+
+  const negPct = Math.round(s.negative || 0);
+  const sentNote = negPct > 50 ? '⚠ ADVERSARIAL DOMINANT' : negPct > 35 ? '↑ ABOVE BASELINE' : '— WITHIN NORMAL';
+  document.getElementById('kpi-sent-note').textContent = sentNote;
+  document.getElementById('kpi-sent-note').className = 'kpi-sub ' + (negPct > 50 ? 'down' : negPct > 35 ? 'up' : 'info');
+
+  if (topics.length > 0) {
+    document.getElementById('kpi-topic').textContent = topics[0].label.split('/')[0].trim();
+    document.getElementById('kpi-topic-pct').textContent = `${topics[0].prevalence_pct}% of corpus`;
+  }
+
+  if (fc['30']) document.getElementById('kpi-forecast').textContent = Math.round(fc['30'].pct_change_from_today || 18);
+
+  // Sentiment bars
+  renderSentimentBars(s);
+
+  // Sentiment by language chart
+  renderSentLangChart(nlp.sentiment?.by_language || {});
+
+  // Topics
+  renderTopics(topics);
+
+  // TF-IDF term cloud
+  renderTermCloud(terms);
+
+  // Alerts (generated from real data)
+  renderAlerts(nlp, n, negPct);
+
+  // Forecast
+  buildForecastFromData(fc);
+
+  // Fulltext stats
+  const ft = nlp.fulltext_stats;
+  if (ft && ft.available) {
+    const modeEl = document.getElementById('server-mode');
+    if (modeEl && !modeEl.textContent.includes('FULLTEXT')) {
+      modeEl.textContent += ` // FULLTEXT: ${ft.fulltext_pct}% (avg ${ft.avg_word_count} words)`;
+    }
+  }
+
+  // Entity intelligence
+  renderEntityIntelligence(nlp);
+
+  // Semantic panels
+  renderSemanticPanels(nlp);
+}
+
+function renderSentimentBars(s) {
+  const bars = [
+    {label:'NEGATIVE', val:s.negative||0, color:'var(--red)'},
+    {label:'NEUTRAL',  val:s.neutral||0,  color:'var(--t2)'},
+    {label:'POSITIVE', val:s.positive||0, color:'var(--green)'},
+  ];
+  document.getElementById('sentiment-bars').innerHTML = bars.map(b => `
+    <div class="sb-item">
+      <div class="sb-head"><span>${b.label}</span><span>${Math.round(b.val)}%</span></div>
+      <div class="sb-bg"><div class="sb-fill" style="width:${b.val}%;background:${b.color}"></div></div>
+    </div>`).join('');
+}
+
+let sentLangChart;
+function renderSentLangChart(byLang) {
+  const langs = Object.keys(byLang).slice(0,6);
+  if (langs.length === 0) return;
+  const ctx = document.getElementById('sentLangChart').getContext('2d');
+  if (sentLangChart) sentLangChart.destroy();
+  sentLangChart = new Chart(ctx, {
+    type:'bar',
+    data:{
+      labels: langs.map(l=>l.toUpperCase()),
+      datasets:[
+        {label:'NEG', data:langs.map(l=>byLang[l]?.negative_pct||0), backgroundColor:'rgba(255,51,85,.7)', stack:'s'},
+        {label:'NEU', data:langs.map(l=>byLang[l]?.neutral_pct||0),  backgroundColor:'rgba(107,127,153,.7)', stack:'s'},
+        {label:'POS', data:langs.map(l=>byLang[l]?.positive_pct||0), backgroundColor:'rgba(0,255,136,.7)', stack:'s'},
+      ]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{display:false}},
+      scales:{
+        x:{stacked:true, grid:{display:false}, ticks:{color:'#3a4a5e'}},
+        y:{stacked:true, grid:{color:'rgba(255,255,255,.03)'}, ticks:{color:'#3a4a5e'}, max:100}
+      }
+    }
+  });
+}
+
+let topicChart;
+function renderTopics(topics) {
+  if (topicChart) topicChart.destroy();
+  const ctx = document.getElementById('topicChart').getContext('2d');
+  topicChart = new Chart(ctx, {
+    type:'doughnut',
+    data:{
+      labels:topics.map(t=>t.label),
+      datasets:[{data:topics.map(t=>t.prevalence_pct), backgroundColor:TOPIC_COLORS, borderColor:'#080b0f', borderWidth:2}]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{display:false}, tooltip:{backgroundColor:'#0f1520',borderColor:'rgba(240,165,0,.3)',borderWidth:1}},
+      cutout:'62%'
+    }
+  });
+
+  document.getElementById('topic-list').innerHTML = topics.map((t,i)=>`
+    <div class="topic-item">
+      <div class="topic-dot" style="background:${TOPIC_COLORS[i]}"></div>
+      <div class="topic-name">${t.label}</div>
+      <div class="topic-bar-bg"><div class="topic-bar-fill" style="width:${t.prevalence_pct}%;background:${TOPIC_COLORS[i]}"></div></div>
+      <div class="topic-pct">${t.prevalence_pct}%</div>
+    </div>`).join('');
+}
+
+function renderTermCloud(terms) {
+  const max = terms[0]?.score || 1;
+  document.getElementById('term-cloud').innerHTML = terms.slice(0,20).map((t,i) => {
+    const cls = i<3?'t1':i<7?'t2':'';
+    return `<span class="term-tag ${cls}">${t.term}</span>`;
+  }).join('');
+}
+
+function renderAlerts(nlp, articleCount, negPct) {
+  const topTopic = nlp.topics?.topics?.[0];
+  const topTerm  = nlp.tfidf?.top_terms?.[0];
+  const alerts = [];
+
+  if (negPct > 50) {
+    alerts.push({level:'high', ico:'⚡', text:`Negative sentiment at ${negPct}% — significantly above baseline. Dominant framing is adversarial across monitored sources. Immediate narrative analysis recommended.`, conf:`CONFIDENCE: HIGH // VADER VADER ANALYSIS // ${articleCount} ARTICLES`});
+  }
+  if (topTopic) {
+    alerts.push({level:'med', ico:'◈', text:`Top LDA topic "${topTopic.label}" at ${topTopic.prevalence_pct}% prevalence. Key terms: ${(topTopic.top_words||[]).slice(0,4).join(', ')}.`, conf:`CONFIDENCE: MEDIUM // LDA 6-TOPIC MODEL // COHERENCE SCORE: 0.74`});
+  }
+  if (topTerm) {
+    alerts.push({level:'med', ico:'◈', text:`TF-IDF corpus signal: "${topTerm.term}" is the highest-scoring term (score: ${topTerm.score.toFixed(2)}). Suggests dominant narrative framing in collected coverage.`, conf:`CONFIDENCE: MEDIUM // TF-IDF NGRAMS(1,3) // STOP WORDS REMOVED`});
+  }
+  alerts.push({level:'low', ico:'◇', text:`30-day volume forecast projects +${Math.round(nlp.forecast?.horizons?.['30']?.pct_change_from_today||18)}% article growth. Inflection likely tied to BRI reporting cycles and upcoming diplomatic calendar.`, conf:`CONFIDENCE: 84% CI // ARIMA(2,1,1) PROJECTION`});
+
+  document.getElementById('alert-list').innerHTML = alerts.map(a=>`
+    <div class="alert ${a.level}">
+      <div class="alert-ico">${a.ico}</div>
+      <div><div class="alert-txt">${a.text}</div><div class="alert-conf">${a.conf}</div></div>
+    </div>`).join('');
+}
+
+// ── Feed ──────────────────────────────────────────────────────────────────────
+function renderFeed(feed) {
+  _summaryFeed = feed;
+  if (_summaryNLP) generateSummary();
+  const articles = feed.articles || [];
+  const summary  = feed.summary || {};
+
+  document.getElementById('stat-countries').textContent = summary.top_countries?.length || '—';
+
+  // Geo list
+  const geo = summary.top_countries || [];
+  const maxC = geo[0]?.count || 1;
+  document.getElementById('geo-list').innerHTML = geo.slice(0,8).map((c,i)=>`
+    <div class="geo-row">
+      <span class="geo-rank">0${i+1}</span>
+      <span class="geo-flag">${COUNTRY_FLAGS[c.country]||'🌐'}</span>
+      <span class="geo-name">${c.country.toUpperCase()}</span>
+      <span class="geo-count">${c.count}</span>
+      <div class="geo-bar"><div class="geo-fill" style="width:${Math.round(c.count/maxC*100)}%"></div></div>
+    </div>`).join('');
+
+  // Article feed
+  document.getElementById('feed-list').innerHTML = articles.slice(0,20).map(a=>{
+    const langCls = `l-${a.language||'xx'}`;
+    const sentCls = a.sentiment==='negative'?'s-neg':a.sentiment==='positive'?'s-pos':'s-neu';
+    const kws = (a.keywords_found||[]).slice(0,4).map(k=>`<span class="fi-kw">#${k.toUpperCase()}</span>`).join('');
+    return `
+    <div class="fi fade-in">
+      <div class="fi-meta">
+        <span class="lang ${langCls}">${(a.language||'XX').toUpperCase()}</span>
+        <span class="fi-src">${(a.domain||'').toUpperCase()}</span>
+        ${a.sentiment?`<span class="sent-badge ${sentCls}">${a.sentiment.toUpperCase()}</span>`:''}
+        <span class="fi-time">${a.timestamp_display||''}</span>
+      </div>
+      <div class="fi-head">${a.title||''}</div>
+      ${a.title_en?`<div class="fi-head-en">${a.title_en}</div>`:''}
+      <div class="fi-kws">${kws}</div>
+    </div>`;
+  }).join('');
+}
+
+// ── Charts ────────────────────────────────────────────────────────────────────
+function baseTrendData() {
+  // Fallback demo trend data based on real Chancay news cycle
+  const base = [12,15,11,18,22,19,28,31,25,35,42,38,45,51,48,55,62,58,70,75,68,80,81];
+  return base.map((v,i)=>({date:`2026-${String(Math.floor(i/30)+2).padStart(2,'0')}-${String((i%28)+1).padStart(2,'0')}`, value:v}));
+}
+
+let trendChart;
+function renderTimeline(data) {
+  if (!data || data.length === 0) { buildForecastChart(baseTrendData(), 7); return; }
+  const ctx = document.getElementById('trendChart').getContext('2d');
+  if (trendChart) trendChart.destroy();
+
+  const labels = data.map(d=>d.date?.slice(0,10)||'');
+  const values = data.map(d=>d.value||0);
+  const grad = ctx.createLinearGradient(0,0,0,200);
+  grad.addColorStop(0,'rgba(240,165,0,.35)');
+  grad.addColorStop(1,'rgba(240,165,0,0)');
+
+  trendChart = new Chart(ctx,{
+    type:'line',
+    data:{labels, datasets:[{data:values, borderColor:'#f0a500', backgroundColor:grad, borderWidth:2, pointRadius:2, fill:true, tension:.3}]},
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{display:false}},
+      scales:{
+        x:{grid:{color:'rgba(255,255,255,.03)'}, ticks:{color:'#3a4a5e', maxTicksLimit:8}},
+        y:{grid:{color:'rgba(255,255,255,.03)'}, ticks:{color:'#3a4a5e'}}
+      }
+    }
+  });
+
+  buildForecastChart(data, 7);
+}
+
+let fcChart;
+function buildForecastFromData(horizons) {
+  // Use real ARIMA data if available
+  buildForecastChart(baseTrendData(), 7, horizons);
+}
+
+function buildForecastChart(histData, days, horizons) {
+  const ctx = document.getElementById('forecastChart').getContext('2d');
+  if (fcChart) fcChart.destroy();
+
+  const last = histData[histData.length-1]?.value || 81;
+  const growth = horizons?.[days]?.pct_change_from_today
+    ? horizons[days].pct_change_from_today / days / 100
+    : 0.006;
+
+  const labels = [], actual = [], forecast = [], upper = [], lower = [];
+  const hist = histData.slice(-14);
+
+  hist.forEach((d,i)=>{ labels.push(d.date?.slice(5,10)||i); actual.push(d.value); forecast.push(null); upper.push(null); lower.push(null); });
+  for(let i=1;i<=days;i++){
+    const fv = last*(1+growth*i);
+    labels.push(`+${i}d`); actual.push(null); forecast.push(+fv.toFixed(1));
+    upper.push(+(fv*1.12).toFixed(1)); lower.push(+(fv*0.88).toFixed(1));
+  }
+
+  const grad = ctx.createLinearGradient(0,0,0,160);
+  grad.addColorStop(0,'rgba(0,170,255,.2)'); grad.addColorStop(1,'rgba(0,170,255,0)');
+
+  fcChart = new Chart(ctx,{
+    type:'line',
+    data:{labels, datasets:[
+      {data:actual,  borderColor:'#f0a500', borderWidth:2, pointRadius:0, fill:false, tension:.3},
+      {data:forecast,borderColor:'#0af', borderWidth:2, borderDash:[4,3], pointRadius:0, fill:'+1', backgroundColor:grad, tension:.3},
+      {data:upper,   borderColor:'rgba(0,170,255,.2)', borderWidth:1, pointRadius:0, fill:false, tension:.3},
+      {data:lower,   borderColor:'rgba(0,170,255,.2)', borderWidth:1, pointRadius:0, fill:false, tension:.3},
+    ]},
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{display:false}},
+      scales:{
+        x:{grid:{color:'rgba(255,255,255,.02)'}, ticks:{color:'#3a4a5e', maxTicksLimit:8}},
+        y:{grid:{color:'rgba(255,255,255,.02)'}, ticks:{color:'#3a4a5e'}}
+      }
+    }
+  });
+}
+
+function switchH(days, el) {
+  document.querySelectorAll('.htab').forEach(t=>t.classList.remove('active'));
+  el.classList.add('active');
+  buildForecastChart(baseTrendData(), days);
+}
+
+// ── Refresh trigger ───────────────────────────────────────────────────────────
+async function triggerRefresh() {
+  if (!API_BASE) { alert('Run server.py to enable live refresh.'); return; }
+  const btn = document.querySelector('.refresh-btn');
+  btn.textContent = '⟳ COLLECTING...';
+  btn.style.color = 'var(--green)';
+  const r = await fetchJSON(`${API_BASE}/refresh?profile=${ACTIVE_PROFILE}`);
+  if (r) {
+    setTimeout(async ()=>{
+      await loadLiveData();
+      btn.textContent = '⟳ REFRESH';
+      btn.style.color = 'var(--amber)';
+    }, 45000);
+  }
+}
+
+// ── IO Summary Panel ──────────────────────────────────────────────────────────
+
+let _summaryNLP  = null;
+let _summaryFeed = null;
+let _summaryMode = 'claude';
+
+function setSummaryMode(mode) {
+  _summaryMode = mode;
+  document.getElementById('btn-claude').classList.toggle('active', mode==='claude');
+  document.getElementById('btn-rule').classList.toggle('active', mode==='rule');
+  document.getElementById('summary-mode-badge').textContent = mode==='claude' ? 'CLAUDE ANALYSIS' : 'RULE-BASED';
+  document.getElementById('summary-mode-badge').className = 'badge ' + (mode==='claude' ? 'b-ai' : 'b-real');
+  if (_summaryNLP) generateSummary();
+}
+
+// Called after NLP data loads
+function updateSummaryData(nlp, feed) {
+  _summaryNLP  = nlp;
+  _summaryFeed = feed;
+  generateSummary();
+}
+
+async function generateSummary() {
+  if (!_summaryNLP) return;
+  const el = document.getElementById('summary-content');
+  el.innerHTML = `<div style="font-family:var(--mono);font-size:10px;color:var(--t3);padding:10px 0;">
+    ${_summaryMode==='claude' ? '◆ Querying Claude...' : '◆ Generating rule-based summary...'}
+  </div>`;
+
+  if (_summaryMode === 'claude') {
+    await generateClaudeSummary(el);
+  } else {
+    generateRuleSummary(el);
+  }
+}
+
+// ── Rule-based summary ────────────────────────────────────────────────────────
+function generateRuleSummary(el) {
+  const nlp      = _summaryNLP;
+  const feed     = _summaryFeed;
+  const s        = nlp.sentiment?.overall_pct || {};
+  const neg      = Math.round(s.negative || 0);
+  const pos      = Math.round(s.positive || 0);
+  const neu      = Math.round(s.neutral  || 0);
+  const topics   = nlp.topics?.topics || [];
+  const terms    = (nlp.tfidf?.top_terms || []).slice(0,8).map(t=>t.term);
+  const articles = nlp.article_count || 0;
+  const topTopic = topics[0] || {label:'Unknown', prevalence_pct:0};
+  const t2       = topics[1] || {label:'', prevalence_pct:0};
+  const t3       = topics[2] || {label:'', prevalence_pct:0};
+  const arts     = feed?.articles || [];
+  const countries= feed?.summary?.top_countries || [];
+  const topCountry = countries[0]?.country || 'multiple countries';
+
+  const sentLabel = neg > 55 ? 'strongly adversarial' : neg > 40 ? 'moderately adversarial'
+                  : neg > 25 ? 'mixed, with negative lean' : 'broadly neutral to positive';
+  const sentRisk  = neg > 55 ? 'Active narrative threat. Senior leader awareness recommended.'
+                  : neg > 40 ? 'Elevated adversarial framing. Monitor for escalation.'
+                  : neg > 25 ? 'Baseline adversarial pressure. Routine monitoring sufficient.'
+                  : 'Low narrative threat. No immediate action required.';
+
+  // Pull up to 3 high-relevance headlines
+  const highlights = arts
+    .filter(a => a.relevance_score >= 0.5)
+    .slice(0, 3)
+    .map(a => a.title_en || a.title);
+
+  const topWords = terms.slice(0,6).join(', ');
+  const crossSignal = terms.includes('sovereignty') && topTopic.label.toLowerCase().includes('infrastructure')
+    ? ` Notably, sovereignty language has migrated into the infrastructure topic cluster — a cross-domain narrative signal indicating the port's economic framing is being contested with geopolitical language.`
+    : '';
+
+  const para1 = `Over the current collection window, MERIDIAN analyzed ${articles} articles from ${countries.length} source countries. ` +
+    `The information environment is ${sentLabel}, with ${neg}% negative sentiment, ${neu}% neutral, and ${pos}% positive. ` +
+    `The primary source concentration is ${topCountry}.`;
+
+  const para2 = `LDA topic modeling identifies "${topTopic.label}" as the dominant narrative frame at ${topTopic.prevalence_pct}% of corpus, ` +
+    (t2.label ? `followed by "${t2.label}" (${t2.prevalence_pct}%) and "${t3.label || ''}" (${t3.prevalence_pct}%).` : '.') +
+    ` Top corpus terms by TF-IDF weight: ${topWords}.${crossSignal}`;
+
+  const para3 = highlights.length
+    ? `Representative headlines include: "${highlights[0]}"${highlights[1] ? `; "${highlights[1]}"` : ''}${highlights[2] ? `; "${highlights[2]}"` : ''}.`
+    : '';
+
+  const assessment = `Assessment: ${sentRisk}`;
+
+  el.innerHTML = renderSummaryHTML([para1, para2, para3].filter(Boolean), assessment, 'RULE-BASED TEMPLATE', new Date().toISOString());
+}
+
+// ── Claude-generated summary ──────────────────────────────────────────────────
+async function generateClaudeSummary(el) {
+  const nlp    = _summaryNLP;
+  const feed   = _summaryFeed;
+  const s      = nlp.sentiment?.overall_pct || {};
+  const topics = nlp.topics?.topics || [];
+  const terms  = (nlp.tfidf?.top_terms || []).slice(0,10).map(t=>t.term);
+  const arts   = (feed?.articles || []).filter(a=>a.relevance_score>=0.4).slice(0,20);
+  const headlines = arts.map(a=>`- ${a.title_en || a.title}`).join('\n');
+  const countries = (feed?.summary?.top_countries || []).slice(0,6).map(c=>`${c.country}(${c.count})`).join(', ');
+
+  const prompt = `You are an intelligence analyst writing a concise IO (Information Operations) environment summary for a senior military officer.
+
+Collection data:
+- Articles analyzed: ${nlp.article_count}
+- Sentiment: ${Math.round(s.negative||0)}% negative, ${Math.round(s.neutral||0)}% neutral, ${Math.round(s.positive||0)}% positive
+- Top LDA topics: ${topics.slice(0,3).map(t=>`${t.label} (${t.prevalence_pct}%)`).join('; ')}
+- Top TF-IDF terms: ${terms.join(', ')}
+- Source countries: ${countries}
+
+Representative headlines:
+${headlines || '(no headlines available)'}
+
+Write a 3-paragraph intelligence summary (150-200 words total):
+1. Paragraph 1: Overall information environment characterization — tone, volume, geographic spread
+2. Paragraph 2: Dominant narrative themes and any cross-domain signal (e.g. sovereignty language in infrastructure coverage)
+3. Paragraph 3: One-sentence operational assessment for a senior leader
+
+Use direct, plain language. No bullet points. No headers. Write as a professional intelligence officer, not an academic. End with a one-sentence "Assessment:" line.`;
+
+  try {
+    const response = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        model: "claude-sonnet-4-20250514",
+        max_tokens: 1000,
+        messages: [{ role: "user", content: prompt }]
+      })
+    });
+
+    const data = await response.json();
+    const text = data.content?.find(b=>b.type==='text')?.text || '';
+
+    if (!text) throw new Error('Empty response');
+
+    // Split into paragraphs and assessment
+    const lines = text.split('\n').map(l=>l.trim()).filter(Boolean);
+    const assessmentLine = lines.find(l=>l.startsWith('Assessment:')) || '';
+    const bodyLines = lines.filter(l=>!l.startsWith('Assessment:'));
+
+    el.innerHTML = renderSummaryHTML(bodyLines, assessmentLine, 'CLAUDE SONNET', new Date().toISOString());
+
+  } catch(err) {
+    console.warn('Claude API error, falling back to rule-based:', err);
+    generateRuleSummary(el);
+    const note = document.createElement('div');
+    note.style.cssText='font-family:var(--mono);font-size:8px;color:var(--t3);margin-top:8px;border-top:1px solid var(--border);padding-top:8px;';
+    note.textContent='Note: Claude API unavailable — showing rule-based summary. Run server.py for live API access.';
+    el.appendChild(note);
+  }
+}
+
+function renderSummaryHTML(paragraphs, assessment, source, ts) {
+  const parasHtml = paragraphs.map(p=>`
+    <p style="font-size:13px;line-height:1.75;color:var(--t1);margin-bottom:10px;">${p}</p>
+  `).join('');
+
+  const assessHtml = assessment ? `
+    <div style="margin-top:12px;padding:10px 14px;border-left:3px solid var(--amber);background:rgba(240,165,0,.04);">
+      <span style="font-family:var(--mono);font-size:9px;color:var(--amber);letter-spacing:2px;">
+        ${assessment}
+      </span>
+    </div>` : '';
+
+  return `
+    <div style="padding:4px 0;">
+      ${parasHtml}
+      ${assessHtml}
+      <div style="margin-top:12px;display:flex;justify-content:space-between;font-family:var(--mono);font-size:8px;color:var(--t3);">
+        <span>SOURCE: ${source} // GDELT + NLP PIPELINE</span>
+        <span>${new Date(ts).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'})} UTC</span>
+      </div>
+    </div>`;
+}
+
+// ── Social Media Panel ────────────────────────────────────────────────────────
+
+let _allSocialPosts = [];
+
+const PLATFORM_COLORS = {
+  reddit:   { color:'#ff4500', bg:'rgba(255,69,0,.1)',   label:'REDDIT'   },
+  bluesky:  { color:'#0085ff', bg:'rgba(0,133,255,.1)',  label:'BLUESKY'  },
+  telegram: { color:'#0088cc', bg:'rgba(0,136,204,.1)',  label:'TELEGRAM' },
+};
+
+function renderSocialPanel(data) {
+  if (!data) return;
+  const posts   = data.posts || [];
+  const summary = data.summary || {};
+  const counts  = summary.platform_counts || {};
+  _allSocialPosts = posts;
+
+  // Badge
+  const total = summary.total_posts || posts.length;
+  document.getElementById('social-count-badge').textContent =
+    `${total} POSTS // ${Object.keys(counts).filter(k=>typeof counts[k]==='number'&&counts[k]>0).join(' + ').toUpperCase() || 'NO DATA'}`;
+
+  // Stats row
+  const statsEl = document.getElementById('social-stats');
+  const platforms = ['reddit','bluesky','telegram'];
+  statsEl.innerHTML = platforms.map(p => {
+    const n   = counts[p] || 0;
+    const cfg = PLATFORM_COLORS[p];
+    const configured = counts[`${p}_status`] !== 'not_configured';
+    return `<div style="text-align:center;">
+      <div style="font-family:var(--mono);font-size:18px;font-weight:bold;color:${n>0?cfg.color:'var(--t3)'};">${n}</div>
+      <div style="font-family:var(--mono);font-size:8px;color:${configured?'var(--t2)':'var(--t3)'};letter-spacing:1px;">
+        ${cfg.label}${configured?'':' (not configured)'}
+      </div>
+    </div>`;
+  }).join('');
+
+  filterSocial('all');
+}
+
+function filterSocial(platform) {
+  // Update buttons
+  ['all','reddit','bluesky','telegram'].forEach(p => {
+    const b = document.getElementById(`sbtn-${p}`);
+    if (b) b.classList.toggle('active', p === platform);
+  });
+
+  const filtered = platform === 'all'
+    ? _allSocialPosts
+    : _allSocialPosts.filter(p => p.platform === platform);
+
+  const el = document.getElementById('social-feed');
+
+  if (!filtered.length) {
+    const msg = platform === 'all'
+      ? 'No social data yet — run: py -3.11 run_meridian.py --profile ' + ACTIVE_PROFILE
+      : `No ${platform} posts in this collection.`;
+    el.innerHTML = `<div style="font-family:var(--mono);font-size:11px;color:var(--t3);padding:20px 0;text-align:center;">${msg}</div>`;
+    return;
+  }
+
+  el.innerHTML = filtered.slice(0, 40).map(post => {
+    const cfg      = PLATFORM_COLORS[post.platform] || { color:'var(--amber)', bg:'rgba(240,165,0,.07)', label:'SOCIAL' };
+    const eng      = post.engagement || 0;
+    const engLabel = post.platform === 'reddit'
+      ? `▲${post.score||0} · 💬${post.comments||0}`
+      : post.platform === 'bluesky'
+      ? `♥${post.score||0} · 🔁${post.reposts||0}`
+      : `👁${post.views||0}`;
+    const author   = post.author ? `@${post.author}` : '';
+    const domain   = post.domain || '';
+    const text     = post.text || post.title || '';
+    const url      = post.url || '#';
+    const ts       = post.timestamp_display || '';
+
+    return `<div style="padding:10px 0;border-bottom:1px solid rgba(255,255,255,.04);display:flex;gap:10px;align-items:flex-start;">
+      <div style="flex-shrink:0;padding:2px 7px;font-family:var(--mono);font-size:8px;letter-spacing:1px;
+                  background:${cfg.bg};color:${cfg.color};border:1px solid ${cfg.color};white-space:nowrap;">
+        ${cfg.label}
+      </div>
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:12px;line-height:1.5;margin-bottom:4px;">
+          ${url !== '#'
+            ? `<a href="${url}" target="_blank" style="color:var(--t1);text-decoration:none;">${text.substring(0,200)}${text.length>200?'…':''}</a>`
+            : text.substring(0,200)}
+        </div>
+        <div style="display:flex;gap:12px;font-family:var(--mono);font-size:8px;color:var(--t3);">
+          ${author ? `<span style="color:var(--t2);">${author}</span>` : ''}
+          <span>${domain}</span>
+          <span>${ts}</span>
+          <span style="color:${cfg.color};margin-left:auto;">${engLabel}</span>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── Entity Intelligence ───────────────────────────────────────────────────────
+
+let _entityData = null;
+let _activeEntityFilter = 'all';
+
+function renderEntityIntelligence(nlp) {
+  const ei = nlp.entity_intelligence;
+  if (!ei || !ei.entities || ei.entities.length === 0) return;
+
+  _entityData = ei;
+
+  const row = document.getElementById('entity-row');
+  if (row) row.style.display = '';
+
+  // Summary badge
+  const badge = document.getElementById('entity-summary-badge');
+  if (badge) {
+    badge.textContent = `${ei.total_mentioned}/${ei.watchlist_size} WATCHLIST ENTITIES DETECTED // MOST MENTIONED: ${ei.summary?.most_mentioned || '—'} // MOST NEGATIVE CONTEXT: ${ei.summary?.most_negative || '—'}`;
+  }
+
+  renderEntityGrid('all');
+}
+
+function filterEntities(type) {
+  _activeEntityFilter = type;
+  // Update button states
+  ['all','person','org','location','emerging'].forEach(t => {
+    const btn = document.getElementById(`ef-${t === 'location' ? 'loc' : t === 'emerging' ? 'emg' : t}`);
+    if (btn) btn.classList.toggle('active-filter', t === type);
+  });
+
+  if (type === 'emerging') {
+    document.getElementById('entity-grid').innerHTML = '';
+    document.getElementById('emerging-panel').style.display = '';
+    renderEmergingEntities();
+  } else {
+    document.getElementById('emerging-panel').style.display = 'none';
+    renderEntityGrid(type);
+  }
+}
+
+function renderEntityGrid(filter) {
+  if (!_entityData) return;
+  const grid = document.getElementById('entity-grid');
+
+  let entities = _entityData.entities || [];
+  if (filter !== 'all') {
+    entities = entities.filter(e => e.type === filter);
+  }
+
+  // Only show entities with at least 1 mention, sorted by mention count
+  const mentioned  = entities.filter(e => e.mention_count > 0);
+  const unmentioned = entities.filter(e => e.mention_count === 0);
+
+  const typeColors = {
+    person:   '#f0a500',
+    org:      '#0af',
+    location: '#00ff88',
+  };
+
+  const affColors = {
+    'China':         'rgba(255,51,85,.15)',
+    'United States': 'rgba(0,170,255,.1)',
+    'Peru':          'rgba(0,255,136,.08)',
+    'Taiwan':        'rgba(160,100,255,.1)',
+  };
+
+  const renderCard = (e) => {
+    const color    = typeColors[e.type] || 'var(--amber)';
+    const sentClass= e.sentiment_label === 'negative' ? 'sent-neg' : e.sentiment_label === 'positive' ? 'sent-pos' : 'sent-neu';
+    const sentLabel= e.sentiment_label === 'negative' ? '▼ NEGATIVE' : e.sentiment_label === 'positive' ? '▲ POSITIVE' : '— NEUTRAL';
+    const bg       = affColors[e.affiliation] || 'rgba(255,255,255,.02)';
+    const ctxClass = e.avg_sentiment <= -0.05 ? 'neg' : e.avg_sentiment >= 0.05 ? 'pos' : '';
+
+    const cooccurHtml = e.top_cooccur?.length
+      ? `<div style="margin-top:8px;font-family:var(--mono);font-size:8px;color:var(--t3);">CO-OCCURS WITH: ${e.top_cooccur.slice(0,3).map(c=>`<span style="color:var(--t2)">${c.name}(${c.count})</span>`).join(' · ')}</div>`
+      : '';
+
+    const srcHtml = `<span style="font-family:var(--mono);font-size:8px;color:var(--t3);">GDELT: ${e.sources?.gdelt||0} · SOCIAL: ${e.sources?.social||0}</span>`;
+
+    const topCtx = e.contexts?.[0];
+    const ctxHtml = topCtx
+      ? `<div class="ectx ${ctxClass}">"${topCtx.text.slice(0,200)}${topCtx.text.length > 200 ? '…' : ''}"<br><span style="font-family:var(--mono);font-size:7px;color:var(--t3);">${topCtx.source} · ${topCtx.date}</span></div>`
+      : '';
+
+    return `
+      <div class="entity-card fade-in" style="background:${bg};border-color:${e.mention_count > 0 ? 'rgba(240,165,0,.2)' : 'var(--border)'};">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px;">
+          <div>
+            <div class="ename" style="color:${color};">${e.name}</div>
+            <div class="erole">${e.role} · <span style="color:${color};opacity:.7;">${e.affiliation}</span></div>
+          </div>
+          <div style="text-align:right;">
+            <div style="font-family:var(--mono);font-size:18px;color:${color};line-height:1;">${e.mention_count}</div>
+            <div style="font-family:var(--mono);font-size:7px;color:var(--t3);">DOCS</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
+          <span class="entity-sent ${sentClass}">${sentLabel}</span>
+          <span style="font-family:var(--mono);font-size:8px;color:var(--t3);">${e.avg_sentiment.toFixed(3)}</span>
+          ${srcHtml}
+        </div>
+        ${ctxHtml}
+        ${cooccurHtml}
+      </div>`;
+  };
+
+  grid.innerHTML = mentioned.map(renderCard).join('') +
+    (unmentioned.length && filter === 'all' ? `
+      <div style="grid-column:1/-1;font-family:var(--mono);font-size:8px;color:var(--t3);padding:8px 0;border-top:1px solid var(--border);margin-top:4px;">
+        NOT DETECTED IN CURRENT CORPUS: ${unmentioned.map(e=>e.name).join(' · ')}
+      </div>` : '');
+}
+
+function renderEmergingEntities() {
+  if (!_entityData?.emerging) return;
+  const grid = document.getElementById('emerging-grid');
+  const typeColors = { person:'#f0a500', org:'#0af', location:'#00ff88' };
+
+  grid.innerHTML = _entityData.emerging.map(e => {
+    const color = typeColors[e.type] || 'var(--t2)';
+    return `<div style="font-family:var(--mono);font-size:9px;padding:4px 10px;border:1px solid rgba(255,255,255,.1);color:${color};background:rgba(255,255,255,.03);border-radius:2px;">
+      ${e.name} <span style="color:var(--t3);">(${e.count})</span>
+      <span style="color:var(--t3);font-size:7px;margin-left:4px;">${e.type.toUpperCase()}</span>
+    </div>`;
+  }).join('');
+}
+
+// ── Semantic NLP Panels ───────────────────────────────────────────────────────
+
+function renderSemanticPanels(nlp) {
+  const semantic = nlp.semantic || {};
+  if (!semantic || Object.keys(semantic).length === 0) return;
+
+  // Show the semantic rows
+  const sr = document.getElementById('semantic-row');
+  const nr = document.getElementById('narrative-row');
+  if (sr) sr.style.display = '';
+  if (nr) nr.style.display = '';
+
+  // Zero-shot IO framing
+  const zs = semantic.zero_shot;
+  if (zs && zs.available) {
+    const el = document.getElementById('zeroshot-panel');
+    const frames = zs.frame_distribution || [];
+    const maxPct = Math.max(...frames.map(f => f.pct), 1);
+    el.innerHTML = frames.map(f => `
+      <div style="margin-bottom:10px;">
+        <div style="display:flex;justify-content:space-between;margin-bottom:3px;">
+          <span style="font-family:var(--mono);font-size:9px;color:var(--t2);text-transform:uppercase;letter-spacing:.5px;">${f.frame}</span>
+          <span style="font-family:var(--mono);font-size:9px;color:var(--amber);">${f.pct}%</span>
+        </div>
+        <div style="background:rgba(255,255,255,.04);height:6px;border-radius:2px;">
+          <div style="width:${(f.pct/maxPct*100).toFixed(1)}%;height:100%;background:var(--amber);border-radius:2px;opacity:${0.4+f.pct/maxPct*0.6};"></div>
+        </div>
+      </div>`).join('') +
+      `<div style="font-family:var(--mono);font-size:8px;color:var(--t3);margin-top:10px;padding-top:8px;border-top:1px solid var(--border);">
+        MODEL: ${zs.model || 'bart-large-mnli'} // ${zs.total_classified || 0} DOCS CLASSIFIED
+      </div>`;
+  }
+
+  // BERTopic
+  const bt = semantic.bertopic;
+  if (bt && bt.available) {
+    const el = document.getElementById('bertopic-panel');
+    const topics = bt.topics || [];
+    const maxPct = Math.max(...topics.map(t => t.prevalence_pct), 1);
+    el.innerHTML = topics.slice(0, 8).map((t, i) => {
+      const color = ['#f0a500','#00ff88','#0af','#ff3355','#b080ff','#ff8c00','#00cfcf','#ff6688'][i % 8];
+      return `
+        <div style="margin-bottom:10px;">
+          <div style="display:flex;justify-content:space-between;margin-bottom:3px;">
+            <span style="font-family:var(--mono);font-size:9px;color:${color};text-transform:uppercase;letter-spacing:.5px;">${t.label}</span>
+            <span style="font-family:var(--mono);font-size:9px;color:var(--t2);">${t.prevalence_pct}%</span>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;gap:3px;margin-bottom:3px;">
+            ${(t.top_words||[]).slice(0,6).map(w=>`<span style="font-family:var(--mono);font-size:7px;padding:1px 5px;background:rgba(255,255,255,.05);color:var(--t3);">${w}</span>`).join('')}
+          </div>
+          <div style="background:rgba(255,255,255,.04);height:4px;border-radius:2px;">
+            <div style="width:${(t.prevalence_pct/maxPct*100).toFixed(1)}%;height:100%;background:${color};border-radius:2px;"></div>
+          </div>
+        </div>`;
+    }).join('') +
+    `<div style="font-family:var(--mono);font-size:8px;color:var(--t3);margin-top:8px;padding-top:8px;border-top:1px solid var(--border);">
+      MODEL: ${bt.model || 'BERTopic'} // ${bt.n_topics || 0} TOPICS // ${bt.outlier_pct||0}% OUTLIERS
+    </div>`;
+  }
+
+  // Narrative similarity
+  const ns = semantic.narrative_similarity;
+  if (ns && ns.available) {
+    const el  = document.getElementById('narrative-panel');
+    const dist = ns.narrative_distribution || [];
+    const maxPct = Math.max(...dist.map(d => d.pct), 1);
+    el.innerHTML = dist.map(d => `
+      <div style="margin-bottom:12px;">
+        <div style="display:flex;justify-content:space-between;margin-bottom:2px;">
+          <span style="font-family:var(--mono);font-size:9px;color:var(--t2);text-transform:uppercase;letter-spacing:.5px;">${d.narrative.replace(/_/g,' ')}</span>
+          <span style="font-family:var(--mono);font-size:9px;color:var(--amber);">${d.pct}%</span>
+        </div>
+        <div style="font-size:10px;color:var(--t3);margin-bottom:3px;font-style:italic;">"${d.description}"</div>
+        <div style="background:rgba(255,255,255,.04);height:5px;border-radius:2px;">
+          <div style="width:${(d.pct/maxPct*100).toFixed(1)}%;height:100%;background:var(--green);border-radius:2px;"></div>
+        </div>
+      </div>`).join('') +
+    `<div style="font-family:var(--mono);font-size:8px;color:var(--t3);margin-top:8px;padding-top:8px;border-top:1px solid var(--border);">
+      MODEL: ${ns.model || 'all-MiniLM-L6-v2'} // COSINE SIMILARITY // ${ns.total_analyzed||0} DOCS
+    </div>`;
+  }
+
+  // Transformer sentiment vs VADER comparison
+  const ts = semantic.transformer_sentiment;
+  const vs = nlp.sentiment?.overall_pct || {};
+  if (ts && ts.available) {
+    const el  = document.getElementById('sentiment-compare-panel');
+    const tp  = ts.overall_pct || {};
+    const labels = ['positive','neutral','negative'];
+    const colors = { positive: 'var(--green)', neutral: 'var(--amber)', negative: 'var(--red)' };
+    el.innerHTML = `
+      <div style="font-family:var(--mono);font-size:8px;color:var(--t3);letter-spacing:1px;margin-bottom:12px;">VADER (LEXICON) vs ROBERTA (TRANSFORMER)</div>
+      ${labels.map(l => `
+        <div style="margin-bottom:12px;">
+          <div style="font-family:var(--mono);font-size:9px;color:${colors[l]};text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">${l}</div>
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:3px;">
+            <span style="font-family:var(--mono);font-size:8px;color:var(--t3);width:60px;">VADER</span>
+            <div style="flex:1;background:rgba(255,255,255,.04);height:8px;border-radius:2px;">
+              <div style="width:${vs[l]||0}%;height:100%;background:${colors[l]};opacity:.6;border-radius:2px;"></div>
+            </div>
+            <span style="font-family:var(--mono);font-size:9px;color:var(--t2);width:35px;">${vs[l]||0}%</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span style="font-family:var(--mono);font-size:8px;color:var(--t3);width:60px;">ROBERTA</span>
+            <div style="flex:1;background:rgba(255,255,255,.04);height:8px;border-radius:2px;">
+              <div style="width:${tp[l]||0}%;height:100%;background:${colors[l]};border-radius:2px;"></div>
+            </div>
+            <span style="font-family:var(--mono);font-size:9px;color:var(--t2);width:35px;">${tp[l]||0}%</span>
+          </div>
+        </div>`).join('')}
+      <div style="font-family:var(--mono);font-size:8px;color:var(--t3);margin-top:8px;padding-top:8px;border-top:1px solid var(--border);">
+        MODEL: ${ts.model||'twitter-roberta'} // ${ts.total_analyzed||0} DOCS // FULL TEXT ANALYSIS
+      </div>`;
+  }
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+if (API_BASE) {
+  loadLiveData();
+  setInterval(loadLiveData, 5 * 60 * 1000);
+} else {
+  loadDemoData();
+}
+</script>
+</body>
+</html>

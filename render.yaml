@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: meridian
+    runtime: python
+    buildCommand: pip install -r requirements-server.txt
+    startCommand: gunicorn server:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHONUTF8
+        value: "1"
+      - key: PYTHON_VERSION
+        value: "3.11.0"

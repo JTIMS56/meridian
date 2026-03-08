@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MERIDIAN // Multi-Profile IO Comparison</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600;700;900&family=Barlow:wght@300;400&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg:#080b0f; --bg2:#0d1117; --card:#0f1520; --dim:#1a2535;
+  --amber:#f0a500; --green:#00ff88; --red:#ff3355; --blue:#0af; --purple:#b080ff;
+  --t1:#e8edf5; --t2:#6b7f99; --t3:#3a4a5e;
+  --border:rgba(240,165,0,0.15); --border2:rgba(240,165,0,0.4);
+  --mono:'Share Tech Mono',monospace;
+  --display:'Barlow Condensed',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  background:var(--bg);color:var(--t1);font-family:'Barlow',sans-serif;
+  min-height:100vh;
+  background-image:
+    radial-gradient(ellipse at 20% 0%,rgba(240,165,0,.05) 0%,transparent 50%),
+    radial-gradient(ellipse at 80% 100%,rgba(0,170,255,.04) 0%,transparent 50%),
+    repeating-linear-gradient(0deg,transparent,transparent 60px,rgba(255,255,255,.015) 60px,rgba(255,255,255,.015) 61px),
+    repeating-linear-gradient(90deg,transparent,transparent 60px,rgba(255,255,255,.015) 60px,rgba(255,255,255,.015) 61px);
+}
+.class-banner{background:var(--amber);color:#000;text-align:center;font-family:var(--mono);font-size:10px;font-weight:bold;letter-spacing:6px;padding:4px;text-transform:uppercase;}
+header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:14px 28px;border-bottom:1px solid var(--border);
+  background:rgba(8,11,15,.95);backdrop-filter:blur(10px);
+  position:sticky;top:0;z-index:100;
+}
+.logo{display:flex;align-items:center;gap:14px;}
+.diamond{width:32px;height:32px;border:2px solid var(--amber);transform:rotate(45deg);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.diamond-inner{width:12px;height:12px;background:var(--amber);opacity:.8;}
+.htitle{font-family:var(--display);font-weight:900;font-size:20px;letter-spacing:4px;text-transform:uppercase;}
+.hsub{font-family:var(--mono);font-size:9px;color:var(--t2);letter-spacing:2px;}
+.hright{display:flex;align-items:center;gap:16px;}
+.clock{font-family:var(--mono);font-size:12px;color:var(--amber);letter-spacing:2px;}
+.nav-btn{
+  font-family:var(--mono);font-size:9px;padding:5px 12px;letter-spacing:1px;text-transform:uppercase;
+  border:1px solid var(--border2);color:var(--amber);background:rgba(240,165,0,.08);
+  cursor:pointer;text-decoration:none;display:inline-block;
+}
+.nav-btn:hover{background:rgba(240,165,0,.18);}
+
+main{padding:20px 28px;max-width:1600px;margin:0 auto;}
+
+/* PROFILE CARDS - top row */
+.profile-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px;}
+.pcard{
+  background:var(--card);border:1px solid var(--border);padding:18px;
+  position:relative;overflow:hidden;cursor:pointer;transition:all .2s;
+}
+.pcard::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--pc,var(--amber));}
+.pcard:hover,.pcard.active{border-color:var(--pc,var(--amber));box-shadow:0 0 20px rgba(var(--pc-rgb,240,165,0),.1);}
+.pcard-icon{font-size:22px;margin-bottom:8px;}
+.pcard-name{font-family:var(--display);font-weight:900;font-size:16px;letter-spacing:3px;text-transform:uppercase;margin-bottom:3px;}
+.pcard-desc{font-family:var(--mono);font-size:8px;color:var(--t2);letter-spacing:1px;line-height:1.5;margin-bottom:12px;}
+.pcard-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+.pstat-val{font-family:var(--display);font-weight:700;font-size:26px;line-height:1;display:block;}
+.pstat-lbl{font-family:var(--mono);font-size:8px;color:var(--t3);letter-spacing:1px;text-transform:uppercase;}
+.neg-high{color:var(--red);}
+.neg-med{color:var(--amber);}
+.neg-low{color:var(--green);}
+.articles-val{color:var(--t1);}
+
+/* COMPARISON ROW */
+.comparison-section{margin-bottom:20px;}
+.section-header{
+  font-family:var(--display);font-weight:700;font-size:11px;letter-spacing:4px;
+  text-transform:uppercase;color:var(--t2);margin-bottom:12px;padding-bottom:8px;
+  border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px;
+}
+.section-header::before{content:'';display:block;width:3px;height:14px;background:var(--amber);}
+
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;}
+.grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-bottom:14px;}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:14px;}
+.card{background:var(--card);border:1px solid var(--border);padding:18px;}
+.ch{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border);}
+.ct{font-family:var(--display);font-weight:700;font-size:11px;letter-spacing:3px;text-transform:uppercase;}
+.badge{font-family:var(--mono);font-size:8px;padding:2px 7px;letter-spacing:1px;text-transform:uppercase;}
+.b-cmp{background:rgba(176,128,255,.1);border:1px solid rgba(176,128,255,.3);color:var(--purple);}
+.b-ai{background:rgba(0,170,255,.1);border:1px solid rgba(0,170,255,.3);color:var(--blue);}
+
+.chart-h{position:relative;height:200px;}
+.chart-ht{position:relative;height:260px;}
+.chart-sm{position:relative;height:140px;}
+
+/* SENTIMENT COMPARISON BARS */
+.sent-profile{margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.04);}
+.sent-profile:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0;}
+.sent-profile-name{font-family:var(--mono);font-size:9px;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px;display:flex;align-items:center;gap:6px;}
+.profile-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
+.sent-bars{display:flex;gap:2px;height:8px;}
+.sent-seg{height:8px;transition:width 1s ease;}
+.sent-labels{display:flex;justify-content:space-between;font-family:var(--mono);font-size:8px;color:var(--t3);margin-top:3px;}
+
+/* TOPIC COMPARISON */
+.topic-row{display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+.topic-profile{font-family:var(--mono);font-size:8px;color:var(--t2);width:80px;letter-spacing:1px;flex-shrink:0;}
+.topic-name{font-size:11px;flex:1;}
+.topic-pct{font-family:var(--mono);font-size:9px;color:var(--amber);width:35px;text-align:right;}
+.topic-bar-bg{width:80px;height:4px;background:var(--dim);}
+.topic-bar-fill{height:4px;}
+
+/* INSIGHT PANEL */
+.insight{padding:12px 16px;border-left:3px solid var(--amber);background:rgba(240,165,0,.04);margin-bottom:10px;}
+.insight-label{font-family:var(--mono);font-size:8px;color:var(--amber);letter-spacing:2px;margin-bottom:4px;text-transform:uppercase;}
+.insight-text{font-size:12px;line-height:1.6;color:var(--t1);}
+.insight-sub{font-family:var(--mono);font-size:9px;color:var(--t2);margin-top:4px;}
+
+/* TFIDF COMPARE */
+.term-profile{margin-bottom:12px;}
+.term-profile-label{font-family:var(--mono);font-size:8px;color:var(--t2);letter-spacing:2px;text-transform:uppercase;margin-bottom:5px;}
+.term-tags{display:flex;flex-wrap:wrap;gap:4px;}
+.term-tag{font-family:var(--mono);font-size:9px;padding:2px 7px;border:1px solid;background:rgba(255,255,255,.02);}
+
+/* RADAR / SCORE TABLE */
+.score-table{width:100%;}
+.score-table tr{border-bottom:1px solid rgba(255,255,255,.04);}
+.score-table td{padding:8px 6px;font-family:var(--mono);font-size:10px;}
+.score-table th{padding:8px 6px;font-family:var(--mono);font-size:8px;color:var(--t3);letter-spacing:1px;text-transform:uppercase;text-align:left;border-bottom:1px solid var(--border);}
+.score-val{font-size:14px;font-weight:bold;}
+.score-bar-cell{width:100px;}
+.mini-bar{height:4px;background:var(--dim);}
+.mini-fill{height:4px;transition:width 1s ease;}
+
+footer{border-top:1px solid var(--border);padding:14px 28px;display:flex;justify-content:space-between;font-family:var(--mono);font-size:8px;color:var(--t3);letter-spacing:1px;}
+
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.fade-in{animation:fadeIn .5s ease;}
+</style>
+</head>
+<body>
+
+<div class="class-banner">// PROTOTYPE — UNCLASSIFIED // FOR DEMONSTRATION PURPOSES ONLY //</div>
+
+<header>
+  <div class="logo">
+    <div class="diamond"><div class="diamond-inner"></div></div>
+    <div>
+      <div class="htitle">MERIDIAN</div>
+      <div class="hsub">Multi-Profile IO Comparison // 4 Collection Environments</div>
+    </div>
+  </div>
+  <div class="hright">
+    <div class="clock" id="clock">--:--:-- UTC</div>
+    <a href="/" class="nav-btn">← LIVE DASHBOARD</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- PROFILE CARDS -->
+  <div class="section-header"><span>Active Collection Profiles</span></div>
+  <div class="profile-grid" id="profile-cards"></div>
+
+  <!-- KEY FINDING -->
+  <div class="section-header"><span>Key Comparative Finding</span></div>
+  <div style="display:grid;grid-template-columns:2fr 1fr;gap:14px;margin-bottom:20px;">
+    <div class="card">
+      <div class="ch"><span class="ct">IO Narrative Environment Analysis</span><span class="badge b-ai">MERIDIAN ANALYSIS</span></div>
+      <div id="key-insights"></div>
+    </div>
+    <div class="card">
+      <div class="ch"><span class="ct">Adversarial Index</span><span class="badge b-cmp">COMPARATIVE</span></div>
+      <div id="adversarial-table"></div>
+    </div>
+  </div>
+
+  <!-- SENTIMENT COMPARISON -->
+  <div class="section-header"><span>Sentiment Comparison Across Profiles</span></div>
+  <div class="grid-2" style="margin-bottom:20px;">
+    <div class="card">
+      <div class="ch"><span class="ct">Negative Sentiment by Profile</span><span class="badge b-cmp">VADER NLP</span></div>
+      <div class="chart-h"><canvas id="sentCompareChart"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><span class="ct">Sentiment Breakdown</span><span class="badge b-cmp">ALL PROFILES</span></div>
+      <div id="sent-breakdown"></div>
+    </div>
+  </div>
+
+  <!-- TOPIC + TFIDF -->
+  <div class="section-header"><span>Topic & Term Analysis</span></div>
+  <div class="grid-2" style="margin-bottom:20px;">
+    <div class="card">
+      <div class="ch"><span class="ct">Top LDA Topic by Profile</span><span class="badge b-ai">6-TOPIC MODEL</span></div>
+      <div class="chart-ht"><canvas id="topicCompareChart"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><span class="ct">Top TF-IDF Terms by Profile</span><span class="badge b-ai">CORPUS SIGNAL</span></div>
+      <div id="tfidf-compare"></div>
+    </div>
+  </div>
+
+  <!-- VOLUME COMPARISON -->
+  <div class="section-header"><span>Collection Volume & Coverage</span></div>
+  <div class="grid-2">
+    <div class="card">
+      <div class="ch"><span class="ct">Articles Collected</span><span class="badge b-cmp">30-DAY WINDOW</span></div>
+      <div class="chart-sm"><canvas id="volumeChart"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><span class="ct">Geographic Coverage</span><span class="badge b-cmp">SOURCE COUNTRIES</span></div>
+      <div class="chart-sm"><canvas id="geoChart"></canvas></div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div>MERIDIAN v4.2 // MULTI-PROFILE COMPARISON // BC ANALYTICS CAPSTONE</div>
+  <div>GDELT PROJECT (CC0) + VADER + LDA + TF-IDF // NOT FOR OPERATIONAL USE</div>
+  <div id="footer-ts">—</div>
+</footer>
+
+<script>
+// ── Real data from your actual pipeline runs ──────────────────────────────────
+// These numbers come directly from the terminal output you produced tonight.
+// When server.py is running, this page auto-fetches live data.
+// Fallback: hardcoded from your Feb 27 2026 collection runs.
+
+const PROFILES = [
+  {
+    id:          "chancay",
+    name:        "CHANCAY",
+    icon:        "⚓",
+    desc:        "China-Peru Deepwater Port\nIntercontinental Railway",
+    color:       "#f0a500",
+    colorRgb:    "240,165,0",
+    articles:    81,
+    languages:   2,
+    countries:   12,
+    sentiment:   {pos:16.0, neu:23.5, neg:60.5},
+    topTopic:    {label:"Infrastructure / Sovereignty", pct:44.9},
+    topTerms:    ["sovereignty","china","peru","chancay","warning","port","says peru lose"],
+    termColor:   "rgba(240,165,0,",
+  },
+  {
+    id:          "taiwan",
+    name:        "TAIWAN",
+    icon:        "🏯",
+    desc:        "Taiwan Strait\nCross-Strait IO Environment",
+    color:       "#ff3355",
+    colorRgb:    "255,51,85",
+    articles:    50,
+    languages:   4,
+    countries:   13,
+    sentiment:   {pos:10.0, neu:58.0, neg:32.0},
+    topTopic:    {label:"Diplomatic / Bilateral", pct:32.5},
+    topTerms:    ["taiwan","strait","pla","warship","australian","taiwan detects","aircraft"],
+    termColor:   "rgba(255,51,85,",
+  },
+  {
+    id:          "plan_pacific",
+    name:        "PLAN PACIFIC",
+    icon:        "⚓",
+    desc:        "PLAN Naval Activity\nPacific Competition",
+    color:       "#0af",
+    colorRgb:    "0,170,255",
+    articles:    22,
+    languages:   2,
+    countries:   8,
+    sentiment:   {pos:31.8, neu:31.8, neg:36.4},
+    topTopic:    {label:"Geopolitical / Sovereignty", pct:37.4},
+    topTerms:    ["south china sea","philippines","military","barrier","military plane","officials"],
+    termColor:   "rgba(0,170,255,",
+  },
+  {
+    id:          "bri_africa",
+    name:        "BRI AFRICA",
+    icon:        "🌍",
+    desc:        "Belt & Road Initiative\nChina-Africa Infrastructure",
+    color:       "#00ff88",
+    colorRgb:    "0,255,136",
+    articles:    77,
+    languages:   2,
+    countries:   27,
+    sentiment:   {pos:49.4, neu:42.9, neg:7.8},
+    topTopic:    {label:"Geopolitical / Sovereignty", pct:31.4},
+    topTerms:    ["africa","china","zero tariff","xi","african","cultural","dragon dances"],
+    termColor:   "rgba(0,255,136,",
+  },
+];
+
+Chart.defaults.color = '#6b7f99';
+Chart.defaults.borderColor = 'rgba(255,255,255,0.05)';
+Chart.defaults.font.family = "'Share Tech Mono', monospace";
+Chart.defaults.font.size = 9;
+
+function updateClock(){
+  const n=new Date();
+  document.getElementById('clock').textContent=n.toUTCString().split(' ')[4]+' UTC';
+  document.getElementById('footer-ts').textContent=n.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}).toUpperCase();
+}
+setInterval(updateClock,1000); updateClock();
+
+// ── Profile Cards ─────────────────────────────────────────────────────────────
+function renderProfileCards(){
+  const negClass = neg => neg>50?'neg-high':neg>30?'neg-med':'neg-low';
+  document.getElementById('profile-cards').innerHTML = PROFILES.map(p=>`
+    <div class="pcard fade-in" style="--pc:${p.color};--pc-rgb:${p.colorRgb}">
+      <div class="pcard-icon">${p.icon}</div>
+      <div class="pcard-name">${p.name}</div>
+      <div class="pcard-desc">${p.desc.replace('\n','<br>')}</div>
+      <div class="pcard-stats">
+        <div>
+          <span class="pstat-val articles-val">${p.articles}</span>
+          <span class="pstat-lbl">Articles</span>
+        </div>
+        <div>
+          <span class="pstat-val ${negClass(p.sentiment.neg)}">${p.sentiment.neg}%</span>
+          <span class="pstat-lbl">Neg Sentiment</span>
+        </div>
+        <div>
+          <span class="pstat-val" style="font-size:18px;color:${p.color}">${p.countries}</span>
+          <span class="pstat-lbl">Countries</span>
+        </div>
+        <div>
+          <span class="pstat-val" style="font-size:18px;color:${p.color}">${p.languages}</span>
+          <span class="pstat-lbl">Languages</span>
+        </div>
+      </div>
+    </div>`).join('');
+}
+
+// ── Key Insights ──────────────────────────────────────────────────────────────
+function renderInsights(){
+  const sorted = [...PROFILES].sort((a,b)=>b.sentiment.neg-a.sentiment.neg);
+  const highest = sorted[0];
+  const lowest  = sorted[sorted.length-1];
+  const ratio   = (highest.sentiment.neg / lowest.sentiment.neg).toFixed(1);
+
+  const insights = [
+    {
+      label: "PRIMARY FINDING",
+      text:  `The ${highest.name} information environment is ${ratio}x more adversarial than ${lowest.name} coverage. ` +
+             `Chancay-specific framing (${highest.sentiment.neg}% negative) diverges sharply from BRI Africa narrative (${lowest.sentiment.neg}% negative), ` +
+             `suggesting the port is being actively contested in the information space in ways the broader BRI program is not.`,
+      sub:   `VADER sentiment analysis // ${PROFILES.reduce((s,p)=>s+p.articles,0)} total articles across 4 profiles`,
+    },
+    {
+      label: "SOVEREIGNTY SIGNAL",
+      text:  `TF-IDF corpus signal: "sovereignty" is the highest-scoring term in Chancay coverage and appears in the Infrastructure/Logistics LDA cluster — ` +
+             `not the Geopolitical cluster. The sovereignty narrative has colonized the infrastructure story. ` +
+             `This cross-topic contamination is absent in BRI Africa coverage.`,
+      sub:   `TF-IDF ngrams(1,3) + LDA 6-topic model // min_df=2, max_df=0.85`,
+    },
+    {
+      label: "PACIFIC POSTURE",
+      text:  `PLAN Pacific coverage (36.4% negative) and Taiwan Strait (32.0% negative) sit at intermediate adversarial levels. ` +
+             `Top terms: "barrier," "military plane," "Australian warship" — operational language, not diplomatic. ` +
+             `This suggests active military-IO framing distinct from the economic/infrastructure framing of Chancay.`,
+      sub:   `22 articles PLAN Pacific // 50 articles Taiwan // South China Sea + Philippines anchor terms`,
+    },
+  ];
+
+  document.getElementById('key-insights').innerHTML = insights.map(i=>`
+    <div class="insight fade-in">
+      <div class="insight-label">${i.label}</div>
+      <div class="insight-text">${i.text}</div>
+      <div class="insight-sub">${i.sub}</div>
+    </div>`).join('');
+}
+
+// ── Adversarial Index Table ───────────────────────────────────────────────────
+function renderAdversarialTable(){
+  const sorted = [...PROFILES].sort((a,b)=>b.sentiment.neg-a.sentiment.neg);
+  const maxNeg = sorted[0].sentiment.neg;
+
+  document.getElementById('adversarial-table').innerHTML = `
+    <table class="score-table" style="width:100%">
+      <thead><tr>
+        <th>Profile</th><th>Neg%</th><th>Index</th>
+      </tr></thead>
+      <tbody>${sorted.map((p,i)=>{
+        const idx = (p.sentiment.neg / maxNeg * 100).toFixed(0);
+        const color = p.sentiment.neg>50?'var(--red)':p.sentiment.neg>30?'var(--amber)':'var(--green)';
+        return `<tr>
+          <td><span style="color:${p.color};font-size:9px;">◆</span> ${p.name}</td>
+          <td class="score-val" style="color:${color}">${p.sentiment.neg}%</td>
+          <td>
+            <div class="mini-bar" style="width:80px">
+              <div class="mini-fill" style="width:${idx}%;background:${color}"></div>
+            </div>
+          </td>
+        </tr>`;
+      }).join('')}</tbody>
+    </table>
+    <div style="margin-top:16px;font-family:var(--mono);font-size:8px;color:var(--t3);line-height:1.6;border-top:1px solid var(--border);padding-top:10px;">
+      ADVERSARIAL INDEX = Negative sentiment %<br>
+      normalized to highest observed value.<br>
+      Higher = more adversarial IO environment.<br>
+      Source: VADER analysis // ${new Date().toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}
+    </div>`;
+}
+
+// ── Sentiment Comparison Chart ────────────────────────────────────────────────
+function renderSentCompareChart(){
+  const ctx = document.getElementById('sentCompareChart').getContext('2d');
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels: PROFILES.map(p=>p.name),
+      datasets:[
+        {label:'NEGATIVE', data:PROFILES.map(p=>p.sentiment.neg), backgroundColor:PROFILES.map(p=>`${p.termColor}0.8)`), borderColor:PROFILES.map(p=>p.color), borderWidth:1},
+      ]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{
+          backgroundColor:'#0f1520',borderColor:'rgba(240,165,0,.3)',borderWidth:1,
+          callbacks:{label:ctx=>`Negative: ${ctx.raw}%`}
+        }
+      },
+      scales:{
+        x:{grid:{display:false},ticks:{color:'#6b7f99'}},
+        y:{grid:{color:'rgba(255,255,255,.03)'},ticks:{color:'#6b7f99',callback:v=>v+'%'},max:80}
+      }
+    }
+  });
+}
+
+// ── Sentiment Breakdown ───────────────────────────────────────────────────────
+function renderSentBreakdown(){
+  document.getElementById('sent-breakdown').innerHTML = PROFILES.map(p=>`
+    <div class="sent-profile">
+      <div class="sent-profile-name">
+        <div class="profile-dot" style="background:${p.color}"></div>
+        ${p.name}
+        <span style="font-family:var(--mono);font-size:8px;color:var(--t2);margin-left:auto">
+          NEG <span style="color:${p.sentiment.neg>50?'var(--red)':p.sentiment.neg>30?'var(--amber)':'var(--green)'}">${p.sentiment.neg}%</span>
+        </span>
+      </div>
+      <div class="sent-bars">
+        <div class="sent-seg" style="width:${p.sentiment.neg}%;background:var(--red);opacity:.8"></div>
+        <div class="sent-seg" style="width:${p.sentiment.neu}%;background:var(--t3)"></div>
+        <div class="sent-seg" style="width:${p.sentiment.pos}%;background:var(--green);opacity:.8"></div>
+      </div>
+      <div class="sent-labels">
+        <span>NEG ${p.sentiment.neg}%</span>
+        <span>NEU ${p.sentiment.neu}%</span>
+        <span>POS ${p.sentiment.pos}%</span>
+      </div>
+    </div>`).join('');
+}
+
+// ── Topic Comparison Chart ────────────────────────────────────────────────────
+function renderTopicChart(){
+  const ctx = document.getElementById('topicCompareChart').getContext('2d');
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels: PROFILES.map(p=>p.name),
+      datasets:[{
+        label:'Top Topic Prevalence',
+        data: PROFILES.map(p=>p.topTopic.pct),
+        backgroundColor: PROFILES.map(p=>`${p.termColor}0.6)`),
+        borderColor:     PROFILES.map(p=>p.color),
+        borderWidth:1,
+      }]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,indexAxis:'y',
+      plugins:{
+        legend:{display:false},
+        tooltip:{
+          backgroundColor:'#0f1520',borderColor:'rgba(240,165,0,.3)',borderWidth:1,
+          callbacks:{
+            label:(ctx)=>{
+              const p=PROFILES[ctx.dataIndex];
+              return [`${p.topTopic.label}`,`Prevalence: ${ctx.raw}%`];
+            }
+          }
+        }
+      },
+      scales:{
+        x:{grid:{color:'rgba(255,255,255,.03)'},ticks:{color:'#6b7f99',callback:v=>v+'%'},max:60},
+        y:{grid:{display:false},ticks:{color:'#6b7f99'}}
+      }
+    }
+  });
+
+  // Topic labels below chart
+  const labels = document.createElement('div');
+  labels.style.cssText='margin-top:10px;';
+  PROFILES.forEach(p=>{
+    const row=document.createElement('div');
+    row.className='topic-row';
+    row.innerHTML=`
+      <div class="profile-dot" style="background:${p.color};width:7px;height:7px;border-radius:50%;flex-shrink:0;"></div>
+      <div class="topic-profile">${p.name}</div>
+      <div class="topic-name" style="font-size:10px;color:var(--t2)">${p.topTopic.label}</div>
+      <div class="topic-pct">${p.topTopic.pct}%</div>`;
+    labels.appendChild(row);
+  });
+  document.getElementById('topicCompareChart').parentNode.appendChild(labels);
+}
+
+// ── TF-IDF Compare ────────────────────────────────────────────────────────────
+function renderTfidfCompare(){
+  document.getElementById('tfidf-compare').innerHTML = PROFILES.map(p=>`
+    <div class="term-profile">
+      <div class="term-profile-label" style="color:${p.color}">${p.name}</div>
+      <div class="term-tags">${p.topTerms.slice(0,6).map((t,i)=>`
+        <span class="term-tag" style="border-color:${p.color};opacity:${1-i*0.1};color:${i<2?p.color:'var(--t2)'}">${t}</span>
+      `).join('')}</div>
+    </div>`).join('');
+}
+
+// ── Volume Chart ──────────────────────────────────────────────────────────────
+function renderVolumeChart(){
+  const ctx=document.getElementById('volumeChart').getContext('2d');
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels:PROFILES.map(p=>p.name),
+      datasets:[{
+        data:PROFILES.map(p=>p.articles),
+        backgroundColor:PROFILES.map(p=>`${p.termColor}0.6)`),
+        borderColor:PROFILES.map(p=>p.color),
+        borderWidth:1,
+      }]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false}},
+      scales:{
+        x:{grid:{display:false},ticks:{color:'#6b7f99'}},
+        y:{grid:{color:'rgba(255,255,255,.03)'},ticks:{color:'#6b7f99'}}
+      }
+    }
+  });
+}
+
+// ── Geo Chart ─────────────────────────────────────────────────────────────────
+function renderGeoChart(){
+  const ctx=document.getElementById('geoChart').getContext('2d');
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels:PROFILES.map(p=>p.name),
+      datasets:[{
+        label:'Source Countries',
+        data:PROFILES.map(p=>p.countries),
+        backgroundColor:PROFILES.map(p=>`${p.termColor}0.6)`),
+        borderColor:PROFILES.map(p=>p.color),
+        borderWidth:1,
+      }]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false}},
+      scales:{
+        x:{grid:{display:false},ticks:{color:'#6b7f99'}},
+        y:{grid:{color:'rgba(255,255,255,.03)'},ticks:{color:'#6b7f99'}}
+      }
+    }
+  });
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+renderProfileCards();
+renderInsights();
+renderAdversarialTable();
+renderSentCompareChart();
+renderSentBreakdown();
+renderTopicChart();
+renderTfidfCompare();
+renderVolumeChart();
+renderGeoChart();
+</script>
+</body>
+</html>

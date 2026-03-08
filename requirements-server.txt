@@ -1,0 +1,4 @@
+# MERIDIAN // Server-only dependencies (for cloud deployment)
+flask>=3.0.0
+flask-cors>=4.0.0
+gunicorn>=21.0.0

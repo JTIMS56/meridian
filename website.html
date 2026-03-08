@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MERIDIAN // IO Intelligence Monitor</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600;700;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #080b0f; --bg2: #0d1117; --card: #0f1520;
+  --amber: #f0a500; --green: #00ff88; --red: #ff3355; --blue: #0af; --cyan: #00d4ff;
+  --dim: #1a2535; --t1: #e8edf5; --t2: #6b7f99; --t3: #3a4a5e;
+  --border: rgba(240,165,0,0.15); --border2: rgba(240,165,0,0.4);
+  --mono: 'Share Tech Mono', monospace;
+  --display: 'Barlow Condensed', sans-serif;
+  --body: 'Barlow', sans-serif;
+}
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg); color: var(--t1); font-family: var(--body);
+  min-height:100vh; overflow-x:hidden; line-height: 1.6;
+  background-image:
+    radial-gradient(ellipse at 15% 0%, rgba(240,165,0,0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 100%, rgba(0,170,255,0.04) 0%, transparent 50%),
+    repeating-linear-gradient(0deg,transparent,transparent 60px,rgba(255,255,255,0.015) 60px,rgba(255,255,255,0.015) 61px),
+    repeating-linear-gradient(90deg,transparent,transparent 60px,rgba(255,255,255,0.015) 60px,rgba(255,255,255,0.015) 61px);
+}
+::selection { background: rgba(240,165,0,0.3); color: #fff; }
+
+/* ── CLASSIFICATION BANNER ────────────────────────── */
+.class-banner {
+  background: var(--amber); color: #000; text-align: center;
+  font-family: var(--mono); font-size: 10px; font-weight: bold;
+  letter-spacing: 6px; padding: 4px; text-transform: uppercase;
+}
+
+/* ── NAV ──────────────────────────────────────────── */
+nav {
+  position: fixed; top: 24px; left: 0; right: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 28px; max-width: 1400px; margin: 0 auto;
+  background: rgba(8,11,15,0.92); backdrop-filter: blur(16px);
+  border: 1px solid var(--border); border-radius: 2px;
+}
+.nav-logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+.diamond { width: 28px; height: 28px; border: 2px solid var(--amber); transform: rotate(45deg); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.diamond-inner { width: 10px; height: 10px; background: var(--amber); opacity: .8; }
+.nav-title { font-family: var(--display); font-weight: 900; font-size: 16px; letter-spacing: 4px; text-transform: uppercase; color: var(--t1); }
+.nav-links { display: flex; gap: 4px; }
+.nav-links a {
+  font-family: var(--mono); font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase;
+  color: var(--t2); text-decoration: none; padding: 6px 14px;
+  border: 1px solid transparent; transition: all .2s;
+}
+.nav-links a:hover { color: var(--amber); border-color: var(--border2); background: rgba(240,165,0,0.06); }
+.nav-dash-btn {
+  font-family: var(--mono); font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase;
+  color: var(--amber); text-decoration: none; padding: 6px 16px;
+  border: 1px solid var(--border2); background: rgba(240,165,0,0.08); transition: all .2s;
+}
+.nav-dash-btn:hover { background: rgba(240,165,0,0.18); }
+
+/* ── HERO ─────────────────────────────────────────── */
+.hero {
+  min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; padding: 120px 28px 80px; position: relative;
+}
+.hero::before {
+  content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+  width: 600px; height: 600px; border-radius: 50%; opacity: 0.06;
+  background: radial-gradient(circle, var(--amber) 0%, transparent 70%);
+  pointer-events: none;
+}
+.hero-diamond {
+  width: 72px; height: 72px; border: 2px solid var(--amber); transform: rotate(45deg);
+  display: flex; align-items: center; justify-content: center; margin-bottom: 36px;
+  animation: spin-slow 20s linear infinite;
+}
+@keyframes spin-slow { from { transform: rotate(45deg); } to { transform: rotate(405deg); } }
+.hero-diamond-inner { width: 28px; height: 28px; background: var(--amber); opacity: .7; }
+.hero-eyebrow {
+  font-family: var(--mono); font-size: 11px; letter-spacing: 6px; color: var(--amber);
+  text-transform: uppercase; margin-bottom: 16px;
+}
+.hero h1 {
+  font-family: var(--display); font-weight: 900; font-size: clamp(48px, 8vw, 96px);
+  letter-spacing: 12px; text-transform: uppercase; line-height: 1;
+  background: linear-gradient(135deg, var(--t1) 0%, var(--amber) 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text; margin-bottom: 12px;
+}
+.hero-sub {
+  font-family: var(--display); font-weight: 300; font-size: clamp(18px, 3vw, 28px);
+  letter-spacing: 6px; text-transform: uppercase; color: var(--t2); margin-bottom: 36px;
+}
+.hero-meta {
+  font-family: var(--mono); font-size: 10px; color: var(--t3); letter-spacing: 2px;
+  text-transform: uppercase; line-height: 2;
+}
+.hero-meta span { color: var(--t2); }
+.hero-stats {
+  display: flex; gap: 48px; margin-top: 48px; padding-top: 36px;
+  border-top: 1px solid var(--border);
+}
+.hero-stat-val {
+  font-family: var(--mono); font-size: 32px; color: var(--amber); display: block;
+  line-height: 1;
+}
+.hero-stat-lbl {
+  font-family: var(--mono); font-size: 9px; color: var(--t3); letter-spacing: 2px;
+  text-transform: uppercase; margin-top: 6px;
+}
+.scroll-hint {
+  position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%);
+  font-family: var(--mono); font-size: 9px; color: var(--t3); letter-spacing: 2px;
+  text-transform: uppercase; animation: float 2s ease-in-out infinite;
+}
+@keyframes float { 0%,100%{transform:translateX(-50%) translateY(0);} 50%{transform:translateX(-50%) translateY(6px);} }
+
+/* ── SECTIONS ─────────────────────────────────────── */
+section { padding: 100px 28px; max-width: 1400px; margin: 0 auto; }
+.section-label {
+  font-family: var(--mono); font-size: 10px; letter-spacing: 4px; color: var(--amber);
+  text-transform: uppercase; margin-bottom: 10px;
+}
+.section-title {
+  font-family: var(--display); font-weight: 900; font-size: clamp(28px, 4vw, 44px);
+  letter-spacing: 4px; text-transform: uppercase; margin-bottom: 12px;
+}
+.section-desc {
+  font-family: var(--body); font-weight: 300; font-size: 16px; color: var(--t2);
+  max-width: 700px; line-height: 1.7; margin-bottom: 48px;
+}
+.divider {
+  width: 60px; height: 2px; background: var(--amber); margin-bottom: 48px; opacity: .6;
+}
+
+/* ── CARDS ────────────────────────────────────────── */
+.card {
+  background: var(--card); border: 1px solid var(--border); padding: 32px;
+  position: relative; overflow: hidden; transition: border-color .25s, transform .25s;
+}
+.card:hover { border-color: rgba(240,165,0,.35); transform: translateY(-2px); }
+.card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: var(--amber); opacity: .5;
+}
+.card-label {
+  font-family: var(--mono); font-size: 9px; letter-spacing: 3px; color: var(--amber);
+  text-transform: uppercase; margin-bottom: 10px;
+}
+.card-title {
+  font-family: var(--display); font-weight: 700; font-size: 22px; letter-spacing: 2px;
+  text-transform: uppercase; margin-bottom: 10px;
+}
+.card-text { font-weight: 300; font-size: 14px; color: var(--t2); line-height: 1.7; }
+
+/* ── OVERVIEW GRID ────────────────────────────────── */
+.overview-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.overview-stat {
+  background: var(--card); border: 1px solid var(--border); padding: 24px; text-align: center;
+}
+.overview-stat-val {
+  font-family: var(--mono); font-size: 28px; color: var(--green); display: block;
+}
+.overview-stat-lbl {
+  font-family: var(--mono); font-size: 9px; color: var(--t3); letter-spacing: 2px;
+  text-transform: uppercase; margin-top: 4px;
+}
+
+/* ── PROFILES ─────────────────────────────────────── */
+.profiles-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.profile-card { padding: 28px 28px 24px; }
+.profile-card .card-label { display: flex; align-items: center; gap: 8px; }
+.profile-icon {
+  width: 14px; height: 14px; border: 1.5px solid var(--amber); transform: rotate(45deg);
+  display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.profile-icon-inner { width: 5px; height: 5px; background: var(--amber); opacity: .7; }
+.profile-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.ptag {
+  font-family: var(--mono); font-size: 9px; letter-spacing: 1px; padding: 3px 10px;
+  border: 1px solid var(--dim); color: var(--t2); text-transform: uppercase;
+}
+
+/* ── ARCHITECTURE ─────────────────────────────────── */
+.arch-flow {
+  display: flex; align-items: stretch; gap: 0; margin-bottom: 48px;
+  flex-wrap: wrap; justify-content: center;
+}
+.arch-stage {
+  background: var(--card); border: 1px solid var(--border); padding: 24px 20px;
+  flex: 1; min-width: 180px; max-width: 240px; text-align: center;
+  position: relative; transition: border-color .2s;
+}
+.arch-stage:hover { border-color: rgba(240,165,0,.4); }
+.arch-stage-num {
+  font-family: var(--mono); font-size: 10px; color: var(--amber); letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+.arch-stage-title {
+  font-family: var(--display); font-weight: 700; font-size: 16px; letter-spacing: 2px;
+  text-transform: uppercase; margin-bottom: 8px;
+}
+.arch-stage-detail {
+  font-family: var(--mono); font-size: 10px; color: var(--t3); line-height: 1.8;
+}
+.arch-arrow {
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-size: 18px; color: var(--amber); padding: 0 8px;
+  opacity: .5;
+}
+
+/* ── NLP PIPELINE ─────────────────────────────────── */
+.pipeline-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.pipe-card { padding: 24px; }
+.pipe-card .card-title { font-size: 18px; }
+.pipe-tag {
+  display: inline-block; font-family: var(--mono); font-size: 9px; letter-spacing: 1px;
+  padding: 2px 8px; margin-bottom: 10px; text-transform: uppercase;
+}
+.pipe-tag.classic { border: 1px solid var(--blue); color: var(--blue); }
+.pipe-tag.semantic { border: 1px solid var(--green); color: var(--green); }
+.pipe-tag.entity { border: 1px solid var(--amber); color: var(--amber); }
+.pipe-lib {
+  font-family: var(--mono); font-size: 10px; color: var(--t3); margin-top: 10px;
+}
+
+/* ── FINDINGS ─────────────────────────────────────── */
+.findings-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.finding-card { padding: 28px; position: relative; }
+.finding-card::before { background: var(--kc, var(--amber)); }
+.finding-val {
+  font-family: var(--mono); font-size: 36px; line-height: 1; margin-bottom: 4px;
+}
+.finding-metric {
+  font-family: var(--mono); font-size: 10px; color: var(--t3); letter-spacing: 1px;
+  text-transform: uppercase; margin-bottom: 12px;
+}
+.finding-desc { font-weight: 300; font-size: 14px; color: var(--t2); line-height: 1.6; }
+
+/* ── TECH STACK ───────────────────────────────────── */
+.tech-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.tech-card { padding: 20px; text-align: center; }
+.tech-card .card-title { font-size: 14px; letter-spacing: 1px; }
+.tech-items {
+  font-family: var(--mono); font-size: 10px; color: var(--t2); line-height: 2;
+  margin-top: 10px;
+}
+
+/* ── DASHBOARD SECTION ────────────────────────────── */
+.dash-preview {
+  background: var(--card); border: 1px solid var(--border); padding: 3px;
+  margin-bottom: 24px; position: relative; overflow: hidden;
+}
+.dash-preview-inner {
+  background: var(--bg2); border: 1px solid rgba(240,165,0,0.08);
+  padding: 32px; text-align: center; min-height: 340px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+.dash-preview-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
+  width: 100%; max-width: 800px; margin-bottom: 24px;
+}
+.dash-mini-card {
+  background: rgba(240,165,0,0.04); border: 1px solid var(--border);
+  padding: 16px 10px; text-align: center;
+}
+.dash-mini-val { font-family: var(--mono); font-size: 20px; color: var(--green); }
+.dash-mini-lbl { font-family: var(--mono); font-size: 8px; color: var(--t3); letter-spacing: 1px; text-transform: uppercase; margin-top: 4px; }
+.dash-bar-row { display: flex; gap: 6px; width: 100%; max-width: 800px; height: 18px; }
+.dash-bar { border-radius: 1px; }
+.dash-panels {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 24px;
+}
+.dash-panel-card { padding: 20px; }
+.dash-panel-card .card-title { font-size: 14px; }
+.panel-list { list-style: none; margin-top: 10px; }
+.panel-list li {
+  font-family: var(--mono); font-size: 10px; color: var(--t2); padding: 3px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+.panel-list li::before { content: '//'; color: var(--amber); margin-right: 8px; opacity: .5; }
+
+/* ── DATA SOURCES ─────────────────────────────────── */
+.sources-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.source-card { padding: 24px; text-align: center; }
+.source-status {
+  display: inline-block; font-family: var(--mono); font-size: 9px; letter-spacing: 1px;
+  padding: 2px 10px; text-transform: uppercase; margin-top: 12px;
+}
+.source-status.online { border: 1px solid var(--green); color: var(--green); }
+.source-status.limited { border: 1px solid var(--amber); color: var(--amber); }
+.source-status.offline { border: 1px solid var(--red); color: var(--red); }
+
+/* ── FOOTER ───────────────────────────────────────── */
+footer {
+  border-top: 1px solid var(--border); padding: 48px 28px;
+  text-align: center; margin-top: 60px;
+}
+.footer-logo { display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 16px; }
+.footer-title { font-family: var(--display); font-weight: 700; font-size: 14px; letter-spacing: 4px; text-transform: uppercase; }
+.footer-text { font-family: var(--mono); font-size: 10px; color: var(--t3); letter-spacing: 1px; line-height: 2; }
+.footer-text a { color: var(--amber); text-decoration: none; }
+.footer-text a:hover { text-decoration: underline; }
+
+/* ── SCROLL ANIMATIONS ────────────────────────────── */
+.reveal {
+  opacity: 0; transform: translateY(24px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+/* ── RESPONSIVE ───────────────────────────────────── */
+@media (max-width: 1024px) {
+  .overview-grid { grid-template-columns: repeat(2, 1fr); }
+  .profiles-grid { grid-template-columns: 1fr; }
+  .pipeline-grid { grid-template-columns: 1fr; }
+  .tech-grid { grid-template-columns: repeat(2, 1fr); }
+  .sources-grid { grid-template-columns: repeat(2, 1fr); }
+  .dash-preview-grid { grid-template-columns: repeat(2, 1fr); }
+  .dash-panels { grid-template-columns: 1fr; }
+  .findings-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 768px) {
+  nav { flex-direction: column; gap: 10px; top: 0; border-radius: 0; }
+  .nav-links { flex-wrap: wrap; justify-content: center; }
+  .hero-stats { flex-direction: column; gap: 20px; align-items: center; }
+  .arch-flow { flex-direction: column; align-items: center; }
+  .arch-arrow { transform: rotate(90deg); padding: 8px 0; }
+  .overview-grid, .tech-grid, .sources-grid, .dash-preview-grid { grid-template-columns: 1fr; }
+  section { padding: 60px 16px; }
+}
+</style>
+</head>
+<body>
+
+<!-- CLASSIFICATION BANNER -->
+<div class="class-banner">UNCLASSIFIED // FOR ACADEMIC DEMONSTRATION PURPOSES ONLY</div>
+
+<!-- NAVIGATION -->
+<nav>
+  <a href="#" class="nav-logo">
+    <div class="diamond"><div class="diamond-inner"></div></div>
+    <span class="nav-title">MERIDIAN</span>
+  </a>
+  <div class="nav-links">
+    <a href="#overview">Overview</a>
+    <a href="#profiles">Profiles</a>
+    <a href="#architecture">Architecture</a>
+    <a href="#pipeline">Pipeline</a>
+    <a href="#findings">Findings</a>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#tech">Stack</a>
+    <a href="#" class="nav-dash-btn" title="Available when running locally via server.py">Live Dashboard</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-diamond"><div class="hero-diamond-inner"></div></div>
+  <div class="hero-eyebrow">Open-Source Intelligence Platform</div>
+  <h1>MERIDIAN</h1>
+  <div class="hero-sub">IO Intelligence Monitor</div>
+  <div class="hero-meta">
+    <span>Version 5.1</span> // BC Applied Analytics Capstone // March 2026<br>
+    David N. Belyn // <span>Applied Analytics + Applied Economics</span> // Boston College
+  </div>
+  <div class="hero-stats">
+    <div>
+      <span class="hero-stat-val">4</span>
+      <div class="hero-stat-lbl">Geopolitical Profiles</div>
+    </div>
+    <div>
+      <span class="hero-stat-val">10</span>
+      <div class="hero-stat-lbl">NLP Methods</div>
+    </div>
+    <div>
+      <span class="hero-stat-val">3</span>
+      <div class="hero-stat-lbl">Data Sources</div>
+    </div>
+    <div>
+      <span class="hero-stat-val">65+</span>
+      <div class="hero-stat-lbl">Languages Covered</div>
+    </div>
+  </div>
+  <div class="scroll-hint">Scroll to explore</div>
+</section>
+
+<!-- OVERVIEW -->
+<section id="overview">
+  <div class="reveal">
+    <div class="section-label">01 // System Overview</div>
+    <div class="section-title">Real-Time Information Operations Monitoring</div>
+    <div class="section-desc">
+      MERIDIAN ingests global news from the GDELT Project and social media from Bluesky and Telegram, applies a multi-layer NLP pipeline combining classical and transformer-based methods, and surfaces intelligence through a live web dashboard across four geopolitical monitoring profiles.
+    </div>
+    <div class="divider"></div>
+  </div>
+
+  <div class="overview-grid reveal">
+    <div class="overview-stat">
+      <span class="overview-stat-val">76</span>
+      <div class="overview-stat-lbl">Articles per Cycle</div>
+    </div>
+    <div class="overview-stat">
+      <span class="overview-stat-val">99</span>
+      <div class="overview-stat-lbl">Social Posts Typical</div>
+    </div>
+    <div class="overview-stat">
+      <span class="overview-stat-val">91%</span>
+      <div class="overview-stat-lbl">Full-Text Extraction</div>
+    </div>
+    <div class="overview-stat">
+      <span class="overview-stat-val">641</span>
+      <div class="overview-stat-lbl">Avg Words per Article</div>
+    </div>
+    <div class="overview-stat">
+      <span class="overview-stat-val" style="color:var(--amber)">$0</span>
+      <div class="overview-stat-lbl">Total API Cost</div>
+    </div>
+    <div class="overview-stat">
+      <span class="overview-stat-val">15min</span>
+      <div class="overview-stat-lbl">Pipeline Runtime</div>
+    </div>
+  </div>
+</section>
+
+<!-- DATA SOURCES -->
+<section id="sources">
+  <div class="reveal">
+    <div class="section-label">02 // Data Sources</div>
+    <div class="section-title">Multi-Platform Collection</div>
+    <div class="section-desc">
+      MERIDIAN collects from open-source news and social platforms. Each source provides a distinct signal layer for the NLP pipeline to analyze.
+    </div>
+    <div class="divider"></div>
+  </div>
+
+  <div class="sources-grid reveal">
+    <div class="card source-card">
+      <div class="card-label">News Corpus</div>
+      <div class="card-title">GDELT 2.0</div>
+      <div class="card-text">65+ language global news corpus. 11 profile-specific queries with anchor-term filtering. CC0 open data via REST API.</div>
+      <div class="source-status online">Operational</div>
+    </div>
+    <div class="card source-card">
+      <div class="card-label">Social // Decentralized</div>
+      <div class="card-title">Bluesky</div>
+      <div class="card-text">AT Protocol authenticated collection. 6 keyword queries per profile, ~99 posts per cycle. App password auth.</div>
+      <div class="source-status online">Operational</div>
+    </div>
+    <div class="card source-card">
+      <div class="card-label">Social // Encrypted</div>
+      <div class="card-title">Telegram</div>
+      <div class="card-text">Telethon API collection from 5 monitored channels per profile. Captures IO-adjacent messaging channels.</div>
+      <div class="source-status online">Operational</div>
+    </div>
+    <div class="card source-card">
+      <div class="card-label">Social // Restricted</div>
+      <div class="card-title">Reddit</div>
+      <div class="card-text">PRAW-based collection configured but blocked by Reddit Responsible Builder Policy enforcement since early 2026.</div>
+      <div class="source-status offline">Disabled</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROFILES -->
+<section id="profiles">
+  <div class="reveal">
+    <div class="section-label">03 // Operational Profiles</div>
+    <div class="section-title">Four Geopolitical Monitoring Environments</div>
+    <div class="section-desc">
+      Each profile defines a distinct collection and analysis scope with tailored queries, anchor terms, and entity watchlists tracking key actors in the information environment.
+    </div>
+    <div class="divider"></div>
+  </div>
+
+  <div class="profiles-grid reveal">
+    <div class="card profile-card">
+      <div class="card-label">
+        <div class="profile-icon"><div class="profile-icon-inner"></div></div>
+        Profile Alpha
+      </div>
+      <div class="card-title">CHANCAY</div>
+      <div class="card-text">China-Peru deepwater port and intercontinental railway. Monitors sovereignty narrative, COSCO investment, and Latin American BRI expansion.</div>
+      <div class="profile-tags">
+        <span class="ptag">Peru</span><span class="ptag">COSCO</span><span class="ptag">Sovereignty</span><span class="ptag">Port Infrastructure</span><span class="ptag">BRI LatAm</span>
+      </div>
+    </div>
+    <div class="card profile-card">
+      <div class="card-label">
+        <div class="profile-icon"><div class="profile-icon-inner"></div></div>
+        Profile Bravo
+      </div>
+      <div class="card-title">TAIWAN</div>
+      <div class="card-text">Taiwan Strait IO environment and cross-strait tensions. Tracks military posturing, TSMC semiconductor leverage, and independence narratives.</div>
+      <div class="profile-tags">
+        <span class="ptag">Cross-Strait</span><span class="ptag">TSMC</span><span class="ptag">PLA</span><span class="ptag">Independence</span><span class="ptag">Semiconductor</span>
+      </div>
+    </div>
+    <div class="card profile-card">
+      <div class="card-label">
+        <div class="profile-icon"><div class="profile-icon-inner"></div></div>
+        Profile Charlie
+      </div>
+      <div class="card-title">PLAN PACIFIC</div>
+      <div class="card-text">Chinese Navy Pacific expansion and US INDOPACOM competition. Monitors carrier strike activity, AUKUS, Quad alliance dynamics, and South China Sea.</div>
+      <div class="profile-tags">
+        <span class="ptag">South China Sea</span><span class="ptag">INDOPACOM</span><span class="ptag">AUKUS</span><span class="ptag">Carrier Ops</span><span class="ptag">PLAN</span>
+      </div>
+    </div>
+    <div class="card profile-card">
+      <div class="card-label">
+        <div class="profile-icon"><div class="profile-icon-inner"></div></div>
+        Profile Delta
+      </div>
+      <div class="card-title">BRI AFRICA</div>
+      <div class="card-text">Chinese Belt and Road infrastructure investment across Africa. Tracks debt-trap narratives, Djibouti base operations, and African Union dynamics.</div>
+      <div class="profile-tags">
+        <span class="ptag">Djibouti</span><span class="ptag">Kenya</span><span class="ptag">Debt Trap</span><span class="ptag">African Union</span><span class="ptag">Exim Bank</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ARCHITECTURE -->
+<section id="architecture">
+  <div class="reveal">
+    <div class="section-label">04 // System Architecture</div>
+    <div class="section-title">Four-Stage Pipeline</div>
+    <div class="section-desc">
+      Data flows through four sequential stages: collection, timeline aggregation, social ingestion, and multi-layer NLP analysis. Results merge into a single JSON payload served to the dashboard.
+    </div>
+    <div class="divider"></div>
+  </div>
+
+  <div class="arch-flow reveal">
+    <div class="arch-stage">
+      <div class="arch-stage-num">STAGE 01</div>
+      <div class="arch-stage-title">GDELT Collection</div>
+      <div class="arch-stage-detail">
+        11 queries per profile<br>
+        Anchor-term filtering<br>
+        Auto-translation<br>
+        ~76 articles
+      </div>
+    </div>
+    <div class="arch-arrow">&raquo;</div>
+    <div class="arch-stage">
+      <div class="arch-stage-num">STAGE 02</div>
+      <div class="arch-stage-title">Timeline</div>
+      <div class="arch-stage-detail">
+        30-day historical<br>
+        5-day aggregation<br>
+        Volume tracking<br>
+        Trend detection
+      </div>
+    </div>
+    <div class="arch-arrow">&raquo;</div>
+    <div class="arch-stage">
+      <div class="arch-stage-num">STAGE 03</div>
+      <div class="arch-stage-title">Social Ingestion</div>
+      <div class="arch-stage-detail">
+        Bluesky ~99 posts<br>
+        Telegram 5 channels<br>
+        Platform auth<br>
+        Keyword matching
+      </div>
+    </div>
+    <div class="arch-arrow">&raquo;</div>
+    <div class="arch-stage">
+      <div class="arch-stage-num">STAGE 04</div>
+      <div class="arch-stage-title">NLP Analysis</div>
+      <div class="arch-stage-detail">
+        10 methods total<br>
+        Classical + semantic<br>
+        Entity intelligence<br>
+        Full-text input
+      </div>
+    </div>
+    <div class="arch-arrow">&raquo;</div>
+    <div class="arch-stage">
+      <div class="arch-stage-num">OUTPUT</div>
+      <div class="arch-stage-title">Dashboard</div>
+      <div class="arch-stage-detail">
+        Flask REST API<br>
+        17 panels<br>
+        4-profile switch<br>
+        Live refresh
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NLP PIPELINE -->
+<section id="pipeline">
+  <div class="reveal">
+    <div class="section-label">05 // NLP Pipeline</div>
+    <div class="section-title">Ten Analytical Methods</div>
+    <div class="section-desc">
+      Combines classical statistical NLP with transformer-based semantic analysis and entity intelligence. Full-text article extraction provides 641-word average document depth.
+    </div>
+    <div class="divider"></div>
+  </div>
+
+  <div class="pipeline-grid reveal">
+    <div class="card pipe-card">
+      <span class="pipe-tag classic">Classical</span>
+      <div class="card-title">TF-IDF</div>
+      <div class="card-text">Term frequency-inverse document frequency with ngrams(1,3). Extracts top 30 corpus signal terms weighted by statistical importance.</div>
+      <div class="pipe-lib">scikit-learn // TfidfVectorizer</div>
+    </div>
+    <div class="card pipe-card">
+      <span class="pipe-tag classic">Classical</span>
+      <div class="card-title">LDA Topic Modeling</div>
+      <div class="card-text">Latent Dirichlet Allocation discovers 6 latent topics across the combined GDELT + social corpus using word co-occurrence patterns.</div>
+      <div class="pipe-lib">scikit-learn // LatentDirichletAllocation</div>
+    </div>
+    <div class="card pipe-card">
+      <span class="pipe-tag classic">Classical</span>
+      <div class="card-title">VADER Sentiment</div>
+      <div class="card-text">Lexicon-based sentiment analysis on translated text. Produces positive/neutral/negative distribution and by-language breakdowns.</div>
+      <div class="pipe-lib">vaderSentiment // SentimentIntensityAnalyzer</div>
+    </div>
+    <div class="card pipe-card">
+      <span class="pipe-tag classic">Classical</span>
+      <div class="card-title">spaCy NER</div>
+      <div class="card-text">Named entity recognition extracting PERSON, ORG, GPE, and LOC entities. Surfaces key actors and locations mentioned in the corpus.</div>
+      <div class="pipe-lib">spaCy // en_core_web_sm</div>
+    </div>
+    <div class="card pipe-card">
+      <span class="pipe-tag classic">Classical</span>
+      <div class="card-title">ARIMA Forecast</div>
+      <div class="card-text">Time-series volume forecasting with ARIMA(2,1,1) on 30-day timeline data. Projects article volume at 7, 30, 90, and 365-day horizons.</div>
+      <div class="pipe-lib">statsmodels // ARIMA</div>
+    </div>
+    <div class="card pipe-card">
+      <span class="pipe-tag semantic">Semantic</span>
+      <div class="card-title">BERTopic</div>
+      <div class="card-text">Transformer-based topic modeling using sentence embeddings, UMAP dimensionality reduction, and HDBSCAN clustering. Understands meaning, not just word frequency.</div>
+      <div class="pipe-lib">sentence-transformers // all-MiniLM-L6-v2</div>
+    </div>
+    <div class="card pipe-card">
+      <span class="pipe-tag semantic">Semantic</span>
+      <div class="card-title">Zero-Shot IO Framing</div>
+      <div class="card-text">NLI-based classification into 8 IO narrative frames without domain-specific training: influence operation, sovereignty threat, debt trap warning, and more.</div>
+      <div class="pipe-lib">facebook // bart-large-mnli</div>
+    </div>
+    <div class="card pipe-card">
+      <span class="pipe-tag semantic">Semantic</span>
+      <div class="card-title">Narrative Echo Detection</div>
+      <div class="card-text">Computes cosine similarity between corpus documents and 5 reference IO narratives. Detects which narratives dominate the information environment.</div>
+      <div class="pipe-lib">sentence-transformers // cosine similarity</div>
+    </div>
+    <div class="card pipe-card">
+      <span class="pipe-tag semantic">Semantic</span>
+      <div class="card-title">RoBERTa Sentiment</div>
+      <div class="card-text">Transformer sentiment fine-tuned for social text. Methodological triangulation against VADER reveals factual tone vs adversarial vocabulary divergence.</div>
+      <div class="pipe-lib">cardiffnlp // twitter-roberta-base-sentiment</div>
+    </div>
+    <div class="card pipe-card">
+      <span class="pipe-tag entity">Entity Intel</span>
+      <div class="card-title">Entity Intelligence</div>
+      <div class="card-text">Watchlist-based tracking of named persons, organizations, and locations per profile with mention counts, sentiment context, and co-occurrence mapping.</div>
+      <div class="pipe-lib">spaCy + VADER // per-profile watchlists</div>
+    </div>
+  </div>
+</section>
+
+<!-- FINDINGS -->
+<section id="findings">
+  <div class="reveal">
+    <div class="section-label">06 // Key Findings</div>
+    <div class="section-title">March 2026 Chancay Corpus</div>
+    <div class="section-desc">
+      Analytical results from the Chancay profile demonstrate the system's capacity to surface IO-relevant intelligence from open-source data.
+    </div>
+    <div class="divider"></div>
+  </div>
+
+  <div class="findings-grid reveal">
+    <div class="card finding-card" style="--kc:var(--red)">
+      <div class="finding-val" style="color:var(--red)">43.2%</div>
+      <div class="finding-metric">IO Frame Classification</div>
+      <div class="finding-desc">Influence operation framing dominant. Nearly half the corpus classified as IO-adjacent rather than neutral reporting by zero-shot NLI classification.</div>
+    </div>
+    <div class="card finding-card" style="--kc:var(--amber)">
+      <div class="finding-val" style="color:var(--amber)">71.7%</div>
+      <div class="finding-metric">Narrative Echo Similarity</div>
+      <div class="finding-desc">Sovereignty threat narrative dominates. Nearly 3 in 4 documents semantically closest to the "China threatening Peru sovereignty" reference narrative.</div>
+    </div>
+    <div class="card finding-card" style="--kc:var(--blue)">
+      <div class="finding-val" style="color:var(--blue)">43% / 83%</div>
+      <div class="finding-metric">VADER Neg vs RoBERTa Neutral</div>
+      <div class="finding-desc">VADER reads adversarial vocabulary (43% negative). RoBERTa reads neutral tone (83% neutral). Factual reporting of an adversarial situation — a key analytical divergence.</div>
+    </div>
+    <div class="card finding-card" style="--kc:var(--green)">
+      <div class="finding-val" style="color:var(--green)">+94%</div>
+      <div class="finding-metric">365-Day ARIMA Forecast</div>
+      <div class="finding-desc">Volume projected to nearly double over one year. ARIMA(2,1,1) forecast indicates growing media attention on the Chancay port information environment.</div>
+    </div>
+  </div>
+</section>
+
+<!-- DASHBOARD -->
+<section id="dashboard">
+  <div class="reveal">
+    <div class="section-label">07 // Live Dashboard</div>
+    <div class="section-title">17-Panel Intelligence Display</div>
+    <div class="section-desc">
+      Real-time web dashboard served via Flask at localhost:5000. Features profile switching, live data refresh, and a 4-profile comparison view.
+    </div>
+    <div class="divider"></div>
+  </div>
+
+  <div class="dash-preview reveal">
+    <div class="dash-preview-inner">
+      <div class="dash-preview-grid">
+        <div class="dash-mini-card">
+          <div class="dash-mini-val">76</div>
+          <div class="dash-mini-lbl">Articles</div>
+        </div>
+        <div class="dash-mini-card">
+          <div class="dash-mini-val" style="color:var(--red)">60.5%</div>
+          <div class="dash-mini-lbl">Negative Sentiment</div>
+        </div>
+        <div class="dash-mini-card">
+          <div class="dash-mini-val" style="color:var(--amber)">Infra</div>
+          <div class="dash-mini-lbl">Top Topic</div>
+        </div>
+        <div class="dash-mini-card">
+          <div class="dash-mini-val">+18.5%</div>
+          <div class="dash-mini-lbl">30-Day Forecast</div>
+        </div>
+      </div>
+      <div class="dash-bar-row">
+        <div class="dash-bar" style="flex:15.2;background:var(--green);opacity:.7"></div>
+        <div class="dash-bar" style="flex:23.9;background:var(--amber);opacity:.7"></div>
+        <div class="dash-bar" style="flex:60.9;background:var(--red);opacity:.7"></div>
+      </div>
+      <div style="font-family:var(--mono);font-size:9px;color:var(--t3);letter-spacing:2px;margin-top:10px;text-transform:uppercase">
+        Positive 15.2% &nbsp;&bull;&nbsp; Neutral 23.9% &nbsp;&bull;&nbsp; Negative 60.9%
+      </div>
+    </div>
+  </div>
+
+  <div class="dash-panels reveal">
+    <div class="card dash-panel-card">
+      <div class="card-label">Intelligence</div>
+      <div class="card-title">Analysis Panels</div>
+      <ul class="panel-list">
+        <li>IO Environment Summary</li>
+        <li>Sentiment Analysis</li>
+        <li>LDA Topic Distribution</li>
+        <li>TF-IDF Key Terms</li>
+        <li>ARIMA Forecast Chart</li>
+        <li>Entity Intelligence</li>
+      </ul>
+    </div>
+    <div class="card dash-panel-card">
+      <div class="card-label">Semantic</div>
+      <div class="card-title">Advanced Panels</div>
+      <ul class="panel-list">
+        <li>BERTopic Clusters</li>
+        <li>IO Narrative Framing</li>
+        <li>Narrative Echo Detection</li>
+        <li>Sentiment Comparison</li>
+        <li>Co-Occurrence Heatmap</li>
+        <li>Source Geography</li>
+      </ul>
+    </div>
+    <div class="card dash-panel-card">
+      <div class="card-label">Live Feeds</div>
+      <div class="card-title">Data Panels</div>
+      <ul class="panel-list">
+        <li>Article Feed (headlines)</li>
+        <li>Social Media Feed</li>
+        <li>Historical Volume Chart</li>
+        <li>Alert Panel</li>
+        <li>KPI Status Row</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- TECH STACK -->
+<section id="tech">
+  <div class="reveal">
+    <div class="section-label">08 // Technology Stack</div>
+    <div class="section-title">Open-Source Foundation</div>
+    <div class="section-desc">
+      Built entirely on open-source libraries and zero-cost APIs. No commercial licenses or paid data feeds required.
+    </div>
+    <div class="divider"></div>
+  </div>
+
+  <div class="tech-grid reveal">
+    <div class="card tech-card">
+      <div class="card-label">Collection</div>
+      <div class="card-title">Data Ingestion</div>
+      <div class="tech-items">
+        gdeltdoc<br>requests<br>deep-translator<br>newspaper3k<br>telethon<br>atproto
+      </div>
+    </div>
+    <div class="card tech-card">
+      <div class="card-label">Analysis</div>
+      <div class="card-title">NLP Core</div>
+      <div class="tech-items">
+        scikit-learn<br>spaCy<br>vaderSentiment<br>statsmodels<br>pandas<br>numpy
+      </div>
+    </div>
+    <div class="card tech-card">
+      <div class="card-label">Semantic</div>
+      <div class="card-title">Transformers</div>
+      <div class="tech-items">
+        sentence-transformers<br>bertopic<br>transformers<br>torch<br>umap-learn<br>hdbscan
+      </div>
+    </div>
+    <div class="card tech-card">
+      <div class="card-label">Presentation</div>
+      <div class="card-title">Web Stack</div>
+      <div class="tech-items">
+        Flask<br>Chart.js<br>flask-cors<br>gunicorn<br>HTML/CSS/JS<br>REST API
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">
+    <div class="diamond"><div class="diamond-inner"></div></div>
+    <span class="footer-title">MERIDIAN // IO Intelligence Monitor</span>
+  </div>
+  <div class="footer-text">
+    Version 5.1 // BC Applied Analytics Capstone // March 2026<br>
+    David N. Belyn // Applied Analytics + Applied Economics // Boston College<br><br>
+    <a href="/">Live Dashboard</a> &nbsp;&bull;&nbsp; <a href="/compare">Compare View</a>
+  </div>
+</footer>
+
+<div class="class-banner">UNCLASSIFIED // FOR ACADEMIC DEMONSTRATION PURPOSES ONLY</div>
+
+<script>
+// Scroll reveal animation
+const reveals = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+reveals.forEach(el => observer.observe(el));
+
+// Smooth scroll for nav links
+document.querySelectorAll('nav a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+});
+
+// Animated counter for hero stats
+function animateCounters() {
+  document.querySelectorAll('.hero-stat-val').forEach(el => {
+    const text = el.textContent;
+    const num = parseInt(text);
+    if (isNaN(num)) return;
+    const suffix = text.replace(/[0-9]/g, '');
+    let current = 0;
+    const step = Math.max(1, Math.floor(num / 30));
+    const timer = setInterval(() => {
+      current += step;
+      if (current >= num) { current = num; clearInterval(timer); }
+      el.textContent = current + suffix;
+    }, 30);
+  });
+}
+animateCounters();
+</script>
+</body>
+</html>
