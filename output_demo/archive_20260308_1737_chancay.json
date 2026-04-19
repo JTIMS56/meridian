@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-03-08T17:37:47.181506Z",
+    "collection_duration_seconds": 84.34,
+    "profile": "chancay",
+    "profile_description": "China-Peru Deepwater Port / Intercontinental Railway",
+    "queries": [
+      "Chancay",
+      "Chancay megaport",
+      "COSCO Peru",
+      "COSCO",
+      "Belt Road Peru",
+      "Belt Road",
+      "deepwater port",
+      "China railway Peru",
+      "China railway",
+      "Peru sovereignty",
+      "Peru China"
+    ],
+    "total_articles": 34,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 34,
+    "languages_detected": 1,
+    "language_breakdown": {
+      "en": 34
+    },
+    "top_countries": [
+      {
+        "country": "United States",
+        "count": 31
+      },
+      {
+        "country": "Canada",
+        "count": 1
+      },
+      {
+        "country": "United Kingdom",
+        "count": 1
+      },
+      {
+        "country": "India",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 34,
+    "translated_articles": 0
+  },
+  "articles": [
+    {
+      "id": "100247",
+      "title": "Honduras weighs shift in China - Taiwan ties as Trump pushes for US dominance in Latin America – Winnipeg Free Press",
+      "title_en": null,
+      "url": "https://www.winnipegfreepress.com/world/2026/03/04/honduras-weighs-shift-in-china-taiwan-ties-as-trump-pushes-for-us-dominance-in-latin-america",
+      "domain": "winnipegfreepress.com",
+      "language": "en",
+      "source_country": "Canada",
+      "timestamp_iso": "2026-03-05T02:30:00Z",
+      "timestamp_display": "Mar 05, 2026 02:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "319405",
+      "title": "Honduras weighs shift in China - Taiwan ties as Trump pushes for US dominance in Latin America",
+      "title_en": null,
+      "url": "https://www.wsls.com/news/world/2026/03/05/honduras-weighs-shift-in-china-taiwan-ties-as-trump-pushes-for-us-dominance-in-latin-america/",
+      "domain": "wsls.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-05T02:45:00Z",
+      "timestamp_display": "Mar 05, 2026 02:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "661600",
+      "title": "Honduras weighs shift in China - Taiwan ties as Trump pushes for US dominance in Latin America",
+      "title_en": null,
+      "url": "https://www.clickondetroit.com/news/world/2026/03/05/honduras-weighs-shift-in-china-taiwan-ties-as-trump-pushes-for-us-dominance-in-latin-america/",
+      "domain": "clickondetroit.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-05T05:15:00Z",
+      "timestamp_display": "Mar 05, 2026 05:15 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "319212",
+      "title": "Honduras weighs shift in China - Taiwan ties as Trump pushes for US dominance in Latin America",
+      "title_en": null,
+      "url": "https://www.news4jax.com/news/world/2026/03/05/honduras-weighs-shift-in-china-taiwan-ties-as-trump-pushes-for-us-dominance-in-latin-america/",
+      "domain": "news4jax.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-05T06:00:00Z",
+      "timestamp_display": "Mar 05, 2026 06:00 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "846570",
+      "title": "Honduras weighs shift in China - Taiwan ties as Trump pushes for US dominance in Latin America",
+      "title_en": null,
+      "url": "https://www.aol.com/articles/honduras-weighs-shift-china-taiwan-020150056.html",
+      "domain": "aol.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-05T10:30:00Z",
+      "timestamp_display": "Mar 05, 2026 10:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "016243",
+      "title": "China spent years building ties in Latin America . Can Trump make room for the US ? ",
+      "title_en": null,
+      "url": "https://www.yahoo.com/news/articles/china-spent-years-building-ties-015627454.html",
+      "domain": "yahoo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T02:30:00Z",
+      "timestamp_display": "Mar 07, 2026 02:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "929384",
+      "title": "China spent years building ties in Latin America . Can Trump make room for the US ? ",
+      "title_en": null,
+      "url": "https://www.aol.com/news/china-spent-years-building-ties-015627949.html",
+      "domain": "aol.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T02:45:00Z",
+      "timestamp_display": "Mar 07, 2026 02:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "414660",
+      "title": "China spent years building ties in Latin America . Can Trump make room for the US ? ",
+      "title_en": null,
+      "url": "https://www.bbc.com/news/articles/c5yvw0zwpd5o",
+      "domain": "bbc.com",
+      "language": "en",
+      "source_country": "United Kingdom",
+      "timestamp_iso": "2026-03-07T03:30:00Z",
+      "timestamp_display": "Mar 07, 2026 03:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-08T17:37:47.165826Z"
+    },
+    {
+      "id": "726242",
+      "title": "Latin America and Caribbean Solidarity in the Trump Era",
+      "title_en": null,
+      "url": "https://www.counterpunch.org/2026/03/04/latin-america-and-caribbean-solidarity-in-the-trump-era/",
+      "domain": "counterpunch.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-04T08:15:00Z",
+      "timestamp_display": "Mar 04, 2026 08:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "230235",
+      "title": "Trump turns attention from Iran to Latin America at summit",
+      "title_en": null,
+      "url": "https://www.wsbradio.com/news/politics/trump-looks-turn/6RNOXZ7HUU7Y7EVU6J6NCVU4EY/",
+      "domain": "wsbradio.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T09:45:00Z",
+      "timestamp_display": "Mar 07, 2026 09:45 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "006605",
+      "title": "Trump encourages Latin American leaders to use military action to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.wcvb.com/article/trump-shield-of-americas-summit/70650807",
+      "domain": "wcvb.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T16:30:00Z",
+      "timestamp_display": "Mar 07, 2026 16:30 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "938976",
+      "title": "Trump encourages Latin American leaders to use military action to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.wmur.com/article/trump-shield-of-americas-summit/70650807",
+      "domain": "wmur.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T16:30:00Z",
+      "timestamp_display": "Mar 07, 2026 16:30 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "787783",
+      "title": "President Trump urges Latin American leaders to  use your military  to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.13newsnow.com/article/news/nation-world/president-trump-latin-american-leaders-military-action-fight-cartels/507-07c6b6bf-36d6-4bbd-ac3a-809e7c431119",
+      "domain": "13newsnow.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T17:00:00Z",
+      "timestamp_display": "Mar 07, 2026 17:00 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "443202",
+      "title": "Trump urges Latin American leaders to use military against cartels – NBC New York",
+      "title_en": null,
+      "url": "https://www.nbcnewyork.com/news/national-international/trump-latin-american-leaders-military-action-fight-cartels/6473518/",
+      "domain": "nbcnewyork.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T17:30:00Z",
+      "timestamp_display": "Mar 07, 2026 17:30 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "651379",
+      "title": "Trump encourages Latin American leaders to use military action to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.kcci.com/article/trump-shield-of-americas-summit/70650807",
+      "domain": "kcci.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T18:00:00Z",
+      "timestamp_display": "Mar 07, 2026 18:00 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "667426",
+      "title": "Trump urges Latin American leaders to use military against cartels – NBC10 Philadelphia",
+      "title_en": null,
+      "url": "https://www.nbcphiladelphia.com/news/national-international/trump-latin-american-leaders-military-action-fight-cartels/4364714/",
+      "domain": "nbcphiladelphia.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T18:00:00Z",
+      "timestamp_display": "Mar 07, 2026 18:00 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "329724",
+      "title": "Trump urges Latin American leaders to use military against cartels – NBC 5 Dallas - Fort Worth",
+      "title_en": null,
+      "url": "https://www.nbcdfw.com/news/national-international/trump-latin-american-leaders-military-action-fight-cartels/3994184/",
+      "domain": "nbcdfw.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T18:45:00Z",
+      "timestamp_display": "Mar 07, 2026 18:45 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "572348",
+      "title": "Trump encourages Latin American leaders to use military action to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.hindustantimes.com/world-news/us-news/trump-encourages-latin-american-leaders-to-use-military-action-to-help-us-fight-cartels-101772908382811.html",
+      "domain": "hindustantimes.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-03-07T19:15:00Z",
+      "timestamp_display": "Mar 07, 2026 19:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "654033",
+      "title": "Trump encourages Latin American leaders to use military action to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.baltimoresun.com/2026/03/07/trump-encourages-latin-american-leaders-to-use-military-action-to-help-us-fight-cartels/",
+      "domain": "baltimoresun.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T19:15:00Z",
+      "timestamp_display": "Mar 07, 2026 19:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "320874",
+      "title": "Trump urges Latin American leaders to use military against cartels – NBC4 Washington",
+      "title_en": null,
+      "url": "https://www.nbcwashington.com/news/national-international/trump-latin-american-leaders-military-action-fight-cartels/4072162/",
+      "domain": "nbcwashington.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T19:15:00Z",
+      "timestamp_display": "Mar 07, 2026 19:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "580871",
+      "title": "President Trump urges Latin American leaders to  use your military  to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.11alive.com/article/news/nation-world/president-trump-latin-american-leaders-military-action-fight-cartels/507-07c6b6bf-36d6-4bbd-ac3a-809e7c431119",
+      "domain": "11alive.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T19:15:00Z",
+      "timestamp_display": "Mar 07, 2026 19:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "402302",
+      "title": "President Trump urges Latin American leaders to  use your military  to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.wltx.com/article/news/nation-world/president-trump-latin-american-leaders-military-action-fight-cartels/507-07c6b6bf-36d6-4bbd-ac3a-809e7c431119",
+      "domain": "wltx.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T19:15:00Z",
+      "timestamp_display": "Mar 07, 2026 19:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "739083",
+      "title": "President Trump urges Latin American leaders to  use your military  to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.wnep.com/article/news/nation-world/president-trump-latin-american-leaders-military-action-fight-cartels/507-07c6b6bf-36d6-4bbd-ac3a-809e7c431119",
+      "domain": "wnep.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T20:15:00Z",
+      "timestamp_display": "Mar 07, 2026 20:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "774993",
+      "title": "Trump urges Latin American leaders to use military action against cartels",
+      "title_en": null,
+      "url": "https://www.latimes.com/world-nation/story/2026-03-07/trump-urges-latin-american-leaders-to-use-military-action-against-cartels",
+      "domain": "latimes.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T20:30:00Z",
+      "timestamp_display": "Mar 07, 2026 20:30 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "725970",
+      "title": "President Trump urges Latin American leaders to  use your military  to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.wtsp.com/article/news/nation-world/president-trump-latin-american-leaders-military-action-fight-cartels/507-07c6b6bf-36d6-4bbd-ac3a-809e7c431119",
+      "domain": "wtsp.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T20:30:00Z",
+      "timestamp_display": "Mar 07, 2026 20:30 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "463887",
+      "title": "President Trump urges Latin American leaders to  use your military  to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.10tv.com/article/news/nation-world/president-trump-latin-american-leaders-military-action-fight-cartels/507-07c6b6bf-36d6-4bbd-ac3a-809e7c431119",
+      "domain": "10tv.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T20:45:00Z",
+      "timestamp_display": "Mar 07, 2026 20:45 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "638032",
+      "title": "Trump announces coalition to fight cartels in Latin America",
+      "title_en": null,
+      "url": "https://www.csmonitor.com/World/2026/0307/trump-coalition-drug-cartels",
+      "domain": "csmonitor.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T21:00:00Z",
+      "timestamp_display": "Mar 07, 2026 21:00 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "252698",
+      "title": "President Trump urges Latin American leaders to  use your military  to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.wfmynews2.com/article/news/nation-world/president-trump-latin-american-leaders-military-action-fight-cartels/507-07c6b6bf-36d6-4bbd-ac3a-809e7c431119",
+      "domain": "wfmynews2.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T21:15:00Z",
+      "timestamp_display": "Mar 07, 2026 21:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "060808",
+      "title": "President Trump urges Latin American leaders to  use your military  to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.wfaa.com/article/news/nation-world/president-trump-latin-american-leaders-military-action-fight-cartels/507-07c6b6bf-36d6-4bbd-ac3a-809e7c431119",
+      "domain": "wfaa.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T21:30:00Z",
+      "timestamp_display": "Mar 07, 2026 21:30 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "117932",
+      "title": "Trump encourages Latin American leaders to use military action to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.local10.com/news/politics/2026/03/07/trump-encourages-latin-american-leaders-to-use-military-action-to-help-us-fight-cartels/",
+      "domain": "local10.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T21:30:00Z",
+      "timestamp_display": "Mar 07, 2026 21:30 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "024717",
+      "title": "Trump urges Latin American leaders to use military against cartels – NBC Connecticut",
+      "title_en": null,
+      "url": "https://www.nbcconnecticut.com/news/national-international/trump-latin-american-leaders-military-action-fight-cartels/3711367/",
+      "domain": "nbcconnecticut.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T21:30:00Z",
+      "timestamp_display": "Mar 07, 2026 21:30 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "590888",
+      "title": "Trump Announces Military Coalition With Latin American Leaders To Eradicate Cartels",
+      "title_en": null,
+      "url": "https://www.zerohedge.com/geopolitical/trump-announces-military-coalition-latin-american-leaders-eradicate-cartels",
+      "domain": "zerohedge.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T22:30:00Z",
+      "timestamp_display": "Mar 07, 2026 22:30 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "449967",
+      "title": "Trump encourages Latin American leaders to use military action to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.defensenews.com/news/pentagon-congress/2026/03/07/trump-encourages-latin-american-leaders-to-use-military-action-to-help-us-fight-cartels/",
+      "domain": "defensenews.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T23:15:00Z",
+      "timestamp_display": "Mar 07, 2026 23:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    },
+    {
+      "id": "668450",
+      "title": "Trump encourages Latin American leaders to use military action to help US fight cartels",
+      "title_en": null,
+      "url": "https://www.local10.com/news/florida/2026/03/07/trump-encourages-latin-american-leaders-to-use-military-action-to-help-us-fight-cartels/",
+      "domain": "local10.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-08T00:30:00Z",
+      "timestamp_display": "Mar 08, 2026 00:30 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T17:37:47.181506Z"
+    }
+  ]
+}

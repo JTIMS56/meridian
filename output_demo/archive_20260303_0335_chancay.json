@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-03-03T03:35:04.100133Z",
+    "collection_duration_seconds": 338.21,
+    "profile": "chancay",
+    "profile_description": "China-Peru Deepwater Port / Intercontinental Railway",
+    "queries": [
+      "Chancay",
+      "Chancay megaport",
+      "COSCO Peru",
+      "COSCO",
+      "Belt Road Peru",
+      "Belt Road",
+      "deepwater port",
+      "China railway Peru",
+      "China railway",
+      "Peru sovereignty",
+      "Peru China"
+    ],
+    "total_articles": 2,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 2,
+    "languages_detected": 2,
+    "language_breakdown": {
+      "en": 1,
+      "se": 1
+    },
+    "top_countries": [
+      {
+        "country": "United States",
+        "count": 1
+      },
+      {
+        "country": "Serbia",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 2,
+    "translated_articles": 1
+  },
+  "articles": [
+    {
+      "id": "724950",
+      "title": "U . S . warns Peru as court allows China to run port with less oversight",
+      "title_en": null,
+      "url": "https://www.upi.com/Top_News/World-News/2026/02/12/latam-peru-Chancay-megaport-US-warning/3271770915492/",
+      "domain": "upi.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T19:00:00Z",
+      "timestamp_display": "Feb 12, 2026 19:00 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "chancay",
+        "megaport"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-03T03:35:03.195206Z"
+    },
+    {
+      "id": "352378",
+      "title": "Почело ванредно заседање о смени председника Перуа",
+      "title_en": "The extraordinary session on the removal of the president of Peru has begun",
+      "url": "https://www.politika.rs/scc/clanak/732834/pocelo-vanredno-zasedanje-o-smeni-predsednika-perua",
+      "domain": "politika.rs",
+      "language": "se",
+      "source_country": "Serbia",
+      "timestamp_iso": "2026-02-17T17:00:00Z",
+      "timestamp_display": "Feb 17, 2026 17:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-03T03:35:03.197210Z"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "collection_timestamp": "2026-04-19T04:16:26.502589Z",
-    "collection_duration_seconds": 115.68,
+    "collection_timestamp": "2026-04-18T23:01:20.448245Z",
+    "collection_duration_seconds": 167.08,
     "profile": "chancay",
     "profile_description": "China-Peru Deepwater Port / Intercontinental Railway",
     "queries": [
@@ -17,23 +17,28 @@
       "Peru sovereignty",
       "Peru China"
     ],
-    "total_articles": 7,
+    "total_articles": 13,
     "version": "4.2.0"
   },
   "summary": {
-    "total_articles": 7,
-    "languages_detected": 2,
+    "total_articles": 13,
+    "languages_detected": 3,
     "language_breakdown": {
-      "en": 6,
+      "en": 11,
+      "bu": 1,
       "es": 1
     },
     "top_countries": [
       {
         "country": "United States",
-        "count": 2
+        "count": 4
       },
       {
         "country": "China",
+        "count": 2
+      },
+      {
+        "country": "India",
         "count": 1
       },
       {
@@ -45,16 +50,24 @@
         "count": 1
       },
       {
+        "country": "Bulgaria",
+        "count": 1
+      },
+      {
         "country": "Chile",
+        "count": 1
+      },
+      {
+        "country": "Pakistan",
         "count": 1
       }
     ],
-    "high_relevance_articles": 7,
-    "translated_articles": 1
+    "high_relevance_articles": 13,
+    "translated_articles": 2
   },
   "articles": [
     {
-      "id": "501149",
+      "id": "770240",
       "title": "US will help Peru  take back  Chancay port from China , Congress chair says",
       "title_en": null,
       "url": "https://www.scmp.com/news/china/article/3350379/us-will-help-peru-take-back-chancay-port-china-congress-chair-says",
@@ -69,10 +82,74 @@
         "chancay"
       ],
       "relevance_score": 1.0,
-      "collected_at": "2026-04-19T04:16:25.646645Z"
+      "collected_at": "2026-04-18T23:01:18.554840Z"
     },
     {
-      "id": "589356",
+      "id": "944699",
+      "title": "Peru reigns supreme in table grape and avocado exports but not without challenges",
+      "title_en": null,
+      "url": "https://www.freshfruitportal.com/news/2026/03/24/peru-table-grape-2/",
+      "domain": "freshfruitportal.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-24T15:00:00Z",
+      "timestamp_display": "Mar 24, 2026 15:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-18T23:01:18.554840Z"
+    },
+    {
+      "id": "830194",
+      "title": "Peru Swings Anti - Dumping  Heavy Hammer  at Chinese Tires , How Will the Industry Respond ? ",
+      "title_en": null,
+      "url": "https://autonews.gasgoo.com/articles/news/peru-swings-anti-dumping-heavy-hammer-at-chinese-tires-how-will-the-industry-respond-2037754317384081408",
+      "domain": "autonews.gasgoo.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-03-30T17:15:00Z",
+      "timestamp_display": "Mar 30, 2026 17:15 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-18T23:01:18.554840Z"
+    },
+    {
+      "id": "522629",
+      "title": "News - Artifacts Repatriated to Peru - Archaeology Magazine",
+      "title_en": null,
+      "url": "https://archaeology.org/news/2026/03/31/artifacts-repatriated-to-peru/",
+      "domain": "archaeology.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-31T23:30:00Z",
+      "timestamp_display": "Mar 31, 2026 23:30 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-18T23:01:18.554840Z"
+    },
+    {
+      "id": "727947",
+      "title": "Peruvian cement shipments and production increase in March 2026",
+      "title_en": null,
+      "url": "https://www.globalcement.com/news/20631-peruvian-cement-shipments-and-production-increase-in-march-2026",
+      "domain": "globalcement.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-04-09T11:30:00Z",
+      "timestamp_display": "Apr 09, 2026 11:30 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-18T23:01:18.554840Z"
+    },
+    {
+      "id": "499487",
       "title": "Peru to issue sovereign bonds for naval base project backed by U . S . ",
       "title_en": null,
       "url": "https://www.upi.com/Top_News/World-News/2026/04/09/Peru-to-issue-sovereign-bonds-for-naval-base-project-backed-by-US/1011775753100/",
@@ -85,10 +162,10 @@
         "peru"
       ],
       "relevance_score": 0.5,
-      "collected_at": "2026-04-19T04:16:25.645402Z"
+      "collected_at": "2026-04-18T23:01:18.554840Z"
     },
     {
-      "id": "897676",
+      "id": "172318",
       "title": "US pushes to renew ties with Peru ahead of uncertain election",
       "title_en": null,
       "url": "https://www.straitstimes.com/asia/us-pushes-to-renew-ties-with-peru-ahead-of-uncertain-election",
@@ -101,10 +178,10 @@
         "peru"
       ],
       "relevance_score": 0.5,
-      "collected_at": "2026-04-19T04:16:25.645402Z"
+      "collected_at": "2026-04-18T23:01:18.554840Z"
     },
     {
-      "id": "116636",
+      "id": "717066",
       "title": "US pushes to renew ties with Peru ahead of uncertain election",
       "title_en": null,
       "url": "https://www.marketscreener.com/news/us-pushes-to-renew-ties-with-peru-ahead-of-uncertain-election-ce7e50d8d18af521",
@@ -117,10 +194,10 @@
         "peru"
       ],
       "relevance_score": 0.5,
-      "collected_at": "2026-04-19T04:16:25.645402Z"
+      "collected_at": "2026-04-18T23:01:18.554840Z"
     },
     {
-      "id": "098909",
+      "id": "994661",
       "title": "US pushes to renew ties with Peru ahead of uncertain election",
       "title_en": null,
       "url": "https://www.mining.com/web/us-pushes-to-renew-ties-with-peru-ahead-of-uncertain-election/",
@@ -133,10 +210,26 @@
         "peru"
       ],
       "relevance_score": 0.5,
-      "collected_at": "2026-04-19T04:16:25.645402Z"
+      "collected_at": "2026-04-18T23:01:18.554840Z"
     },
     {
-      "id": "677325",
+      "id": "747198",
+      "title": "Перу избира президент и членове на Конгреса",
+      "title_en": "Peru elects a president and members of Congress",
+      "url": "https://news.bg/int-politics/peru-izbira-prezident-i-chlenove-na-kongresa.html",
+      "domain": "news.bg",
+      "language": "bu",
+      "source_country": "Bulgaria",
+      "timestamp_iso": "2026-04-12T20:00:00Z",
+      "timestamp_display": "Apr 12, 2026 20:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-18T23:01:18.560878Z"
+    },
+    {
+      "id": "729863",
       "title": "Hombre de 82 años muere en incidente con disparos de Marina de Guerra de Perú en frontera con Colombia | Internacional",
       "title_en": "82-year-old man dies in shooting incident by the Peruvian Navy on the border with Colombia | International",
       "url": "https://www.biobiochile.cl/noticias/internacional/america-latina/2026/04/13/hombre-de-82-anos-muere-en-incidente-con-disparos-de-marina-de-guerra-de-peru-en-frontera-con-colombia.shtml",
@@ -149,10 +242,10 @@
         "peru"
       ],
       "relevance_score": 0.5,
-      "collected_at": "2026-04-19T04:16:25.650212Z"
+      "collected_at": "2026-04-18T23:01:18.560878Z"
     },
     {
-      "id": "701202",
+      "id": "967637",
       "title": "Peru : Far right to dominate runoff for ninth president in a decade",
       "title_en": null,
       "url": "https://www.wsws.org/en/articles/2026/04/14/uppo-a14.html",
@@ -165,7 +258,23 @@
         "peru"
       ],
       "relevance_score": 0.5,
-      "collected_at": "2026-04-19T04:16:25.645402Z"
+      "collected_at": "2026-04-18T23:01:18.554840Z"
+    },
+    {
+      "id": "708281",
+      "title": "Can green CPEC shape Pakistan sustainable climatic future ? ",
+      "title_en": null,
+      "url": "https://pakobserver.net/can-green-cpec-shape-pakistans-sustainable-climatic-future/",
+      "domain": "pakobserver.net",
+      "language": "en",
+      "source_country": "Pakistan",
+      "timestamp_iso": "2026-04-15T03:45:00Z",
+      "timestamp_display": "Apr 15, 2026 03:45 UTC",
+      "keywords_found": [
+        "lima"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-18T23:01:18.558857Z"
     }
   ]
 }

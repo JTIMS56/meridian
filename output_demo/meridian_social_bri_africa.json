@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-04-19T04:29:36.105301Z",
+    "collection_duration_seconds": 12.08,
+    "profile": "bri_africa",
+    "platforms": {
+      "reddit": 0,
+      "reddit_status": "not_configured",
+      "bluesky": 0,
+      "telegram": 0,
+      "telegram_status": "not_configured"
+    },
+    "total_posts": 0,
+    "version": "1.0.0"
+  },
+  "summary": {
+    "total_posts": 0,
+    "platform_counts": {
+      "reddit": 0,
+      "reddit_status": "not_configured",
+      "bluesky": 0,
+      "telegram": 0,
+      "telegram_status": "not_configured"
+    },
+    "top_engagement": 0,
+    "platforms_active": []
+  },
+  "posts": []
+}

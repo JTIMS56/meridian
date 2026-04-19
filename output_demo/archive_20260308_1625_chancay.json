@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-03-08T16:25:46.956740Z",
+    "collection_duration_seconds": 90.37,
+    "profile": "chancay",
+    "profile_description": "China-Peru Deepwater Port / Intercontinental Railway",
+    "queries": [
+      "Chancay",
+      "Chancay megaport",
+      "COSCO Peru",
+      "COSCO",
+      "Belt Road Peru",
+      "Belt Road",
+      "deepwater port",
+      "China railway Peru",
+      "China railway",
+      "Peru sovereignty",
+      "Peru China"
+    ],
+    "total_articles": 4,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 4,
+    "languages_detected": 1,
+    "language_breakdown": {
+      "en": 4
+    },
+    "top_countries": [
+      {
+        "country": "United States",
+        "count": 4
+      }
+    ],
+    "high_relevance_articles": 4,
+    "translated_articles": 0
+  },
+  "articles": [
+    {
+      "id": "702845",
+      "title": "U . S . warns Peru as court allows China to run port with less oversight",
+      "title_en": null,
+      "url": "https://www.upi.com/Top_News/World-News/2026/02/12/latam-peru-Chancay-megaport-US-warning/3271770915492/",
+      "domain": "upi.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T19:00:00Z",
+      "timestamp_display": "Feb 12, 2026 19:00 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "chancay",
+        "megaport"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-08T16:25:46.956740Z"
+    },
+    {
+      "id": "455241",
+      "title": "China spent years building ties in Latin America . Can Trump make room for the US ? ",
+      "title_en": null,
+      "url": "https://www.yahoo.com/news/articles/china-spent-years-building-ties-015627454.html",
+      "domain": "yahoo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T02:30:00Z",
+      "timestamp_display": "Mar 07, 2026 02:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-08T16:25:46.956740Z"
+    },
+    {
+      "id": "449857",
+      "title": "China spent years building ties in Latin America . Can Trump make room for the US ? ",
+      "title_en": null,
+      "url": "https://www.aol.com/news/china-spent-years-building-ties-015627949.html",
+      "domain": "aol.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T02:45:00Z",
+      "timestamp_display": "Mar 07, 2026 02:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-08T16:25:46.956740Z"
+    },
+    {
+      "id": "040592",
+      "title": "Latin America and Caribbean Solidarity in the Trump Era",
+      "title_en": null,
+      "url": "https://www.counterpunch.org/2026/03/04/latin-america-and-caribbean-solidarity-in-the-trump-era/",
+      "domain": "counterpunch.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-04T08:15:00Z",
+      "timestamp_display": "Mar 04, 2026 08:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-08T16:25:46.956740Z"
+    }
+  ]
+}

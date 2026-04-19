@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-04-19T03:38:24.376598Z",
+    "collection_duration_seconds": 232.14,
+    "profile": "chancay",
+    "profile_description": "China-Peru Deepwater Port / Intercontinental Railway",
+    "queries": [
+      "Chancay",
+      "Chancay megaport",
+      "COSCO Peru",
+      "COSCO",
+      "Belt Road Peru",
+      "Belt Road",
+      "deepwater port",
+      "China railway Peru",
+      "China railway",
+      "Peru sovereignty",
+      "Peru China"
+    ],
+    "total_articles": 2,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 2,
+    "languages_detected": 2,
+    "language_breakdown": {
+      "es": 1,
+      "en": 1
+    },
+    "top_countries": [
+      {
+        "country": "Chile",
+        "count": 1
+      },
+      {
+        "country": "Pakistan",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 2,
+    "translated_articles": 1
+  },
+  "articles": [
+    {
+      "id": "925258",
+      "title": "Hombre de 82 años muere en incidente con disparos de Marina de Guerra de Perú en frontera con Colombia | Internacional",
+      "title_en": "82-year-old man dies in shooting incident by the Peruvian Navy on the border with Colombia | International",
+      "url": "https://www.biobiochile.cl/noticias/internacional/america-latina/2026/04/13/hombre-de-82-anos-muere-en-incidente-con-disparos-de-marina-de-guerra-de-peru-en-frontera-con-colombia.shtml",
+      "domain": "biobiochile.cl",
+      "language": "es",
+      "source_country": "Chile",
+      "timestamp_iso": "2026-04-14T00:00:00Z",
+      "timestamp_display": "Apr 14, 2026 00:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T03:38:23.561234Z"
+    },
+    {
+      "id": "709043",
+      "title": "Can green CPEC shape Pakistan sustainable climatic future ? ",
+      "title_en": null,
+      "url": "https://pakobserver.net/can-green-cpec-shape-pakistans-sustainable-climatic-future/",
+      "domain": "pakobserver.net",
+      "language": "en",
+      "source_country": "Pakistan",
+      "timestamp_iso": "2026-04-15T03:45:00Z",
+      "timestamp_display": "Apr 15, 2026 03:45 UTC",
+      "keywords_found": [
+        "lima"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T03:38:23.559234Z"
+    }
+  ]
+}

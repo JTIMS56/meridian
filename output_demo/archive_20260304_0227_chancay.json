@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-03-04T02:27:55.753127Z",
+    "collection_duration_seconds": 73918.89,
+    "profile": "chancay",
+    "profile_description": "China-Peru Deepwater Port / Intercontinental Railway",
+    "queries": [
+      "Chancay",
+      "Chancay megaport",
+      "COSCO Peru",
+      "COSCO",
+      "Belt Road Peru",
+      "Belt Road",
+      "deepwater port",
+      "China railway Peru",
+      "China railway",
+      "Peru sovereignty",
+      "Peru China"
+    ],
+    "total_articles": 6,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 6,
+    "languages_detected": 1,
+    "language_breakdown": {
+      "en": 6
+    },
+    "top_countries": [
+      {
+        "country": "United States",
+        "count": 1
+      },
+      {
+        "country": "China",
+        "count": 1
+      },
+      {
+        "country": "Panama",
+        "count": 1
+      },
+      {
+        "country": "Cambodia",
+        "count": 1
+      },
+      {
+        "country": "Jamaica",
+        "count": 1
+      },
+      {
+        "country": "Mexico",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 6,
+    "translated_articles": 0
+  },
+  "articles": [
+    {
+      "id": "660868",
+      "title": "Peru Aliaga Will Bring Stability , Growth , and an Alliance with the United States",
+      "title_en": null,
+      "url": "https://www.realclearworld.com/articles/2026/02/24/perus_aliaga_will_bring_stability_growth_and_an_alliance_with_the_united_states_1166557.html",
+      "domain": "realclearworld.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-24T16:15:00Z",
+      "timestamp_display": "Feb 24, 2026 16:15 UTC",
+      "keywords_found": [
+        "peru",
+        "bri"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-04T02:27:55.753127Z"
+    },
+    {
+      "id": "453820",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.chinanationalnews.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "chinanationalnews.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-26T12:00:00Z",
+      "timestamp_display": "Feb 26, 2026 12:00 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-04T02:27:55.753127Z"
+    },
+    {
+      "id": "384176",
+      "title": "A Renewed US Desire for the Panama Canal is Due to Climate Change",
+      "title_en": null,
+      "url": "https://newsroompanama.com/2026/02/22/a-renewed-us-desire-for-the-panama-canal-is-due-to-climate-change/",
+      "domain": "newsroompanama.com",
+      "language": "en",
+      "source_country": "Panama",
+      "timestamp_iso": "2026-02-22T18:45:00Z",
+      "timestamp_display": "Feb 22, 2026 18:45 UTC",
+      "keywords_found": [
+        "lima"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-04T02:27:55.753127Z"
+    },
+    {
+      "id": "068375",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.cambodiantimes.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "cambodiantimes.com",
+      "language": "en",
+      "source_country": "Cambodia",
+      "timestamp_iso": "2026-02-26T09:15:00Z",
+      "timestamp_display": "Feb 26, 2026 09:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-04T02:27:55.753127Z"
+    },
+    {
+      "id": "820979",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.jamaicantimes.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "jamaicantimes.com",
+      "language": "en",
+      "source_country": "Jamaica",
+      "timestamp_iso": "2026-02-26T10:45:00Z",
+      "timestamp_display": "Feb 26, 2026 10:45 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-04T02:27:55.753127Z"
+    },
+    {
+      "id": "142542",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.mexicostar.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "mexicostar.com",
+      "language": "en",
+      "source_country": "Mexico",
+      "timestamp_iso": "2026-02-26T12:15:00Z",
+      "timestamp_display": "Feb 26, 2026 12:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-04T02:27:55.753127Z"
+    }
+  ]
+}

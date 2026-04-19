@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-02-28T21:39:40.916674Z",
+    "collection_duration_seconds": 457.14,
+    "profile": "chancay",
+    "profile_description": "China-Peru Deepwater Port / Intercontinental Railway",
+    "queries": [
+      "Chancay",
+      "Chancay megaport",
+      "COSCO Peru",
+      "COSCO",
+      "Belt Road Peru",
+      "Belt Road",
+      "deepwater port",
+      "China railway Peru",
+      "China railway",
+      "Peru sovereignty",
+      "Peru China"
+    ],
+    "total_articles": 0,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 0,
+    "languages_detected": 0,
+    "language_breakdown": {},
+    "top_countries": [],
+    "high_relevance_articles": 0,
+    "translated_articles": 0
+  },
+  "articles": []
+}

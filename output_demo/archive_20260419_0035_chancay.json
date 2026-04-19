@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-04-19T00:35:14.085516Z",
+    "collection_duration_seconds": 100.36,
+    "profile": "chancay",
+    "profile_description": "China-Peru Deepwater Port / Intercontinental Railway",
+    "queries": [
+      "Chancay",
+      "Chancay megaport",
+      "COSCO Peru",
+      "COSCO",
+      "Belt Road Peru",
+      "Belt Road",
+      "deepwater port",
+      "China railway Peru",
+      "China railway",
+      "Peru sovereignty",
+      "Peru China"
+    ],
+    "total_articles": 2,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 2,
+    "languages_detected": 2,
+    "language_breakdown": {
+      "bu": 1,
+      "es": 1
+    },
+    "top_countries": [
+      {
+        "country": "Bulgaria",
+        "count": 1
+      },
+      {
+        "country": "Chile",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 2,
+    "translated_articles": 2
+  },
+  "articles": [
+    {
+      "id": "591359",
+      "title": "Перу избира президент и членове на Конгреса",
+      "title_en": "Peru elects a president and members of Congress",
+      "url": "https://news.bg/int-politics/peru-izbira-prezident-i-chlenove-na-kongresa.html",
+      "domain": "news.bg",
+      "language": "bu",
+      "source_country": "Bulgaria",
+      "timestamp_iso": "2026-04-12T20:00:00Z",
+      "timestamp_display": "Apr 12, 2026 20:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T00:35:12.317260Z"
+    },
+    {
+      "id": "034245",
+      "title": "Hombre de 82 años muere en incidente con disparos de Marina de Guerra de Perú en frontera con Colombia | Internacional",
+      "title_en": "82-year-old man dies in shooting incident by the Peruvian Navy on the border with Colombia | International",
+      "url": "https://www.biobiochile.cl/noticias/internacional/america-latina/2026/04/13/hombre-de-82-anos-muere-en-incidente-con-disparos-de-marina-de-guerra-de-peru-en-frontera-con-colombia.shtml",
+      "domain": "biobiochile.cl",
+      "language": "es",
+      "source_country": "Chile",
+      "timestamp_iso": "2026-04-14T00:00:00Z",
+      "timestamp_display": "Apr 14, 2026 00:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T00:35:12.316273Z"
+    }
+  ]
+}

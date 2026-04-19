@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-04-19T01:46:54.236843Z",
+    "collection_duration_seconds": 99.56,
+    "profile": "chancay",
+    "profile_description": "China-Peru Deepwater Port / Intercontinental Railway",
+    "queries": [
+      "Chancay",
+      "Chancay megaport",
+      "COSCO Peru",
+      "COSCO",
+      "Belt Road Peru",
+      "Belt Road",
+      "deepwater port",
+      "China railway Peru",
+      "China railway",
+      "Peru sovereignty",
+      "Peru China"
+    ],
+    "total_articles": 2,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 2,
+    "languages_detected": 2,
+    "language_breakdown": {
+      "bu": 1,
+      "en": 1
+    },
+    "top_countries": [
+      {
+        "country": "Bulgaria",
+        "count": 1
+      },
+      {
+        "country": "Pakistan",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 2,
+    "translated_articles": 1
+  },
+  "articles": [
+    {
+      "id": "811219",
+      "title": "Перу избира президент и членове на Конгреса",
+      "title_en": "Peru elects a president and members of Congress",
+      "url": "https://news.bg/int-politics/peru-izbira-prezident-i-chlenove-na-kongresa.html",
+      "domain": "news.bg",
+      "language": "bu",
+      "source_country": "Bulgaria",
+      "timestamp_iso": "2026-04-12T20:00:00Z",
+      "timestamp_display": "Apr 12, 2026 20:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T01:46:53.428904Z"
+    },
+    {
+      "id": "294008",
+      "title": "Can green CPEC shape Pakistan sustainable climatic future ? ",
+      "title_en": null,
+      "url": "https://pakobserver.net/can-green-cpec-shape-pakistans-sustainable-climatic-future/",
+      "domain": "pakobserver.net",
+      "language": "en",
+      "source_country": "Pakistan",
+      "timestamp_iso": "2026-04-15T03:45:00Z",
+      "timestamp_display": "Apr 15, 2026 03:45 UTC",
+      "keywords_found": [
+        "lima"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T01:46:53.426899Z"
+    }
+  ]
+}

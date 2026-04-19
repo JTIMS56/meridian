@@ -1,0 +1,808 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-04-19T04:19:53.275115Z",
+    "collection_duration_seconds": 57.72,
+    "profile": "plan_pacific",
+    "profile_description": "PLAN Naval Activity / Pacific Competition",
+    "queries": [
+      "South China Sea",
+      "Chinese navy Pacific",
+      "China carrier strike",
+      "Indo-Pacific",
+      "China military Pacific"
+    ],
+    "total_articles": 44,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 44,
+    "languages_detected": 1,
+    "language_breakdown": {
+      "en": 44
+    },
+    "top_countries": [
+      {
+        "country": "United States",
+        "count": 14
+      },
+      {
+        "country": "India",
+        "count": 7
+      },
+      {
+        "country": "China",
+        "count": 6
+      },
+      {
+        "country": "Indonesia",
+        "count": 3
+      },
+      {
+        "country": "Taiwan",
+        "count": 2
+      },
+      {
+        "country": "Australia",
+        "count": 2
+      },
+      {
+        "country": "Israel",
+        "count": 2
+      },
+      {
+        "country": "Philippines",
+        "count": 1
+      },
+      {
+        "country": "Malaysia",
+        "count": 1
+      },
+      {
+        "country": "Japan",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 44,
+    "translated_articles": 0
+  },
+  "articles": [
+    {
+      "id": "036652",
+      "title": "Philippines unveils new coast guard command in disputed South China Sea",
+      "title_en": null,
+      "url": "https://www.manilatimes.net/2026/04/09/news/philippines-unveils-new-coast-guard-command-in-disputed-south-china-sea/2316954",
+      "domain": "manilatimes.net",
+      "language": "en",
+      "source_country": "Philippines",
+      "timestamp_iso": "2026-04-09T06:30:00Z",
+      "timestamp_display": "Apr 09, 2026 06:30 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.266807Z"
+    },
+    {
+      "id": "337365",
+      "title": "Philippines expands South China Sea footprint with permanent Thitu Island base",
+      "title_en": null,
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3349488/philippines-expands-south-china-sea-footprint-permanent-thitu-island-base",
+      "domain": "scmp.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-04-09T07:45:00Z",
+      "timestamp_display": "Apr 09, 2026 07:45 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.266807Z"
+    },
+    {
+      "id": "477800",
+      "title": "Philippines unveils new coast guard command in disputed South China Sea",
+      "title_en": null,
+      "url": "https://www.channelnewsasia.com/asia/philippines-new-coast-guard-command-south-china-sea-thitu-6045971",
+      "domain": "channelnewsasia.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-04-09T07:45:00Z",
+      "timestamp_display": "Apr 09, 2026 07:45 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.268811Z"
+    },
+    {
+      "id": "133615",
+      "title": "Philippines opens base in disputed South China Sea",
+      "title_en": null,
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/04/10/2003855343",
+      "domain": "taipeitimes.com",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-04-09T19:15:00Z",
+      "timestamp_display": "Apr 09, 2026 19:15 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.268811Z"
+    },
+    {
+      "id": "760541",
+      "title": "China Fired Flares Toward Philippine Plane in South China Sea , Manila Says",
+      "title_en": null,
+      "url": "https://www.theepochtimes.com/china/china-fired-flares-toward-philippine-plane-in-south-china-sea-manila-says-6010006",
+      "domain": "theepochtimes.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-04-09T23:15:00Z",
+      "timestamp_display": "Apr 09, 2026 23:15 UTC",
+      "keywords_found": [
+        "plan",
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.268811Z"
+    },
+    {
+      "id": "998061",
+      "title": "Is China about to launch a rocket from South China Sea international waters ? ",
+      "title_en": null,
+      "url": "https://www.scmp.com/news/china/science/article/3349638/china-about-launch-rocket-south-china-sea-international-waters",
+      "domain": "scmp.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-04-10T08:30:00Z",
+      "timestamp_display": "Apr 10, 2026 08:30 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.266807Z"
+    },
+    {
+      "id": "589062",
+      "title": "China response to Philippine latest provocation in South China Sea restrained and justified , Chinese experts say following Manila hype over flare incident",
+      "title_en": null,
+      "url": "https://www.globaltimes.cn/page/202604/1358623.shtml",
+      "domain": "globaltimes.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-04-10T08:30:00Z",
+      "timestamp_display": "Apr 10, 2026 08:30 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.266807Z"
+    },
+    {
+      "id": "567067",
+      "title": "BrahMos deals deepen India role in Indo - Pacific security",
+      "title_en": null,
+      "url": "https://theshillongtimes.com/2026/04/11/brahmos-deals-deepen-indias-role-in-indo-pacific-security/",
+      "domain": "theshillongtimes.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-04-11T13:00:00Z",
+      "timestamp_display": "Apr 11, 2026 13:00 UTC",
+      "keywords_found": [
+        "pacific",
+        "indo-pacific"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.266807Z"
+    },
+    {
+      "id": "350484",
+      "title": "BrahMos Deals Deepen India Role In Indo - Pacific Security - Indian Defence Research Wing",
+      "title_en": null,
+      "url": "https://idrw.org/brahmos-deals-deepen-indias-role-in-indo-pacific-security/",
+      "domain": "idrw.org",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-04-11T14:30:00Z",
+      "timestamp_display": "Apr 11, 2026 14:30 UTC",
+      "keywords_found": [
+        "pacific",
+        "indo-pacific"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.268811Z"
+    },
+    {
+      "id": "438328",
+      "title": "COMMENT | China nuclear surge reshapes Indo - Pacific security",
+      "title_en": null,
+      "url": "https://www.malaysiakini.com/columns/772426",
+      "domain": "malaysiakini.com",
+      "language": "en",
+      "source_country": "Malaysia",
+      "timestamp_iso": "2026-04-12T09:00:00Z",
+      "timestamp_display": "Apr 12, 2026 09:00 UTC",
+      "keywords_found": [
+        "pacific",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.270869Z"
+    },
+    {
+      "id": "700896",
+      "title": "US , Australia , Philippines hold second joint drills in South China Sea this year",
+      "title_en": null,
+      "url": "https://www.yahoo.com/news/articles/us-australia-philippines-hold-second-021213056.html",
+      "domain": "yahoo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-04-13T05:00:00Z",
+      "timestamp_display": "Apr 13, 2026 05:00 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.265289Z"
+    },
+    {
+      "id": "728305",
+      "title": "US , Australia , Philippines hold second joint drills in South China Sea this year",
+      "title_en": null,
+      "url": "https://www.channelnewsasia.com/asia/philippines-us-australia-joint-military-drills-south-china-sea-6052556",
+      "domain": "channelnewsasia.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-04-13T05:15:00Z",
+      "timestamp_display": "Apr 13, 2026 05:15 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.265289Z"
+    },
+    {
+      "id": "654087",
+      "title": "The Philippines accuses China of dumping cyanide in South China Sea",
+      "title_en": null,
+      "url": "https://www.abc.net.au/news/2026-04-14/philippines-accuses-china-of-dumping-cyanide-in-south-china-sea/106561324",
+      "domain": "abc.net.au",
+      "language": "en",
+      "source_country": "Australia",
+      "timestamp_iso": "2026-04-13T21:30:00Z",
+      "timestamp_display": "Apr 13, 2026 21:30 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.268811Z"
+    },
+    {
+      "id": "702702",
+      "title": "Philippines warns of  sabotage  after cyanide seizure in disputed South China Sea atoll",
+      "title_en": null,
+      "url": "https://www.cnn.com/2026/04/13/asia/philippines-china-cyanide-accusation-intl-hnk",
+      "domain": "cnn.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-04-14T03:00:00Z",
+      "timestamp_display": "Apr 14, 2026 03:00 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.266807Z"
+    },
+    {
+      "id": "714563",
+      "title": "Philippines warns of  sabotage  after cyanide seizure in disputed South China Sea atoll",
+      "title_en": null,
+      "url": "https://us.cnn.com/2026/04/13/asia/philippines-china-cyanide-accusation-intl-hnk",
+      "domain": "us.cnn.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-04-14T03:00:00Z",
+      "timestamp_display": "Apr 14, 2026 03:00 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.266807Z"
+    },
+    {
+      "id": "514516",
+      "title": "Philippines warns of  sabotage  after cyanide seizure in disputed South China Sea atoll | The Asahi Shimbun : Breaking News , Japan News and Analysis",
+      "title_en": null,
+      "url": "https://www.asahi.com/ajw/articles/16495687",
+      "domain": "asahi.com",
+      "language": "en",
+      "source_country": "Japan",
+      "timestamp_iso": "2026-04-14T05:15:00Z",
+      "timestamp_display": "Apr 14, 2026 05:15 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.266807Z"
+    },
+    {
+      "id": "598751",
+      "title": "Philippines warns of  sabotage  after cyanide seizure in disputed South China Sea atoll",
+      "title_en": null,
+      "url": "https://edition.cnn.com/2026/04/13/asia/philippines-china-cyanide-accusation-intl-hnk",
+      "domain": "edition.cnn.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-04-14T07:15:00Z",
+      "timestamp_display": "Apr 14, 2026 07:15 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.266807Z"
+    },
+    {
+      "id": "563508",
+      "title": "Philippines accuses Chinese fishermen of dumping cyanide in South China Sea",
+      "title_en": null,
+      "url": "https://www.yahoo.com/news/articles/philippines-accuses-chinese-fishermen-dumping-191724828.html",
+      "domain": "yahoo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-04-14T08:00:00Z",
+      "timestamp_display": "Apr 14, 2026 08:00 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.268811Z"
+    },
+    {
+      "id": "463803",
+      "title": "PLA Southern Theater Command Navy conducts routine patrol in South China Sea",
+      "title_en": null,
+      "url": "https://www.globalsecurity.org/military/library/news/2026/04/mil-260413-prc-mnd01.htm",
+      "domain": "globalsecurity.org",
+      "language": "en",
+      "source_country": "Syria",
+      "timestamp_iso": "2026-04-14T13:15:00Z",
+      "timestamp_display": "Apr 14, 2026 13:15 UTC",
+      "keywords_found": [
+        "china",
+        "navy",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.266807Z"
+    },
+    {
+      "id": "932989",
+      "title": "Tiny Jellies Fuel Bigger Fish On Indo - Pacific Reefs",
+      "title_en": null,
+      "url": "https://www.miragenews.com/tiny-jellies-fuel-bigger-fish-on-indo-pacific-1655661/",
+      "domain": "miragenews.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-04-15T06:45:00Z",
+      "timestamp_display": "Apr 15, 2026 06:45 UTC",
+      "keywords_found": [
+        "pacific",
+        "indo-pacific"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.270869Z"
+    },
+    {
+      "id": "694886",
+      "title": "China deploys ships , barrier to block disputed South China Sea shoal",
+      "title_en": null,
+      "url": "https://article.wn.com/view/2026/04/15/China_deploys_ships_barrier_to_block_disputed_South_China_Se/",
+      "domain": "article.wn.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-04-15T14:30:00Z",
+      "timestamp_display": "Apr 15, 2026 14:30 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.266807Z"
+    },
+    {
+      "id": "674374",
+      "title": "Exclusive - China moves to block entrance to disputed South China Sea shoal , images show",
+      "title_en": null,
+      "url": "https://www.yahoo.com/news/articles/exclusive-china-moves-block-entrance-085143484.html",
+      "domain": "yahoo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-04-16T00:30:00Z",
+      "timestamp_display": "Apr 16, 2026 00:30 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.268811Z"
+    },
+    {
+      "id": "606519",
+      "title": "Indo - Pacific , USFK commanders to attend Senate , House hearings amid Iran war concerns",
+      "title_en": null,
+      "url": "https://www.koreatimes.co.kr/foreignaffairs/20260416/indo-pacific-usfk-commanders-to-attend-senate-house-hearings-amid-iran-war-concerns",
+      "domain": "koreatimes.co.kr",
+      "language": "en",
+      "source_country": "South Korea",
+      "timestamp_iso": "2026-04-16T03:45:00Z",
+      "timestamp_display": "Apr 16, 2026 03:45 UTC",
+      "keywords_found": [
+        "pacific",
+        "indo-pacific"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.270869Z"
+    },
+    {
+      "id": "323291",
+      "title": "Opinion | Without restraint , Beijing and Manila cant deliver the South China Sea code",
+      "title_en": null,
+      "url": "https://www.scmp.com/opinion/asia-opinion/article/3349697/without-restraint-beijing-and-manila-cant-deliver-south-china-sea-code",
+      "domain": "scmp.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-04-16T22:30:00Z",
+      "timestamp_display": "Apr 16, 2026 22:30 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.266807Z"
+    },
+    {
+      "id": "069145",
+      "title": "MACAU DAILY TIMES 澳門每日時報PM Carney witnesses CCIP launch as Canada expands Indo - Pacific trade push",
+      "title_en": null,
+      "url": "https://macaudailytimes.com.mo/pm-carney-witnesses-ccip-launch-as-canada-expands-indo-pacific-trade-push.html",
+      "domain": "macaudailytimes.com.mo",
+      "language": "en",
+      "source_country": "Macau",
+      "timestamp_iso": "2026-04-17T01:15:00Z",
+      "timestamp_display": "Apr 17, 2026 01:15 UTC",
+      "keywords_found": [
+        "pacific",
+        "indo-pacific"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.270869Z"
+    },
+    {
+      "id": "049918",
+      "title": "Strengthening Indo - Pacific bond : South Korean President Lee Jae - myung set for landmark State Visit to India",
+      "title_en": null,
+      "url": "https://aninews.in/news/world/asia/strengthening-indo-pacific-bond-south-korean-president-lee-jae-myung-set-for-landmark-state-visit-to-india20260417184005/",
+      "domain": "aninews.in",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-04-17T13:45:00Z",
+      "timestamp_display": "Apr 17, 2026 13:45 UTC",
+      "keywords_found": [
+        "pacific",
+        "indo-pacific"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.272939Z"
+    },
+    {
+      "id": "084331",
+      "title": "China expanding in South China Sea as US remains distracted : Report",
+      "title_en": null,
+      "url": "https://www.prokerala.com/news/articles/a1752113.html",
+      "domain": "prokerala.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-04-17T14:30:00Z",
+      "timestamp_display": "Apr 17, 2026 14:30 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.266807Z"
+    },
+    {
+      "id": "622428",
+      "title": "Japan and Indonesia Shape the Indo - Pacific Future - Pakistan Today",
+      "title_en": null,
+      "url": "https://www.pakistantoday.com.pk/2026/04/17/japan-and-indonesia-in-the-indo-pacific",
+      "domain": "pakistantoday.com.pk",
+      "language": "en",
+      "source_country": "Pakistan",
+      "timestamp_iso": "2026-04-17T19:30:00Z",
+      "timestamp_display": "Apr 17, 2026 19:30 UTC",
+      "keywords_found": [
+        "pacific",
+        "indo-pacific"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.270869Z"
+    },
+    {
+      "id": "611564",
+      "title": "Lessons from the Iran crisis for the Indo - Pacific - Academia",
+      "title_en": null,
+      "url": "https://www.thejakartapost.com/opinion/2026/04/18/lessons-from-the-iran-crisis-for-the-indo-pacific.html",
+      "domain": "thejakartapost.com",
+      "language": "en",
+      "source_country": "Indonesia",
+      "timestamp_iso": "2026-04-18T04:30:00Z",
+      "timestamp_display": "Apr 18, 2026 04:30 UTC",
+      "keywords_found": [
+        "pacific",
+        "indo-pacific"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.270869Z"
+    },
+    {
+      "id": "984468",
+      "title": "Japan , Australia seal $14B warship deal to boost Indo - Pacific defense ties",
+      "title_en": null,
+      "url": "https://aa.com.tr/en/asia-pacific/japan-australia-seal-14b-warship-deal-to-boost-indo-pacific-defense-ties/3910389",
+      "domain": "aa.com.tr",
+      "language": "en",
+      "source_country": "Turkey",
+      "timestamp_iso": "2026-04-18T10:30:00Z",
+      "timestamp_display": "Apr 18, 2026 10:30 UTC",
+      "keywords_found": [
+        "pacific",
+        "indo-pacific"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.270869Z"
+    },
+    {
+      "id": "479166",
+      "title": "Japan Indo - Pacific Moment | World Politics Review",
+      "title_en": null,
+      "url": "https://www.worldpoliticsreview.com/seeing-a-shared-threat-in-china-japan-us-relations-flourish-anew/",
+      "domain": "worldpoliticsreview.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-04-18T17:45:00Z",
+      "timestamp_display": "Apr 18, 2026 17:45 UTC",
+      "keywords_found": [
+        "pacific",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.270869Z"
+    },
+    {
+      "id": "649383",
+      "title": "San Diego USS Boxer Amphibious Ready Group reaches the Indo - Pacific – San Diego Union - Tribune",
+      "title_en": null,
+      "url": "https://www.sandiegouniontribune.com/2026/04/18/san-diegos-uss-boxer-amphibious-ready-group-reaches-the-indo-pacific/",
+      "domain": "sandiegouniontribune.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-04-19T01:15:00Z",
+      "timestamp_display": "Apr 19, 2026 01:15 UTC",
+      "keywords_found": [
+        "pacific",
+        "indo-pacific"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-04-19T04:19:53.270869Z"
+    },
+    {
+      "id": "817399",
+      "title": "Opinion | In Asia - Pacific , the real maritime contest is over satellite surveillance",
+      "title_en": null,
+      "url": "https://www.scmp.com/opinion/asia-opinion/article/3348997/asia-pacific-real-maritime-contest-over-satellite-surveillance",
+      "domain": "scmp.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-04-07T03:45:00Z",
+      "timestamp_display": "Apr 07, 2026 03:45 UTC",
+      "keywords_found": [
+        "pacific"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T04:19:53.268811Z"
+    },
+    {
+      "id": "666655",
+      "title": "Japanese destroyer to begin live - fire Tomahawk missile tests this summer",
+      "title_en": null,
+      "url": "https://www.stripes.com/theaters/asia_pacific/2026-04-13/japan-tomahawk-missile-live-fire-tests-21360025.html",
+      "domain": "stripes.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-04-13T08:45:00Z",
+      "timestamp_display": "Apr 13, 2026 08:45 UTC",
+      "keywords_found": [
+        "pacific"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T04:19:53.272939Z"
+    },
+    {
+      "id": "037987",
+      "title": "Indonesia and US elevate to major defense cooperation partnership - Asia & Pacific",
+      "title_en": null,
+      "url": "https://www.thejakartapost.com/world/2026/04/14/indonesia-and-us-elevate-to-major-defense-cooperation-partnership.html",
+      "domain": "thejakartapost.com",
+      "language": "en",
+      "source_country": "Indonesia",
+      "timestamp_iso": "2026-04-14T11:00:00Z",
+      "timestamp_display": "Apr 14, 2026 11:00 UTC",
+      "keywords_found": [
+        "pacific"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T04:19:53.272939Z"
+    },
+    {
+      "id": "524717",
+      "title": "Europe eyes NATO fallback plan amid US doubts",
+      "title_en": null,
+      "url": "https://www.prokerala.com/news/articles/a1751018.html",
+      "domain": "prokerala.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-04-15T03:00:00Z",
+      "timestamp_display": "Apr 15, 2026 03:00 UTC",
+      "keywords_found": [
+        "plan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T04:19:53.275115Z"
+    },
+    {
+      "id": "015494",
+      "title": "Australia to boost defense spending citing growing threats - Asia & Pacific",
+      "title_en": null,
+      "url": "https://www.thejakartapost.com/world/2026/04/16/australia-to-boost-defense-spending-citing-growing-threats.html",
+      "domain": "thejakartapost.com",
+      "language": "en",
+      "source_country": "Indonesia",
+      "timestamp_iso": "2026-04-16T09:30:00Z",
+      "timestamp_display": "Apr 16, 2026 09:30 UTC",
+      "keywords_found": [
+        "pacific"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T04:19:53.272939Z"
+    },
+    {
+      "id": "473072",
+      "title": "Australia names India  top - tier  defence partner in 2026 strategy , plans USD 887 billion investment",
+      "title_en": null,
+      "url": "https://www.tribuneindia.com/news/india/australia-names-india-top-tier-defence-partner-in-2026-strategy-plans-usd-887-billion-investment/",
+      "domain": "tribuneindia.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-04-16T15:45:00Z",
+      "timestamp_display": "Apr 16, 2026 15:45 UTC",
+      "keywords_found": [
+        "plan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T04:19:53.272939Z"
+    },
+    {
+      "id": "854052",
+      "title": "India Media Leak Triggers Political Storm in Indonesia Over US Military Plan",
+      "title_en": null,
+      "url": "https://idrw.org/india-media-leak-triggers-political-storm-in-indonesia-over-us-military-plan/",
+      "domain": "idrw.org",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-04-16T18:30:00Z",
+      "timestamp_display": "Apr 16, 2026 18:30 UTC",
+      "keywords_found": [
+        "plan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T04:19:53.270869Z"
+    },
+    {
+      "id": "634393",
+      "title": "No flag , no fleet , no plan : Shipping expert reveals severity of Australia maritime fuel blind spot",
+      "title_en": null,
+      "url": "https://www.skynews.com.au/insights-and-analysis/no-flag-no-fleet-no-plan-shipping-expert-reveals-severity-of-australias-maritime-fuel-blind-spot/news-story/199b67cd1e051dbd1f6fde8c0c89d0e3?nk=91300ab5731f4325dee250505c4d6bac-1776405717",
+      "domain": "skynews.com.au",
+      "language": "en",
+      "source_country": "Australia",
+      "timestamp_iso": "2026-04-17T06:15:00Z",
+      "timestamp_display": "Apr 17, 2026 06:15 UTC",
+      "keywords_found": [
+        "plan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T04:19:53.272939Z"
+    },
+    {
+      "id": "004743",
+      "title": "US plans Philippine first hub to boost supply chains",
+      "title_en": null,
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/04/18/2003855795",
+      "domain": "taipeitimes.com",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-04-17T17:30:00Z",
+      "timestamp_display": "Apr 17, 2026 17:30 UTC",
+      "keywords_found": [
+        "plan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T04:19:53.272939Z"
+    },
+    {
+      "id": "225069",
+      "title": "Japan , Australia finalise contracts to deliver first 3 of planned frigates",
+      "title_en": null,
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3350577/japan-australia-finalise-contracts-deliver-first-3-planned-frigates",
+      "domain": "scmp.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-04-18T10:30:00Z",
+      "timestamp_display": "Apr 18, 2026 10:30 UTC",
+      "keywords_found": [
+        "plan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T04:19:53.270869Z"
+    },
+    {
+      "id": "336997",
+      "title": "US planning to seize Iran - linked ships in coming days , WSJ says",
+      "title_en": null,
+      "url": "http://www.jpost.com/international/article-893413",
+      "domain": "jpost.com",
+      "language": "en",
+      "source_country": "Israel",
+      "timestamp_iso": "2026-04-18T19:30:00Z",
+      "timestamp_display": "Apr 18, 2026 19:30 UTC",
+      "keywords_found": [
+        "plan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T04:19:53.272939Z"
+    },
+    {
+      "id": "450087",
+      "title": "US planning to seize Iran - linked ships in coming days , WSJ says",
+      "title_en": null,
+      "url": "https://www.jpost.com/international/article-893413",
+      "domain": "jpost.com",
+      "language": "en",
+      "source_country": "Israel",
+      "timestamp_iso": "2026-04-18T20:00:00Z",
+      "timestamp_display": "Apr 18, 2026 20:00 UTC",
+      "keywords_found": [
+        "plan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T04:19:53.272939Z"
+    }
+  ]
+}

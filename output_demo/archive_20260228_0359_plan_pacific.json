@@ -1,0 +1,435 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-02-28T03:59:58.029385Z",
+    "collection_duration_seconds": 50.48,
+    "profile": "plan_pacific",
+    "profile_description": "PLAN Naval Activity / Pacific Competition",
+    "queries": [
+      "South China Sea",
+      "Chinese navy Pacific",
+      "China carrier strike",
+      "Indo-Pacific",
+      "China military Pacific"
+    ],
+    "total_articles": 22,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 22,
+    "languages_detected": 2,
+    "language_breakdown": {
+      "en": 21,
+      "ma": 1
+    },
+    "top_countries": [
+      {
+        "country": "United States",
+        "count": 8
+      },
+      {
+        "country": "Philippines",
+        "count": 4
+      },
+      {
+        "country": "India",
+        "count": 3
+      },
+      {
+        "country": "China",
+        "count": 2
+      },
+      {
+        "country": "Japan",
+        "count": 2
+      },
+      {
+        "country": "Malaysia",
+        "count": 1
+      },
+      {
+        "country": "Singapore",
+        "count": 1
+      },
+      {
+        "country": "Syria",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 22,
+    "translated_articles": 1
+  },
+  "articles": [
+    {
+      "id": "349299",
+      "title": "US , PH committed to keep sea lanes open , prevent conflict in Indo - Pacific",
+      "title_en": null,
+      "url": "https://www.manilatimes.net/2026/02/17/news/us-ph-committed-to-keep-sea-lanes-open-prevent-conflict-in-indo-pacific/2279232",
+      "domain": "manilatimes.net",
+      "language": "en",
+      "source_country": "Philippines",
+      "timestamp_iso": "2026-02-17T11:00:00Z",
+      "timestamp_display": "Feb 17, 2026 11:00 UTC",
+      "keywords_found": [
+        "pacific",
+        "indo-pacific"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.434114Z"
+    },
+    {
+      "id": "416906",
+      "title": "Philippines , US boost alliance for Indo - Pacific deterrence",
+      "title_en": null,
+      "url": "https://www.philstar.com/headlines/2026/02/18/2508712/philippines-us-boost-alliance-indo-pacific-deterrence",
+      "domain": "philstar.com",
+      "language": "en",
+      "source_country": "Philippines",
+      "timestamp_iso": "2026-02-17T17:45:00Z",
+      "timestamp_display": "Feb 17, 2026 17:45 UTC",
+      "keywords_found": [
+        "pacific",
+        "deterrence",
+        "indo-pacific"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.431970Z"
+    },
+    {
+      "id": "322604",
+      "title": "US to Deploy Advanced Missile Systems in Philippines Amid South China Sea Tensions",
+      "title_en": null,
+      "url": "https://dailypioneer.com/news/us-to-boost-missile-presence-in-philippines-amid-china-tensions",
+      "domain": "dailypioneer.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-18T03:45:00Z",
+      "timestamp_display": "Feb 18, 2026 03:45 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.437026Z"
+    },
+    {
+      "id": "991921",
+      "title": "Beijing organizes patrol as US , Australia and Philippines drill in South China Sea",
+      "title_en": null,
+      "url": "https://www.stripes.com/theaters/asia_pacific/2026-02-17/south-china-sea-us-navy-philippines-australia-20770871.html",
+      "domain": "stripes.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-18T04:30:00Z",
+      "timestamp_display": "Feb 18, 2026 04:30 UTC",
+      "keywords_found": [
+        "pacific",
+        "china",
+        "navy",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.433014Z"
+    },
+    {
+      "id": "382951",
+      "title": "PLA conducts combat readiness patrols in South China Sea",
+      "title_en": null,
+      "url": "https://www.ecns.cn/news/military/2026-02-18/detail-ihezxnhs6819489.shtml",
+      "domain": "ecns.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-18T06:00:00Z",
+      "timestamp_display": "Feb 18, 2026 06:00 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.431970Z"
+    },
+    {
+      "id": "903760",
+      "title": "Map : 7 . 1 - Magnitude Earthquake Shakes the South China Sea",
+      "title_en": null,
+      "url": "https://www.nytimes.com/interactive/2026/02/22/world/quake-tracker-malaysia.html",
+      "domain": "nytimes.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-22T18:15:00Z",
+      "timestamp_display": "Feb 22, 2026 18:15 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.434114Z"
+    },
+    {
+      "id": "585321",
+      "title": "South China Sea earthquake : ७ . १ तीव्रतेच्या भूकंपाने दक्षिण चीन समुद्र हादरला",
+      "title_en": "South China Sea earthquake: 7. A magnitude 1 earthquake jolts the South China Sea",
+      "url": "https://prahaar.in/2026/02/23/south-china-sea-earthquake-7-1-magnitude-earthquake-shakes-south-china-sea/",
+      "domain": "prahaar.in",
+      "language": "ma",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-23T07:45:00Z",
+      "timestamp_display": "Feb 23, 2026 07:45 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.434114Z"
+    },
+    {
+      "id": "751029",
+      "title": "  Welcome to CHINA  greets Philippine officials on trip to disputed South China Sea",
+      "title_en": null,
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/02/23/039welcome-to-china039-greets-philippine-officials-on-trip-to-disputed-south-china-sea",
+      "domain": "thestar.com.my",
+      "language": "en",
+      "source_country": "Malaysia",
+      "timestamp_iso": "2026-02-23T10:45:00Z",
+      "timestamp_display": "Feb 23, 2026 10:45 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.431970Z"
+    },
+    {
+      "id": "032032",
+      "title": "  Welcome to CHINA  greets Philippine officials on trip to disputed South China Sea",
+      "title_en": null,
+      "url": "https://www.japantimes.co.jp/news/2026/02/23/asia-pacific/politics/philippine-officials-south-china-sea/",
+      "domain": "japantimes.co.jp",
+      "language": "en",
+      "source_country": "Japan",
+      "timestamp_iso": "2026-02-23T13:15:00Z",
+      "timestamp_display": "Feb 23, 2026 13:15 UTC",
+      "keywords_found": [
+        "pacific",
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.431970Z"
+    },
+    {
+      "id": "885743",
+      "title": "  Welcome to CHINA  greets Philippine officials on trip to disputed South China Sea",
+      "title_en": null,
+      "url": "https://www.bworldonline.com/the-nation/2026/02/23/732288/welcome-to-china-greets-philippine-officials-on-trip-to-disputed-south-china-sea-2/",
+      "domain": "bworldonline.com",
+      "language": "en",
+      "source_country": "Philippines",
+      "timestamp_iso": "2026-02-23T18:30:00Z",
+      "timestamp_display": "Feb 23, 2026 18:30 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.431970Z"
+    },
+    {
+      "id": "707529",
+      "title": "5 Americans injured when US military plane hits road barrier during Philippines training",
+      "title_en": null,
+      "url": "https://www.stripes.com/theaters/asia_pacific/2026-02-25/military-plane-accident-philippines-20870543.html",
+      "domain": "stripes.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-25T11:30:00Z",
+      "timestamp_display": "Feb 25, 2026 11:30 UTC",
+      "keywords_found": [
+        "plan",
+        "pacific"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.434998Z"
+    },
+    {
+      "id": "996612",
+      "title": "How China is masking drone flights in potential Taiwan rehearsal",
+      "title_en": null,
+      "url": "https://www.japantimes.co.jp/news/2026/02/26/asia-pacific/china-masking-drone-potential-taiwan/",
+      "domain": "japantimes.co.jp",
+      "language": "en",
+      "source_country": "Japan",
+      "timestamp_iso": "2026-02-26T12:15:00Z",
+      "timestamp_display": "Feb 26, 2026 12:15 UTC",
+      "keywords_found": [
+        "pacific",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.431970Z"
+    },
+    {
+      "id": "811869",
+      "title": "Philippines , Japan , US hold joint military drills in South China Sea",
+      "title_en": null,
+      "url": "https://www.channelnewsasia.com/asia/philippines-japan-us-south-china-sea-joint-military-drills-5957206",
+      "domain": "channelnewsasia.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-27T03:45:00Z",
+      "timestamp_display": "Feb 27, 2026 03:45 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.433014Z"
+    },
+    {
+      "id": "666157",
+      "title": "China conducts patrol in South China Sea , accuses Philippines of  disrupting  peace",
+      "title_en": null,
+      "url": "https://www.asiaone.com:443/asia/china-conducts-patrol-south-china-sea-accuses-philippines-disrupting-peace",
+      "domain": "asiaone.com",
+      "language": "en",
+      "source_country": "Singapore",
+      "timestamp_iso": "2026-02-27T05:45:00Z",
+      "timestamp_display": "Feb 27, 2026 05:45 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.431970Z"
+    },
+    {
+      "id": "676820",
+      "title": "Philippines , U . S ., and Japan Conduct Joint Naval Drills in South China Sea to Boost Maritime Security",
+      "title_en": null,
+      "url": "http://www.econotimes.com/Philippines-US-and-Japan-Conduct-Joint-Naval-Drills-in-South-China-Sea-to-Boost-Maritime-Security-1734893",
+      "domain": "econotimes.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-27T08:30:00Z",
+      "timestamp_display": "Feb 27, 2026 08:30 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.433014Z"
+    },
+    {
+      "id": "516898",
+      "title": "China condemns Philippines for disrupting peace , stability in South China Sea",
+      "title_en": null,
+      "url": "http://en.people.cn/n3/2026/0227/c90000-20429189.html",
+      "domain": "en.people.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-27T09:00:00Z",
+      "timestamp_display": "Feb 27, 2026 09:00 UTC",
+      "keywords_found": [
+        "china",
+        "south china sea"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:59:56.436003Z"
+    },
+    {
+      "id": "036793",
+      "title": "US military plane crashes into road barrier in Philippines , 5 injured",
+      "title_en": null,
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-military-plane-crashes-into-philippine-road-barrier-during-training-5-american-personnel-injured/articleshow/128773855.cms",
+      "domain": "economictimes.indiatimes.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-25T08:45:00Z",
+      "timestamp_display": "Feb 25, 2026 08:45 UTC",
+      "keywords_found": [
+        "plan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:59:56.434998Z"
+    },
+    {
+      "id": "189784",
+      "title": "U . S . military plane hits road barrier during Philippine training , injuring 5 personnel",
+      "title_en": null,
+      "url": "https://www.nbcnews.com/world/phillipines/us-military-plane-hits-road-barrier-philippine-training-injuring-5-per-rcna260584",
+      "domain": "nbcnews.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-25T09:45:00Z",
+      "timestamp_display": "Feb 25, 2026 09:45 UTC",
+      "keywords_found": [
+        "plan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:59:56.434998Z"
+    },
+    {
+      "id": "111903",
+      "title": "US military plane hits road barrier during Philippine training , injuring 5 personnel",
+      "title_en": null,
+      "url": "https://mynorthwest.com/world/us-military-plane-hits-road-barrier-during-philippine-training-injuring-5-personnel/4208193",
+      "domain": "mynorthwest.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-25T09:45:00Z",
+      "timestamp_display": "Feb 25, 2026 09:45 UTC",
+      "keywords_found": [
+        "plan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:59:56.434998Z"
+    },
+    {
+      "id": "927010",
+      "title": "US military plane hits road barrier during PH training , injuring 5 personnel",
+      "title_en": null,
+      "url": "https://www.manilatimes.net/2026/02/25/news/us-military-plane-hits-road-barrier-during-ph-training-injuring-5-personnel/2284734",
+      "domain": "manilatimes.net",
+      "language": "en",
+      "source_country": "Philippines",
+      "timestamp_iso": "2026-02-25T11:30:00Z",
+      "timestamp_display": "Feb 25, 2026 11:30 UTC",
+      "keywords_found": [
+        "plan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:59:56.437026Z"
+    },
+    {
+      "id": "753937",
+      "title": "5 hurt when US military plane hits barrier on takeoff in Philippines",
+      "title_en": null,
+      "url": "https://www.yahoo.com/news/articles/5-hurt-us-military-plane-215108978.html",
+      "domain": "yahoo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-26T14:45:00Z",
+      "timestamp_display": "Feb 26, 2026 14:45 UTC",
+      "keywords_found": [
+        "plan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:59:56.436003Z"
+    },
+    {
+      "id": "110357",
+      "title": "Philippines , US , Japanese Planes Drill over Bashi Channel",
+      "title_en": null,
+      "url": "https://english.aawsat.com/world/5245367-philippines-us-japanese-planes-drill-over-bashi-channel",
+      "domain": "english.aawsat.com",
+      "language": "en",
+      "source_country": "Syria",
+      "timestamp_iso": "2026-02-27T09:00:00Z",
+      "timestamp_display": "Feb 27, 2026 09:00 UTC",
+      "keywords_found": [
+        "plan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:59:56.436003Z"
+    }
+  ]
+}

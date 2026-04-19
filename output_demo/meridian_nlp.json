@@ -1,0 +1,517 @@
+{
+  "generated": "2026-04-19T04:29:41.481560Z",
+  "article_count": 0,
+  "gdelt_count": 0,
+  "social_count": 0,
+  "fulltext_stats": {
+    "available": false
+  },
+  "tfidf": {
+    "top_terms": [],
+    "coverage": 0
+  },
+  "topics": {
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Infrastructure / Logistics",
+        "top_words": [],
+        "prevalence": 0.32,
+        "prevalence_pct": 32
+      },
+      {
+        "topic_id": 1,
+        "label": "Geopolitical / Sovereignty",
+        "top_words": [],
+        "prevalence": 0.24,
+        "prevalence_pct": 24
+      },
+      {
+        "topic_id": 2,
+        "label": "Economics / Trade",
+        "top_words": [],
+        "prevalence": 0.18,
+        "prevalence_pct": 18
+      },
+      {
+        "topic_id": 3,
+        "label": "Military / Security",
+        "top_words": [],
+        "prevalence": 0.12,
+        "prevalence_pct": 12
+      },
+      {
+        "topic_id": 4,
+        "label": "Environmental / Protest",
+        "top_words": [],
+        "prevalence": 0.08,
+        "prevalence_pct": 8
+      },
+      {
+        "topic_id": 5,
+        "label": "Diplomatic / Bilateral",
+        "top_words": [],
+        "prevalence": 0.06,
+        "prevalence_pct": 6
+      }
+    ],
+    "n_topics": 6,
+    "corpus_size": 0,
+    "note": "default — insufficient corpus"
+  },
+  "sentiment": {
+    "overall": {
+      "positive": 21,
+      "neutral": 41,
+      "negative": 38
+    },
+    "overall_pct": {
+      "positive": 21.0,
+      "neutral": 41.0,
+      "negative": 38.0
+    },
+    "avg_compound_score": -0.12,
+    "by_language": {},
+    "total_analyzed": 0,
+    "note": "default — VADER not available"
+  },
+  "social_sentiment": {},
+  "social_summary": {
+    "total_posts": 0,
+    "platform_counts": {
+      "reddit": 0,
+      "reddit_status": "not_configured",
+      "bluesky": 0,
+      "telegram": 0,
+      "telegram_status": "not_configured"
+    },
+    "top_engagement": 0,
+    "platforms_active": []
+  },
+  "ner": {
+    "top_persons": [],
+    "top_orgs": [],
+    "top_locations": [],
+    "total_entities": 0
+  },
+  "entity_intelligence": {
+    "profile": "bri_africa",
+    "watchlist_size": 13,
+    "total_mentioned": 0,
+    "entities": [
+      {
+        "name": "Xi Jinping",
+        "type": "person",
+        "role": "PRC President",
+        "affiliation": "China",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "William Ruto",
+        "type": "person",
+        "role": "Kenyan President",
+        "affiliation": "Kenya",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Abiy Ahmed",
+        "type": "person",
+        "role": "Ethiopian PM",
+        "affiliation": "Ethiopia",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Cyril Ramaphosa",
+        "type": "person",
+        "role": "South African President",
+        "affiliation": "South Africa",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "African Union",
+        "type": "org",
+        "role": "Regional Body",
+        "affiliation": "Africa",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Belt and Road",
+        "type": "org",
+        "role": "Infrastructure Program",
+        "affiliation": "China",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "IMF",
+        "type": "org",
+        "role": "Financial Institution",
+        "affiliation": "Western",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "World Bank",
+        "type": "org",
+        "role": "Financial Institution",
+        "affiliation": "Western",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Exim Bank",
+        "type": "org",
+        "role": "Chinese Lender",
+        "affiliation": "China",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Djibouti",
+        "type": "location",
+        "role": "Chinese Base / Port",
+        "affiliation": "Djibouti",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Nairobi",
+        "type": "location",
+        "role": "Capital",
+        "affiliation": "Kenya",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Addis Ababa",
+        "type": "location",
+        "role": "Capital / AU HQ",
+        "affiliation": "Ethiopia",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Lagos",
+        "type": "location",
+        "role": "Economic Hub",
+        "affiliation": "Nigeria",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      }
+    ],
+    "emerging": [],
+    "cooccur_matrix": {
+      "labels": [],
+      "matrix": [],
+      "raw_matrix": []
+    },
+    "summary": {
+      "most_mentioned": "Xi Jinping",
+      "most_negative": null,
+      "coverage_pct": 0
+    }
+  },
+  "cooccurrence": {
+    "labels": [
+      "CHINA",
+      "PERU",
+      "DEEPWATER",
+      "RAILWAY",
+      "CHANCAY",
+      "COSCO",
+      "BRI"
+    ],
+    "matrix": [
+      [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        100,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        100,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        100,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        100
+      ]
+    ],
+    "raw_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "forecast": {
+    "model": "LinearExtrapolation (ARIMA fallback)",
+    "horizons": {
+      "7": {
+        "days": 7,
+        "forecast_final": 0.0,
+        "pct_change_from_today": 0.0,
+        "ci_upper": [
+          0.0
+        ],
+        "ci_lower": [
+          0.0
+        ]
+      },
+      "30": {
+        "days": 30,
+        "forecast_final": 0.0,
+        "pct_change_from_today": 0.0,
+        "ci_upper": [
+          0.0
+        ],
+        "ci_lower": [
+          0.0
+        ]
+      },
+      "90": {
+        "days": 90,
+        "forecast_final": 0.0,
+        "pct_change_from_today": 0.0,
+        "ci_upper": [
+          0.0
+        ],
+        "ci_lower": [
+          0.0
+        ]
+      },
+      "365": {
+        "days": 365,
+        "forecast_final": 0.0,
+        "pct_change_from_today": 0.0,
+        "ci_upper": [
+          0.0
+        ],
+        "ci_lower": [
+          0.0
+        ]
+      }
+    },
+    "current_value": 0.0
+  },
+  "semantic": {},
+  "articles": [],
+  "social_posts": []
+}

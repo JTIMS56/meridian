@@ -1,0 +1,1788 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-03-10T02:42:48.091671Z",
+    "collection_duration_seconds": 4855.53,
+    "profile": "chancay",
+    "profile_description": "China-Peru Deepwater Port / Intercontinental Railway",
+    "queries": [
+      "Chancay",
+      "Chancay megaport",
+      "COSCO Peru",
+      "COSCO",
+      "Belt Road Peru",
+      "Belt Road",
+      "deepwater port",
+      "China railway Peru",
+      "China railway",
+      "Peru sovereignty",
+      "Peru China"
+    ],
+    "total_articles": 99,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 99,
+    "languages_detected": 1,
+    "language_breakdown": {
+      "en": 99
+    },
+    "top_countries": [
+      {
+        "country": "United States",
+        "count": 81
+      },
+      {
+        "country": "China",
+        "count": 6
+      },
+      {
+        "country": "India",
+        "count": 4
+      },
+      {
+        "country": "Japan",
+        "count": 1
+      },
+      {
+        "country": "Malaysia",
+        "count": 1
+      },
+      {
+        "country": "Canada",
+        "count": 1
+      },
+      {
+        "country": "Cambodia",
+        "count": 1
+      },
+      {
+        "country": "Jamaica",
+        "count": 1
+      },
+      {
+        "country": "Mexico",
+        "count": 1
+      },
+      {
+        "country": "Ghana",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 99,
+    "translated_articles": 0
+  },
+  "articles": [
+    {
+      "id": "069235",
+      "title": "China Green - Tech Push in Latin America Is Gaining Traction",
+      "title_en": null,
+      "url": "https://www.americasquarterly.org/article/chinas-green-tech-push-in-latin-america-is-gaining-traction/",
+      "domain": "americasquarterly.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-09T13:45:00Z",
+      "timestamp_display": "Feb 09, 2026 13:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "622565",
+      "title": "China , the U . S . and Latin America dilemma -- Beijing Review",
+      "title_en": null,
+      "url": "http://www.bjreview.com.cn/Opinion/Voice/202602/t20260209_800430015.html",
+      "domain": "bjreview.com.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-11T13:30:00Z",
+      "timestamp_display": "Feb 11, 2026 13:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "888183",
+      "title": "U . S . Warns Peru is  Losing Sovereignty  Over Chinese - Owned Chancay Port",
+      "title_en": null,
+      "url": "https://gcaptain.com/u-s-warns-peru-is-losing-sovereignty-over-chinese-owned-chancay-port/",
+      "domain": "gcaptain.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T03:30:00Z",
+      "timestamp_display": "Feb 12, 2026 03:30 UTC",
+      "keywords_found": [
+        "peru",
+        "chancay",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "642242",
+      "title": "Trump admin warns Peru over sovereignty threat from Chinese port",
+      "title_en": null,
+      "url": "https://www.business-standard.com/world-news/trump-admin-warns-peru-over-sovereignty-threat-from-chinese-port-126021200092_1.html",
+      "domain": "business-standard.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-12T05:15:00Z",
+      "timestamp_display": "Feb 12, 2026 05:15 UTC",
+      "keywords_found": [
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.071319Z"
+    },
+    {
+      "id": "919588",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.ypradio.org/npr-news/2026-02-11/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "ypradio.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T07:15:00Z",
+      "timestamp_display": "Feb 12, 2026 07:15 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "180808",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.kjzz.org/npr-top-stories/2026-02-11/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "kjzz.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T07:45:00Z",
+      "timestamp_display": "Feb 12, 2026 07:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "287709",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.wxpr.org/2026-02-12/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "wxpr.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T07:45:00Z",
+      "timestamp_display": "Feb 12, 2026 07:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "976410",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.wboi.org/npr-news/2026-02-12/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "wboi.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T07:45:00Z",
+      "timestamp_display": "Feb 12, 2026 07:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "192574",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.kmuw.org/2026-02-12/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "kmuw.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T08:15:00Z",
+      "timestamp_display": "Feb 12, 2026 08:15 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "914178",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.wmra.org/2026-02-12/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "wmra.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T08:15:00Z",
+      "timestamp_display": "Feb 12, 2026 08:15 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "204822",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.wclk.com/2026-02-12/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "wclk.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T08:15:00Z",
+      "timestamp_display": "Feb 12, 2026 08:15 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "912418",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.wcsufm.org/latest-from-npr/2026-02-12/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "wcsufm.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T08:15:00Z",
+      "timestamp_display": "Feb 12, 2026 08:15 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "536800",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.knau.org/npr-news/2026-02-11/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "knau.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T08:45:00Z",
+      "timestamp_display": "Feb 12, 2026 08:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "856221",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.newsday.com/news/nation/peru-china-us-chancay-port-cosco-shipping-y18575",
+      "domain": "newsday.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T09:30:00Z",
+      "timestamp_display": "Feb 12, 2026 09:30 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "chancay",
+        "cosco",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "650539",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.wamc.org/2026-02-12/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "wamc.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T09:30:00Z",
+      "timestamp_display": "Feb 12, 2026 09:30 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "086002",
+      "title": "Trump administration warns China control of Peru port threatens sovereignty",
+      "title_en": null,
+      "url": "https://www.orissapost.com/trump-administration-warns-chinas-control-of-peru-port-threatens-sovereignty/",
+      "domain": "orissapost.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-12T09:30:00Z",
+      "timestamp_display": "Feb 12, 2026 09:30 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "741385",
+      "title": "China strongly deplores U . S . vilifying , smearing remarks against Chancay Port",
+      "title_en": null,
+      "url": "http://www.bignewsnetwork.com/news/278863548/china-strongly-deplores-us-vilifying-smearing-remarks-against-chancay-port",
+      "domain": "bignewsnetwork.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T09:30:00Z",
+      "timestamp_display": "Feb 12, 2026 09:30 UTC",
+      "keywords_found": [
+        "china",
+        "chancay"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "265549",
+      "title": "China strongly opposes and expresses strong dissatisfaction with US smears against Peru Chancay port : FM",
+      "title_en": null,
+      "url": "https://www.globaltimes.cn/page/202602/1355255.shtml",
+      "domain": "globaltimes.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-12T09:45:00Z",
+      "timestamp_display": "Feb 12, 2026 09:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "chancay"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "457360",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://news.prairiepublic.org/news-from-npr/2026-02-12/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "news.prairiepublic.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T09:45:00Z",
+      "timestamp_display": "Feb 12, 2026 09:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "284637",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://knpr.org/npr/2026-02-11/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "knpr.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T10:00:00Z",
+      "timestamp_display": "Feb 12, 2026 10:00 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "778277",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.kedm.org/npr-news/2026-02-12/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "kedm.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T10:15:00Z",
+      "timestamp_display": "Feb 12, 2026 10:15 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "326261",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.wemu.org/npr-national-news/2026-02-12/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "wemu.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T10:30:00Z",
+      "timestamp_display": "Feb 12, 2026 10:30 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "359459",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.bostonglobe.com/2026/02/12/nation/us-says-peru-could-lose-its-sovereignty-to-china/",
+      "domain": "bostonglobe.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T10:45:00Z",
+      "timestamp_display": "Feb 12, 2026 10:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "804379",
+      "title": "In blunt warning , the U . S . says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.upr.org/npr-news/2026-02-11/in-blunt-warning-the-u-s-says-peru-could-lose-its-sovereignty-to-china",
+      "domain": "upr.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T10:45:00Z",
+      "timestamp_display": "Feb 12, 2026 10:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "713416",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.yahoo.com/news/articles/blunt-warning-us-says-peru-042516171.html",
+      "domain": "yahoo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T11:15:00Z",
+      "timestamp_display": "Feb 12, 2026 11:15 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "037575",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.baltimoresun.com/2026/02/12/us-warns-peru-sovereignty-china/",
+      "domain": "baltimoresun.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T14:00:00Z",
+      "timestamp_display": "Feb 12, 2026 14:00 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "812321",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.sandiegouniontribune.com/2026/02/12/us-warns-peru-sovereignty-china/",
+      "domain": "sandiegouniontribune.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T14:00:00Z",
+      "timestamp_display": "Feb 12, 2026 14:00 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "546651",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.dailylocal.com/2026/02/12/us-warns-peru-sovereignty-china/",
+      "domain": "dailylocal.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T14:00:00Z",
+      "timestamp_display": "Feb 12, 2026 14:00 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "951228",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.pasadenastarnews.com/2026/02/12/us-warns-peru-sovereignty-china/",
+      "domain": "pasadenastarnews.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T14:00:00Z",
+      "timestamp_display": "Feb 12, 2026 14:00 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "773507",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.sbsun.com/2026/02/12/us-warns-peru-sovereignty-china/",
+      "domain": "sbsun.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T14:00:00Z",
+      "timestamp_display": "Feb 12, 2026 14:00 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "628845",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.sgvtribune.com/2026/02/12/us-warns-peru-sovereignty-china/",
+      "domain": "sgvtribune.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T14:00:00Z",
+      "timestamp_display": "Feb 12, 2026 14:00 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "827926",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.republicanherald.com/2026/02/12/us-warns-peru-sovereignty-china/",
+      "domain": "republicanherald.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T14:00:00Z",
+      "timestamp_display": "Feb 12, 2026 14:00 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "956961",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.whittierdailynews.com/2026/02/12/us-warns-peru-sovereignty-china/",
+      "domain": "whittierdailynews.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T14:15:00Z",
+      "timestamp_display": "Feb 12, 2026 14:15 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "237197",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.telegraphherald.com/ap/business/article_834e16ed-44cd-5508-9f56-8b679f980de6.html",
+      "domain": "telegraphherald.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T14:45:00Z",
+      "timestamp_display": "Feb 12, 2026 14:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "974145",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.dailybreeze.com/2026/02/12/us-warns-peru-sovereignty-china/",
+      "domain": "dailybreeze.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T15:30:00Z",
+      "timestamp_display": "Feb 12, 2026 15:30 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "441722",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.journal-advocate.com/2026/02/12/us-warns-peru-sovereignty-china/",
+      "domain": "journal-advocate.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T15:30:00Z",
+      "timestamp_display": "Feb 12, 2026 15:30 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "142375",
+      "title": "In blunt warning , the US says Peru could lose its sovereignty to China",
+      "title_en": null,
+      "url": "https://www.fortmorgantimes.com/2026/02/12/us-warns-peru-sovereignty-china/",
+      "domain": "fortmorgantimes.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T15:45:00Z",
+      "timestamp_display": "Feb 12, 2026 15:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "000565",
+      "title": "Trump is gathering Latin American leaders in Florida in March , ahead of his trip to China - Las Vegas Sun News",
+      "title_en": null,
+      "url": "https://lasvegassun.com/news/2026/feb/12/trump-is-gathering-latin-american-leaders-in-flori/",
+      "domain": "lasvegassun.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T18:15:00Z",
+      "timestamp_display": "Feb 12, 2026 18:15 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "239759",
+      "title": "US Warns Peru That China Is Threatening Its Sovereignty",
+      "title_en": null,
+      "url": "https://www.newser.com/story/383631/us-warns-peru-that-china-is-threatening-its-sovereignty.html",
+      "domain": "newser.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T18:30:00Z",
+      "timestamp_display": "Feb 12, 2026 18:30 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "112440",
+      "title": "Trump is gathering Latin American leaders in Florida in March , ahead of his trip to China",
+      "title_en": null,
+      "url": "https://www.ksat.com/news/world/2026/02/12/trump-is-gathering-latin-american-leaders-in-florida-in-march-ahead-of-his-trip-to-china/",
+      "domain": "ksat.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T18:45:00Z",
+      "timestamp_display": "Feb 12, 2026 18:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "119177",
+      "title": "US claims Peru risking sovereignty in megaport dispute with China",
+      "title_en": null,
+      "url": "http://www.bignewsnetwork.com/news/278864815/us-claims-peru-risking-sovereignty-in-megaport-dispute-with-china",
+      "domain": "bignewsnetwork.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T18:45:00Z",
+      "timestamp_display": "Feb 12, 2026 18:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty",
+        "megaport"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "848826",
+      "title": "U . S . warns Peru as court allows China to run port with less oversight",
+      "title_en": null,
+      "url": "https://www.upi.com/Top_News/World-News/2026/02/12/latam-peru-Chancay-megaport-US-warning/3271770915492/",
+      "domain": "upi.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T19:00:00Z",
+      "timestamp_display": "Feb 12, 2026 19:00 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "chancay",
+        "megaport"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "013913",
+      "title": "Trump plans to gather Latin American leaders for a summit in Florida , ahead of his trip to China",
+      "title_en": null,
+      "url": "https://www.latimes.com/world-nation/story/2026-02-12/trump-invites-latin-american-leaders-for-summit-in-florida-ahead-of-his-trip-to-china",
+      "domain": "latimes.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T19:45:00Z",
+      "timestamp_display": "Feb 12, 2026 19:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "644061",
+      "title": "US , China clash over Peru Chancay megaport after court bars regulator oversight",
+      "title_en": null,
+      "url": "https://www.scmp.com/news/china/article/3343384/us-china-clash-over-perus-chancay-megaport-after-court-bars-regulator-oversight",
+      "domain": "scmp.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-12T21:30:00Z",
+      "timestamp_display": "Feb 12, 2026 21:30 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "chancay",
+        "megaport"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "181914",
+      "title": "Chinese Embassy in Peru firmly opposes and strongly condemns US spread of false claims smearing Chancay Port project",
+      "title_en": null,
+      "url": "https://www.globaltimes.cn/page/202602/1355314.shtml",
+      "domain": "globaltimes.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-13T03:45:00Z",
+      "timestamp_display": "Feb 13, 2026 03:45 UTC",
+      "keywords_found": [
+        "peru",
+        "chancay"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.071319Z"
+    },
+    {
+      "id": "725863",
+      "title": "In blunt warning , U . S . says Peru could lose its sovereignty to China | The Asahi Shimbun : Breaking News , Japan News and Analysis",
+      "title_en": null,
+      "url": "https://www.asahi.com/ajw/articles/16351386",
+      "domain": "asahi.com",
+      "language": "en",
+      "source_country": "Japan",
+      "timestamp_iso": "2026-02-13T08:15:00Z",
+      "timestamp_display": "Feb 13, 2026 08:15 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "sovereignty"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "438260",
+      "title": "US , China clash over Peru Chancay megaport after court bars regulator oversight",
+      "title_en": null,
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/02/15/us-china-clash-over-perus-chancay-megaport-after-court-bars-regulator-oversight",
+      "domain": "thestar.com.my",
+      "language": "en",
+      "source_country": "Malaysia",
+      "timestamp_iso": "2026-02-15T05:45:00Z",
+      "timestamp_display": "Feb 15, 2026 05:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "chancay",
+        "megaport"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.071319Z"
+    },
+    {
+      "id": "344158",
+      "title": "Peru between China and the United States : A strategic crossroads in the Pacific",
+      "title_en": null,
+      "url": "https://www.upi.com/Voices/2026/02/17/latam-China-Peru-United-States-strategic-crossroads/9241771266829/",
+      "domain": "upi.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-17T14:45:00Z",
+      "timestamp_display": "Feb 17, 2026 14:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "408761",
+      "title": "Peru Aliaga Will Bring Stability , Growth , and an Alliance with the United States",
+      "title_en": null,
+      "url": "https://www.realclearworld.com/articles/2026/02/24/perus_aliaga_will_bring_stability_growth_and_an_alliance_with_the_united_states_1166557.html",
+      "domain": "realclearworld.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-24T16:15:00Z",
+      "timestamp_display": "Feb 24, 2026 16:15 UTC",
+      "keywords_found": [
+        "peru",
+        "bri"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "215424",
+      "title": "Peruvian Court Ruling Blocks Regulatory Oversight of Chinese Controlled Strategic Latin American Port",
+      "title_en": null,
+      "url": "https://www.theepochtimes.com/china/peruvian-court-ruling-blocks-regulatory-oversight-of-chinese-controlled-strategic-latin-american-port-5988230",
+      "domain": "theepochtimes.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-25T19:45:00Z",
+      "timestamp_display": "Feb 25, 2026 19:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "948895",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.chinanationalnews.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "chinanationalnews.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-26T12:00:00Z",
+      "timestamp_display": "Feb 26, 2026 12:00 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "169320",
+      "title": "Peru seeking deeper ties with Beijing , envoy says",
+      "title_en": null,
+      "url": "http://africa.chinadaily.com.cn/a/202602/27/WS69a0f86da310d6866eb3a85c.html",
+      "domain": "africa.chinadaily.com.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-27T03:15:00Z",
+      "timestamp_display": "Feb 27, 2026 03:15 UTC",
+      "keywords_found": [
+        "china",
+        "peru"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.072446Z"
+    },
+    {
+      "id": "938354",
+      "title": "Trump takes forceful steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.yahoo.com/news/articles/trump-takes-forceful-steps-pressure-021756848.html",
+      "domain": "yahoo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T02:45:00Z",
+      "timestamp_display": "Mar 06, 2026 02:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "564017",
+      "title": "Trump takes forceful steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.yahoo.com/news/articles/trump-takes-forceful-steps-pressure-021756555.html",
+      "domain": "yahoo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T02:45:00Z",
+      "timestamp_display": "Mar 06, 2026 02:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "504023",
+      "title": "Trump takes forceful steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.clickondetroit.com/news/politics/2026/03/06/trump-takes-forceful-steps-to-pressure-latin-american-leaders-to-reduce-china-ties/",
+      "domain": "clickondetroit.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T02:45:00Z",
+      "timestamp_display": "Mar 06, 2026 02:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "326279",
+      "title": "Trump takes forceful steps to pressure Latin American leaders to reduce China ties – Winnipeg Free Press",
+      "title_en": null,
+      "url": "https://www.winnipegfreepress.com/business/2026/03/05/trump-takes-forceful-steps-to-pressure-latin-american-leaders-to-reduce-china-ties",
+      "domain": "winnipegfreepress.com",
+      "language": "en",
+      "source_country": "Canada",
+      "timestamp_iso": "2026-03-06T02:45:00Z",
+      "timestamp_display": "Mar 06, 2026 02:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "229521",
+      "title": "Trump takes forceful steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.newsday.com/news/nation/china-trump-latin-america-peru-chile-panama-p73097",
+      "domain": "newsday.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T03:00:00Z",
+      "timestamp_display": "Mar 06, 2026 03:00 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "225018",
+      "title": "Trump takes forceful steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.bozemandailychronicle.com/ap_news/business/trump-takes-forceful-steps-to-pressure-latin-american-leaders-to-reduce-china-ties/article_62cbfe0d-63c4-5fa2-93f9-f13bbb3846b9.html",
+      "domain": "bozemandailychronicle.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T03:00:00Z",
+      "timestamp_display": "Mar 06, 2026 03:00 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "288519",
+      "title": "Trump takes forceful steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.yoursourceone.com/news/national_news/trump-takes-forceful-steps-to-pressure-latin-american-leaders-to-reduce-china-ties/article_06fac0d2-2bfe-59da-91ef-76049d31600b.html",
+      "domain": "yoursourceone.com",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-03-06T03:15:00Z",
+      "timestamp_display": "Mar 06, 2026 03:15 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "480900",
+      "title": "Trump is pressuring Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.wdbo.com/news/politics/trump-takes-forceful/G3XNRTUV7Q3GHJZHDLTE2YGNE4/",
+      "domain": "wdbo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T03:15:00Z",
+      "timestamp_display": "Mar 06, 2026 03:15 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "913861",
+      "title": "Trump takes forceful steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://ktar.com/national-news/trump-takes-forceful-steps-to-pressure-latin-american-leaders-to-reduce-china-ties/5831624/",
+      "domain": "ktar.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T04:15:00Z",
+      "timestamp_display": "Mar 06, 2026 04:15 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "780976",
+      "title": "Trump takes forceful steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.ksat.com/news/politics/2026/03/06/trump-takes-forceful-steps-to-pressure-latin-american-leaders-to-reduce-china-ties/",
+      "domain": "ksat.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T04:30:00Z",
+      "timestamp_display": "Mar 06, 2026 04:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "926874",
+      "title": "Donald Trump takes forceful steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/donald-trump-takes-forceful-steps-to-pressure-latin-american-leaders-to-reduce-china-ties/articleshow/129133192.cms",
+      "domain": "economictimes.indiatimes.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-03-06T05:45:00Z",
+      "timestamp_display": "Mar 06, 2026 05:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "783710",
+      "title": "Trump takes forceful steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.thehindu.com/news/international/trump-takes-forceful-steps-to-pressure-latin-american-leaders-to-reduce-china-ties/article70710237.ece",
+      "domain": "thehindu.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-03-06T05:45:00Z",
+      "timestamp_display": "Mar 06, 2026 05:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "486173",
+      "title": "Trump takes forceful steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://isp.netscape.com/news/world/story/0001/20260305/4ffccc6a6ab67cb82e038fda664ec759",
+      "domain": "isp.netscape.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T05:45:00Z",
+      "timestamp_display": "Mar 06, 2026 05:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "277127",
+      "title": "Trump takes forceful steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://mymotherlode.com/news/national/10597850/trump-takes-forceful-steps-to-pressure-latin-american-leaders-to-reduce-china-ties.html",
+      "domain": "mymotherlode.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T06:00:00Z",
+      "timestamp_display": "Mar 06, 2026 06:00 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "835619",
+      "title": "Trump takes forceful steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.aol.com/articles/trump-takes-forceful-steps-pressure-021756555.html",
+      "domain": "aol.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T10:30:00Z",
+      "timestamp_display": "Mar 06, 2026 10:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "096707",
+      "title": "Trump takes forceful steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://abcnews.com/Business/wireStory/trump-takes-forceful-steps-pressure-latin-american-leaders-130810755",
+      "domain": "abcnews.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T10:45:00Z",
+      "timestamp_display": "Mar 06, 2026 10:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "214111",
+      "title": "Trump takes steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.canoncitydailyrecord.com/2026/03/06/trump-latin-american-leaders/",
+      "domain": "canoncitydailyrecord.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T15:45:00Z",
+      "timestamp_display": "Mar 06, 2026 15:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "720075",
+      "title": "Trump takes steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.citizensvoice.com/2026/03/06/trump-latin-american-leaders/",
+      "domain": "citizensvoice.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T16:00:00Z",
+      "timestamp_display": "Mar 06, 2026 16:00 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "125084",
+      "title": "Trump takes steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.baltimoresun.com/2026/03/06/trump-latin-american-leaders/",
+      "domain": "baltimoresun.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T16:15:00Z",
+      "timestamp_display": "Mar 06, 2026 16:15 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "532378",
+      "title": "Trump takes steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.orlandosentinel.com/2026/03/06/trump-latin-american-leaders/",
+      "domain": "orlandosentinel.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T16:15:00Z",
+      "timestamp_display": "Mar 06, 2026 16:15 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "694118",
+      "title": "Trump takes steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.advocate-news.com/2026/03/06/trump-latin-american-leaders/",
+      "domain": "advocate-news.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T16:15:00Z",
+      "timestamp_display": "Mar 06, 2026 16:15 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "792294",
+      "title": "Trump takes steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.thetimes-tribune.com/2026/03/06/trump-latin-american-leaders/",
+      "domain": "thetimes-tribune.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T16:45:00Z",
+      "timestamp_display": "Mar 06, 2026 16:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "317189",
+      "title": "Trump takes steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.whittierdailynews.com/2026/03/06/trump-latin-american-leaders/",
+      "domain": "whittierdailynews.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T16:45:00Z",
+      "timestamp_display": "Mar 06, 2026 16:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "066255",
+      "title": "Trump takes steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.sun-sentinel.com/2026/03/06/trump-latin-american-leaders/",
+      "domain": "sun-sentinel.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T17:30:00Z",
+      "timestamp_display": "Mar 06, 2026 17:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "998930",
+      "title": "Trump takes steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.news-herald.com/2026/03/06/trump-latin-american-leaders/",
+      "domain": "news-herald.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T17:30:00Z",
+      "timestamp_display": "Mar 06, 2026 17:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "084301",
+      "title": "Trump takes steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.sandiegouniontribune.com/2026/03/06/trump-latin-american-leaders/",
+      "domain": "sandiegouniontribune.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-06T20:30:00Z",
+      "timestamp_display": "Mar 06, 2026 20:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "245304",
+      "title": "China spent years building ties in Latin America . Can Trump make room for the US ? ",
+      "title_en": null,
+      "url": "https://www.yahoo.com/news/articles/china-spent-years-building-ties-015627454.html",
+      "domain": "yahoo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T02:30:00Z",
+      "timestamp_display": "Mar 07, 2026 02:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "470389",
+      "title": "China spent years building ties in Latin America . Can Trump make room for the US ? ",
+      "title_en": null,
+      "url": "https://www.aol.com/news/china-spent-years-building-ties-015627949.html",
+      "domain": "aol.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T02:45:00Z",
+      "timestamp_display": "Mar 07, 2026 02:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "520781",
+      "title": "Trump takes steps to pressure Latin American leaders to reduce China ties",
+      "title_en": null,
+      "url": "https://www.lowellsun.com/2026/03/06/trump-latin-american-leaders/",
+      "domain": "lowellsun.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T05:30:00Z",
+      "timestamp_display": "Mar 07, 2026 05:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "886357",
+      "title": "Cheap Chinese exports flooding Latin America | The Arkansas Democrat - Gazette",
+      "title_en": null,
+      "url": "https://www.arkansasonline.com/news/2026/feb/08/cheap-chinese-exports-flooding-latin-america/",
+      "domain": "arkansasonline.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-08T09:00:00Z",
+      "timestamp_display": "Feb 08, 2026 09:00 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "931189",
+      "title": "Cheap Chinese exports flooding Latin America | Northwest Arkansas Democrat - Gazette",
+      "title_en": null,
+      "url": "https://www.nwaonline.com/news/2026/feb/08/cheap-chinese-exports-flooding-latin-america/",
+      "domain": "nwaonline.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-08T12:45:00Z",
+      "timestamp_display": "Feb 08, 2026 12:45 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "338763",
+      "title": "Peruvian cement market expands 14 % in January",
+      "title_en": null,
+      "url": "https://www.cemnet.com/News/story/180778/peruvian-cement-market-expands-14-in-january.html",
+      "domain": "cemnet.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-10T12:30:00Z",
+      "timestamp_display": "Feb 10, 2026 12:30 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "938322",
+      "title": "Peru leader José Jerí ousted over  Chifa - gate  scandal , as presidential  curse  strikes again | National & World News",
+      "title_en": null,
+      "url": "https://www.news8000.com/news/national-world/peru-s-leader-jos-jer-ousted-over-chifa-gate-scandal-as-presidential-curse-strikes-again/article_baa0884b-c1f7-527d-bbe6-2d0ff6d7700e.html",
+      "domain": "news8000.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-17T22:30:00Z",
+      "timestamp_display": "Feb 17, 2026 22:30 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "882692",
+      "title": "Peru leader José Jerí ousted over  Chifa - gate  scandal , as presidential  curse  strikes again",
+      "title_en": null,
+      "url": "https://edition.cnn.com/2026/02/17/americas/peru-president-jose-jeri-ousted-intl-latam",
+      "domain": "edition.cnn.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-17T23:15:00Z",
+      "timestamp_display": "Feb 17, 2026 23:15 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "949933",
+      "title": "Peru leader José Jerí ousted over  Chifa - gate  scandal , as presidential  curse  strikes again",
+      "title_en": null,
+      "url": "https://keyt.com/news/national-world/cnn-world/2026/02/17/perus-president-jose-jeri-ousted-marking-eighth-change-in-leader-in-less-than-a-decade/",
+      "domain": "keyt.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-17T23:30:00Z",
+      "timestamp_display": "Feb 17, 2026 23:30 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "833562",
+      "title": "Peru leader José Jerí ousted over  Chifa - gate  scandal , as presidential  curse  strikes again",
+      "title_en": null,
+      "url": "https://abc17news.com/news/national-world/cnn-world/2026/02/17/perus-president-jose-jeri-ousted-marking-eighth-change-in-leader-in-less-than-a-decade/",
+      "domain": "abc17news.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-17T23:45:00Z",
+      "timestamp_display": "Feb 17, 2026 23:45 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "810637",
+      "title": "Peru leader José Jerí ousted over  Chifa - gate  scandal , as presidential  curse  strikes again",
+      "title_en": null,
+      "url": "https://krdo.com/news/2026/02/17/perus-president-jose-jeri-ousted-marking-eighth-change-in-leader-in-less-than-a-decade/",
+      "domain": "krdo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-18T01:45:00Z",
+      "timestamp_display": "Feb 18, 2026 01:45 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "889206",
+      "title": "Peru appoints Jose Maria Balcazar as president after Jose Jeri removal",
+      "title_en": null,
+      "url": "https://www.yahoo.com/news/articles/peru-appoints-jose-maria-balcazar-030946330.html",
+      "domain": "yahoo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-19T04:00:00Z",
+      "timestamp_display": "Feb 19, 2026 04:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "459279",
+      "title": "Peru appoints Jose Maria Balcazar as president after Jose Jeri removal | Government News",
+      "title_en": null,
+      "url": "https://www.aljazeera.com/news/2026/2/19/peru-appoints-new-president-after-jose-jeris-removal",
+      "domain": "aljazeera.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-19T04:00:00Z",
+      "timestamp_display": "Feb 19, 2026 04:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "493363",
+      "title": "Peru appoints Jose Maria Balcazar as president after Jose Jeri removal - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "title_en": null,
+      "url": "https://dominicanrepublicpost.com/peru-appoints-jose-maria-balcazar-as-president-after-jose-jeris-removal/",
+      "domain": "dominicanrepublicpost.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-19T05:00:00Z",
+      "timestamp_display": "Feb 19, 2026 05:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "734823",
+      "title": "Peru appoints Jose Maria Balcazar as president after Jose Jeri removal - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "title_en": null,
+      "url": "https://grenadachronicle.com/peru-appoints-jose-maria-balcazar-as-president-after-jose-jeris-removal/",
+      "domain": "grenadachronicle.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-19T05:00:00Z",
+      "timestamp_display": "Feb 19, 2026 05:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "922726",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.cambodiantimes.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "cambodiantimes.com",
+      "language": "en",
+      "source_country": "Cambodia",
+      "timestamp_iso": "2026-02-26T09:15:00Z",
+      "timestamp_display": "Feb 26, 2026 09:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "708291",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.jamaicantimes.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "jamaicantimes.com",
+      "language": "en",
+      "source_country": "Jamaica",
+      "timestamp_iso": "2026-02-26T10:45:00Z",
+      "timestamp_display": "Feb 26, 2026 10:45 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "088127",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.mexicostar.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "mexicostar.com",
+      "language": "en",
+      "source_country": "Mexico",
+      "timestamp_iso": "2026-02-26T12:15:00Z",
+      "timestamp_display": "Feb 26, 2026 12:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "422992",
+      "title": "Latin America and Caribbean Solidarity in the Trump Era",
+      "title_en": null,
+      "url": "https://www.counterpunch.org/2026/03/04/latin-america-and-caribbean-solidarity-in-the-trump-era/",
+      "domain": "counterpunch.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-04T08:15:00Z",
+      "timestamp_display": "Mar 04, 2026 08:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.073522Z"
+    },
+    {
+      "id": "183674",
+      "title": "Ghana , Peru Mark 39 Years of Ties With Diplomatic Book Launch",
+      "title_en": null,
+      "url": "https://www.newsghana.com.gh/ghana-peru-mark-39-years-of-ties-with-diplomatic-book-launch/",
+      "domain": "newsghana.com.gh",
+      "language": "en",
+      "source_country": "Ghana",
+      "timestamp_iso": "2026-03-07T01:15:00Z",
+      "timestamp_display": "Mar 07, 2026 01:15 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.074572Z"
+    },
+    {
+      "id": "947914",
+      "title": "Trump Announces Military Coalition With Latin American Leaders To Eradicate Cartels",
+      "title_en": null,
+      "url": "https://www.zerohedge.com/geopolitical/trump-announces-military-coalition-latin-american-leaders-eradicate-cartels",
+      "domain": "zerohedge.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-07T22:30:00Z",
+      "timestamp_display": "Mar 07, 2026 22:30 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-10T02:42:48.091671Z"
+    }
+  ]
+}

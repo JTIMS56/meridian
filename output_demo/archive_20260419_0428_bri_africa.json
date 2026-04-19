@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-04-19T04:28:52.934802Z",
+    "collection_duration_seconds": 22.09,
+    "profile": "bri_africa",
+    "profile_description": "Belt and Road / China Africa Infrastructure",
+    "queries": [
+      "Belt Road Africa",
+      "China Africa",
+      "China Djibouti",
+      "China Kenya"
+    ],
+    "total_articles": 0,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 0,
+    "languages_detected": 0,
+    "language_breakdown": {},
+    "top_countries": [],
+    "high_relevance_articles": 0,
+    "translated_articles": 0
+  },
+  "articles": []
+}

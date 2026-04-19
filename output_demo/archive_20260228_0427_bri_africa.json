@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-02-28T04:27:10.747945Z",
+    "collection_duration_seconds": 53.0,
+    "profile": "bri_africa",
+    "profile_description": "Belt and Road / China Africa Infrastructure",
+    "queries": [
+      "Belt Road Africa",
+      "China Africa",
+      "China Djibouti",
+      "China Kenya"
+    ],
+    "total_articles": 5,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 5,
+    "languages_detected": 1,
+    "language_breakdown": {
+      "en": 5
+    },
+    "top_countries": [
+      {
+        "country": "Nigeria",
+        "count": 1
+      },
+      {
+        "country": "Ghana",
+        "count": 1
+      },
+      {
+        "country": "Kenya",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 5,
+    "translated_articles": 0
+  },
+  "articles": [
+    {
+      "id": "521398",
+      "title": "Kenya : No Evidence for X Post Claim That US Ordered Kenya to End a Trade Deal With China",
+      "title_en": null,
+      "url": "https://allafrica.com/stories/202601300209.html",
+      "domain": "allafrica.com",
+      "language": "en",
+      "source_country": "Nigeria",
+      "timestamp_iso": "2026-01-30T11:00:00Z",
+      "timestamp_display": "Jan 30, 2026 11:00 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T04:27:10.745945Z"
+    },
+    {
+      "id": "124821",
+      "title": "Kenya and Africa Set to Benefit as China Expands Duty - Free Imports",
+      "title_en": null,
+      "url": "https://www.ghanamma.com/2026/02/15/kenya-and-africa-set-to-benefit-as-china-expands-duty-free-imports/",
+      "domain": "ghanamma.com",
+      "language": "en",
+      "source_country": "Ghana",
+      "timestamp_iso": "2026-02-15T08:15:00Z",
+      "timestamp_display": "Feb 15, 2026 08:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "port",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T04:27:10.745945Z"
+    },
+    {
+      "id": "109051",
+      "title": "View of Chinese - built Mombasa - Nairobi Standard Gauge Railway in Kenya - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/20260221/cc6172903e56471e87fb3bbeba423189/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-21T03:15:00Z",
+      "timestamp_display": "Feb 21, 2026 03:15 UTC",
+      "keywords_found": [
+        "railway",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T04:27:10.745945Z"
+    },
+    {
+      "id": "810206",
+      "title": "View of Chinese - built Mombasa - Nairobi Standard Gauge Railway in Kenya - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/africa/20260221/bc972d7830534c8d8f7007b18e2a39b5/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-21T03:15:00Z",
+      "timestamp_display": "Feb 21, 2026 03:15 UTC",
+      "keywords_found": [
+        "africa",
+        "railway",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T04:27:10.745945Z"
+    },
+    {
+      "id": "822686",
+      "title": "Kenya holds Chinese New Year of the Horse celebrations to deepen cultural bonds",
+      "title_en": null,
+      "url": "http://www.kenyastar.com/news/278866382/kenya-holds-chinese-new-year-of-the-horse-celebrations-to-deepen-cultural-bonds",
+      "domain": "kenyastar.com",
+      "language": "en",
+      "source_country": "Kenya",
+      "timestamp_iso": "2026-02-16T08:00:00Z",
+      "timestamp_display": "Feb 16, 2026 08:00 UTC",
+      "keywords_found": [
+        "kenya"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T04:27:10.745945Z"
+    }
+  ]
+}

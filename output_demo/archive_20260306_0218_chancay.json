@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-03-06T02:18:14.170365Z",
+    "collection_duration_seconds": 94.95,
+    "profile": "chancay",
+    "profile_description": "China-Peru Deepwater Port / Intercontinental Railway",
+    "queries": [
+      "Chancay",
+      "Chancay megaport",
+      "COSCO Peru",
+      "COSCO",
+      "Belt Road Peru",
+      "Belt Road",
+      "deepwater port",
+      "China railway Peru",
+      "China railway",
+      "Peru sovereignty",
+      "Peru China"
+    ],
+    "total_articles": 12,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 12,
+    "languages_detected": 1,
+    "language_breakdown": {
+      "en": 12
+    },
+    "top_countries": [
+      {
+        "country": "United States",
+        "count": 6
+      },
+      {
+        "country": "China",
+        "count": 1
+      },
+      {
+        "country": "Canada",
+        "count": 1
+      },
+      {
+        "country": "Cambodia",
+        "count": 1
+      },
+      {
+        "country": "Jamaica",
+        "count": 1
+      },
+      {
+        "country": "Mexico",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 12,
+    "translated_articles": 0
+  },
+  "articles": [
+    {
+      "id": "024668",
+      "title": "U . S . warns Peru as court allows China to run port with less oversight",
+      "title_en": null,
+      "url": "https://www.upi.com/Top_News/World-News/2026/02/12/latam-peru-Chancay-megaport-US-warning/3271770915492/",
+      "domain": "upi.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T19:00:00Z",
+      "timestamp_display": "Feb 12, 2026 19:00 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "chancay",
+        "megaport"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-06T02:18:14.146929Z"
+    },
+    {
+      "id": "898630",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.chinanationalnews.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "chinanationalnews.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-26T12:00:00Z",
+      "timestamp_display": "Feb 26, 2026 12:00 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-06T02:18:14.170365Z"
+    },
+    {
+      "id": "921255",
+      "title": "Honduras weighs shift in China - Taiwan ties as Trump pushes for US dominance in Latin America – Winnipeg Free Press",
+      "title_en": null,
+      "url": "https://www.winnipegfreepress.com/world/2026/03/04/honduras-weighs-shift-in-china-taiwan-ties-as-trump-pushes-for-us-dominance-in-latin-america",
+      "domain": "winnipegfreepress.com",
+      "language": "en",
+      "source_country": "Canada",
+      "timestamp_iso": "2026-03-05T02:30:00Z",
+      "timestamp_display": "Mar 05, 2026 02:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-06T02:18:14.162193Z"
+    },
+    {
+      "id": "517079",
+      "title": "Honduras weighs shift in China - Taiwan ties as Trump pushes for US dominance in Latin America",
+      "title_en": null,
+      "url": "https://www.wsls.com/news/world/2026/03/05/honduras-weighs-shift-in-china-taiwan-ties-as-trump-pushes-for-us-dominance-in-latin-america/",
+      "domain": "wsls.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-05T02:45:00Z",
+      "timestamp_display": "Mar 05, 2026 02:45 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-06T02:18:14.162193Z"
+    },
+    {
+      "id": "704895",
+      "title": "Honduras weighs shift in China - Taiwan ties as Trump pushes for US dominance in Latin America",
+      "title_en": null,
+      "url": "https://www.yoursourceone.com/news/national_news/honduras-weighs-shift-in-china-taiwan-ties-as-trump-pushes-for-us-dominance-in-latin/article_642846c2-647d-5e3b-92aa-1c9087842628.html",
+      "domain": "yoursourceone.com",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-03-05T04:30:00Z",
+      "timestamp_display": "Mar 05, 2026 04:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-06T02:18:14.170365Z"
+    },
+    {
+      "id": "320595",
+      "title": "Honduras weighs shift in China - Taiwan ties as Trump pushes for US dominance in Latin America",
+      "title_en": null,
+      "url": "https://www.clickondetroit.com/news/world/2026/03/05/honduras-weighs-shift-in-china-taiwan-ties-as-trump-pushes-for-us-dominance-in-latin-america/",
+      "domain": "clickondetroit.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-05T05:15:00Z",
+      "timestamp_display": "Mar 05, 2026 05:15 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-06T02:18:14.162193Z"
+    },
+    {
+      "id": "636679",
+      "title": "Honduras weighs shift in China - Taiwan ties as Trump pushes for US dominance in Latin America",
+      "title_en": null,
+      "url": "https://www.news4jax.com/news/world/2026/03/05/honduras-weighs-shift-in-china-taiwan-ties-as-trump-pushes-for-us-dominance-in-latin-america/",
+      "domain": "news4jax.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-05T06:00:00Z",
+      "timestamp_display": "Mar 05, 2026 06:00 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-06T02:18:14.162193Z"
+    },
+    {
+      "id": "086531",
+      "title": "Honduras weighs shift in China - Taiwan ties as Trump pushes for US dominance in Latin America",
+      "title_en": null,
+      "url": "https://www.aol.com/articles/honduras-weighs-shift-china-taiwan-020150056.html",
+      "domain": "aol.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-05T10:30:00Z",
+      "timestamp_display": "Mar 05, 2026 10:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-03-06T02:18:14.162193Z"
+    },
+    {
+      "id": "742991",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.cambodiantimes.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "cambodiantimes.com",
+      "language": "en",
+      "source_country": "Cambodia",
+      "timestamp_iso": "2026-02-26T09:15:00Z",
+      "timestamp_display": "Feb 26, 2026 09:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-06T02:18:14.170365Z"
+    },
+    {
+      "id": "779929",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.jamaicantimes.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "jamaicantimes.com",
+      "language": "en",
+      "source_country": "Jamaica",
+      "timestamp_iso": "2026-02-26T10:45:00Z",
+      "timestamp_display": "Feb 26, 2026 10:45 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-06T02:18:14.170365Z"
+    },
+    {
+      "id": "298096",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.mexicostar.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "mexicostar.com",
+      "language": "en",
+      "source_country": "Mexico",
+      "timestamp_iso": "2026-02-26T12:15:00Z",
+      "timestamp_display": "Feb 26, 2026 12:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-06T02:18:14.170365Z"
+    },
+    {
+      "id": "183225",
+      "title": "Latin America and Caribbean Solidarity in the Trump Era",
+      "title_en": null,
+      "url": "https://www.counterpunch.org/2026/03/04/latin-america-and-caribbean-solidarity-in-the-trump-era/",
+      "domain": "counterpunch.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-03-04T08:15:00Z",
+      "timestamp_display": "Mar 04, 2026 08:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-03-06T02:18:14.146929Z"
+    }
+  ]
+}

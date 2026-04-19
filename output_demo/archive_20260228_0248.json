@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-02-28T02:48:00.598770Z",
+    "collection_duration_seconds": 119.21,
+    "queries": [
+      "Chancay port",
+      "China Peru port",
+      "COSCO Peru",
+      "Belt Road Peru",
+      "deepwater port China",
+      "intercontinental railway China",
+      "China Latin America railway",
+      "China South America infrastructure"
+    ],
+    "timespan": "3d",
+    "total_articles": 1,
+    "version": "2.0.0"
+  },
+  "summary": {
+    "total_articles": 1,
+    "languages_detected": 1,
+    "language_breakdown": {
+      "en": 1
+    },
+    "top_countries": [
+      {
+        "country": "China",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 0
+  },
+  "articles": [
+    {
+      "id": "670253",
+      "title": "Peru seeking deeper ties with Beijing , envoy says",
+      "title_en": null,
+      "url": "http://africa.chinadaily.com.cn/a/202602/27/WS69a0f86da310d6866eb3a85c.html",
+      "domain": "africa.chinadaily.com.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-27T03:15:00Z",
+      "timestamp_display": "Feb 27, 2026 03:15 UTC",
+      "keywords_found": [
+        "china",
+        "peru"
+      ],
+      "relevance_score": 0.667,
+      "collected_at": "2026-02-28T02:48:00.598770Z"
+    }
+  ]
+}

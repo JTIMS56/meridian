@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-04-19T04:14:38.522578Z",
+    "collection_duration_seconds": 82.81,
+    "profile": "chancay",
+    "profile_description": "China-Peru Deepwater Port / Intercontinental Railway",
+    "queries": [
+      "Chancay",
+      "Chancay megaport",
+      "COSCO Peru",
+      "COSCO",
+      "Belt Road Peru",
+      "Belt Road",
+      "deepwater port",
+      "China railway Peru",
+      "China railway",
+      "Peru sovereignty",
+      "Peru China"
+    ],
+    "total_articles": 1,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 1,
+    "languages_detected": 1,
+    "language_breakdown": {
+      "bu": 1
+    },
+    "top_countries": [
+      {
+        "country": "Bulgaria",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 1,
+    "translated_articles": 1
+  },
+  "articles": [
+    {
+      "id": "248499",
+      "title": "Перу избира президент и членове на Конгреса",
+      "title_en": "Peru elects a president and members of Congress",
+      "url": "https://news.bg/int-politics/peru-izbira-prezident-i-chlenove-na-kongresa.html",
+      "domain": "news.bg",
+      "language": "bu",
+      "source_country": "Bulgaria",
+      "timestamp_iso": "2026-04-12T20:00:00Z",
+      "timestamp_display": "Apr 12, 2026 20:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-04-19T04:14:37.594095Z"
+    }
+  ]
+}

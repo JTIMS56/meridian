@@ -1,0 +1,1499 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-02-28T13:34:35.978476Z",
+    "collection_duration_seconds": 19374.51,
+    "profile": "bri_africa",
+    "profile_description": "Belt and Road / China Africa Infrastructure",
+    "queries": [
+      "Belt Road Africa",
+      "China Africa",
+      "China Djibouti",
+      "China Kenya"
+    ],
+    "total_articles": 85,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 85,
+    "languages_detected": 2,
+    "language_breakdown": {
+      "en": 82,
+      "fr": 3
+    },
+    "top_countries": [
+      {
+        "country": "China",
+        "count": 13
+      },
+      {
+        "country": "United States",
+        "count": 10
+      },
+      {
+        "country": "South Africa",
+        "count": 7
+      },
+      {
+        "country": "Nigeria",
+        "count": 6
+      },
+      {
+        "country": "Kenya",
+        "count": 6
+      },
+      {
+        "country": "Ghana",
+        "count": 3
+      },
+      {
+        "country": "Cambodia",
+        "count": 3
+      },
+      {
+        "country": "Pakistan",
+        "count": 2
+      },
+      {
+        "country": "India",
+        "count": 2
+      },
+      {
+        "country": "Zimbabwe",
+        "count": 2
+      }
+    ],
+    "high_relevance_articles": 85,
+    "translated_articles": 3
+  },
+  "articles": [
+    {
+      "id": "946178",
+      "title": "Kenya : No Evidence for X Post Claim That US Ordered Kenya to End a Trade Deal With China",
+      "title_en": null,
+      "url": "https://allafrica.com/stories/202601300209.html",
+      "domain": "allafrica.com",
+      "language": "en",
+      "source_country": "Nigeria",
+      "timestamp_iso": "2026-01-30T11:00:00Z",
+      "timestamp_display": "Jan 30, 2026 11:00 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "994355",
+      "title": "China pledges deeper cultural and economic ties with Kenya",
+      "title_en": null,
+      "url": "https://www.standardmedia.co.ke/business/article/2001540441/china-pledges-deeper-cultural-and-economic-ties-with-kenya",
+      "domain": "standardmedia.co.ke",
+      "language": "en",
+      "source_country": "Kenya",
+      "timestamp_iso": "2026-02-09T04:30:00Z",
+      "timestamp_display": "Feb 09, 2026 04:30 UTC",
+      "keywords_found": [
+        "china",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "358951",
+      "title": "PLA Support Base in Djibouti holds Spring Festival Culture Exchange",
+      "title_en": null,
+      "url": "http://eng.chinamil.com.cn/2025xb/M_251449/V_251467/16442023.html",
+      "domain": "eng.chinamil.com.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-09T11:00:00Z",
+      "timestamp_display": "Feb 09, 2026 11:00 UTC",
+      "keywords_found": [
+        "china",
+        "port",
+        "djibouti"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "601740",
+      "title": "Feature : China - Kenya cultural fusion , friendship shine at Spring Festival Gala - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/africa/20260209/0065b653ec2c4cebb3389edeaee53251/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-09T16:15:00Z",
+      "timestamp_display": "Feb 09, 2026 16:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "326339",
+      "title": " ( Hello Africa ) China - Kenya cultural fusion , friendship shine at Spring Festival Gala",
+      "title_en": null,
+      "url": "http://www.bignewsnetwork.com/news/278859009/hello-africa-china-kenya-cultural-fusion-friendship-shine-at-spring-festival-gala",
+      "domain": "bignewsnetwork.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-10T10:15:00Z",
+      "timestamp_display": "Feb 10, 2026 10:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "186482",
+      "title": " ( Hello Africa ) China - Kenya cultural fusion , friendship shine at Spring Festival Gala",
+      "title_en": null,
+      "url": "http://www.africaleader.com/news/278859009/hello-africa-china-kenya-cultural-fusion-friendship-shine-at-spring-festival-gala",
+      "domain": "africaleader.com",
+      "language": "en",
+      "source_country": "South Africa",
+      "timestamp_iso": "2026-02-10T13:15:00Z",
+      "timestamp_display": "Feb 10, 2026 13:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.105152Z"
+    },
+    {
+      "id": "583458",
+      "title": "A Grand Finale in Nairobi : Celebrating the China - Kenya Culture and Tourism Season 2026",
+      "title_en": null,
+      "url": "https://www.ghanamma.com/2026/02/10/a-grand-finale-in-nairobi-celebrating-the-china-kenya-culture-and-tourism-season-2026/",
+      "domain": "ghanamma.com",
+      "language": "en",
+      "source_country": "Ghana",
+      "timestamp_iso": "2026-02-10T22:45:00Z",
+      "timestamp_display": "Feb 10, 2026 22:45 UTC",
+      "keywords_found": [
+        "china",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "682780",
+      "title": "Kenya holds Chinese New Year of the Horse celebrations to deepen cultural bonds - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/africa/20260213/c7a9ce3120ed452fa05c91b6ea621b56/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-13T15:00:00Z",
+      "timestamp_display": "Feb 13, 2026 15:00 UTC",
+      "keywords_found": [
+        "africa",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "057444",
+      "title": "Zero - tariff opportunities : Elevating China – Nigeria cooperation to a new level",
+      "title_en": null,
+      "url": "https://blueprint.ng/zero-tariff-opportunities-elevating-china-nigeria-cooperation-to-a-new-level/",
+      "domain": "blueprint.ng",
+      "language": "en",
+      "source_country": "Nigeria",
+      "timestamp_iso": "2026-02-14T13:45:00Z",
+      "timestamp_display": "Feb 14, 2026 13:45 UTC",
+      "keywords_found": [
+        "china",
+        "port"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "926680",
+      "title": "Xi : China to scrap tariffs for most of Africa in May",
+      "title_en": null,
+      "url": "https://www.manilatimes.net/2026/02/15/world/asia-oceania/xi-china-to-scrap-tariffs-for-most-of-africa-in-may/2278451",
+      "domain": "manilatimes.net",
+      "language": "en",
+      "source_country": "Philippines",
+      "timestamp_iso": "2026-02-14T17:00:00Z",
+      "timestamp_display": "Feb 14, 2026 17:00 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "368292",
+      "title": "Feature : New Year celebration deepens cultural bonds between China , South Africa",
+      "title_en": null,
+      "url": "http://www.bignewsnetwork.com/news/278868138/feature-new-year-celebration-deepens-cultural-bonds-between-china-south-africa",
+      "domain": "bignewsnetwork.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-14T17:00:00Z",
+      "timestamp_display": "Feb 14, 2026 17:00 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "308125",
+      "title": "Feature : New Year celebration deepens cultural bonds between China , South Africa - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/africa/20260215/824844c34f72446f846b449a2063c75d/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-14T18:30:00Z",
+      "timestamp_display": "Feb 14, 2026 18:30 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "055082",
+      "title": "Feature : New Year celebration deepens cultural bonds between China , South Africa - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/20260214/26cbdc1c9a33413ebb3a1321e0e8f6d8/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-14T18:30:00Z",
+      "timestamp_display": "Feb 14, 2026 18:30 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "025743",
+      "title": "China to implement zero tariffs on imports from 53 African countries",
+      "title_en": null,
+      "url": "https://tribune.com.pk/story/2592592/china-to-implement-zero-tariffs-on-imports-from-53-african-countries",
+      "domain": "tribune.com.pk",
+      "language": "en",
+      "source_country": "Pakistan",
+      "timestamp_iso": "2026-02-14T19:30:00Z",
+      "timestamp_display": "Feb 14, 2026 19:30 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "port"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "755156",
+      "title": "Xi sends congratulatory message to 39th African Union Summit",
+      "title_en": null,
+      "url": "http://www.china.org.cn/2026-02/15/content_118335564.shtml",
+      "domain": "china.org.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-15T03:15:00Z",
+      "timestamp_display": "Feb 15, 2026 03:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.096611Z"
+    },
+    {
+      "id": "350026",
+      "title": "Kenya and Africa Set to Benefit as China Expands Duty - Free Imports",
+      "title_en": null,
+      "url": "https://www.ghanamma.com/2026/02/15/kenya-and-africa-set-to-benefit-as-china-expands-duty-free-imports/",
+      "domain": "ghanamma.com",
+      "language": "en",
+      "source_country": "Ghana",
+      "timestamp_iso": "2026-02-15T08:15:00Z",
+      "timestamp_display": "Feb 15, 2026 08:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "port",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "005864",
+      "title": "China earns expert praise for support in Africa energy shift",
+      "title_en": null,
+      "url": "https://www.chinadaily.com.cn/a/202602/15/WS699163bea310d6866eb3965f.html",
+      "domain": "chinadaily.com.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-15T08:45:00Z",
+      "timestamp_display": "Feb 15, 2026 08:45 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "port"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.096611Z"
+    },
+    {
+      "id": "073015",
+      "title": "China Implements Zero Tariff for 52 African Nations from May",
+      "title_en": null,
+      "url": "https://www.newsghana.com.gh/china-implements-zero-tariff-for-52-african-nations-from-may/",
+      "domain": "newsghana.com.gh",
+      "language": "en",
+      "source_country": "Ghana",
+      "timestamp_iso": "2026-02-15T14:30:00Z",
+      "timestamp_display": "Feb 15, 2026 14:30 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "020880",
+      "title": "World Insights : Africa hails Xi AU message for joint pursuit of modernization , Global South solidarity",
+      "title_en": null,
+      "url": "http://www.chinanationalnews.com/news/278869720/world-insights-africa-hails-xi-au-message-for-joint-pursuit-of-modernization-global-south-solidarity",
+      "domain": "chinanationalnews.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-15T16:30:00Z",
+      "timestamp_display": "Feb 15, 2026 16:30 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "135747",
+      "title": "China to scrap tariffs for most of Africa from 1 May , says Xi Jinping",
+      "title_en": null,
+      "url": "https://www.africanews.com/2026/02/15/china-to-scrap-tariffs-for-most-of-africa-from-1-may-says-xi-jinping/",
+      "domain": "africanews.com",
+      "language": "en",
+      "source_country": "Nigeria",
+      "timestamp_iso": "2026-02-15T17:15:00Z",
+      "timestamp_display": "Feb 15, 2026 17:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.096611Z"
+    },
+    {
+      "id": "849335",
+      "title": " ( Hello Africa ) New Year celebration deepens cultural bonds between China , South Africa",
+      "title_en": null,
+      "url": "http://www.bignewsnetwork.com/news/278869967/hello-africa-new-year-celebration-deepens-cultural-bonds-between-china-south-africa",
+      "domain": "bignewsnetwork.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-15T20:15:00Z",
+      "timestamp_display": "Feb 15, 2026 20:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "820020",
+      "title": " ( Hello Africa ) New Year celebration deepens cultural bonds between China , South Africa",
+      "title_en": null,
+      "url": "http://www.srilankasource.com/news/278869967/hello-africa-new-year-celebration-deepens-cultural-bonds-between-china-south-africa",
+      "domain": "srilankasource.com",
+      "language": "en",
+      "source_country": "Sri Lanka",
+      "timestamp_iso": "2026-02-15T20:30:00Z",
+      "timestamp_display": "Feb 15, 2026 20:30 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "489927",
+      "title": " ( Hello Africa ) New Year celebration deepens cultural bonds between China , South Africa",
+      "title_en": null,
+      "url": "http://www.cambodiantimes.com/news/278869967/hello-africa-new-year-celebration-deepens-cultural-bonds-between-china-south-africa",
+      "domain": "cambodiantimes.com",
+      "language": "en",
+      "source_country": "Cambodia",
+      "timestamp_iso": "2026-02-15T21:30:00Z",
+      "timestamp_display": "Feb 15, 2026 21:30 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "086313",
+      "title": " ( Hello Africa ) New Year celebration deepens cultural bonds between China , South Africa",
+      "title_en": null,
+      "url": "http://www.kenyastar.com/news/278869967/hello-africa-new-year-celebration-deepens-cultural-bonds-between-china-south-africa",
+      "domain": "kenyastar.com",
+      "language": "en",
+      "source_country": "Kenya",
+      "timestamp_iso": "2026-02-15T22:45:00Z",
+      "timestamp_display": "Feb 15, 2026 22:45 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "241107",
+      "title": " ( Hello Africa ) New Year celebration deepens cultural bonds between China , South Africa",
+      "title_en": null,
+      "url": "http://www.africaleader.com/news/278869967/hello-africa-new-year-celebration-deepens-cultural-bonds-between-china-south-africa",
+      "domain": "africaleader.com",
+      "language": "en",
+      "source_country": "South Africa",
+      "timestamp_iso": "2026-02-15T22:45:00Z",
+      "timestamp_display": "Feb 15, 2026 22:45 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "991420",
+      "title": " ( Hello Africa ) New Year celebration deepens cultural bonds between China , South Africa",
+      "title_en": null,
+      "url": "http://www.nigeriasun.com/news/278869967/hello-africa-new-year-celebration-deepens-cultural-bonds-between-china-south-africa",
+      "domain": "nigeriasun.com",
+      "language": "en",
+      "source_country": "Nigeria",
+      "timestamp_iso": "2026-02-15T23:45:00Z",
+      "timestamp_display": "Feb 15, 2026 23:45 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "605976",
+      "title": "Africa hails Xi AU message for joint pursuit of modernization , Global South solidarity",
+      "title_en": null,
+      "url": "http://www.china.org.cn/2026-02/16/content_118336338.shtml",
+      "domain": "china.org.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-16T03:15:00Z",
+      "timestamp_display": "Feb 16, 2026 03:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.096611Z"
+    },
+    {
+      "id": "653602",
+      "title": "China Grants Zero - Import Tariffs for 53 African States starting May",
+      "title_en": null,
+      "url": "https://meobserver.org/trade/2026/02/16/china-grants-zero-import-tariffs-for-53-african-states-starting-may/",
+      "domain": "meobserver.org",
+      "language": "en",
+      "source_country": "Egypt",
+      "timestamp_iso": "2026-02-16T08:00:00Z",
+      "timestamp_display": "Feb 16, 2026 08:00 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "port"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "470646",
+      "title": "China drops tariffs on imports from 53 African countries",
+      "title_en": null,
+      "url": "https://www.bizcommunity.com/article/china-drops-tariffs-on-imports-from-53-african-countries-062465a",
+      "domain": "bizcommunity.com",
+      "language": "en",
+      "source_country": "South Africa",
+      "timestamp_iso": "2026-02-16T14:15:00Z",
+      "timestamp_display": "Feb 16, 2026 14:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "port"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.096611Z"
+    },
+    {
+      "id": "934603",
+      "title": "China opens market to 53 African nations in zero - tariff pivot",
+      "title_en": null,
+      "url": "https://www.domain-b.com/economy/world-economy/china-zero-tariff-africa-53-nations-trade-shift-2026",
+      "domain": "domain-b.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-16T14:30:00Z",
+      "timestamp_display": "Feb 16, 2026 14:30 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "986107",
+      "title": "China - Gambia deepens relations via Kung - Fu show & festival",
+      "title_en": null,
+      "url": "https://thepoint.gm/africa/gambia/headlines/china-gambia-deepens-relations-via-kung-fu-show-and-festival",
+      "domain": "thepoint.gm",
+      "language": "en",
+      "source_country": "Gambia",
+      "timestamp_iso": "2026-02-16T15:15:00Z",
+      "timestamp_display": "Feb 16, 2026 15:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "214746",
+      "title": "China expands zero - tariff access for African exports",
+      "title_en": null,
+      "url": "https://thearabianpost.com/china-expands-zero-tariff-access-for-african-exports/",
+      "domain": "thearabianpost.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-17T07:30:00Z",
+      "timestamp_display": "Feb 17, 2026 07:30 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "port"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "936348",
+      "title": "Interview : China zero - tariff policy to boost Africa industrialization , says Ugandan official - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/africa/20260218/bf18ad1a920f46ef9b1935b7291b2f4d/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-17T17:00:00Z",
+      "timestamp_display": "Feb 17, 2026 17:00 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "618118",
+      "title": "Interview : China zero - tariff policy to boost Africa industrialization , says Ugandan official",
+      "title_en": null,
+      "url": "http://www.bignewsnetwork.com/news/278873755/interview-china-zero-tariff-policy-to-boost-africa-industrialization-says-ugandan-official",
+      "domain": "bignewsnetwork.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-17T17:00:00Z",
+      "timestamp_display": "Feb 17, 2026 17:00 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "744096",
+      "title": "Interview : China zero - tariff policy to boost Africa industrialization , says Ugandan official - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/20260217/e9bfd4e3ed57485490ff2bc40c7edba8/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-17T17:00:00Z",
+      "timestamp_display": "Feb 17, 2026 17:00 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "371369",
+      "title": "China , Development , and Security in Africa : Practices , Paradoxes , and Local Political Orders",
+      "title_en": null,
+      "url": "https://africanstudies.org/annual-meetings-asa/2026-call-for-co-panelists/china-development-and-security-in-africa-practices-paradoxes-and-local-political-orders/",
+      "domain": "africanstudies.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-18T18:45:00Z",
+      "timestamp_display": "Feb 18, 2026 18:45 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "558360",
+      "title": "Mutambara tells the west to leave Africa and China alone",
+      "title_en": null,
+      "url": "https://bulawayo24.com/index-id-news-sc-national-byo-7852.html",
+      "domain": "bulawayo24.com",
+      "language": "en",
+      "source_country": "Zimbabwe",
+      "timestamp_iso": "2026-02-20T01:45:00Z",
+      "timestamp_display": "Feb 20, 2026 01:45 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.096611Z"
+    },
+    {
+      "id": "978557",
+      "title": "View of Chinese - built Mombasa - Nairobi Standard Gauge Railway in Kenya - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/20260221/cc6172903e56471e87fb3bbeba423189/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-21T03:15:00Z",
+      "timestamp_display": "Feb 21, 2026 03:15 UTC",
+      "keywords_found": [
+        "railway",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "894989",
+      "title": "View of Chinese - built Mombasa - Nairobi Standard Gauge Railway in Kenya - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/africa/20260221/bc972d7830534c8d8f7007b18e2a39b5/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-21T03:15:00Z",
+      "timestamp_display": "Feb 21, 2026 03:15 UTC",
+      "keywords_found": [
+        "africa",
+        "railway",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "808069",
+      "title": "China zero - tariff move opens vast new market for South African exports",
+      "title_en": null,
+      "url": "https://www.businessday.co.za/business-times/2026-02-21-chinas-zero-tariff-move-opens-vast-new-market-for-south-african-exports/",
+      "domain": "businessday.co.za",
+      "language": "en",
+      "source_country": "South Africa",
+      "timestamp_iso": "2026-02-21T06:45:00Z",
+      "timestamp_display": "Feb 21, 2026 06:45 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "port"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "415933",
+      "title": "China , Africa focus of recent Great Decisions lecture series sessions",
+      "title_en": null,
+      "url": "https://www.dailypress.com/2026/02/21/china-africa-focus-of-recent-great-decisions-lecture-series-sessions/",
+      "domain": "dailypress.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-21T19:30:00Z",
+      "timestamp_display": "Feb 21, 2026 19:30 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "929632",
+      "title": " ( Hello Africa ) Dragon dances and dumplings : Cape Town locals embrace Chinese New Year at vibrant temple fair",
+      "title_en": null,
+      "url": "http://www.kenyastar.com/news/278881831/hello-africa-dragon-dances-and-dumplings-cape-town-locals-embrace-chinese-new-year-at-vibrant-temple-fair",
+      "domain": "kenyastar.com",
+      "language": "en",
+      "source_country": "Kenya",
+      "timestamp_iso": "2026-02-22T10:30:00Z",
+      "timestamp_display": "Feb 22, 2026 10:30 UTC",
+      "keywords_found": [
+        "africa",
+        "kenya"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "842888",
+      "title": "Ports africains : la nouvelle arme géoéconomique de pékin",
+      "title_en": "African ports: Beijing’s new geoeconomic weapon",
+      "url": "https://www.abcbourse.com/analyses/display_chronique/1499",
+      "domain": "abcbourse.com",
+      "language": "fr",
+      "source_country": "France",
+      "timestamp_iso": "2026-02-22T17:00:00Z",
+      "timestamp_display": "Feb 22, 2026 17:00 UTC",
+      "keywords_found": [
+        "africa",
+        "port"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "501854",
+      "title": "China opens its market as US tariffs squeeze Africa",
+      "title_en": null,
+      "url": "https://tribune.com.pk/story/2594073/china-opens-its-market-as-us-tariffs-squeeze-africa",
+      "domain": "tribune.com.pk",
+      "language": "en",
+      "source_country": "Pakistan",
+      "timestamp_iso": "2026-02-23T01:15:00Z",
+      "timestamp_display": "Feb 23, 2026 01:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "004271",
+      "title": "News Analysis : AGOA extension brings relief , yet policy uncertainty clouds U . S .- Africa trade future - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/20260223/b79a6d5ab801414793f152796bfa5cb8/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-23T14:45:00Z",
+      "timestamp_display": "Feb 23, 2026 14:45 UTC",
+      "keywords_found": [
+        "bri",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "878039",
+      "title": "News Analysis : AGOA extension brings relief , yet policy uncertainty clouds U . S .- Africa trade future - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/africa/20260223/24897b8b305048c1a5ee3e4ed5377fd7/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-23T14:45:00Z",
+      "timestamp_display": "Feb 23, 2026 14:45 UTC",
+      "keywords_found": [
+        "bri",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "734771",
+      "title": "News Analysis : AGOA extension brings relief , yet policy uncertainty clouds U . S .- Africa trade future",
+      "title_en": null,
+      "url": "http://www.bignewsnetwork.com/news/278884065/news-analysis-agoa-extension-brings-relief-yet-policy-uncertainty-clouds-us-africa-trade-future",
+      "domain": "bignewsnetwork.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-23T14:45:00Z",
+      "timestamp_display": "Feb 23, 2026 14:45 UTC",
+      "keywords_found": [
+        "bri",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "944476",
+      "title": "Opinion | China zero - tariff offer to Africa is a game changer",
+      "title_en": null,
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3344301/chinas-zero-tariff-offer-africa-game-changer",
+      "domain": "scmp.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-23T22:00:00Z",
+      "timestamp_display": "Feb 23, 2026 22:00 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.096611Z"
+    },
+    {
+      "id": "874271",
+      "title": "China expands economic footprint in turbulent South Sudan",
+      "title_en": null,
+      "url": "https://www.channelnewsasia.com/world/south-sudan-africa-china-deepen-economic-security-footprint-5949171",
+      "domain": "channelnewsasia.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-24T11:45:00Z",
+      "timestamp_display": "Feb 24, 2026 11:45 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.096611Z"
+    },
+    {
+      "id": "626465",
+      "title": "ZOOM AFRIQUE : L  éolien africain porté par la coopération Sud - Sud",
+      "title_en": "ZOOM AFRICA: African wind power driven by South-South cooperation",
+      "url": "http://french.china.org.cn/foreign/txt/2026-02/26/content_118347018.htm",
+      "domain": "french.china.org.cn",
+      "language": "fr",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-26T03:45:00Z",
+      "timestamp_display": "Feb 26, 2026 03:45 UTC",
+      "keywords_found": [
+        "china",
+        "africa",
+        "port"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.096611Z"
+    },
+    {
+      "id": "669620",
+      "title": "Gabon : un groupe de réflexion appel à saisir lopportunité du  zéro tarif  offert par la Chine aux pays africains",
+      "title_en": "Gabon: a think tank calls to seize the opportunity of zero tariffs offered by China to African countries",
+      "url": "http://french.peopledaily.com.cn/Afrique/n3/2026/0226/c96852-20428352.html",
+      "domain": "french.peopledaily.com.cn",
+      "language": "fr",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-26T05:00:00Z",
+      "timestamp_display": "Feb 26, 2026 05:00 UTC",
+      "keywords_found": [
+        "africa",
+        "port"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "943740",
+      "title": "Meetings promise shared growth",
+      "title_en": null,
+      "url": "http://africa.chinadaily.com.cn/a/202602/26/WS69a06cfea310d6866eb3a6e0.html",
+      "domain": "africa.chinadaily.com.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-27T03:15:00Z",
+      "timestamp_display": "Feb 27, 2026 03:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "945028",
+      "title": "China zero ‑ tariff policy for Africa : A new catalyst for shared prosperity",
+      "title_en": null,
+      "url": "http://en.people.cn/n3/2026/0227/c90000-20429026.html",
+      "domain": "en.people.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-27T05:15:00Z",
+      "timestamp_display": "Feb 27, 2026 05:15 UTC",
+      "keywords_found": [
+        "china",
+        "africa"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "076166",
+      "title": "Kenya sets sights on one million Chinese tourists as bilateral ties deepen",
+      "title_en": null,
+      "url": "https://www.the-star.co.ke/news/2026-02-08-kenya-sets-sights-on-1m-chinese-tourists",
+      "domain": "the-star.co.ke",
+      "language": "en",
+      "source_country": "Kenya",
+      "timestamp_iso": "2026-02-08T13:15:00Z",
+      "timestamp_display": "Feb 08, 2026 13:15 UTC",
+      "keywords_found": [
+        "kenya"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "139676",
+      "title": "Reception held in Kenya to mark Chinese New Year , wrap up 2025 culture season",
+      "title_en": null,
+      "url": "https://www.thestar.com.my/news/world/2026/02/11/reception-held-in-kenya-to-mark-chinese-new-year-wrap-up-2025-culture-season",
+      "domain": "thestar.com.my",
+      "language": "en",
+      "source_country": "Malaysia",
+      "timestamp_iso": "2026-02-10T18:45:00Z",
+      "timestamp_display": "Feb 10, 2026 18:45 UTC",
+      "keywords_found": [
+        "kenya"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "700777",
+      "title": "Kenya holds Chinese New Year of the Horse celebrations to deepen cultural bonds",
+      "title_en": null,
+      "url": "https://www.capitalfm.co.ke/news/2026/02/kenya-holds-chinese-new-year-of-the-horse-celebrations-to-deepen-cultural-bonds/",
+      "domain": "capitalfm.co.ke",
+      "language": "en",
+      "source_country": "Kenya",
+      "timestamp_iso": "2026-02-14T06:30:00Z",
+      "timestamp_display": "Feb 14, 2026 06:30 UTC",
+      "keywords_found": [
+        "kenya"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "125028",
+      "title": "Xi sends congratulatory message to 39th African Union Summit",
+      "title_en": null,
+      "url": "https://www.thestandard.co.zw/standard-people/article/200051636/xi-sends-congratulatory-message-to-39th-african-union-summit",
+      "domain": "thestandard.co.zw",
+      "language": "en",
+      "source_country": "Zimbabwe",
+      "timestamp_iso": "2026-02-14T20:00:00Z",
+      "timestamp_display": "Feb 14, 2026 20:00 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.096611Z"
+    },
+    {
+      "id": "442943",
+      "title": "All - Weather Friendship | Capital Newspaper",
+      "title_en": null,
+      "url": "https://capitalethiopia.com/2026/02/15/all-weather-friendship/",
+      "domain": "capitalethiopia.com",
+      "language": "en",
+      "source_country": "Ethiopia",
+      "timestamp_iso": "2026-02-15T13:00:00Z",
+      "timestamp_display": "Feb 15, 2026 13:00 UTC",
+      "keywords_found": [
+        "ethiopia"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.096611Z"
+    },
+    {
+      "id": "696680",
+      "title": "World Insights : Africa hails Xi AU message for joint pursuit of modernization , Global South solidarity",
+      "title_en": null,
+      "url": "http://www.bignewsnetwork.com/news/278869720/world-insights-africa-hails-xi-au-message-for-joint-pursuit-of-modernization-global-south-solidarity",
+      "domain": "bignewsnetwork.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-15T16:15:00Z",
+      "timestamp_display": "Feb 15, 2026 16:15 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "874382",
+      "title": "World Insights : Africa hails Xi AU message for joint pursuit of modernization , Global South solidarity - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/20260215/d7a00e87b57047b7adb276271c15f32d/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-15T16:30:00Z",
+      "timestamp_display": "Feb 15, 2026 16:30 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "084559",
+      "title": "World Insights : Africa hails Xi AU message for joint pursuit of modernization , Global South solidarity - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/africa/20260215/001a4c54f0df4c39be042d79b6e73800/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-15T16:30:00Z",
+      "timestamp_display": "Feb 15, 2026 16:30 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "189095",
+      "title": "World Insights : Africa hails Xi AU message for joint pursuit of modernization , Global South solidarity",
+      "title_en": null,
+      "url": "http://www.taiwansun.com/news/278869720/world-insights-africa-hails-xi-au-message-for-joint-pursuit-of-modernization-global-south-solidarity",
+      "domain": "taiwansun.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-15T16:45:00Z",
+      "timestamp_display": "Feb 15, 2026 16:45 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "928771",
+      "title": "World Insights : Africa hails Xi AU message for joint pursuit of modernization , Global South solidarity",
+      "title_en": null,
+      "url": "http://www.cambodiantimes.com/news/278869720/world-insights-africa-hails-xi-au-message-for-joint-pursuit-of-modernization-global-south-solidarity",
+      "domain": "cambodiantimes.com",
+      "language": "en",
+      "source_country": "Cambodia",
+      "timestamp_iso": "2026-02-15T16:45:00Z",
+      "timestamp_display": "Feb 15, 2026 16:45 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "938994",
+      "title": "World Insights : Africa hails Xi AU message for joint pursuit of modernization , Global South solidarity",
+      "title_en": null,
+      "url": "http://www.japanherald.com/news/278869720/world-insights-africa-hails-xi-au-message-for-joint-pursuit-of-modernization-global-south-solidarity",
+      "domain": "japanherald.com",
+      "language": "en",
+      "source_country": "Japan",
+      "timestamp_iso": "2026-02-15T18:15:00Z",
+      "timestamp_display": "Feb 15, 2026 18:15 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "261273",
+      "title": "World Insights : Africa hails Xi AU message for joint pursuit of modernization , Global South solidarity",
+      "title_en": null,
+      "url": "http://www.sierraleonetimes.com/news/278869720/world-insights-africa-hails-xi-au-message-for-joint-pursuit-of-modernization-global-south-solidarity",
+      "domain": "sierraleonetimes.com",
+      "language": "en",
+      "source_country": "Sierra Leone",
+      "timestamp_iso": "2026-02-15T19:15:00Z",
+      "timestamp_display": "Feb 15, 2026 19:15 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "906237",
+      "title": "World Insights : Africa hails Xi AU message for joint pursuit of modernization , Global South solidarity",
+      "title_en": null,
+      "url": "http://news.cnwest.com/szyw/a/2026/02/16/23299151.html",
+      "domain": "news.cnwest.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-16T08:00:00Z",
+      "timestamp_display": "Feb 16, 2026 08:00 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.096611Z"
+    },
+    {
+      "id": "209328",
+      "title": "Kenya holds Chinese New Year of the Horse celebrations to deepen cultural bonds",
+      "title_en": null,
+      "url": "http://www.kenyastar.com/news/278866382/kenya-holds-chinese-new-year-of-the-horse-celebrations-to-deepen-cultural-bonds",
+      "domain": "kenyastar.com",
+      "language": "en",
+      "source_country": "Kenya",
+      "timestamp_iso": "2026-02-16T08:00:00Z",
+      "timestamp_display": "Feb 16, 2026 08:00 UTC",
+      "keywords_found": [
+        "kenya"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "524539",
+      "title": "Liberia : Chinese Envoy Hails Deepening Ties With Liberia",
+      "title_en": null,
+      "url": "https://allafrica.com/stories/202602160292.html",
+      "domain": "allafrica.com",
+      "language": "en",
+      "source_country": "Nigeria",
+      "timestamp_iso": "2026-02-16T12:45:00Z",
+      "timestamp_display": "Feb 16, 2026 12:45 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "080131",
+      "title": "US tariffs punish South African winemakers",
+      "title_en": null,
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/02/18/2003852483",
+      "domain": "taipeitimes.com",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-17T19:45:00Z",
+      "timestamp_display": "Feb 17, 2026 19:45 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "403682",
+      "title": "Chinese Spring Festival celebration promotes cultural exchange in Botswana - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/africa/20260218/5e881b523a37465aa2c25965f1fa6ba0/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-17T23:30:00Z",
+      "timestamp_display": "Feb 17, 2026 23:30 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "825241",
+      "title": "Digital technology dependence poses risks for Africa Prof . Amoah",
+      "title_en": null,
+      "url": "https://gna.org.gh/2026/02/digital-technology-dependence-poses-risks-for-africa-prof-amoah/",
+      "domain": "gna.org.gh",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-19T14:45:00Z",
+      "timestamp_display": "Feb 19, 2026 14:45 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "897780",
+      "title": "Africa New Allegiances : A Multipolar Chessboard",
+      "title_en": null,
+      "url": "https://kashmirtimes.com/opinion/comment-articles/the-african-chessboard-a-new-scramble-for-allegiance",
+      "domain": "kashmirtimes.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-21T01:15:00Z",
+      "timestamp_display": "Feb 21, 2026 01:15 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "467957",
+      "title": "Feature : Dragon dances and dumplings : Cape Town locals embrace Chinese New Year at vibrant temple fair - Xinhua",
+      "title_en": null,
+      "url": "https://english.news.cn/africa/20260222/231101b5af054e37bb0e733d38d00df8/c.html",
+      "domain": "english.news.cn",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-21T17:15:00Z",
+      "timestamp_display": "Feb 21, 2026 17:15 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "661757",
+      "title": " ( Hello Africa ) Dragon dances and dumplings : Cape Town locals embrace Chinese New Year at vibrant temple fair",
+      "title_en": null,
+      "url": "http://www.newzealandstar.com/news/278881831/hello-africa-dragon-dances-and-dumplings-cape-town-locals-embrace-chinese-new-year-at-vibrant-temple-fair",
+      "domain": "newzealandstar.com",
+      "language": "en",
+      "source_country": "New Zealand",
+      "timestamp_iso": "2026-02-22T10:30:00Z",
+      "timestamp_display": "Feb 22, 2026 10:30 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "124837",
+      "title": " ( Hello Africa ) Dragon dances and dumplings : Cape Town locals embrace Chinese New Year at vibrant temple fair",
+      "title_en": null,
+      "url": "http://www.sierraleonetimes.com/news/278881831/hello-africa-dragon-dances-and-dumplings-cape-town-locals-embrace-chinese-new-year-at-vibrant-temple-fair",
+      "domain": "sierraleonetimes.com",
+      "language": "en",
+      "source_country": "Sierra Leone",
+      "timestamp_iso": "2026-02-22T10:30:00Z",
+      "timestamp_display": "Feb 22, 2026 10:30 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "650596",
+      "title": " ( Hello Africa ) Dragon dances and dumplings : Cape Town locals embrace Chinese New Year at vibrant temple fair",
+      "title_en": null,
+      "url": "http://www.japanherald.com/news/278881831/hello-africa-dragon-dances-and-dumplings-cape-town-locals-embrace-chinese-new-year-at-vibrant-temple-fair",
+      "domain": "japanherald.com",
+      "language": "en",
+      "source_country": "Japan",
+      "timestamp_iso": "2026-02-22T10:30:00Z",
+      "timestamp_display": "Feb 22, 2026 10:30 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "841902",
+      "title": " ( Hello Africa ) Dragon dances and dumplings : Cape Town locals embrace Chinese New Year at vibrant temple fair",
+      "title_en": null,
+      "url": "http://www.singaporestar.com/news/278881831/hello-africa-dragon-dances-and-dumplings-cape-town-locals-embrace-chinese-new-year-at-vibrant-temple-fair",
+      "domain": "singaporestar.com",
+      "language": "en",
+      "source_country": "Singapore",
+      "timestamp_iso": "2026-02-22T10:30:00Z",
+      "timestamp_display": "Feb 22, 2026 10:30 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "083982",
+      "title": " ( Hello Africa ) Dragon dances and dumplings : Cape Town locals embrace Chinese New Year at vibrant temple fair",
+      "title_en": null,
+      "url": "http://www.cambodiantimes.com/news/278881831/hello-africa-dragon-dances-and-dumplings-cape-town-locals-embrace-chinese-new-year-at-vibrant-temple-fair",
+      "domain": "cambodiantimes.com",
+      "language": "en",
+      "source_country": "Cambodia",
+      "timestamp_iso": "2026-02-22T10:30:00Z",
+      "timestamp_display": "Feb 22, 2026 10:30 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "343329",
+      "title": " ( Hello Africa ) Dragon dances and dumplings : Cape Town locals embrace Chinese New Year at vibrant temple fair",
+      "title_en": null,
+      "url": "http://www.africaleader.com/news/278881831/hello-africa-dragon-dances-and-dumplings-cape-town-locals-embrace-chinese-new-year-at-vibrant-temple-fair",
+      "domain": "africaleader.com",
+      "language": "en",
+      "source_country": "South Africa",
+      "timestamp_iso": "2026-02-22T11:15:00Z",
+      "timestamp_display": "Feb 22, 2026 11:15 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "586860",
+      "title": "Incoming iCaur entry - level V23 promises  shocking fun  ",
+      "title_en": null,
+      "url": "https://www.citizen.co.za/motoring/icaur-v23-south-africa-preview-drive/",
+      "domain": "citizen.co.za",
+      "language": "en",
+      "source_country": "South Africa",
+      "timestamp_iso": "2026-02-23T15:45:00Z",
+      "timestamp_display": "Feb 23, 2026 15:45 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "831505",
+      "title": "Investing in Africa amid geo - economic fragmentation",
+      "title_en": null,
+      "url": "https://www.cnbcafrica.com/media/7771861619340/-investing-in-africa-amid-geo-economic-fragmentation",
+      "domain": "cnbcafrica.com",
+      "language": "en",
+      "source_country": "South Africa",
+      "timestamp_iso": "2026-02-23T19:30:00Z",
+      "timestamp_display": "Feb 23, 2026 19:30 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.098932Z"
+    },
+    {
+      "id": "924311",
+      "title": "Nigeria – China Relations @ 55 : A Result - driven Partnership Anchored On Pragmatism",
+      "title_en": null,
+      "url": "https://dailytrust.com/nigeria-china-relations-55-a-result-driven-partnership-anchored-on-pragmatism/",
+      "domain": "dailytrust.com",
+      "language": "en",
+      "source_country": "Niger",
+      "timestamp_iso": "2026-02-24T09:30:00Z",
+      "timestamp_display": "Feb 24, 2026 09:30 UTC",
+      "keywords_found": [
+        "china"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "178196",
+      "title": "Africa : Russia - Ukraine War - Malawi and Africa Lose Billions in Economic Stability",
+      "title_en": null,
+      "url": "https://allafrica.com/stories/202602240388.html",
+      "domain": "allafrica.com",
+      "language": "en",
+      "source_country": "Nigeria",
+      "timestamp_iso": "2026-02-24T11:00:00Z",
+      "timestamp_display": "Feb 24, 2026 11:00 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.101400Z"
+    },
+    {
+      "id": "130789",
+      "title": "farmlandgrab . org | Food , land , water : Africa and emerging Gulf sub - imperialisms",
+      "title_en": null,
+      "url": "https://www.farmlandgrab.org/post/33344-food-land-water-africa-and-emerging-gulf-sub-imperialisms",
+      "domain": "farmlandgrab.org",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-26T09:15:00Z",
+      "timestamp_display": "Feb 26, 2026 09:15 UTC",
+      "keywords_found": [
+        "africa"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    },
+    {
+      "id": "051360",
+      "title": "The path to prosperity is not necessarily made in Ethiopia",
+      "title_en": null,
+      "url": "https://rabble.ca/politics/world-politics/the-path-to-prosperity-is-not-necessarily-made-in-ethiopia/",
+      "domain": "rabble.ca",
+      "language": "en",
+      "source_country": "Canada",
+      "timestamp_iso": "2026-02-27T19:45:00Z",
+      "timestamp_display": "Feb 27, 2026 19:45 UTC",
+      "keywords_found": [
+        "ethiopia"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T13:34:32.103406Z"
+    }
+  ]
+}

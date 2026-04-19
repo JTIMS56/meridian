@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-02-28T03:34:30.473257Z",
+    "collection_duration_seconds": 143.74,
+    "profile": "chancay",
+    "profile_description": "China-Peru Deepwater Port / Intercontinental Railway",
+    "queries": [
+      "Chancay",
+      "COSCO Peru",
+      "Belt Road Peru",
+      "China Peru port",
+      "deepwater port Peru",
+      "China infrastructure Peru",
+      "Chancay megaport",
+      "Peru sovereignty China",
+      "China Latin America port",
+      "transcontinental railway South America"
+    ],
+    "total_articles": 3,
+    "version": "4.0.0"
+  },
+  "summary": {
+    "total_articles": 3,
+    "languages_detected": 1,
+    "language_breakdown": {
+      "en": 3
+    },
+    "top_countries": [
+      {
+        "country": "United States",
+        "count": 3
+      }
+    ],
+    "high_relevance_articles": 2,
+    "translated_articles": 0
+  },
+  "articles": [
+    {
+      "id": "672550",
+      "title": "U . S . warns Peru as court allows China to run port with less oversight",
+      "title_en": null,
+      "url": "https://www.upi.com/Top_News/World-News/2026/02/12/latam-peru-Chancay-megaport-US-warning/3271770915492/",
+      "domain": "upi.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-12T19:00:00Z",
+      "timestamp_display": "Feb 12, 2026 19:00 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "chancay",
+        "megaport"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:34:30.473257Z"
+    },
+    {
+      "id": "745179",
+      "title": "China & Taiwan Update , February 6 , 2026",
+      "title_en": null,
+      "url": "https://www.aei.org/articles/china-taiwan-update-february-6-2026/",
+      "domain": "aei.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-07T02:30:00Z",
+      "timestamp_display": "Feb 07, 2026 02:30 UTC",
+      "keywords_found": [
+        "china"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:34:30.473257Z"
+    },
+    {
+      "id": "701143",
+      "title": "Panama Supreme Court Ends Chinese Port Control , Marking Major Geopolitical Shift in Canal Zone",
+      "title_en": null,
+      "url": "https://legalinsurrection.com/2026/01/panama-supreme-court-ends-chinese-port-control-marking-major-geopolitical-shift-in-canal-zone/",
+      "domain": "legalinsurrection.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-01T02:30:00Z",
+      "timestamp_display": "Feb 01, 2026 02:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:34:30.473257Z"
+    }
+  ]
+}

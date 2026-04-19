@@ -1,0 +1,1188 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-02-28T03:06:32.797033Z",
+    "collection_duration_seconds": 125.51,
+    "queries": [
+      "Chancay",
+      "COSCO Peru",
+      "China Peru",
+      "Belt Road Peru",
+      "deepwater port Peru",
+      "China railway Peru",
+      "China infrastructure Peru",
+      "Chancay COSCO",
+      "Peru port China",
+      "transcontinental railway"
+    ],
+    "total_articles": 74,
+    "version": "3.0.0"
+  },
+  "summary": {
+    "total_articles": 74,
+    "languages_detected": 5,
+    "language_breakdown": {
+      "en": 45,
+      "es": 1,
+      "zh": 26,
+      "ja": 1,
+      "gr": 1
+    },
+    "top_countries": [
+      {
+        "country": "United States",
+        "count": 29
+      },
+      {
+        "country": "China",
+        "count": 18
+      },
+      {
+        "country": "Taiwan",
+        "count": 10
+      },
+      {
+        "country": "United Kingdom",
+        "count": 3
+      },
+      {
+        "country": "Canada",
+        "count": 2
+      },
+      {
+        "country": "Malaysia",
+        "count": 1
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
+        "country": "Colombia",
+        "count": 1
+      },
+      {
+        "country": "Panama",
+        "count": 1
+      },
+      {
+        "country": "Cambodia",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 32
+  },
+  "articles": [
+    {
+      "id": "125204",
+      "title": "China has spent decades making inroads in Latin America . Will the  Donroe doctrine  push it out ? ",
+      "title_en": null,
+      "url": "https://edition.cnn.com/2026/01/30/china/china-latin-american-trump-venezuela-intl-hnk-dst",
+      "domain": "edition.cnn.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-01-31T09:30:00Z",
+      "timestamp_display": "Jan 31, 2026 09:30 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "126524",
+      "title": "Trump South America threats fizzle as China trade surges , powered by Peru port",
+      "title_en": null,
+      "url": "https://www.scmp.com/economy/china-economy/article/3342512/trumps-south-america-threats-fizzle-chinas-trade-surges-powered-peru-port",
+      "domain": "scmp.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-06T00:30:00Z",
+      "timestamp_display": "Feb 06, 2026 00:30 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "south america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:06:10.222937Z"
+    },
+    {
+      "id": "922538",
+      "title": "US , China clash over Peru Chancay megaport after court bars regulator oversight",
+      "title_en": null,
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/02/15/us-china-clash-over-perus-chancay-megaport-after-court-bars-regulator-oversight",
+      "domain": "thestar.com.my",
+      "language": "en",
+      "source_country": "Malaysia",
+      "timestamp_iso": "2026-02-15T05:45:00Z",
+      "timestamp_display": "Feb 15, 2026 05:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "chancay"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:06:10.222937Z"
+    },
+    {
+      "id": "331129",
+      "title": "Peru between China and the United States : A strategic crossroads in the Pacific",
+      "title_en": null,
+      "url": "https://www.upi.com/Voices/2026/02/17/latam-China-Peru-United-States-strategic-crossroads/9241771266829/",
+      "domain": "upi.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-17T14:45:00Z",
+      "timestamp_display": "Feb 17, 2026 14:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:06:10.222937Z"
+    },
+    {
+      "id": "680602",
+      "title": "China – Kyrgyzstan – Uzbekistan Railway : What It Means for Central Asia",
+      "title_en": null,
+      "url": "https://timesca.com/china-kyrgyzstan-uzbekistan-railway-what-it-means-for-central-asia/",
+      "domain": "timesca.com",
+      "language": "en",
+      "source_country": "Kyrgyzstan",
+      "timestamp_iso": "2026-02-20T13:00:00Z",
+      "timestamp_display": "Feb 20, 2026 13:00 UTC",
+      "keywords_found": [
+        "china",
+        "railway"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:06:32.795676Z"
+    },
+    {
+      "id": "558641",
+      "title": "Peru Aliaga Will Bring Stability , Growth , and an Alliance with the United States",
+      "title_en": null,
+      "url": "https://www.realclearworld.com/articles/2026/02/24/perus_aliaga_will_bring_stability_growth_and_an_alliance_with_the_united_states_1166557.html",
+      "domain": "realclearworld.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-24T16:15:00Z",
+      "timestamp_display": "Feb 24, 2026 16:15 UTC",
+      "keywords_found": [
+        "peru",
+        "bri"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:06:10.222937Z"
+    },
+    {
+      "id": "236881",
+      "title": "Peruvian Court Ruling Blocks Regulatory Oversight of Chinese Controlled Strategic Latin American Port",
+      "title_en": null,
+      "url": "https://www.theepochtimes.com/china/peruvian-court-ruling-blocks-regulatory-oversight-of-chinese-controlled-strategic-latin-american-port-5988230",
+      "domain": "theepochtimes.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-25T19:45:00Z",
+      "timestamp_display": "Feb 25, 2026 19:45 UTC",
+      "keywords_found": [
+        "china",
+        "peru",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:06:10.222937Z"
+    },
+    {
+      "id": "767381",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.chinanationalnews.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "chinanationalnews.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-26T12:00:00Z",
+      "timestamp_display": "Feb 26, 2026 12:00 UTC",
+      "keywords_found": [
+        "china",
+        "latin america"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:06:10.222937Z"
+    },
+    {
+      "id": "918497",
+      "title": "Peru seeking deeper ties with Beijing , envoy says",
+      "title_en": null,
+      "url": "http://africa.chinadaily.com.cn/a/202602/27/WS69a0f86da310d6866eb3a85c.html",
+      "domain": "africa.chinadaily.com.cn",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-27T03:15:00Z",
+      "timestamp_display": "Feb 27, 2026 03:15 UTC",
+      "keywords_found": [
+        "china",
+        "peru"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:06:10.222937Z"
+    },
+    {
+      "id": "224782",
+      "title": "Flooded by cheap Chinese goods , Latin America is fighting back to protect its industries",
+      "title_en": null,
+      "url": "https://www.wral.com/news/ap/e78cc-flooded-by-cheap-chinese-goods-latin-america-is-fighting-back-to-protect-its-industries/",
+      "domain": "wral.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-02T06:15:00Z",
+      "timestamp_display": "Feb 02, 2026 06:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "736445",
+      "title": "Flooded by cheap Chinese goods , Latin America is fighting back to protect its industries",
+      "title_en": null,
+      "url": "https://abcnews.go.com/Business/wireStory/flooded-cheap-chinese-goods-latin-america-fighting-back-129772066",
+      "domain": "abcnews.go.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-02T08:30:00Z",
+      "timestamp_display": "Feb 02, 2026 08:30 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "215352",
+      "title": "Flooded by cheap Chinese goods , Latin America is fighting back to protect its industries",
+      "title_en": null,
+      "url": "https://www.aol.com/articles/flooded-cheap-chinese-goods-latin-045553078.html",
+      "domain": "aol.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-02T13:15:00Z",
+      "timestamp_display": "Feb 02, 2026 13:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "228068",
+      "title": "Gobierno de Donald Trump destinó millonaria cifra para ampliar y equipar una de las bases navales más importantes de Perú",
+      "title_en": "Donald Trump's government allocated a millionaire amount to expand and equip one of the most important naval bases in Peru",
+      "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/gobierno-de-donald-trump-destino-millonaria-cifra-para-ampliar-y-equipar-una-de-las-bases-navales-mas-importantes-en-peru-3530069",
+      "domain": "eltiempo.com",
+      "language": "es",
+      "source_country": "Colombia",
+      "timestamp_iso": "2026-02-06T01:15:00Z",
+      "timestamp_display": "Feb 06, 2026 01:15 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "387921",
+      "title": "China & Taiwan Update , February 6 , 2026",
+      "title_en": null,
+      "url": "https://www.aei.org/articles/china-taiwan-update-february-6-2026/",
+      "domain": "aei.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-07T02:30:00Z",
+      "timestamp_display": "Feb 07, 2026 02:30 UTC",
+      "keywords_found": [
+        "china"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "729906",
+      "title": "The Panama Canal is Thrust Back into the Spotlight with the U . S . China Power Struggle",
+      "title_en": null,
+      "url": "https://newsroompanama.com/2026/02/07/the-panama-canal-is-thrust-back-into-the-spotlight-with-the-u-s-china-power-struggle/",
+      "domain": "newsroompanama.com",
+      "language": "en",
+      "source_country": "Panama",
+      "timestamp_iso": "2026-02-07T20:15:00Z",
+      "timestamp_display": "Feb 07, 2026 20:15 UTC",
+      "keywords_found": [
+        "china"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "568163",
+      "title": "特稿｜中国  朋友圈  里的新春暖意 - 千龙网 · 中国首都网",
+      "title_en": "Special article｜The warmth of the New Year in China’s Moments - Qianlong.com · China Capital Network",
+      "url": "https://china.qianlong.com/2026/0217/8627361.shtml",
+      "domain": "china.qianlong.com",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-17T07:00:00Z",
+      "timestamp_display": "Feb 17, 2026 07:00 UTC",
+      "keywords_found": [
+        "china"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:22.095478Z"
+    },
+    {
+      "id": "178816",
+      "title": "特稿｜中国  朋友圈  里的新春暖意 - 国内频道 - 内蒙古新闻网",
+      "title_en": "Special article｜The warmth of the New Year in China’s Moments - Domestic Channel - Inner Mongolia News Network",
+      "url": "https://china.nmgnews.com.cn/system/2026/02/17/030310945.shtml",
+      "domain": "china.nmgnews.com.cn",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-17T07:45:00Z",
+      "timestamp_display": "Feb 17, 2026 07:45 UTC",
+      "keywords_found": [
+        "china"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:28.273051Z"
+    },
+    {
+      "id": "085088",
+      "title": "特稿｜中国  朋友圈  里的新春暖意 _ 大陆 _ 国内新闻 _ 新闻 _ 齐鲁网",
+      "title_en": "Special article｜The warmth of the New Year in China’s Moments _ Mainland _ Domestic News _ News _ Qilu.com",
+      "url": "https://news.iqilu.com/china/gedi/2026/0217/5892708.shtml",
+      "domain": "news.iqilu.com",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-17T08:45:00Z",
+      "timestamp_display": "Feb 17, 2026 08:45 UTC",
+      "keywords_found": [
+        "china"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:20.023003Z"
+    },
+    {
+      "id": "829212",
+      "title": "特稿｜中国  朋友圈  里的新春暖意 _ 广州日报大洋网",
+      "title_en": "Special Article｜The warmth of the New Year in China’s Moments _ Guangzhou Daily Ocean Network",
+      "url": "https://news.dayoo.com/china/202602/17/139997_54929357.htm",
+      "domain": "news.dayoo.com",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-17T09:00:00Z",
+      "timestamp_display": "Feb 17, 2026 09:00 UTC",
+      "keywords_found": [
+        "china"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:22.815257Z"
+    },
+    {
+      "id": "060625",
+      "title": "Peru leader José Jerí ousted over  Chifa - gate  scandal , as presidential  curse  strikes again | National & World News",
+      "title_en": null,
+      "url": "https://www.news8000.com/news/national-world/peru-s-leader-jos-jer-ousted-over-chifa-gate-scandal-as-presidential-curse-strikes-again/article_baa0884b-c1f7-527d-bbe6-2d0ff6d7700e.html",
+      "domain": "news8000.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-17T22:30:00Z",
+      "timestamp_display": "Feb 17, 2026 22:30 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "217170",
+      "title": "Peru leader José Jerí ousted over  Chifa - gate  scandal , as presidential  curse  strikes again",
+      "title_en": null,
+      "url": "https://edition.cnn.com/2026/02/17/americas/peru-president-jose-jeri-ousted-intl-latam",
+      "domain": "edition.cnn.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-17T23:15:00Z",
+      "timestamp_display": "Feb 17, 2026 23:15 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "530030",
+      "title": "Peru leader José Jerí ousted over  Chifa - gate  scandal , as presidential  curse  strikes again",
+      "title_en": null,
+      "url": "https://keyt.com/news/national-world/cnn-world/2026/02/17/perus-president-jose-jeri-ousted-marking-eighth-change-in-leader-in-less-than-a-decade/",
+      "domain": "keyt.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-17T23:30:00Z",
+      "timestamp_display": "Feb 17, 2026 23:30 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "835248",
+      "title": "Peru leader José Jerí ousted over  Chifa - gate  scandal , as presidential  curse  strikes again",
+      "title_en": null,
+      "url": "https://abc17news.com/news/national-world/cnn-world/2026/02/17/perus-president-jose-jeri-ousted-marking-eighth-change-in-leader-in-less-than-a-decade/",
+      "domain": "abc17news.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-17T23:45:00Z",
+      "timestamp_display": "Feb 17, 2026 23:45 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "045465",
+      "title": "Peru leader José Jerí ousted over  Chifa - gate  scandal , as presidential  curse  strikes again",
+      "title_en": null,
+      "url": "https://krdo.com/news/2026/02/17/perus-president-jose-jeri-ousted-marking-eighth-change-in-leader-in-less-than-a-decade/",
+      "domain": "krdo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-18T01:45:00Z",
+      "timestamp_display": "Feb 18, 2026 01:45 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "193450",
+      "title": "Peru appoints Jose Maria Balcazar as president after Jose Jeri removal",
+      "title_en": null,
+      "url": "https://www.yahoo.com/news/articles/peru-appoints-jose-maria-balcazar-030946330.html",
+      "domain": "yahoo.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-19T04:00:00Z",
+      "timestamp_display": "Feb 19, 2026 04:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "075594",
+      "title": "Peru appoints Jose Maria Balcazar as president after Jose Jeri removal | Government News",
+      "title_en": null,
+      "url": "https://www.aljazeera.com/news/2026/2/19/peru-appoints-new-president-after-jose-jeris-removal",
+      "domain": "aljazeera.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-19T04:00:00Z",
+      "timestamp_display": "Feb 19, 2026 04:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "047705",
+      "title": "Peru appoints Jose Maria Balcazar as president after Jose Jeri removal - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "title_en": null,
+      "url": "https://dominicanrepublicpost.com/peru-appoints-jose-maria-balcazar-as-president-after-jose-jeris-removal/",
+      "domain": "dominicanrepublicpost.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-19T05:00:00Z",
+      "timestamp_display": "Feb 19, 2026 05:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "300675",
+      "title": "Peru appoints Jose Maria Balcazar as president after Jose Jeri removal - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "title_en": null,
+      "url": "https://grenadachronicle.com/peru-appoints-jose-maria-balcazar-as-president-after-jose-jeris-removal/",
+      "domain": "grenadachronicle.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-19T05:00:00Z",
+      "timestamp_display": "Feb 19, 2026 05:00 UTC",
+      "keywords_found": [
+        "peru"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "701190",
+      "title": "China & Taiwan Update , February 23 , 2026",
+      "title_en": null,
+      "url": "https://www.aei.org/articles/china-taiwan-update-february-23-2026/",
+      "domain": "aei.org",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-23T20:15:00Z",
+      "timestamp_display": "Feb 23, 2026 20:15 UTC",
+      "keywords_found": [
+        "china"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "536714",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.cambodiantimes.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "cambodiantimes.com",
+      "language": "en",
+      "source_country": "Cambodia",
+      "timestamp_iso": "2026-02-26T09:15:00Z",
+      "timestamp_display": "Feb 26, 2026 09:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.222937Z"
+    },
+    {
+      "id": "563204",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.jamaicantimes.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "jamaicantimes.com",
+      "language": "en",
+      "source_country": "Jamaica",
+      "timestamp_iso": "2026-02-26T10:45:00Z",
+      "timestamp_display": "Feb 26, 2026 10:45 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.222937Z"
+    },
+    {
+      "id": "263301",
+      "title": "Feature : Chinese New Year infuses Latin America with festive cheer",
+      "title_en": null,
+      "url": "http://www.mexicostar.com/news/278889544/feature-chinese-new-year-infuses-latin-america-with-festive-cheer",
+      "domain": "mexicostar.com",
+      "language": "en",
+      "source_country": "Mexico",
+      "timestamp_iso": "2026-02-26T12:15:00Z",
+      "timestamp_display": "Feb 26, 2026 12:15 UTC",
+      "keywords_found": [
+        "latin america"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:06:10.222937Z"
+    },
+    {
+      "id": "384973",
+      "title": "Tariff war cost Canadian Pacific $200M over past year , CEO says",
+      "title_en": null,
+      "url": "https://www.cbc.ca/news/canada/calgary/tariff-war-cost-canadian-pacific-200m-over-past-year-ceo-says-9.7066062",
+      "domain": "cbc.ca",
+      "language": "en",
+      "source_country": "Canada",
+      "timestamp_iso": "2026-01-29T15:30:00Z",
+      "timestamp_display": "Jan 29, 2026 15:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:32.795676Z"
+    },
+    {
+      "id": "155322",
+      "title": "Tariffs take $350M bite out of CN Rail revenues , with uncertainty now  biggest risk  ",
+      "title_en": null,
+      "url": "https://www.castanetkamloops.net/news/Business/597039/Tariffs-take-350M-bite-out-of-CN-Rail-revenues-with-uncertainty-now-biggest-risk-",
+      "domain": "castanetkamloops.net",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-01-31T00:00:00Z",
+      "timestamp_display": "Jan 31, 2026 00:00 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:32.795676Z"
+    },
+    {
+      "id": "767240",
+      "title": "Promising Canadian Stocks To Add to Your Watchlist – January 30th",
+      "title_en": null,
+      "url": "https://www.dailypolitical.com/2026/01/31/promising-canadian-stocks-to-add-to-your-watchlist-january-30th.html",
+      "domain": "dailypolitical.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-01-31T15:00:00Z",
+      "timestamp_display": "Jan 31, 2026 15:00 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:32.795676Z"
+    },
+    {
+      "id": "343397",
+      "title": "Panama Supreme Court Ends Chinese Port Control , Marking Major Geopolitical Shift in Canal Zone",
+      "title_en": null,
+      "url": "https://legalinsurrection.com/2026/01/panama-supreme-court-ends-chinese-port-control-marking-major-geopolitical-shift-in-canal-zone/",
+      "domain": "legalinsurrection.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-01T02:30:00Z",
+      "timestamp_display": "Feb 01, 2026 02:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:32.795676Z"
+    },
+    {
+      "id": "862732",
+      "title": "Tariffs take $350M bite out of CN Rail revenues , with uncertainty now  biggest risk  ",
+      "title_en": null,
+      "url": "https://www.mromagazine.com/2026/01/30/tariffs-take-350m-bite-out-of-cn-rail-revenues-with-uncertainty-now-biggest-risk/",
+      "domain": "mromagazine.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-02T22:45:00Z",
+      "timestamp_display": "Feb 02, 2026 22:45 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:32.795676Z"
+    },
+    {
+      "id": "104124",
+      "title": "Tariffs take $350M bite out of CN Rail revenues , with uncertainty now  biggest risk  ",
+      "title_en": null,
+      "url": "https://www.plant.ca/economy/tariffs-take-350m-bite-out-of-cn-rail-revenues-with-uncertainty-now-biggest-risk/",
+      "domain": "plant.ca",
+      "language": "en",
+      "source_country": "Canada",
+      "timestamp_iso": "2026-02-04T00:30:00Z",
+      "timestamp_display": "Feb 04, 2026 00:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:32.795676Z"
+    },
+    {
+      "id": "548867",
+      "title": "Promising Canadian Stocks To Keep An Eye On – February 5th",
+      "title_en": null,
+      "url": "https://www.themarketsdaily.com/2026/02/05/promising-canadian-stocks-to-keep-an-eye-on-february-5th.html",
+      "domain": "themarketsdaily.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-05T21:30:00Z",
+      "timestamp_display": "Feb 05, 2026 21:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:32.795676Z"
+    },
+    {
+      "id": "818041",
+      "title": "Promising Canadian Stocks To Follow Now – February 8th",
+      "title_en": null,
+      "url": "https://www.dailypolitical.com/2026/02/08/promising-canadian-stocks-to-follow-now-february-8th.html",
+      "domain": "dailypolitical.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-08T18:45:00Z",
+      "timestamp_display": "Feb 08, 2026 18:45 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:32.795676Z"
+    },
+    {
+      "id": "020386",
+      "title": "Canadian Stocks To Follow Today – February 9th",
+      "title_en": null,
+      "url": "https://www.themarketsdaily.com/2026/02/09/canadian-stocks-to-follow-today-february-9th.html",
+      "domain": "themarketsdaily.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-09T18:45:00Z",
+      "timestamp_display": "Feb 09, 2026 18:45 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:32.795676Z"
+    },
+    {
+      "id": "518110",
+      "title": "Trump gets the Monroe doctrine wrong . He should take a page from Bad Bunny | US foreign policy",
+      "title_en": null,
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/feb/15/trump-bad-bunny-monroe-doctrine",
+      "domain": "theguardian.com",
+      "language": "en",
+      "source_country": "United Kingdom",
+      "timestamp_iso": "2026-02-15T14:30:00Z",
+      "timestamp_display": "Feb 15, 2026 14:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "025286",
+      "title": "特稿丨中国  朋友圈  里的新春暖意 - 中国军网",
+      "title_en": "Special article丨The warmth of the New Year in China’s Moments - China Military Network",
+      "url": "http://www.81.cn/ss_208539/16443559.html",
+      "domain": "81.cn",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-16T08:15:00Z",
+      "timestamp_display": "Feb 16, 2026 08:15 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:21.164189Z"
+    },
+    {
+      "id": "784251",
+      "title": "Territories wey United States buy throughout dia history to form kontri wey dem be today",
+      "title_en": null,
+      "url": "https://www.bbc.com/pidgin/articles/c3wl8wgdvpwo",
+      "domain": "bbc.com",
+      "language": "en",
+      "source_country": "United Kingdom",
+      "timestamp_iso": "2026-02-16T16:45:00Z",
+      "timestamp_display": "Feb 16, 2026 16:45 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:32.795676Z"
+    },
+    {
+      "id": "795960",
+      "title": "特稿｜中国  朋友圈  里的新春暖意",
+      "title_en": "Special Article｜The warmth of the New Year in China’s Moments",
+      "url": "https://www.yangtse.com/news/tt/202602/t20260217_323276.html",
+      "domain": "yangtse.com",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-17T07:00:00Z",
+      "timestamp_display": "Feb 17, 2026 07:00 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:23.782109Z"
+    },
+    {
+      "id": "613032",
+      "title": "特稿｜中国  朋友圈  里的新春暖意 - 国内国际",
+      "title_en": "Special Article｜The warmth of the New Year in China’s Moments - Domestic and International",
+      "url": "https://news.jxnews.com.cn/system/2026/02/17/031057777.shtml",
+      "domain": "news.jxnews.com.cn",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-17T07:15:00Z",
+      "timestamp_display": "Feb 17, 2026 07:15 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:31.678407Z"
+    },
+    {
+      "id": "752498",
+      "title": "特稿｜中国  朋友圈  里的新春暖意 _ 未来网",
+      "title_en": "Special Article｜The warmth of the New Year in China’s Moments _ Future Network",
+      "url": "https://news.k618.cn/zxbd/202602/t20260217_20022114.html",
+      "domain": "news.k618.cn",
+      "language": "zh",
+      "source_country": "",
+      "timestamp_iso": "2026-02-17T07:30:00Z",
+      "timestamp_display": "Feb 17, 2026 07:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:32.795676Z"
+    },
+    {
+      "id": "246728",
+      "title": "特稿｜中国  朋友圈  里的新春暖意",
+      "title_en": "Special Article｜The warmth of the New Year in China’s Moments",
+      "url": "https://news.ycwb.com/ikimvkitjl/content_53968986.htm",
+      "domain": "news.ycwb.com",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-17T07:45:00Z",
+      "timestamp_display": "Feb 17, 2026 07:45 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:24.250341Z"
+    },
+    {
+      "id": "918119",
+      "title": "特稿｜中国  朋友圈  里的新春暖意",
+      "title_en": "Special Article｜The warmth of the New Year in China’s Moments",
+      "url": "https://news.hangzhou.com.cn/szxw/content/content_9179520.htm",
+      "domain": "news.hangzhou.com.cn",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-17T09:15:00Z",
+      "timestamp_display": "Feb 17, 2026 09:15 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:24.874715Z"
+    },
+    {
+      "id": "400323",
+      "title": "特稿｜中国  朋友圈  里的新春暖意 - 鲁网新闻中心",
+      "title_en": "Feature article｜The warmth of the New Year in China’s Moments - Luwang News Center",
+      "url": "http://news.sdnews.com.cn/gn/202602/t20260217_4640545.html",
+      "domain": "news.sdnews.com.cn",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-17T10:30:00Z",
+      "timestamp_display": "Feb 17, 2026 10:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:30.531491Z"
+    },
+    {
+      "id": "164903",
+      "title": "特稿｜中国  朋友圈  里的新春暖意 - 南海网",
+      "title_en": "Special article｜The warmth of the New Year in China’s Moments - Nanhai Net",
+      "url": "https://www.hinews.cn/page?n=2800861&m=1&s=1044",
+      "domain": "hinews.cn",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-17T11:00:00Z",
+      "timestamp_display": "Feb 17, 2026 11:00 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:26.432892Z"
+    },
+    {
+      "id": "196003",
+      "title": "特稿｜中国  朋友圈  里的新春暖意 _ 学习 _ 新闻频道 _ 福州新闻网",
+      "title_en": "Special article｜The warmth of the New Year in China’s Moments _ Learning _ News Channel _ Fuzhou News Network",
+      "url": "https://news.fznews.com.cn/node/23556/20260217/0687gc14Ff.shtml",
+      "domain": "news.fznews.com.cn",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-17T11:30:00Z",
+      "timestamp_display": "Feb 17, 2026 11:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:27.502956Z"
+    },
+    {
+      "id": "463281",
+      "title": "密會中國富商 ！ 秘魯代理總統爆貪腐疑雲 上任僅4月遭彈劾下台 | ETtoday國際新聞",
+      "title_en": "密會中國富商 ！ 秘魯代理總統爆貪腐疑雲 上任僅4月遭彈劾下台 | ETtoday國際新聞",
+      "url": "https://www.ettoday.net/news/20260218/3120196.htm",
+      "domain": "ettoday.net",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-18T05:15:00Z",
+      "timestamp_display": "Feb 18, 2026 05:15 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:15.103823Z"
+    },
+    {
+      "id": "180467",
+      "title": "混迷深まるペルーでまた大統領罷免 就任わずか4カ月 、 中国人実業家との癒着疑惑浮上",
+      "title_en": "Peru's president is dismissed again amid deepening turmoil after just four months in office, amid suspicions of collusion with Chinese businessman",
+      "url": "https://www.sankei.com/article/20260218-CWBQW7BFZVK3HNBD6GT67Z5I6I/",
+      "domain": "sankei.com",
+      "language": "ja",
+      "source_country": "Japan",
+      "timestamp_iso": "2026-02-18T05:15:00Z",
+      "timestamp_display": "Feb 18, 2026 05:15 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:16.477625Z"
+    },
+    {
+      "id": "253304",
+      "title": "密會中國商人醜聞炸鍋 ！ 上任4個月即下台 秘魯10年換8總統 | 國際 | 三立新聞網 SETN . COM",
+      "title_en": "密會中國商人醜聞炸鍋 ！ 上任4個月即下台 秘魯10年換8總統 | 國際 | 三立新聞網 SETN . COM",
+      "url": "https://www.setn.com/News.aspx?NewsID=1796773",
+      "domain": "setn.com",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-18T05:45:00Z",
+      "timestamp_display": "Feb 18, 2026 05:45 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:15.558949Z"
+    },
+    {
+      "id": "889283",
+      "title": "Αναψηλάφηση του κράτους",
+      "title_en": "Enlightenment of the state",
+      "url": "https://www.taxydromos.gr/apopseis/1292044/anapsilafisi-toy-kratoys/",
+      "domain": "taxydromos.gr",
+      "language": "gr",
+      "source_country": "Greece",
+      "timestamp_iso": "2026-02-18T23:45:00Z",
+      "timestamp_display": "Feb 18, 2026 23:45 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:19.056943Z"
+    },
+    {
+      "id": "878418",
+      "title": "民眾黨幹部上桌打麻將 ！ 黃國昌 「 一舉動 」 挨轟超不衛生 - 政治",
+      "title_en": "民眾黨幹部上桌打麻將 ！ 黃國昌 「 一舉動 」 挨轟超不衛生 - 政治",
+      "url": "https://news.ltn.com.tw/news/politics/breakingnews/5346247",
+      "domain": "news.ltn.com.tw",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-19T10:00:00Z",
+      "timestamp_display": "Feb 19, 2026 10:00 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:12.221406Z"
+    },
+    {
+      "id": "069925",
+      "title": "2026 kicks off to the sound of imperialist war drums and class struggle",
+      "title_en": null,
+      "url": "https://marxist.com/2026-kicks-off-to-the-sound-of-imperialist-war-drums-and-class-struggle.htm",
+      "domain": "marxist.com",
+      "language": "en",
+      "source_country": "Russia",
+      "timestamp_iso": "2026-02-20T19:45:00Z",
+      "timestamp_display": "Feb 20, 2026 19:45 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "279856",
+      "title": "一顿中餐掀翻秘鲁政坛 ， 美国在背后做了什么 ？ ",
+      "title_en": "A Chinese meal overturned Peruvian politics. What did the United States do behind the scenes?",
+      "url": "https://news.ifeng.com/c/8qxLW2rbfUZ",
+      "domain": "news.ifeng.com",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-22T11:30:00Z",
+      "timestamp_display": "Feb 22, 2026 11:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:18.129170Z"
+    },
+    {
+      "id": "669857",
+      "title": "Canadian Stocks To Keep An Eye On – February 20th",
+      "title_en": null,
+      "url": "https://www.themarketsdaily.com/2026/02/23/canadian-stocks-to-keep-an-eye-on-february-20th.html",
+      "domain": "themarketsdaily.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-23T01:00:00Z",
+      "timestamp_display": "Feb 23, 2026 01:00 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:32.795676Z"
+    },
+    {
+      "id": "117542",
+      "title": "跨越半个地球 中国春节  圈粉  拉美|巴西|秘鲁|智利|巴拿马",
+      "title_en": "Across Half the World Chinese New Year Fans Latin America|Brazil|Peru|Chile|Panama",
+      "url": "https://www.163.com/dy/article/KMDJFF9105346RC6.html",
+      "domain": "163.com",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-23T02:30:00Z",
+      "timestamp_display": "Feb 23, 2026 02:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:17.262829Z"
+    },
+    {
+      "id": "675833",
+      "title": "藍 ： 3 / 11提新北宜蘭嘉市長人選後 啟動藍白整合 | 政治",
+      "title_en": "藍 ： 3 / 11提新北宜蘭嘉市長人選後 啟動藍白整合 | 政治",
+      "url": "https://www.cna.com.tw:443/news/aipl/202602230138.aspx",
+      "domain": "cna.com.tw",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-23T07:00:00Z",
+      "timestamp_display": "Feb 23, 2026 07:00 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:11.744486Z"
+    },
+    {
+      "id": "708974",
+      "title": "藍白整合時間曝光 ！ 國民黨3 / 11提新北宜蘭縣嘉義市長人選 | ETtoday政治新聞",
+      "title_en": "藍白整合時間曝光 ！ 國民黨3 / 11提新北宜蘭縣嘉義市長人選 | ETtoday政治新聞",
+      "url": "https://www.ettoday.net/news/20260223/3121786.htm",
+      "domain": "ettoday.net",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-23T07:45:00Z",
+      "timestamp_display": "Feb 23, 2026 07:45 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:12.661479Z"
+    },
+    {
+      "id": "493061",
+      "title": "國民黨 ： 3 / 11提新北宜蘭嘉市長人選後 啟動藍白整合共推最強人選 | 政治 | 三立新聞網 SETN . COM",
+      "title_en": "國民黨 ： 3 / 11提新北宜蘭嘉市長人選後 啟動藍白整合共推最強人選 | 政治 | 三立新聞網 SETN . COM",
+      "url": "https://www.setn.com/News.aspx?NewsID=1798426",
+      "domain": "setn.com",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-23T08:45:00Z",
+      "timestamp_display": "Feb 23, 2026 08:45 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:13.623905Z"
+    },
+    {
+      "id": "105375",
+      "title": "Top Canadian Stocks To Follow Now – February 22nd",
+      "title_en": null,
+      "url": "https://www.themarketsdaily.com/2026/02/23/top-canadian-stocks-to-follow-now-february-22nd.html",
+      "domain": "themarketsdaily.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-23T15:45:00Z",
+      "timestamp_display": "Feb 23, 2026 15:45 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:32.797033Z"
+    },
+    {
+      "id": "267840",
+      "title": "黃國昌被嗆 「 超速仔 」 周榆修又找賴清德 ： 他沒有要退選 、 新北應全民調 | 政治 | 三立新聞網 SETN . COM",
+      "title_en": "黃國昌被嗆 「 超速仔 」 周榆修又找賴清德 ： 他沒有要退選 、 新北應全民調 | 政治 | 三立新聞網 SETN . COM",
+      "url": "https://www.setn.com/News.aspx?NewsID=1798776",
+      "domain": "setn.com",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-24T07:15:00Z",
+      "timestamp_display": "Feb 24, 2026 07:15 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:11.297808Z"
+    },
+    {
+      "id": "035943",
+      "title": "跨越半个地球 中国春节  圈粉  拉美 - 大河网",
+      "title_en": "Halfway around the world, Chinese New Year, fans, Latin America - Dahe.com",
+      "url": "https://news.dahe.cn/2026/02-23/2057787.html",
+      "domain": "news.dahe.cn",
+      "language": "zh",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-24T09:30:00Z",
+      "timestamp_display": "Feb 24, 2026 09:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:29.255423Z"
+    },
+    {
+      "id": "639604",
+      "title": "賴清德赴立院國情報告 ！ 民眾黨同意統問統答 ： 要實問實答 問到飽答到飽 | 政治 | 三立新聞網 SETN . COM",
+      "title_en": "賴清德赴立院國情報告 ！ 民眾黨同意統問統答 ： 要實問實答 問到飽答到飽 | 政治 | 三立新聞網 SETN . COM",
+      "url": "https://www.setn.com/News.aspx?NewsID=1798879",
+      "domain": "setn.com",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-24T10:15:00Z",
+      "timestamp_display": "Feb 24, 2026 10:15 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:14.105833Z"
+    },
+    {
+      "id": "258717",
+      "title": "fDi Intelligence – Your source for foreign direct investment information",
+      "title_en": null,
+      "url": "https://www.fdiintelligence.com/content/f591ffa9-8006-42dc-a307-30dafbbd2e34",
+      "domain": "fdiintelligence.com",
+      "language": "en",
+      "source_country": "United Kingdom",
+      "timestamp_iso": "2026-02-24T17:15:00Z",
+      "timestamp_display": "Feb 24, 2026 17:15 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:10.768206Z"
+    },
+    {
+      "id": "787999",
+      "title": "Top Canadian Stocks To Research – February 23rd",
+      "title_en": null,
+      "url": "https://www.dailypolitical.com/2026/02/24/top-canadian-stocks-to-research-february-23rd.html",
+      "domain": "dailypolitical.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-24T17:15:00Z",
+      "timestamp_display": "Feb 24, 2026 17:15 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:32.795676Z"
+    },
+    {
+      "id": "675626",
+      "title": "才開張沒多久 ！ 梁文傑Threads驚傳 「 被消失 」 最後一篇文曝光 - 政治",
+      "title_en": "才開張沒多久 ！ 梁文傑Threads驚傳 「 被消失 」 最後一篇文曝光 - 政治",
+      "url": "https://news.ltn.com.tw/news/politics/breakingnews/5350652",
+      "domain": "news.ltn.com.tw",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-25T04:00:00Z",
+      "timestamp_display": "Feb 25, 2026 04:00 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:14.592435Z"
+    },
+    {
+      "id": "593595",
+      "title": "佈局2026 ！ 鄭麗文曝 「 3月完成90 % 縣市長提名 」： 全黨一心只能贏不能輸 | 政治",
+      "title_en": "佈局2026 ！ 鄭麗文曝 「 3月完成90 % 縣市長提名 」： 全黨一心只能贏不能輸 | 政治",
+      "url": "https://www.setn.com/News.aspx?NewsID=1799240",
+      "domain": "setn.com",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-25T07:00:00Z",
+      "timestamp_display": "Feb 25, 2026 07:00 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:13.159868Z"
+    },
+    {
+      "id": "051132",
+      "title": "Letters and love in Leetonia | News , Sports , Jobs",
+      "title_en": null,
+      "url": "https://www.salemnews.net/news/local-news/2026/02/letters-and-love-in-leetonia/",
+      "domain": "salemnews.net",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-27T06:30:00Z",
+      "timestamp_display": "Feb 27, 2026 06:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:19.058183Z"
+    },
+    {
+      "id": "951353",
+      "title": "Letters and love in Leetonia | News , Sports , Jobs",
+      "title_en": null,
+      "url": "https://www.morningjournalnews.com/news/local-news/2026/02/letters-and-love-in-leetonia/",
+      "domain": "morningjournalnews.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-27T09:00:00Z",
+      "timestamp_display": "Feb 27, 2026 09:00 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:06:19.058183Z"
+    }
+  ]
+}

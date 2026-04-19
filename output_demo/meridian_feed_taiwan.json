@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-04-19T04:17:58.708481Z",
+    "collection_duration_seconds": 33.98,
+    "profile": "taiwan",
+    "profile_description": "Taiwan Strait / Cross-Strait IO Environment",
+    "queries": [
+      "Taiwan",
+      "Taiwan Strait",
+      "PLA Taiwan",
+      "TSMC",
+      "Taiwan independence"
+    ],
+    "total_articles": 0,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 0,
+    "languages_detected": 0,
+    "language_breakdown": {},
+    "top_countries": [],
+    "high_relevance_articles": 0,
+    "translated_articles": 0
+  },
+  "articles": []
+}

@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-02-28T02:36:49.653519Z",
+    "collection_duration_seconds": 25.63,
+    "timespan_queried": "1440",
+    "keywords_queried": [
+      "\"Chancay\" \"Peru\"",
+      "\"deep water port\" \"China\"",
+      "\"deepwater port\" \"China\"",
+      "\"intercontinental railway\" \"China\"",
+      "\"Belt and Road\" \"Peru\"",
+      "\"COSCO\" \"Peru\"",
+      "\"China\" \"Peru\" \"port\"",
+      "\"transcontinental railway\" \"Latin America\""
+    ],
+    "total_articles": 0,
+    "total_raw_before_dedup": 0,
+    "version": "1.0.0"
+  },
+  "summary": {
+    "total_articles": 0,
+    "languages_detected": 0,
+    "language_breakdown": {},
+    "top_countries": [],
+    "high_relevance_articles": 0
+  },
+  "articles": []
+}

@@ -1,0 +1,517 @@
+{
+  "generated": "2026-04-19T04:18:54.673307Z",
+  "article_count": 0,
+  "gdelt_count": 0,
+  "social_count": 0,
+  "fulltext_stats": {
+    "available": false
+  },
+  "tfidf": {
+    "top_terms": [],
+    "coverage": 0
+  },
+  "topics": {
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Infrastructure / Logistics",
+        "top_words": [],
+        "prevalence": 0.32,
+        "prevalence_pct": 32
+      },
+      {
+        "topic_id": 1,
+        "label": "Geopolitical / Sovereignty",
+        "top_words": [],
+        "prevalence": 0.24,
+        "prevalence_pct": 24
+      },
+      {
+        "topic_id": 2,
+        "label": "Economics / Trade",
+        "top_words": [],
+        "prevalence": 0.18,
+        "prevalence_pct": 18
+      },
+      {
+        "topic_id": 3,
+        "label": "Military / Security",
+        "top_words": [],
+        "prevalence": 0.12,
+        "prevalence_pct": 12
+      },
+      {
+        "topic_id": 4,
+        "label": "Environmental / Protest",
+        "top_words": [],
+        "prevalence": 0.08,
+        "prevalence_pct": 8
+      },
+      {
+        "topic_id": 5,
+        "label": "Diplomatic / Bilateral",
+        "top_words": [],
+        "prevalence": 0.06,
+        "prevalence_pct": 6
+      }
+    ],
+    "n_topics": 6,
+    "corpus_size": 0,
+    "note": "default — insufficient corpus"
+  },
+  "sentiment": {
+    "overall": {
+      "positive": 21,
+      "neutral": 41,
+      "negative": 38
+    },
+    "overall_pct": {
+      "positive": 21.0,
+      "neutral": 41.0,
+      "negative": 38.0
+    },
+    "avg_compound_score": -0.12,
+    "by_language": {},
+    "total_analyzed": 0,
+    "note": "default — VADER not available"
+  },
+  "social_sentiment": {},
+  "social_summary": {
+    "total_posts": 0,
+    "platform_counts": {
+      "reddit": 0,
+      "reddit_status": "not_configured",
+      "bluesky": 0,
+      "telegram": 0,
+      "telegram_status": "not_configured"
+    },
+    "top_engagement": 0,
+    "platforms_active": []
+  },
+  "ner": {
+    "top_persons": [],
+    "top_orgs": [],
+    "top_locations": [],
+    "total_entities": 0
+  },
+  "entity_intelligence": {
+    "profile": "taiwan",
+    "watchlist_size": 13,
+    "total_mentioned": 0,
+    "entities": [
+      {
+        "name": "Xi Jinping",
+        "type": "person",
+        "role": "PRC President",
+        "affiliation": "China",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Lai Ching-te",
+        "type": "person",
+        "role": "Taiwan President",
+        "affiliation": "Taiwan",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Donald Trump",
+        "type": "person",
+        "role": "US President",
+        "affiliation": "United States",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Marco Rubio",
+        "type": "person",
+        "role": "US Sec State",
+        "affiliation": "United States",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Mark Milley",
+        "type": "person",
+        "role": "Former CJCS",
+        "affiliation": "United States",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "PLA",
+        "type": "org",
+        "role": "Chinese Military",
+        "affiliation": "China",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "TSMC",
+        "type": "org",
+        "role": "Chipmaker",
+        "affiliation": "Taiwan",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "NATO",
+        "type": "org",
+        "role": "Alliance",
+        "affiliation": "Western",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Pentagon",
+        "type": "org",
+        "role": "US Defense",
+        "affiliation": "United States",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Taiwan Strait",
+        "type": "location",
+        "role": "Strategic Waterway",
+        "affiliation": "Disputed",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Taipei",
+        "type": "location",
+        "role": "Capital",
+        "affiliation": "Taiwan",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "South China Sea",
+        "type": "location",
+        "role": "Strategic Waterway",
+        "affiliation": "Disputed",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      },
+      {
+        "name": "Guam",
+        "type": "location",
+        "role": "US Base",
+        "affiliation": "United States",
+        "mention_count": 0,
+        "total_mentions": 0,
+        "avg_sentiment": 0.0,
+        "sentiment_label": "neutral",
+        "sources": {
+          "gdelt": 0,
+          "social": 0
+        },
+        "top_cooccur": [],
+        "contexts": []
+      }
+    ],
+    "emerging": [],
+    "cooccur_matrix": {
+      "labels": [],
+      "matrix": [],
+      "raw_matrix": []
+    },
+    "summary": {
+      "most_mentioned": "Xi Jinping",
+      "most_negative": null,
+      "coverage_pct": 0
+    }
+  },
+  "cooccurrence": {
+    "labels": [
+      "CHINA",
+      "PERU",
+      "DEEPWATER",
+      "RAILWAY",
+      "CHANCAY",
+      "COSCO",
+      "BRI"
+    ],
+    "matrix": [
+      [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        100,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        100,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        100,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        100
+      ]
+    ],
+    "raw_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "forecast": {
+    "model": "LinearExtrapolation (ARIMA fallback)",
+    "horizons": {
+      "7": {
+        "days": 7,
+        "forecast_final": 550.0,
+        "pct_change_from_today": 120.0,
+        "ci_upper": [
+          575.0
+        ],
+        "ci_lower": [
+          525.0
+        ]
+      },
+      "30": {
+        "days": 30,
+        "forecast_final": 1535.7,
+        "pct_change_from_today": 514.3,
+        "ci_upper": [
+          1560.7
+        ],
+        "ci_lower": [
+          1510.7
+        ]
+      },
+      "90": {
+        "days": 90,
+        "forecast_final": 4107.1,
+        "pct_change_from_today": 1542.9,
+        "ci_upper": [
+          4132.1
+        ],
+        "ci_lower": [
+          4082.1
+        ]
+      },
+      "365": {
+        "days": 365,
+        "forecast_final": 15892.9,
+        "pct_change_from_today": 6257.1,
+        "ci_upper": [
+          15917.9
+        ],
+        "ci_lower": [
+          15867.9
+        ]
+      }
+    },
+    "current_value": 250.0
+  },
+  "semantic": {},
+  "articles": [],
+  "social_posts": []
+}

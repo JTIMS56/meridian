@@ -1,0 +1,906 @@
+{
+  "meta": {
+    "collection_timestamp": "2026-02-28T03:58:16.750970Z",
+    "collection_duration_seconds": 56.62,
+    "profile": "taiwan",
+    "profile_description": "Taiwan Strait / Cross-Strait IO Environment",
+    "queries": [
+      "Taiwan",
+      "Taiwan Strait",
+      "PLA Taiwan",
+      "TSMC",
+      "Taiwan independence"
+    ],
+    "total_articles": 50,
+    "version": "4.2.0"
+  },
+  "summary": {
+    "total_articles": 50,
+    "languages_detected": 4,
+    "language_breakdown": {
+      "en": 39,
+      "in": 1,
+      "zh": 9,
+      "ja": 1
+    },
+    "top_countries": [
+      {
+        "country": "Taiwan",
+        "count": 21
+      },
+      {
+        "country": "India",
+        "count": 11
+      },
+      {
+        "country": "China",
+        "count": 3
+      },
+      {
+        "country": "Japan",
+        "count": 2
+      },
+      {
+        "country": "Australia",
+        "count": 2
+      },
+      {
+        "country": "Indonesia",
+        "count": 1
+      },
+      {
+        "country": "Singapore",
+        "count": 1
+      },
+      {
+        "country": "Pakistan",
+        "count": 1
+      },
+      {
+        "country": "Israel",
+        "count": 1
+      },
+      {
+        "country": "France",
+        "count": 1
+      }
+    ],
+    "high_relevance_articles": 45,
+    "translated_articles": 2
+  },
+  "articles": [
+    {
+      "id": "055437",
+      "title": "Taiwanese visits to mainland China topped 3 million in 2025 , still below pre - Covid levels",
+      "title_en": null,
+      "url": "https://www.scmp.com/news/china/article/3343588/taiwanese-visits-mainland-china-topped-3-million-2025-still-below-pre-covid-levels",
+      "domain": "scmp.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-14T12:00:00Z",
+      "timestamp_display": "Feb 14, 2026 12:00 UTC",
+      "keywords_found": [
+        "taiwan",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.131284Z"
+    },
+    {
+      "id": "286048",
+      "title": "U . S ., Philippines reiterate importance of Taiwan Strait peace",
+      "title_en": null,
+      "url": "https://focustaiwan.tw:443/politics/202602170007",
+      "domain": "focustaiwan.tw",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-17T12:15:00Z",
+      "timestamp_display": "Feb 17, 2026 12:15 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.130284Z"
+    },
+    {
+      "id": "083293",
+      "title": "U . S ., Philippines reiterate importance of Taiwan Strait peace",
+      "title_en": null,
+      "url": "https://focustaiwan.tw/politics/202602170007",
+      "domain": "focustaiwan.tw",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-17T12:15:00Z",
+      "timestamp_display": "Feb 17, 2026 12:15 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.130284Z"
+    },
+    {
+      "id": "956941",
+      "title": "Trump akan kunjungi China , isu Taiwan hingga perdagangan masuk agenda",
+      "title_en": "Trump will visit China, the Taiwan issue and trade are on the agenda",
+      "url": "https://www.antaranews.com/berita/5428930/trump-akan-kunjungi-china-isu-taiwan-hingga-perdagangan-masuk-agenda",
+      "domain": "antaranews.com",
+      "language": "in",
+      "source_country": "Indonesia",
+      "timestamp_iso": "2026-02-21T04:45:00Z",
+      "timestamp_display": "Feb 21, 2026 04:45 UTC",
+      "keywords_found": [
+        "taiwan",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.126284Z"
+    },
+    {
+      "id": "213622",
+      "title": "China Builds Pressure On Taiwan : 8 PLA Aircraft , 7 Warships Detected Around Island , All Jets Cross Median Line",
+      "title_en": null,
+      "url": "https://www.newsx.com/world/china-builds-pressure-on-taiwan-8-pla-aircraft-7-warships-detected-around-island-all-jets-cross-median-line-170727/",
+      "domain": "newsx.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-21T15:45:00Z",
+      "timestamp_display": "Feb 21, 2026 15:45 UTC",
+      "keywords_found": [
+        "taiwan",
+        "pla",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.124289Z"
+    },
+    {
+      "id": "284217",
+      "title": "Australian warship transits Taiwan Strait , tracked by China navy",
+      "title_en": null,
+      "url": "https://www.straitstimes.com/asia/australianz/australian-warship-transits-taiwan-strait-tracked-by-chinas-navy",
+      "domain": "straitstimes.com",
+      "language": "en",
+      "source_country": "Singapore",
+      "timestamp_iso": "2026-02-22T04:00:00Z",
+      "timestamp_display": "Feb 22, 2026 04:00 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.129285Z"
+    },
+    {
+      "id": "974627",
+      "title": "Australian warship transits Taiwan Strait , tracked by China navy – The Frontier Post",
+      "title_en": null,
+      "url": "https://thefrontierpost.com/australian-warship-transits-taiwan-strait-tracked-by-chinas-navy/",
+      "domain": "thefrontierpost.com",
+      "language": "en",
+      "source_country": "Pakistan",
+      "timestamp_iso": "2026-02-22T04:00:00Z",
+      "timestamp_display": "Feb 22, 2026 04:00 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.132284Z"
+    },
+    {
+      "id": "527154",
+      "title": "Australian warship transits Taiwan Strait , tracked by China navy",
+      "title_en": null,
+      "url": "https://www.rnz.co.nz/news/world/587580/australian-warship-transits-taiwan-strait-tracked-by-china-s-navy",
+      "domain": "rnz.co.nz",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-22T04:30:00Z",
+      "timestamp_display": "Feb 22, 2026 04:30 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.130284Z"
+    },
+    {
+      "id": "704430",
+      "title": "Australian warship transits Taiwan Strait , tracked by Chinese Navy",
+      "title_en": null,
+      "url": "https://www.japantimes.co.jp/news/2026/02/22/asia-pacific/australia-taiwan-strait-transit/",
+      "domain": "japantimes.co.jp",
+      "language": "en",
+      "source_country": "Japan",
+      "timestamp_iso": "2026-02-22T06:15:00Z",
+      "timestamp_display": "Feb 22, 2026 06:15 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.129285Z"
+    },
+    {
+      "id": "062757",
+      "title": "Australian warship transits Taiwan Strait , tracked by China navy",
+      "title_en": null,
+      "url": "https://kathmandupost.com/world/2026/02/22/australian-warship-transits-taiwan-strait-tracked-by-china-s-navy",
+      "domain": "kathmandupost.com",
+      "language": "en",
+      "source_country": "",
+      "timestamp_iso": "2026-02-22T07:45:00Z",
+      "timestamp_display": "Feb 22, 2026 07:45 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.132284Z"
+    },
+    {
+      "id": "117888",
+      "title": "Australian navy transits Taiwan Strait amid China tensions",
+      "title_en": null,
+      "url": "http://www.jpost.com/international/article-887426",
+      "domain": "jpost.com",
+      "language": "en",
+      "source_country": "Israel",
+      "timestamp_iso": "2026-02-22T08:00:00Z",
+      "timestamp_display": "Feb 22, 2026 08:00 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.128284Z"
+    },
+    {
+      "id": "200869",
+      "title": "China Monitors Australian Warship in Taiwan Strait",
+      "title_en": null,
+      "url": "https://www.newkerala.com/news/a/china-tracks-monitors-australian-warship-transit-taiwan-strait-303.htm",
+      "domain": "newkerala.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-22T13:30:00Z",
+      "timestamp_display": "Feb 22, 2026 13:30 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.128284Z"
+    },
+    {
+      "id": "625049",
+      "title": "China tracks , monitors Australian warship transit Taiwan Strait",
+      "title_en": null,
+      "url": "http://www.japanherald.com/news/278882289/china-tracks-monitors-australian-warship-transit-taiwan-strait",
+      "domain": "japanherald.com",
+      "language": "en",
+      "source_country": "Japan",
+      "timestamp_iso": "2026-02-22T15:30:00Z",
+      "timestamp_display": "Feb 22, 2026 15:30 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.129285Z"
+    },
+    {
+      "id": "449329",
+      "title": "China tracks , monitors Australian warship transit Taiwan Strait",
+      "title_en": null,
+      "url": "http://www.australiannews.net/news/278882289/china-tracks-monitors-australian-warship-transit-taiwan-strait",
+      "domain": "australiannews.net",
+      "language": "en",
+      "source_country": "Australia",
+      "timestamp_iso": "2026-02-22T17:00:00Z",
+      "timestamp_display": "Feb 22, 2026 17:00 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.129285Z"
+    },
+    {
+      "id": "732859",
+      "title": "China tracks , monitors Australian warship transit Taiwan Strait",
+      "title_en": null,
+      "url": "http://www.parisguardian.com/news/278882289/china-tracks-monitors-australian-warship-transit-taiwan-strait",
+      "domain": "parisguardian.com",
+      "language": "en",
+      "source_country": "France",
+      "timestamp_iso": "2026-02-22T17:45:00Z",
+      "timestamp_display": "Feb 22, 2026 17:45 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.129285Z"
+    },
+    {
+      "id": "605132",
+      "title": "China tracks , monitors Australian warship transit Taiwan Strait",
+      "title_en": null,
+      "url": "http://www.asiabulletin.com/news/278882289/china-tracks-monitors-australian-warship-transit-taiwan-strait",
+      "domain": "asiabulletin.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-22T18:00:00Z",
+      "timestamp_display": "Feb 22, 2026 18:00 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.129285Z"
+    },
+    {
+      "id": "627731",
+      "title": "Australian frigate transits Taiwan Strait unimpeded",
+      "title_en": null,
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/02/23/2003852733",
+      "domain": "taipeitimes.com",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-22T18:30:00Z",
+      "timestamp_display": "Feb 22, 2026 18:30 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.128284Z"
+    },
+    {
+      "id": "256042",
+      "title": "China tracks , monitors Australian warship transit Taiwan Strait",
+      "title_en": null,
+      "url": "https://news.webindia123.com/news/Articles/World/20260222/4419544.html",
+      "domain": "news.webindia123.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-22T20:45:00Z",
+      "timestamp_display": "Feb 22, 2026 20:45 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.128284Z"
+    },
+    {
+      "id": "198848",
+      "title": "若中國封鎖台灣晶片出口 ， 美國科技業恐遭重擊 ！ 97 % 高階晶片依賴是最大隱憂",
+      "title_en": null,
+      "url": "https://technews.tw/2026/02/24/if-china-blocks-taiwans-chip-exports/",
+      "domain": "technews.tw",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-24T08:45:00Z",
+      "timestamp_display": "Feb 24, 2026 08:45 UTC",
+      "keywords_found": [
+        "taiwan",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.126284Z"
+    },
+    {
+      "id": "021831",
+      "title": "Lai reiterates  status quo  at China - based Taiwanese event",
+      "title_en": null,
+      "url": "https://focustaiwan.tw:443/cross-strait/202602240017",
+      "domain": "focustaiwan.tw",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-24T13:00:00Z",
+      "timestamp_display": "Feb 24, 2026 13:00 UTC",
+      "keywords_found": [
+        "taiwan",
+        "strait",
+        "china",
+        "cross-strait"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.132284Z"
+    },
+    {
+      "id": "654067",
+      "title": "Taiwan Detects 30 PLA Aircraft , 6 Vessels in Airspace Incursion",
+      "title_en": null,
+      "url": "https://www.newkerala.com/news/a/taiwan-detects-30-sorties-pla-aircraft-plan-vessels-133.htm",
+      "domain": "newkerala.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-26T04:00:00Z",
+      "timestamp_display": "Feb 26, 2026 04:00 UTC",
+      "keywords_found": [
+        "taiwan",
+        "pla"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.130284Z"
+    },
+    {
+      "id": "678731",
+      "title": "Taiwan detects 30 sorties of PLA aircraft , 6 PLAN vessels around its territory",
+      "title_en": null,
+      "url": "https://news.webindia123.com/news/Articles/World/20260226/4420995.html",
+      "domain": "news.webindia123.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-26T04:15:00Z",
+      "timestamp_display": "Feb 26, 2026 04:15 UTC",
+      "keywords_found": [
+        "taiwan",
+        "pla"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.130284Z"
+    },
+    {
+      "id": "013485",
+      "title": "Taiwan detects 30 sorties of PLA aircraft , 6 PLAN vessels around its territory",
+      "title_en": null,
+      "url": "https://www.tribuneindia.com/news/world/taiwan-detects-30-sorties-of-pla-aircraft-6-plan-vessels-around-its-territory/",
+      "domain": "tribuneindia.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-26T04:15:00Z",
+      "timestamp_display": "Feb 26, 2026 04:15 UTC",
+      "keywords_found": [
+        "taiwan",
+        "pla"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.130284Z"
+    },
+    {
+      "id": "014990",
+      "title": "Taiwan detects 30 sorties of PLA aircraft , 6 PLAN vessels around its territory",
+      "title_en": null,
+      "url": "https://aninews.in/news/world/asia/taiwan-detects-30-sorties-of-pla-aircraft-6-plan-vessels-around-its-territory20260226084803/",
+      "domain": "aninews.in",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-26T05:15:00Z",
+      "timestamp_display": "Feb 26, 2026 05:15 UTC",
+      "keywords_found": [
+        "taiwan",
+        "pla"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.130284Z"
+    },
+    {
+      "id": "329865",
+      "title": "What does Taiwanese leader William Lai rare  mainland China  reference mean ? ",
+      "title_en": null,
+      "url": "https://www.scmp.com/news/china/politics/article/3344765/what-does-taiwanese-leader-william-lais-rare-mainland-china-reference-mean",
+      "domain": "scmp.com",
+      "language": "en",
+      "source_country": "China",
+      "timestamp_iso": "2026-02-27T03:00:00Z",
+      "timestamp_display": "Feb 27, 2026 03:00 UTC",
+      "keywords_found": [
+        "taiwan",
+        "china"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.128284Z"
+    },
+    {
+      "id": "439474",
+      "title": "Taiwan detects 8 PLA aircraft , 6 PLAN vessels around its territory",
+      "title_en": null,
+      "url": "https://aninews.in/news/world/asia/taiwan-detects-8-pla-aircraft-6-plan-vessels-around-its-territory20260227080258/",
+      "domain": "aninews.in",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-27T03:00:00Z",
+      "timestamp_display": "Feb 27, 2026 03:00 UTC",
+      "keywords_found": [
+        "taiwan",
+        "pla"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.130284Z"
+    },
+    {
+      "id": "442382",
+      "title": "Taiwan detects 8 PLA aircraft , 6 PLAN vessels around its territory",
+      "title_en": null,
+      "url": "https://economictimes.indiatimes.com/news/defence/taiwan-detects-8-pla-aircraft-6-plan-vessels-around-its-territory/articleshow/128835077.cms",
+      "domain": "economictimes.indiatimes.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-27T03:15:00Z",
+      "timestamp_display": "Feb 27, 2026 03:15 UTC",
+      "keywords_found": [
+        "taiwan",
+        "pla"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.130284Z"
+    },
+    {
+      "id": "411368",
+      "title": "Taiwan detects 8 PLA aircraft , 6 PLAN vessels around its territory",
+      "title_en": null,
+      "url": "https://news.webindia123.com/news/Articles/World/20260227/4421415.html",
+      "domain": "news.webindia123.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-27T04:15:00Z",
+      "timestamp_display": "Feb 27, 2026 04:15 UTC",
+      "keywords_found": [
+        "taiwan",
+        "pla"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.130284Z"
+    },
+    {
+      "id": "114922",
+      "title": "PLA activities in the waters and airspace around Taiwan",
+      "title_en": null,
+      "url": "https://www.globalsecurity.org/wmd/library/news/taiwan/2026/taiwan-260227-roc-mnd01.htm",
+      "domain": "globalsecurity.org",
+      "language": "en",
+      "source_country": "Syria",
+      "timestamp_iso": "2026-02-27T12:30:00Z",
+      "timestamp_display": "Feb 27, 2026 12:30 UTC",
+      "keywords_found": [
+        "taiwan",
+        "pla"
+      ],
+      "relevance_score": 1.0,
+      "collected_at": "2026-02-28T03:58:08.130284Z"
+    },
+    {
+      "id": "087112",
+      "title": "China a threat to the world : MOFA - Taipei Times",
+      "title_en": null,
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/02/16/2003852393",
+      "domain": "taipeitimes.com",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-15T17:15:00Z",
+      "timestamp_display": "Feb 15, 2026 17:15 UTC",
+      "keywords_found": [
+        "china"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.131284Z"
+    },
+    {
+      "id": "729309",
+      "title": " 《 TAIPEI TIMES 》 China a threat to the world : MOFA - 焦點",
+      "title_en": null,
+      "url": "https://news.ltn.com.tw/news/focus/breakingnews/5344365",
+      "domain": "news.ltn.com.tw",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-15T20:15:00Z",
+      "timestamp_display": "Feb 15, 2026 20:15 UTC",
+      "keywords_found": [
+        "china"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.131284Z"
+    },
+    {
+      "id": "780470",
+      "title": "US , Manila tout importance of security in Strait",
+      "title_en": null,
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/02/18/2003852488",
+      "domain": "taipeitimes.com",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-17T18:00:00Z",
+      "timestamp_display": "Feb 17, 2026 18:00 UTC",
+      "keywords_found": [
+        "strait"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.131284Z"
+    },
+    {
+      "id": "475989",
+      "title": " 《 TAIPEI TIMES 》 US , Manila tout importance of security in Strait - 焦點",
+      "title_en": null,
+      "url": "https://news.ltn.com.tw/news/focus/breakingnews/5345349",
+      "domain": "news.ltn.com.tw",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-17T19:30:00Z",
+      "timestamp_display": "Feb 17, 2026 19:30 UTC",
+      "keywords_found": [
+        "strait"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.131284Z"
+    },
+    {
+      "id": "994826",
+      "title": "Lai congratulates Takaichi on reelection as Japan PM",
+      "title_en": null,
+      "url": "https://focustaiwan.tw:443/politics/202602180011",
+      "domain": "focustaiwan.tw",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-18T17:30:00Z",
+      "timestamp_display": "Feb 18, 2026 17:30 UTC",
+      "keywords_found": [
+        "taiwan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.130284Z"
+    },
+    {
+      "id": "950777",
+      "title": "Lai congratulates Takaichi on reelection as Japan PM",
+      "title_en": null,
+      "url": "https://focustaiwan.tw/politics/202602180011",
+      "domain": "focustaiwan.tw",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-18T17:30:00Z",
+      "timestamp_display": "Feb 18, 2026 17:30 UTC",
+      "keywords_found": [
+        "taiwan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.130284Z"
+    },
+    {
+      "id": "702689",
+      "title": "高市向18名閣僚下 「 防衛指示書 」 矢板明夫曝對台灣意義重大",
+      "title_en": null,
+      "url": "https://taiwandaily.net/%E5%8D%B3%E6%99%82%E6%96%B0%E8%81%9E/123090/",
+      "domain": "taiwandaily.net",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-20T04:00:00Z",
+      "timestamp_display": "Feb 20, 2026 04:00 UTC",
+      "keywords_found": [
+        "taiwan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.130284Z"
+    },
+    {
+      "id": "270802",
+      "title": "茂木外相 、 再任会見で 「 台湾海峡の平和と安定極めて重要 」 林佳竜外相が歓迎表明",
+      "title_en": "Foreign Minister Motegi welcomes Foreign Minister Motegi's reappointment by saying, ``Peace and stability in the Taiwan Strait is extremely important.''",
+      "url": "https://japan.focustaiwan.tw/politics/202602200002",
+      "domain": "japan.focustaiwan.tw",
+      "language": "ja",
+      "source_country": "",
+      "timestamp_iso": "2026-02-20T09:00:00Z",
+      "timestamp_display": "Feb 20, 2026 09:00 UTC",
+      "keywords_found": [
+        "taiwan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.129285Z"
+    },
+    {
+      "id": "439790",
+      "title": "Taiwan detects five Chinese naval vessels operating around its territory",
+      "title_en": null,
+      "url": "http://www.bignewsnetwork.com/news/278883023/taiwan-detects-five-chinese-naval-vessels-operating-around-its-territory",
+      "domain": "bignewsnetwork.com",
+      "language": "en",
+      "source_country": "United States",
+      "timestamp_iso": "2026-02-23T05:00:00Z",
+      "timestamp_display": "Feb 23, 2026 05:00 UTC",
+      "keywords_found": [
+        "taiwan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.131284Z"
+    },
+    {
+      "id": "258038",
+      "title": "Taiwan detects five Chinese naval vessels operating around its territory",
+      "title_en": null,
+      "url": "http://www.torontotelegraph.com/news/278883023/taiwan-detects-five-chinese-naval-vessels-operating-around-its-territory",
+      "domain": "torontotelegraph.com",
+      "language": "en",
+      "source_country": "Canada",
+      "timestamp_iso": "2026-02-23T06:15:00Z",
+      "timestamp_display": "Feb 23, 2026 06:15 UTC",
+      "keywords_found": [
+        "taiwan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.131284Z"
+    },
+    {
+      "id": "816934",
+      "title": "Taiwan detects five Chinese naval vessels operating around its territory",
+      "title_en": null,
+      "url": "http://www.australiannews.net/news/278883023/taiwan-detects-five-chinese-naval-vessels-operating-around-its-territory",
+      "domain": "australiannews.net",
+      "language": "en",
+      "source_country": "Australia",
+      "timestamp_iso": "2026-02-23T07:00:00Z",
+      "timestamp_display": "Feb 23, 2026 07:00 UTC",
+      "keywords_found": [
+        "taiwan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.131284Z"
+    },
+    {
+      "id": "281431",
+      "title": "Taiwan detects five Chinese naval vessels operating around its territory",
+      "title_en": null,
+      "url": "https://news.webindia123.com/news/Articles/World/20260223/4419713.html",
+      "domain": "news.webindia123.com",
+      "language": "en",
+      "source_country": "India",
+      "timestamp_iso": "2026-02-23T14:00:00Z",
+      "timestamp_display": "Feb 23, 2026 14:00 UTC",
+      "keywords_found": [
+        "taiwan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.128284Z"
+    },
+    {
+      "id": "792249",
+      "title": "台股大漲 927 點收 34 , 700 點 ， 改寫多項新紀錄",
+      "title_en": null,
+      "url": "https://technews.tw/2026/02/24/taiwan-stocks-end-at-34700/",
+      "domain": "technews.tw",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-24T11:30:00Z",
+      "timestamp_display": "Feb 24, 2026 11:30 UTC",
+      "keywords_found": [
+        "taiwan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.125283Z"
+    },
+    {
+      "id": "346015",
+      "title": "Indiana legislature passes pro - Taiwan resolution",
+      "title_en": null,
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/02/25/2003852873",
+      "domain": "taipeitimes.com",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-25T06:30:00Z",
+      "timestamp_display": "Feb 25, 2026 06:30 UTC",
+      "keywords_found": [
+        "taiwan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.125283Z"
+    },
+    {
+      "id": "568479",
+      "title": "紐時 ： 川普指習近平談台灣 「 呼吸沉重 」， 加速美國晶片擴產腳步",
+      "title_en": null,
+      "url": "https://technews.tw/2026/02/26/the-looming-taiwan-chip-disaster-that-silicon-valley-has-long-ignored/",
+      "domain": "technews.tw",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-26T02:00:00Z",
+      "timestamp_display": "Feb 26, 2026 02:00 UTC",
+      "keywords_found": [
+        "taiwan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.124289Z"
+    },
+    {
+      "id": "859852",
+      "title": "靠 「 熱能 」 反制匿蹤戰機 ， 台灣 F - 16 將裝備 IRST21 軍團莢艙",
+      "title_en": null,
+      "url": "https://technews.tw/2026/02/26/lockheed-martin-sold-irst21-legion-es-pods-to-taiwan-for-f16v/",
+      "domain": "technews.tw",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-26T08:45:00Z",
+      "timestamp_display": "Feb 26, 2026 08:45 UTC",
+      "keywords_found": [
+        "taiwan"
+      ],
+      "relevance_score": 0.5,
+      "collected_at": "2026-02-28T03:58:08.129285Z"
+    },
+    {
+      "id": "239696",
+      "title": " 《 TAIPEI TIMES 》 Japan warns of Chinese  coercion , vows overhaul - 焦點",
+      "title_en": null,
+      "url": "https://news.ltn.com.tw/news/focus/breakingnews/5346899",
+      "domain": "news.ltn.com.tw",
+      "language": "en",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-20T19:30:00Z",
+      "timestamp_display": "Feb 20, 2026 19:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:58:08.129285Z"
+    },
+    {
+      "id": "826923",
+      "title": "美最高法院裁定川普關稅違憲 王定宇揭台灣2優勢 ： 已建最強護城河 - 臺北市",
+      "title_en": null,
+      "url": "https://news.ltn.com.tw/news/Taipei/breakingnews/5347285",
+      "domain": "news.ltn.com.tw",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-21T07:30:00Z",
+      "timestamp_display": "Feb 21, 2026 07:30 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:58:08.123302Z"
+    },
+    {
+      "id": "594570",
+      "title": "川普關稅被擋 傅崐萁 ： 政府須說明848億美元天價採購換來什麼 - 臺北市",
+      "title_en": null,
+      "url": "https://news.ltn.com.tw/news/Taipei/breakingnews/5347317",
+      "domain": "news.ltn.com.tw",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-21T08:15:00Z",
+      "timestamp_display": "Feb 21, 2026 08:15 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:58:08.124289Z"
+    },
+    {
+      "id": "086993",
+      "title": "美國台積寶寶誕生逾300名 駐美官員 ： 貿易協定使台灣在多國對美關係中具領先地位 - 臺北市",
+      "title_en": null,
+      "url": "https://news.ltn.com.tw/news/Taipei/breakingnews/5348618",
+      "domain": "news.ltn.com.tw",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-23T06:15:00Z",
+      "timestamp_display": "Feb 23, 2026 06:15 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:58:08.123302Z"
+    },
+    {
+      "id": "176449",
+      "title": "川普關稅違憲 台灣北社 ： 台美ART已取得戰略性成果 - 臺北市",
+      "title_en": null,
+      "url": "https://news.ltn.com.tw/news/Taipei/breakingnews/5348673",
+      "domain": "news.ltn.com.tw",
+      "language": "zh",
+      "source_country": "Taiwan",
+      "timestamp_iso": "2026-02-23T07:45:00Z",
+      "timestamp_display": "Feb 23, 2026 07:45 UTC",
+      "keywords_found": [],
+      "relevance_score": 0.0,
+      "collected_at": "2026-02-28T03:58:08.126284Z"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "collection_timestamp": "2026-04-19T04:16:26.502589Z",
-    "collection_duration_seconds": 115.68,
+    "collection_timestamp": "2026-04-19T01:11:19.475773Z",
+    "collection_duration_seconds": 126.76,
     "profile": "chancay",
     "profile_description": "China-Peru Deepwater Port / Intercontinental Railway",
     "queries": [
@@ -17,23 +17,23 @@
       "Peru sovereignty",
       "Peru China"
     ],
-    "total_articles": 7,
+    "total_articles": 6,
     "version": "4.2.0"
   },
   "summary": {
-    "total_articles": 7,
+    "total_articles": 6,
     "languages_detected": 2,
     "language_breakdown": {
-      "en": 6,
+      "en": 5,
       "es": 1
     },
     "top_countries": [
       {
-        "country": "United States",
-        "count": 2
+        "country": "China",
+        "count": 1
       },
       {
-        "country": "China",
+        "country": "United States",
         "count": 1
       },
       {
@@ -49,12 +49,12 @@
         "count": 1
       }
     ],
-    "high_relevance_articles": 7,
+    "high_relevance_articles": 6,
     "translated_articles": 1
   },
   "articles": [
     {
-      "id": "501149",
+      "id": "136409",
       "title": "US will help Peru  take back  Chancay port from China , Congress chair says",
       "title_en": null,
       "url": "https://www.scmp.com/news/china/article/3350379/us-will-help-peru-take-back-chancay-port-china-congress-chair-says",
@@ -69,10 +69,10 @@
         "chancay"
       ],
       "relevance_score": 1.0,
-      "collected_at": "2026-04-19T04:16:25.646645Z"
+      "collected_at": "2026-04-19T01:11:18.639654Z"
     },
     {
-      "id": "589356",
+      "id": "463142",
       "title": "Peru to issue sovereign bonds for naval base project backed by U . S . ",
       "title_en": null,
       "url": "https://www.upi.com/Top_News/World-News/2026/04/09/Peru-to-issue-sovereign-bonds-for-naval-base-project-backed-by-US/1011775753100/",
@@ -85,10 +85,10 @@
         "peru"
       ],
       "relevance_score": 0.5,
-      "collected_at": "2026-04-19T04:16:25.645402Z"
+      "collected_at": "2026-04-19T01:11:18.640652Z"
     },
     {
-      "id": "897676",
+      "id": "089228",
       "title": "US pushes to renew ties with Peru ahead of uncertain election",
       "title_en": null,
       "url": "https://www.straitstimes.com/asia/us-pushes-to-renew-ties-with-peru-ahead-of-uncertain-election",
@@ -101,10 +101,10 @@
         "peru"
       ],
       "relevance_score": 0.5,
-      "collected_at": "2026-04-19T04:16:25.645402Z"
+      "collected_at": "2026-04-19T01:11:18.640652Z"
     },
     {
-      "id": "116636",
+      "id": "625398",
       "title": "US pushes to renew ties with Peru ahead of uncertain election",
       "title_en": null,
       "url": "https://www.marketscreener.com/news/us-pushes-to-renew-ties-with-peru-ahead-of-uncertain-election-ce7e50d8d18af521",
@@ -117,10 +117,10 @@
         "peru"
       ],
       "relevance_score": 0.5,
-      "collected_at": "2026-04-19T04:16:25.645402Z"
+      "collected_at": "2026-04-19T01:11:18.640652Z"
     },
     {
-      "id": "098909",
+      "id": "795551",
       "title": "US pushes to renew ties with Peru ahead of uncertain election",
       "title_en": null,
       "url": "https://www.mining.com/web/us-pushes-to-renew-ties-with-peru-ahead-of-uncertain-election/",
@@ -133,10 +133,10 @@
         "peru"
       ],
       "relevance_score": 0.5,
-      "collected_at": "2026-04-19T04:16:25.645402Z"
+      "collected_at": "2026-04-19T01:11:18.640652Z"
     },
     {
-      "id": "677325",
+      "id": "234683",
       "title": "Hombre de 82 años muere en incidente con disparos de Marina de Guerra de Perú en frontera con Colombia | Internacional",
       "title_en": "82-year-old man dies in shooting incident by the Peruvian Navy on the border with Colombia | International",
       "url": "https://www.biobiochile.cl/noticias/internacional/america-latina/2026/04/13/hombre-de-82-anos-muere-en-incidente-con-disparos-de-marina-de-guerra-de-peru-en-frontera-con-colombia.shtml",
@@ -149,23 +149,7 @@
         "peru"
       ],
       "relevance_score": 0.5,
-      "collected_at": "2026-04-19T04:16:25.650212Z"
-    },
-    {
-      "id": "701202",
-      "title": "Peru : Far right to dominate runoff for ninth president in a decade",
-      "title_en": null,
-      "url": "https://www.wsws.org/en/articles/2026/04/14/uppo-a14.html",
-      "domain": "wsws.org",
-      "language": "en",
-      "source_country": "United States",
-      "timestamp_iso": "2026-04-14T03:30:00Z",
-      "timestamp_display": "Apr 14, 2026 03:30 UTC",
-      "keywords_found": [
-        "peru"
-      ],
-      "relevance_score": 0.5,
-      "collected_at": "2026-04-19T04:16:25.645402Z"
+      "collected_at": "2026-04-19T01:11:18.646299Z"
     }
   ]
 }
